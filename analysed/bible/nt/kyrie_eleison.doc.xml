@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Kyrie eleison</title><genre code="bible"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><translated_from xml:lang="nob"/><year>2003</year><wordcount>40</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Kyrie eleison>"
+	"Kyrie eleison" Interj @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Kyrie eleison>"
+	"Kyrie eleison" Interj @X #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<Jumala>"
+	"jumala" N Sg Nom @SUBJ> #3->7
+: 
+"<meiðän>"
+	"met" Pron Pers Pl1 Gen @>N #4->5
+:  
+"<Isä>"
+	"isä" N Sg Nom @SUBJ> #5->7
+"<,>"
+	"," CLB #6->5
+: 
+"<armatta>"
+	"armattaat" <mv> V TV Act Imprt Sg2 @FMV #7->0
+: 
+"<minnuu>"
+	"mie" Pron Pers Sg1 Par @<OBJ #8->7
+	"mie" Pron Pers Sg1 Use/NG Par @<OBJ #8->7
+"<.>"
+	"." CLB #9->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kriste>"
+	"Kriste" ? @X #1->0
+: 
+"<eleison>"
+	"eleison" ? @X #2->0
+"<,>"
+	"," CLB #3->2
+: 
+"<Herra>"
+	"herra" N Sg Nom @>N #4->5
+: 
+"<Kristus>"
+	"Kristus" N Prop Sem/Mal Sg Nom @SUBJ> #5->7
+"<,>"
+	"," CLB #6->5
+:  
+"<armatta>"
+	"armattaat" <mv> V TV Act Imprt Sg2 @FMV #7->0
+: 
+"<minnuu>"
+	"mie" Pron Pers Sg1 Par @<OBJ #8->7
+	"mie" Pron Pers Sg1 Use/NG Par @<OBJ #8->7
+"<.>"
+	"." CLB #9->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kyrie eleison>"
+	"Kyrie eleison" Interj @X #1->0
+"<,>"
+	"," CLB #2->1
+:  
+"<Pyhä>"
+	"pyhä" N Sg Nom @SUBJ> #3->4
+: 
+"<Henki>"
+	"henkkiit" <mv> V Act Ind Prt Sg3 @FMV #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<armatta>"
+	"armattaat" <mv> V TV Act Imprt Sg2 @FMV #6->4
+: 
+"<minnuu>"
+	"mie" Pron Pers Sg1 Par @<OBJ #7->6
+	"mie" Pron Pers Sg1 Use/NG Par @<OBJ #7->6
+"<.>"
+	"." CLB #8->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

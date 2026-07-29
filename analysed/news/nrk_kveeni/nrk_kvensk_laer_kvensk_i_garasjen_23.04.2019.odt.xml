@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Opi kväänii: Karaasissa</title><genre code="news"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FI"/></translator><year>2019</year><wordcount>118</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>../Downloads/NRK/NRK Kvensk_Lær kvensk_I garasjen 23.04.2019.docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+: 
+"<av>"
+	"av" ? @X #4->0
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #6->5
+: 
+"<–>"
+	"–" PUNCT MIDDLE #7->8
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #8->6
+: 
+"<23.04.2019>"
+	 Use/Circ"23.04.2019" Num Arab Sem/Date Sg Nom
+	 Use/Circ"23.04.2019" Num Arab Sem/ID
+: 
+"<Pirjo>"
+	"Pirjo" N Prop Sem/Fem Sg Nom @>N #10->11
+: 
+"<Paavalniemi>"
+	"Paavalniemi" N Prop Sem/Plc Sg Nom @<SPRED #11->0
+: 
+"<¶>"
+	"¶" CLB #12->11
+:\n
+"<Opi>"
+	"oppiit" <mv> V Act Imprt Sg2 @FMV #1->0
+: 
+"<kväänii>"
+	"kvääni" N Pl Dial/Por Par @<OBJ #2->1
+	"kvääni" N Sg Dial/Por Par @<OBJ #2->1
+"<:>"
+	":" CLB #3->1
+: 
+"<Karaasissa>"
+	"karaasi" N Sg Ine @<ADVL #4->1
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Poijila>"
+	"Poijila" ? @X #1->0
+: 
+"<Olmavankassa>"
+	"Olmavankka" N Prop Sg Dial/Por Ine @ADVL> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<cross-sykkelit>"
+	"cross-sykkelit" ? @X #4->0
+: 
+"<Pederin>"
+	"Peder" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<karaasissa>"
+	"karaasi" N Sg Ine @<ADVL #6->3
+"<.>"
+	"." CLB #7->3
+: 
+"<Sielä>"
+	"sielä" Adv @ADVL #1->0
+: 
+"<het>"
+	"het" Pron Pers Pl3 Nom @SUBJ> #2->3
+: 
+"<skruuvathaan>"
+	"skruuvata" <mv> V Act Ind Prs Pl3 @FMV #3->0
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<prepareerathaan>"
+	"prepareerata" <mv> V Act Ind Prs Pl3 @FMV #5->3
+: 
+"<niitä>"
+	"net" Pron Pers Pl3 Par @<OBJ #6->5
+"<.>"
+	"." CLB #7->1
+: 
+"<Ja>"
+	"ja" CC @CNP #1->3
+: 
+"<mikä>"
+	"mikä" Pron Interr Sg Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #3->0
+:  
+"<kvääniksi>"
+	"kvääni" N Sg Dial/Por Tra @<ADVL #4->3
+"<,>"
+	"," CLB #5->11
+: 
+"<sen>"
+	"se" Pron Pers Sg3 Gen @X #6->0
+: 
+"<sie>"
+	"sie" Pron Pers Sg2 Nom @SUBJ> #7->8
+: 
+"<saat>"
+	"saađa" <mv> V Act Ind Prs Sg2 @FMV #8->3
+	"sattaat" <mv> V TV Act Ind Prs Sg2 @FMV #8->3
+: 
+"<tiettäät>"
+	"tiettäät" V TV Inf @X #9->0
+: 
+"<ko>"
+	"ko" CS @CVP #10->11
+: 
+"<kattot>"
+	"kattoot" <mv> V Act Ind Prs Sg2 @FS-<ADVL #11->8
+: 
+"<videon>"
+	"video" N Sg Gen @<OBJ #12->11
+"<.>"
+	"." CLB #13->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuvateksti>"
+	"teksti" N Sg Nom @SUBJ> #1->0
+		"kuva" N Dial/Jok Sg Nom Cmp #1->0
+	"teksti" N Sg Nom @SUBJ> #1->0
+		"kuva" N Dial/Por Sg Nom Cmp #1->0
+	"teksti" N Sg Nom @SUBJ> #1->0
+		"kuva" N Dial/Var Sg Nom Cmp #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<Poijat>"
+	"poika" N Pl Nom Err/Orth @>N #3->4
+: 
+"<Olmavankassa>"
+	"Olmavankka" N Prop Sg Dial/Por Ine @ADVL> #4->5
+: 
+"<triivastuthaan>"
+	"triivastuut" <mv> V Act Ind Prs Pl3 @FMV #5->0
+: 
+"<karaasissa>"
+	"karaasi" N Sg Ine @<ADVL #6->5
+: 
+"<missä>"
+	"missä" Adv @ADVL #7->16
+: 
+"<heilä>"
+	"het" Pron Pers Pl3 Ade @HAB #8->8
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #9->5
+: 
+"<sykkelit>"
+	"sykkeli" N Pl Nom @<SPRED #10->9
+"<,>"
+	"," CLB #11->10
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @>N #12->13
+: 
+"<sykkeliitä>"
+	"sykkeli" N Pl Dial/Por Par @<SUBJ #13->9
+: 
+"<pittää>"
+	"pittäät" <mv> V Act Ind Prs Sg3 @FMV #14->9
+: 
+"<kans>"
+	"kans" Po @ADVL #15->16
+: 
+"<prepareerata>"
+	"prepareerata" V Inf @X #16->0
+"<.>"
+	"." CLB #17->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

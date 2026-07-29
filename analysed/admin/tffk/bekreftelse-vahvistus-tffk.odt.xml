@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Päälemellauksen vahvistus</title><genre code="admin"/><author><unknown/></author><translator><person firstname="Aili" lastname="Eriksen" sex="f" born="1990" nationality="FIN"/></translator><translated_from xml:lang="nob"/><year>2020</year><wordcount>58</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>Bekreftelse-vahvistus-TFFK.docx</origFileName><parallel_text xml:lang="nob" location="bekreftelse-vahvistus-tffk.odt"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Vahvistus>"
+	"vahvistus" N Sg Nom @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Kiitos>"
+	"kiitos" N Sg Nom @>N #1->2
+: 
+"<päälemellauksesta>"
+	"päälemellaus" N Sg Ela @ADVL> #2->4
+: 
+"<kvääniwebinaarile>"
+	"kvääniwebinaarile" ? @X #3->0
+: 
+"<klo>"
+	"Klo" N Prop Sg Nom @HNOUN #4->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #5->4
+	 Use/Circ Use/Circ"10-13" Num Arab Sg Nom
+	 Use/Circ"10-13" Num Arab Sem/ID
+	 Use/Circ"10-13" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"10-" Use/TTS"13" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ Use/Circ"10" Num Arab Sg Nom "<10>"
+	 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ"10" A Arab Ord Attr CLBfinal "<10>"
+	 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ"10" Num Arab Sem/ID "<10>"
+	 Use/Circ Use/Circ"13" Num Arab Sg Nom "<13>"
+			 Use/Circ"10" Num Arab Sem/Time-clock Sg Nom "<10>"
+	 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+			 Use/Circ Use/Circ"10" Num Arab Sg Nom "<10>"
+	 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+			 Use/Circ"10" A Arab Ord Attr CLBfinal "<10>"
+	 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+			 Use/Circ"10" Num Arab Sem/ID "<10>"
+	 Use/Circ"13" A Arab Ord Attr CLBfinal "<13>"
+			 Use/Circ"10" Num Arab Sem/Time-clock Sg Nom "<10>"
+	 Use/Circ"13" Num Arab Sem/ID "<13>"
+			 Use/Circ Use/Circ"10" Num Arab Sg Nom "<10>"
+	 Use/Circ"13" Num Arab Sem/ID "<13>"
+			 Use/Circ"10" A Arab Ord Attr CLBfinal "<10>"
+	 Use/Circ"13" Num Arab Sem/ID "<13>"
+			 Use/Circ"10" Num Arab Sem/ID "<10>"
+	 Use/Circ"13" Num Arab Sem/ID "<13>"
+			 Use/Circ"10" Num Arab Sem/Time-clock Sg Nom "<10>"
+	 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+			 Use/Circ Use/Circ"10" Num Arab Sg Nom "<10>"
+	 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+			 Use/Circ"10" A Arab Ord Attr CLBfinal "<10>"
+	 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+			 Use/Circ"10" Num Arab Sem/ID "<10>"
+	 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom "<13>"
+			 Use/Circ"10" Num Arab Sem/Time-clock Sg Nom "<10>"
+"<,>"
+	"," CLB #6->4
+: 
+"<.>"
+	"." CLB #7->4
+	 Use/Circ"26" A Arab Ord Attr
+		 Use/Circ Use/Circ"26" Num Arab Sg Nom "<26>"
+		 Use/Circ"26" A Arab Ord Attr CLBfinal "<26>"
+		 Use/Circ"26" Num Arab Sem/ID "<26>"
+		 Use/Circ"26" Num Arab Sem/Time-clock Sg Nom "<26>"
+"<novemperikuuta>"
+	"novemperikuu" N Sg Par @X #1->0
+: 
+"<2020>"
+	 Use/Circ Use/Circ"2020" Num Arab Sg Nom
+	 Use/Circ"2020" Num Arab Sem/ID
+	 Use/Circ"2020" Num Arab Sem/Year Sg Nom
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Kaikki>"
+	"kaikki" Pron Qu Sg Nom @SUBJ> #1->3
+: 
+"<päälemellatut>"
+	"päälemellatut" ? @X #2->0
+: 
+"<saahaan>"
+	"saađa" <mv> V Act Ind Prs Pl3 @FMV #3->0
+	"saađa" <mv> V Pass Ind Prs @FMV #3->0
+: 
+"<linkin>"
+	"Lin" N Prop Sem/Sur Sg Nom Clt @SUBJ> #4->10
+: 
+"<digitaaliselle>"
+	"digitaalinen" A Sg All @>N #5->6
+: 
+"<möötile>"
+	"möötti" N Sg Dial/Por All @<ADVL #6->3
+: 
+"<ennen>"
+	"ennen" Adv @ADVL #7->2
+: 
+"<ko>"
+	"ko" CS @CVP #8->10
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #9->10
+: 
+"<alkkaa>"
+	"alkkaat" <mv> V Act Ind Prs Sg3 @FS-<ADVL #10->3
+"<.>"
+	"." CLB #11->3
+: 
+"<Linkin>"
+	"Lin" N Prop Sem/Sur Sg Nom Clt @SUBJ> #1->2
+: 
+"<lähätethään>"
+	"lähättäät" <mv> V TV Pass Ind Prs @FMV #2->0
+: 
+"<siihen>"
+	"se" Pron Dem Sg Ill @>N #3->4
+: 
+"<e-posthiin>"
+	"e-posti" N Pl Ill @<ADVL #4->2
+	"e-posti" N Sg Ill @<ADVL #4->2
+: 
+"<mikä>"
+	"mikä" Pron Rel Sg Nom @SUBJ> #5->6
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-N< #6->4
+: 
+"<registreerattu>"
+	"registreerata" V Pass PrfPrc Sg Nom @<OBJ #7->6
+: 
+"<päälemellausskjeemhaan>"
+	"päälemellausskjeemhaan" ? @X #8->0
+"<.>"
+	"." CLB #9->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

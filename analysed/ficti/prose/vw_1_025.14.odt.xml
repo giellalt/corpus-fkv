@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2014</year><wordcount>37</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Rakennethaan>"
+	"Rakennethaan" ? @X #1->0
+: 
+"<muttuuritietä>"
+	"tie" N Sg Par @>P #2->3
+		"muttuuri" N Sg Nom Cmp #2->3
+: 
+"<keskeltä>"
+	"keskeltä" Po @ADVL #3->1
+: 
+"<kaupunkkii>"
+	"kaupunki" N Sg Dial/Por Par @X #4->0
+"<!>"
+	"!" CLB #5->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Oonhan>"
+	"olla" <mv> V Act Ind Prs Sg3 Foc/han @FMV #1->0
+: 
+"<se>"
+	"se" Pron Dem Sg Nom @X #2->0
+: 
+"<ilkkeetä>"
+	"ilkkee" A Dial/Por Sg Dial/-Var Par @<SUBJ #3->1
+"<!>"
+	"!" CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Älä>"
+	"ei" <aux> V Neg Act Imprt Sg2 @FAUX #1->0
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #2->3
+: 
+"<hulluttele>"
+	"hullutella" V Act Ind Prs ConNeg @X #3->0
+"<!>"
+	"!" CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Ihmiset>"
+	"ihminen" N Pl Nom @SUBJ> #1->2
+: 
+"<häyđythään>"
+	"häyttyyt" <mv> V Act Ind Prs Pl3 @FMV #2->0
+: 
+"<ajjaat>"
+	"ajjaat" V Inf @X #3->0
+: 
+"<piililä>"
+	"Piili" N Prop Sem/Sur Sg Dial/Por Ade @<ADVL #4->2
+: 
+"<ko>"
+	"ko" CS @CVP #5->7
+: 
+"<kaupat>"
+	"kauppa" N Pl Dial/Por Nom @SUBJ> #6->7
+: 
+"<siirethään>"
+	"siirttäät" <mv> V TV Act Ind Prs Pl3 @FS-<ADVL #7->2
+: 
+"<kaupungin>"
+	"kaupunki" N Sg Gen @N> #8->8
+: 
+"<ulkopuolele>"
+	"ulkopuoli" N Sg All @<ADVL #9->7
+"<!>"
+	"!" CLB #10->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Matki>"
+	"matkiit" <mv> V Act Imprt Sg2 @FMV #1->0
+	"matkiit" <mv> V Act Ind Prt Sg3 @FMV #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<matki>"
+	"matkiit" <mv> V Act Imprt Sg2 @FMV #3->1
+	"matkiit" <mv> V Act Ind Prt Sg3 @FMV #3->1
+"<,>"
+	"," CLB #4->3
+: 
+"<matki>"
+	"matkiit" <mv> V Act Imprt Sg2 @FMV #5->1
+	"matkiit" <mv> V Act Ind Prt Sg3 @FMV #5->1
+: 
+"<...>"
+	"..." CLB #6->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<VROM>"
+	"VROM" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Miihiinkhöön>"
+	"Miihiinkhöön" ? @X #1->0
+: 
+"<tämä>"
+	"tämä" Pron Dem Sg Nom @>N #2->3
+: 
+"<maa>"
+	"maa" N Sg Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<menossa>"
+	"menossa" Adv @ADVL #5->1
+"<!>"
+	"!" CLB #6->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Amerikkhaan>"
+	"Amerikka" N Prop Sg Dial/Por Ill @HNOUN #1->0
+	"Amerikka" N Prop Sg Ill @HNOUN #1->0
+"<!>"
+	"!" CLB #2->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuul>"
+	"Kuul" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Hah>"
+	"hah" Interj @X #1->0
+: 
+"<haa>"
+	"haa" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+
+]]></dependency></body></document>

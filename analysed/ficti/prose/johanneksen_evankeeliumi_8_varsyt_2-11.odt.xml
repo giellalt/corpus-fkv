@@ -1,0 +1,789 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Johanneksen evankeeliumi 8. luku värsyt 2-11.</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>183</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Johanneksen>"
+	"Johannes" N Prop Sem/Mal Sg Gen @N> #1->1
+: 
+"<evankeeliumi>"
+	"evankeeliumi" N Sg Nom @HNOUN #2->1
+: 
+"<.>"
+	"." CLB #3->3
+	 Use/Circ"8" A Arab Ord Attr
+		 Use/Circ Use/Circ"8" Num Arab Sg Nom "<8>"
+		 Use/Circ"8" A Arab Ord Attr CLBfinal "<8>"
+		 Use/Circ"8" Num Arab Sem/ID "<8>"
+		 Use/Circ"8" Num Arab Sem/Time-clock Sg Nom "<8>"
+: 
+"<luku>"
+	"luku" N Sg Nom @>N #1->2
+: 
+"<värsyt>"
+	"värsy" N Pl Dial/Por Nom @HNOUN #2->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #3->2
+	 Use/Circ Use/Circ"2-11" Num Arab Sg Nom
+	 Use/Circ"2-11" Num Arab Sem/ID
+	 Use/Circ"2-11" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"2-" Use/TTS"11" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ Use/Circ"11" Num Arab Sg Nom "<11>"
+			 Use/Circ Use/Circ"2" Num Arab Sg Nom "<2>"
+	 Use/Circ Use/Circ"11" Num Arab Sg Nom "<11>"
+			 Use/Circ"2" A Arab Ord Attr CLBfinal "<2>"
+	 Use/Circ Use/Circ"11" Num Arab Sg Nom "<11>"
+			 Use/Circ"2" Num Arab Sem/ID "<2>"
+	 Use/Circ Use/Circ"11" Num Arab Sg Nom "<11>"
+			 Use/Circ"2" Num Arab Sem/Time-clock Sg Nom "<2>"
+	 Use/Circ"11" A Arab Ord Attr CLBfinal "<11>"
+			 Use/Circ Use/Circ"2" Num Arab Sg Nom "<2>"
+	 Use/Circ"11" A Arab Ord Attr CLBfinal "<11>"
+			 Use/Circ"2" A Arab Ord Attr CLBfinal "<2>"
+	 Use/Circ"11" A Arab Ord Attr CLBfinal "<11>"
+			 Use/Circ"2" Num Arab Sem/ID "<2>"
+	 Use/Circ"11" A Arab Ord Attr CLBfinal "<11>"
+			 Use/Circ"2" Num Arab Sem/Time-clock Sg Nom "<2>"
+	 Use/Circ"11" Num Arab Sem/ID "<11>"
+			 Use/Circ Use/Circ"2" Num Arab Sg Nom "<2>"
+	 Use/Circ"11" Num Arab Sem/ID "<11>"
+			 Use/Circ"2" A Arab Ord Attr CLBfinal "<2>"
+	 Use/Circ"11" Num Arab Sem/ID "<11>"
+			 Use/Circ"2" Num Arab Sem/ID "<2>"
+	 Use/Circ"11" Num Arab Sem/ID "<11>"
+			 Use/Circ"2" Num Arab Sem/Time-clock Sg Nom "<2>"
+	 Use/Circ"11" Num Arab Sem/Time-clock Sg Nom "<11>"
+			 Use/Circ Use/Circ"2" Num Arab Sg Nom "<2>"
+	 Use/Circ"11" Num Arab Sem/Time-clock Sg Nom "<11>"
+			 Use/Circ"2" A Arab Ord Attr CLBfinal "<2>"
+	 Use/Circ"11" Num Arab Sem/Time-clock Sg Nom "<11>"
+			 Use/Circ"2" Num Arab Sem/ID "<2>"
+	 Use/Circ"11" Num Arab Sem/Time-clock Sg Nom "<11>"
+			 Use/Circ"2" Num Arab Sem/Time-clock Sg Nom "<2>"
+"<.>"
+	"." CLB #4->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"2" A Arab Ord Attr
+		 Use/Circ Use/Circ"2" Num Arab Sg Nom "<2>"
+		 Use/Circ"2" A Arab Ord Attr CLBfinal "<2>"
+		 Use/Circ"2" Num Arab Sem/ID "<2>"
+		 Use/Circ"2" Num Arab Sem/Time-clock Sg Nom "<2>"
+: 
+"<Varhain>"
+	"varhain" Adv @ADVL #1->0
+: 
+"<toisena>"
+	"toinen" A Ord Sg Ess @>N #2->3
+	"toinen" A Sg Ess @>N #2->3
+	"toinen" Pron Recipr Sg Ess @>N #2->3
+: 
+"<aamuna>"
+	"aamu" N Sg Dial/Por Ess @ADVL> #3->5
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #4->5
+: 
+"<tuli>"
+	"tulla" <mv> V Act Ind Prt Sg3 @FMV #5->0
+: 
+"<taas>"
+	"taas" Adv @ADVL #6->0
+: 
+"<temppelhiin>"
+	"temppeli" N Pl Ill @<ADVL #7->5
+	"temppeli" N Sg Ill @<ADVL #7->5
+"<.>"
+	"." CLB #8->1
+: 
+"<Koko>"
+	"koko" Pron Qu Nom @>N #1->2
+: 
+"<ihmisjoukko>"
+	"ihmisjoukko" N Sg Nom @SUBJ> #2->3
+: 
+"<kokkontui>"
+	"kokkonttuut" <mv> V Act Ind Prt Sg3 @FMV #3->0
+: 
+"<hänen>"
+	"hän" Pron Pers Sg3 Gen @>P #4->5
+: 
+"<ympäri>"
+	"ympäri" Po @ADVL #5->9
+"<,>"
+	"," CLB #6->7
+: 
+"<ja>"
+	"ja" CC @CNP #7->5
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #8->3
+: 
+"<istui>"
+	"istuut" V Act Ind Prt Sg3 @X #9->0
+: 
+"<opettamhaan>"
+	"opettaat" V TV Act Inf3 Ill @<ADVL #10->3
+: 
+"<heitä>"
+	"heittäät" V TV Act Imprt Sg2 @X #11->3
+	"het" Pron Pers Pl3 Par @<OBJ #11->3
+"<.>"
+	"." CLB #12->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"3" A Arab Ord Attr
+		 Use/Circ Use/Circ"3" Num Arab Sg Nom "<3>"
+		 Use/Circ"3" A Arab Ord Attr CLBfinal "<3>"
+		 Use/Circ"3" Num Arab Sem/ID "<3>"
+		 Use/Circ"3" Num Arab Sem/Time-clock Sg Nom "<3>"
+: 
+"<Sitte>"
+	"sitte" Adv @ADVL #1->0
+: 
+"<kirjanoppinheet>"
+	"kirjanoppinu" N Pl Nom @SUBJ> #2->5
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<fariseukset>"
+	"fariseus" N Pl Nom @SUBJ> #4->2
+: 
+"<tulthiin>"
+	"tulla" <mv> V Act Ind Prt Pl3 @FMV #5->0
+: 
+"<vaimon>"
+	"vaimo" N Sg Dial/Por Gen @<OBJ #6->5
+: 
+"<kansa>"
+	"kansa" Po @ADVL #7->0
+: 
+"<jonka>"
+	"joka" Pron Rel Sg Gen @<OBJ #8->5
+: 
+"<het>"
+	"het" Pron Pers Pl3 Nom @SUBJ> #9->10
+: 
+"<olthiin>"
+	"olla" <mv> V Act Ind Prt Pl3 @FS-N< #10->6
+: 
+"<ottanheet>"
+	"ottaat" V TV Act PrfPrc Pl Nom @>N #11->13
+: 
+"<kiini>"
+	"kiini" Adv @ADVL #12->0
+: 
+"<aviorikoksessa>"
+	"aviorikos" N Sg Ine @<ADVL #13->10
+"<.>"
+	"." CLB #14->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Het>"
+	"het" Pron Pers Pl3 Nom @SUBJ> #1->2
+: 
+"<tuothiin>"
+	"tuođa" <mv> V Act Ind Prt Pl3 @FMV #2->0
+: 
+"<hänen>"
+	"hän" Pron Pers Sg3 Gen @>P #3->4
+: 
+"<esile>"
+	"esile" Po @ADVL #4->0
+: 
+"<¶>"
+	"¶" CLB #5->2
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"4" A Arab Ord Attr
+		 Use/Circ Use/Circ"4" Num Arab Sg Nom "<4>"
+		 Use/Circ"4" A Arab Ord Attr CLBfinal "<4>"
+		 Use/Circ"4" Num Arab Sem/ID "<4>"
+		 Use/Circ"4" Num Arab Sem/Time-clock Sg Nom "<4>"
+: 
+"<ja>"
+	"ja" CC @CNP #1->2
+: 
+"<sanothiin>"
+	"sannoot" <mv> V Act Ind Prt Pl3 @FMV #2->0
+	"sannoot" <mv> V Pass Ind Prt @FMV #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<”>"
+	"”" PUNCT RIGHT #4->5
+"<Mestari>"
+	"mestari" N Sg Nom @SUBJ> #5->9
+"<,>"
+	"," CLB #6->13
+: 
+"<tämän>"
+	"tämä" Pron Dem Sg Gen @>N #7->8
+: 
+"<vaimon>"
+	"vaimo" N Sg Dial/Por Gen @X #8->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #9->2
+: 
+"<otettu>"
+	"ottaat" V TV Pass PrfPrc Sg Nom @SUBJ> #10->13
+: 
+"<kiini>"
+	"kiini" Adv @ADVL #11->8
+: 
+"<ko>"
+	"ko" CS @CVP #12->13
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FS-<ADVL #13->9
+: 
+"<tekemässä>"
+	"tehđä" V Act Inf3 Ine @<ADVL #14->13
+	"tekemä" N Sg Ine @<ADVL #14->13
+: 
+"<aviorikosta>"
+	"aviorikos" N Sg Par @<SUBJ #15->13
+"<.>"
+	"." CLB #16->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"5" A Arab Ord Attr
+		 Use/Circ Use/Circ"5" Num Arab Sg Nom "<5>"
+		 Use/Circ"5" A Arab Ord Attr CLBfinal "<5>"
+		 Use/Circ"5" Num Arab Sem/ID "<5>"
+		 Use/Circ"5" Num Arab Sem/Time-clock Sg Nom "<5>"
+: 
+"<Mooseksen>"
+	"Mooses" N Prop Sem/Mal Sg Gen @N> #1->1
+: 
+"<laki>"
+	"Laki" N Prop Sem/Plc Sg Nom @SUBJ> #2->3
+: 
+"<käskee>"
+	"käskeet" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<meiđät>"
+	"met" Pron Pers Pl1 Acc @<OBJ #4->3
+: 
+"<kivittäät>"
+	"kivittäät" V TV Inf @X #5->0
+: 
+"<semmossii>"
+	"semmonen" A Pl Dial/Por Par @>N #6->7
+: 
+"<vaimoi>"
+	"vaimo" N Pl Dial/Por Par @<OBJ #7->3
+"<.>"
+	"." CLB #8->3
+: 
+"<Mutta>"
+	"mutta" CC @CVP #1->4
+: 
+"<mitä>"
+	"mikä" Pron Interr Pl Par @X #2->0
+	"mikä" Pron Interr Sg Par @X #2->0
+: 
+"<sie>"
+	"sie" Pron Pers Sg2 Nom @SUBJ> #3->4
+: 
+"<sanot>"
+	"sannoot" <mv> V Act Ind Prs Sg2 @FMV #4->0
+"<?>"
+	"?" CLB #5->4
+"<”>"
+	"”" PUNCT RIGHT #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"6" A Arab Ord Attr
+		 Use/Circ Use/Circ"6" Num Arab Sg Nom "<6>"
+		 Use/Circ"6" A Arab Ord Attr CLBfinal "<6>"
+		 Use/Circ"6" Num Arab Sem/ID "<6>"
+		 Use/Circ"6" Num Arab Sem/Time-clock Sg Nom "<6>"
+: 
+"<Näin>"
+	"näin" Adv @ADVL #1->6
+: 
+"<het>"
+	"het" Pron Pers Pl3 Nom @SUBJ> #2->3
+: 
+"<sanothiin>"
+	"sannoot" <mv> V Act Ind Prt Pl3 @FMV #3->0
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<freistathiin>"
+	"freistata" <mv> V Act Ind Prt Pl3 @FMV #5->3
+: 
+"<puijata>"
+	"puijata" V Inf @X #6->0
+: 
+"<häntä>"
+	"hän" Pron Pers Sg3 Par @<OBJ #7->5
+: 
+"<niin>"
+	"niin" Adv @ADVL #8->6
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #9->13
+: 
+"<saatettais>"
+	"saattaat" V TV Act Cond Pl3 @X #10->0
+: 
+"<syyttäät>"
+	"syyttäät" V TV Inf @X #11->0
+: 
+"<häntä>"
+	"hän" Pron Pers Sg3 Par @<OBJ #12->12
+: 
+"<siitä>"
+	"se" Pron Pers Sg3 Ela @<ADVL #13->11
+	"siittäät" V TV Act Imprt Sg2 @X #13->11
+	"siitä" Adv @ADVL #13->11
+"<.>"
+	"." CLB #14->1
+: 
+"<Jeesus>"
+	"Jeesus" N Prop Sem/Mal Sg Nom @SUBJ> #1->2
+: 
+"<kumartui>"
+	"kumarttuut" <mv> V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<alas>"
+	"alas" Adv @ADVL #3->5
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<kirjotti>"
+	"kirjotti" ? @X #5->0
+: 
+"<sormela>"
+	"sormi" N Dial/Por Sg Ade @<ADVL #6->2
+: 
+"<maahaan>"
+	"maa" N Sg Ill Err/Orth @<ADVL #7->2
+"<.>"
+	"." CLB #8->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"7" A Arab Ord Attr
+		 Use/Circ Use/Circ"7" Num Arab Sg Nom "<7>"
+		 Use/Circ"7" A Arab Ord Attr CLBfinal "<7>"
+		 Use/Circ"7" Num Arab Sem/ID "<7>"
+		 Use/Circ"7" Num Arab Sem/Time-clock Sg Nom "<7>"
+: 
+"<Mutta>"
+	"mutta" CC @CVP #1->4
+: 
+"<ko>"
+	"ko" CS @CVP #2->4
+: 
+"<het>"
+	"het" Pron Pers Pl3 Nom @SUBJ> #3->5
+: 
+"<jatkuuvasti>"
+	"jatkuuvasti" Adv @ADVL #4->8
+: 
+"<kysythiin>"
+	"kyssyyt" <mv> V Act Ind Prt Pl3 @FS-ADVL> #5->11
+"<,>"
+	"," CLB #6->2
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #7->11
+: 
+"<oikasi>"
+	"oikasi" ? @X #8->0
+: 
+"<sölän>"
+	"sölkä" N Sg Dial/Por Gen @<OBJ #9->5
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<sanoi>"
+	"sannoot" <mv> V Act Ind Prt Sg3 @FS-ADVL> #11->20
+"<:>"
+	":" CLB #12->4
+: 
+"<”>"
+	"”" PUNCT RIGHT #13->14
+"<Se>"
+	"se" Pron Dem Sg Nom @>N #14->15
+: 
+"<teistä>"
+	"tee" N Pl Ela @<ADVL #15->11
+	"tet" Pron Pers Pl2 Ela @<ADVL #15->11
+	"tie" N Pl Ela @<ADVL #15->11
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #16->17
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-N< #17->15
+: 
+"<synnitön>"
+	"synnitön" A Sg Nom @SUBJ> #18->20
+"<,>"
+	"," CLB #19->2
+: 
+"<saapi>"
+	"saađa" <mv> V Act Ind Prs Sg3 @FMV #20->0
+: 
+"<viskata>"
+	"viskata" V Inf @X #21->0
+: 
+"<sen>"
+	"se" Pron Dem Sg Gen @>N #22->24
+: 
+"<ensimäisen>"
+	"ensimäinen" A Ord Sg Gen @>N #23->24
+	"ensimäinen" A Sg Gen @>N #23->24
+: 
+"<kiven>"
+	"kivi" N Dial/Por Sg Gen @N> #24->24
+: 
+"<häntä>"
+	"häntä" N Sg Nom @X #25->0
+: 
+"<vasten>"
+	"vasten" Pr @X #26->0
+:  
+"<.>"
+	"." CLB #27->4
+"<”>"
+	"”" PUNCT RIGHT #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"8" A Arab Ord Attr
+		 Use/Circ Use/Circ"8" Num Arab Sg Nom "<8>"
+		 Use/Circ"8" A Arab Ord Attr CLBfinal "<8>"
+		 Use/Circ"8" Num Arab Sem/ID "<8>"
+		 Use/Circ"8" Num Arab Sem/Time-clock Sg Nom "<8>"
+: 
+"<Sitte>"
+	"sitte" Adv @ADVL #1->6
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #2->3
+: 
+"<kumartui>"
+	"kumarttuut" <mv> V Act Ind Prt Sg3 @FMV #3->0
+: 
+"<taas>"
+	"taas" Adv @ADVL #4->6
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<kirjotti>"
+	"kirjotti" ? @X #6->0
+: 
+"<maahaan>"
+	"maa" N Sg Ill Err/Orth @<ADVL #7->3
+"<.>"
+	"." CLB #8->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"9" A Arab Ord Attr
+		 Use/Circ Use/Circ"9" Num Arab Sg Nom "<9>"
+		 Use/Circ"9" A Arab Ord Attr CLBfinal "<9>"
+		 Use/Circ"9" Num Arab Sem/ID "<9>"
+		 Use/Circ"9" Num Arab Sem/Time-clock Sg Nom "<9>"
+: 
+"<Ko>"
+	"ko" CS @CVP #1->3
+: 
+"<het>"
+	"het" Pron Pers Pl3 Nom @SUBJ> #2->3
+: 
+"<kuulthiin>"
+	"kuula" <mv> V Act Ind Prt Pl3 @FS-ADVL> #3->7
+: 
+"<sen>"
+	"se" Pron Pers Sg3 Gen @<OBJ #4->3
+"<,>"
+	"," CLB #5->1
+: 
+"<het>"
+	"het" Pron Pers Pl3 Nom @SUBJ> #6->7
+: 
+"<jätethiin>"
+	"jättäät" <mv> V TV Act Ind Prt Pl3 @FMV #7->0
+: 
+"<paikan>"
+	"paikka" N Sg Dial/Por Gen @<OBJ #8->7
+"<,>"
+	"," CLB #9->1
+: 
+"<toinen>"
+	"toinen" A Ord Sg Nom @X #10->0
+	"toinen" A Sg Nom @X #10->0
+	"toinen" Pron Recipr Sg Nom @X #10->0
+: 
+"<toisen>"
+	"toinen" A Ord Sg Gen @<OBJ #11->8
+	"toinen" A Sg Gen @<OBJ #11->8
+	"toinen" Pron Recipr Sg Gen @<OBJ #11->8
+: 
+"<pörässä>"
+	"pörässä" Po @ADVL #12->10
+"<,>"
+	"," CLB #13->1
+: 
+"<vanhemmat>"
+	"vanhiin" N Pl Nom Err/Orth @<OBJ #14->8
+: 
+"<ensisti>"
+	"ensistä" Use/NG Adv @ADVL #15->10
+"<.>"
+	"." CLB #16->7
+: 
+"<Lopuksi>"
+	"loppu" N Sg Dial/Por Tra @ADVL> #1->5
+	"lopuksi" Adv @ADVL #1->5
+: 
+"<Jeesus>"
+	"Jeesus" N Prop Sem/Mal Sg Nom @SUBJ> #2->3
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #3->0
+: 
+"<siinä>"
+	"siinä" Adv @ADVL #4->5
+: 
+"<yksin>"
+	"yksi" Num Pl Ins @X #5->0
+	"yksin" Adv @ADVL #5->0
+"<,>"
+	"," CLB #6->7
+: 
+"<ja>"
+	"ja" CC @CNP #7->5
+: 
+"<vaimo>"
+	"vaimo" N Sg Nom @SUBJ> #8->9
+: 
+"<seisoi>"
+	"seissoot" <mv> V Act Ind Prt Sg3 @FMV #9->3
+: 
+"<hänen>"
+	"hän" Pron Pers Sg3 Gen @>P #10->11
+: 
+"<eđessä>"
+	"eđessä" Po @ADVL #11->5
+"<.>"
+	"." CLB #12->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"10" A Arab Ord Attr
+		 Use/Circ Use/Circ"10" Num Arab Sg Nom "<10>"
+		 Use/Circ"10" A Arab Ord Attr CLBfinal "<10>"
+		 Use/Circ"10" Num Arab Sem/ID "<10>"
+		 Use/Circ"10" Num Arab Sem/Time-clock Sg Nom "<10>"
+: 
+"<Sitte>"
+	"sitte" Adv @ADVL #1->3
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #2->6
+: 
+"<oikasi>"
+	"oikasi" ? @X #3->0
+: 
+"<sölän>"
+	"sölkä" N Sg Dial/Por Gen @X #4->0
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<kysyi>"
+	"kyssyyt" <mv> V Act Ind Prt Sg3 @FMV #6->0
+"<:>"
+	":" CLB #7->1
+: 
+"<”>"
+	"”" PUNCT RIGHT #8->9
+"<Vaimo>"
+	"vaimo" N Sg Nom @SUBJ> #9->6
+"<,>"
+	"," CLB #10->9
+: 
+"<missä>"
+	"mikä" Pron Interr Pl Ine @<ADVL #11->6
+	"mikä" Pron Interr Sg Ine @<ADVL #11->6
+: 
+"<het>"
+	"het" Pron Pers Pl3 Nom @SUBJ> #12->13
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #13->6
+"<?>"
+	"?" CLB #14->1
+: 
+"<Eikö>"
+	"ei" <aux> V Neg Act Sg3 Clt Qst @FAUX #1->0
+: 
+"<yksikhään>"
+	"yksi" Num Sg Nom Foc/kaan @SUBJ> #2->3
+	"yksi" Pron Indef Sg Sg Nom Foc/kaan @SUBJ> #2->3
+: 
+"<ole>"
+	"olla" <aux> V Act Ind Prs ConNeg @FS-<ADVL #3->1
+: 
+"<tuominu>"
+	"tuomita" <mv> V Act PrfPrc Sg Nom @FMV #4->1
+: 
+"<sinnuu>"
+	"sie" Pron Pers Sg2 Par @<SUBJ #5->4
+	"sie" Pron Pers Sg2 Use/NG Par @<SUBJ #5->4
+"<?>"
+	"?" CLB #6->1
+"<”>"
+	"”" PUNCT RIGHT #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"11" A Arab Ord Attr
+		 Use/Circ Use/Circ"11" Num Arab Sg Nom "<11>"
+		 Use/Circ"11" A Arab Ord Attr CLBfinal "<11>"
+		 Use/Circ"11" Num Arab Sem/ID "<11>"
+		 Use/Circ"11" Num Arab Sem/Time-clock Sg Nom "<11>"
+: 
+"<Hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #1->2
+: 
+"<vastasi>"
+	"vastata" <mv> V Act Ind Prt Sg3 @FMV #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<”>"
+	"”" PUNCT RIGHT #4->5
+"<Ei>"
+	"ei" <mv> V Neg Act Sg3 @FMV #5->2
+"<,>"
+	"," CLB #6->5
+: 
+"<Herra>"
+	"herra" N Sg Nom @X #7->0
+"<,>"
+	"," CLB #8->7
+: 
+"<ei yksikhään>"
+	"ei yksikhään" Adv @ADVL #9->7
+"<.>"
+	"." CLB #10->2
+"<”>"
+	"”" PUNCT RIGHT #1->2
+: 
+"<Sitte>"
+	"sitte" Adv @ADVL #2->9
+: 
+"<Jeesus>"
+	"Jeesus" N Prop Sem/Mal Sg Nom @SUBJ> #3->4
+: 
+"<sanoi>"
+	"sannoot" <mv> V Act Ind Prt Sg3 @FMV #4->0
+"<:>"
+	":" CLB #5->2
+: 
+"<”>"
+	"”" PUNCT RIGHT #6->7
+"<En>"
+	"ei" <aux> V Neg Act Sg1 @FAUX #7->4
+: 
+"<miekhään>"
+	"mie" Pron Pers Sg1 Nom Foc/kaan @SUBJ> #8->4
+: 
+"<tuomitte>"
+	"tuomita" V Act Ind Prs ConNeg @X #9->0
+: 
+"<sinnuu>"
+	"sie" Pron Pers Sg2 Par @<OBJ #10->10
+	"sie" Pron Pers Sg2 Use/NG Par @<OBJ #10->10
+"<.>"
+	"." CLB #11->2
+: 
+"<Mene>"
+	"mennä" <mv> V Act Imprt Sg2 @FMV #1->0
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #2->5
+"<,>"
+	"," CLB #3->4
+: 
+"<ja>"
+	"ja" CC @CNP #4->2
+: 
+"<äläkä>"
+	"äläkä" ? @X #5->0
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #6->5
+: 
+"<tästä>"
+	"tämä" Pron Dem Sg Ela @<ADVL #7->5
+	"tästä" Adv @ADVL #7->5
+: 
+"<saakka>"
+	"saakka" Adv @ADVL #8->5
+: 
+"<ennää>"
+	"ennää" Adv @ADVL #9->5
+: 
+"<synttii>"
+	"synti" N Pl Dial/Por Par @<OBJ #10->1
+	"synti" N Sg Dial/Por Par @<OBJ #10->1
+: 
+"<tehe>"
+	"tehđä" <mv> V Act Ind Prs ConNeg @FMV #11->1
+"<!>"
+	"!" CLB #12->1
+"<”>"
+	"”" PUNCT RIGHT #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+
+]]></dependency></body></document>

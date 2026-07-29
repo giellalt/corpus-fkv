@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Rekisterit</title><genre code="bible"/><author><unknown/></author><translator><person firstname="Mari" lastname="Keränen" sex="f" born="1979" nationality="FIN"/></translator><translated_from xml:lang="nob"/><wordcount>50</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>Rekisterit.doc</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Pukstaavilinen>"
+	"Pukstaavilinen" ? @X #1->0
+: 
+"<rekisteri>"
+	"rekisteri" N Sg Nom @>N #2->3
+: 
+"<virren>"
+	"virsi" N Dial/Por Sg Gen @>N #3->4
+: 
+"<kväänin>"
+	"kvääni" N Sg Dial/Por Gen @X #4->0
+"<->"
+	"-" PUNCT MIDDLE #5->4
+"<,>"
+	"," CLB #6->11
+: 
+"<suomen>"
+	"Suomi" N Prop Sem/Plc Sg Dial/Por Gen @X #7->0
+"<->"
+	"-" PUNCT MIDDLE #8->7
+"<,>"
+	"," CLB #9->11
+: 
+"<(>"
+	"(" PUNCT LEFT #10->11
+"<pohjais>"
+	"pohjata" <mv> V Act Cond Sg3 @FMV #11->0
+"<)>"
+	")" PUNCT RIGHT #12->11
+"<saamenkielisen>"
+	"saamenkielinen" A Sg Gen @>N #13->16
+: 
+"<ja>"
+	"ja" CC @CNP #14->13
+: 
+"<meänkielisen>"
+	"meänkielinen" N Sg Gen @>N #15->13
+: 
+"<nimen>"
+	"nimi" N Dial/Por Sg Gen @<OBJ #16->11
+: 
+"<mukhaan>"
+	"mukhaan" Po @ADVL #17->7
+: 
+"<¶>"
+	"¶" CLB #18->11
+:\n
+"<Pukstaavilinen>"
+	"Pukstaavilinen" ? @X #1->0
+: 
+"<rekisteri>"
+	"rekisteri" N Sg Nom @>N #2->3
+: 
+"<virren>"
+	"virsi" N Dial/Por Sg Gen @>N #3->4
+: 
+"<norjan>"
+	"Norja" N Prop Sem/Plc Sg Dial/Por Gen @>N #4->7
+"<->"
+	"-" PUNCT MIDDLE #5->6
+: 
+"<ja>"
+	"ja" CC @CNP #6->4
+: 
+"<ruottinkielisen>"
+	"kielinen" N Sg Gen @>N #7->8
+		"Ruotti" N Prop Sem/Plc Sg Dial/Jok Gen Cmp #7->8
+	"kielinen" N Sg Gen @>N #7->8
+		"Ruotti" N Prop Sem/Plc Sg Dial/Por Gen Cmp #7->8
+	"kielinen" N Sg Gen @>N #7->8
+		"Ruotti" N Prop Sem/Plc Sg Dial/Var Gen Cmp #7->8
+: 
+"<nimen>"
+	"nimi" N Dial/Por Sg Gen @>P #8->9
+: 
+"<mukhaan>"
+	"mukhaan" Po @ADVL #9->1
+: 
+"<¶>"
+	"¶" CLB #10->9
+:\n
+
+]]></dependency></body></document>

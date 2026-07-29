@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Isän ja Pojan ja Pyhän Hengen nimheen</title><genre code="bible"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><translated_from xml:lang="nob"/><year>2011</year><wordcount>114</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Isän>"
+	"isä" N Sg Dial/Por Gen @>N #1->7
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<Pojan>"
+	"poika" N Dial/Por Sg Gen @>N #3->1
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<Pyhän>"
+	"pyhä" A Sg Dial/Por Gen @>N #5->1
+	"pyhä" N Sg Dial/Por Gen @>N #5->1
+: 
+"<Hengen>"
+	"henki" N Dial/Por Sg Gen @N> #6->6
+: 
+"<nimheen>"
+	"nimi" N Dial/Por Sg Ill @HNOUN #7->6
+"<.>"
+	"." CLB #8->8
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Jakosanat>"
+	"sana" N Pl Dial/Por Nom @HNOUN #1->0
+		"jako" N Sg Nom Cmp #1->0
+"<:>"
+	":" CLB #2->1
+:  
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Tämä>"
+	"tämä" Pron Dem Sg Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<Jeesuksen>"
+	"Jeesus" N Prop Sem/Mal Sg Gen @N> #3->3
+: 
+"<ruumis>"
+	"ruumis" N Dial/Por Sg Nom @<SPRED #4->2
+"<.>"
+	"." CLB #5->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tämä>"
+	"tämä" Pron Dem Sg Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<Jeesuksen>"
+	"Jeesus" N Prop Sem/Mal Sg Gen @N> #3->3
+: 
+"<veri>"
+	"veri" N Sg Nom @<SPRED #4->2
+"<.>"
+	"." CLB #5->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Risthiin>"
+	"Rist" N Prop Sem/Sur Sg Ill @X #1->0
+: 
+"<naulittu>"
+	"naulita" V Pass PrfPrc Sg Nom @>N #2->6
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<ylösnoussu>"
+	"ylösnoussu" ? @X #4->0
+: 
+"<Jeesus>"
+	"Jeesus" N Prop Sem/Mal Sg Nom @>N #5->2
+: 
+"<Kristus>"
+	"Kristus" N Prop Sem/Mal Sg Nom @<OBJ #6->6
+:  
+"<¶>"
+	"¶" CLB #7->7
+:\n
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #1->0
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #2->0
+: 
+"<antanu>"
+	"anttaat" V TV Act PrfPrc Sg Nom @>N #3->4
+: 
+"<meile>"
+	"Meti" N Prop Sem/Fem Sg Dial/Por All @<ADVL #4->1
+	"met" Pron Pers Pl1 All @<ADVL #4->1
+: 
+"<oman>"
+	"Oman" N Prop Sem/Plc Sg Nom @>N #5->6
+: 
+"<pyhän>"
+	"pyhä" A Sg Dial/Por Gen @>N #6->7
+	"pyhä" N Sg Dial/Por Gen @>N #6->7
+: 
+"<ruumhiin>"
+	"ruuma" N Dial/Por Pl Ill @<ADVL #7->1
+	"ruumis" N Dial/Por Sg Gen @>N #7->1
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<veren>"
+	"veri" N Sg Gen @<OBJ #9->1
+:  
+"<¶>"
+	"¶" CLB #10->1
+:\n
+"<mikkä>"
+	"mikä" Pron Interr Pl Nom @SUBJ> #1->3
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #2->3
+: 
+"<antoi>"
+	"anttaat" <mv> V TV Act Ind Prt Sg3 @FMV #3->0
+: 
+"<meile>"
+	"Meti" N Prop Sem/Fem Sg Dial/Por All @<ADVL #4->3
+	"met" Pron Pers Pl1 All @<ADVL #4->3
+: 
+"<meiðän>"
+	"met" Pron Pers Pl1 Gen @>N #5->6
+: 
+"<synttiin>"
+	"synti" N Pl Dial/Por Gen @N> #6->6
+: 
+"<sovitukseksi>"
+	"sovitus" N Sg Tra @<ADVL #7->3
+:  
+"<¶>"
+	"¶" CLB #8->3
+:\n
+"<Hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #1->0
+: 
+"<vahvistakhoon>"
+	"vahvistakhoon" ? @X #2->0
+: 
+"<meiðät>"
+	"met" Pron Pers Pl1 Acc @OBJ> #3->10
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<pitäkhöön>"
+	"pitäkhöön" ? @X #5->0
+: 
+"<meiðät>"
+	"met" Pron Pers Pl1 Acc @OBJ> #6->3
+: 
+"<toðelisessa>"
+	"tođelinen" A Sg Ine @>N #7->8
+: 
+"<uskossa>"
+	"usko" N Sg Dial/Por Ine @ADVL> #8->10
+: 
+"<ijänkaikkisheen>"
+	"ijänkaikkinen" A Sg Ill @>N #9->10
+: 
+"<elämhään>"
+	"elläät" V Act Inf3 Ill @HNOUN #10->0
+	"elämä" N Sg Ill @HNOUN #10->0
+"<.>"
+	"." CLB #11->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Rauha>"
+	"Rauha" N Prop Sem/Fem Sg Nom @SUBJ> #1->2
+: 
+"<olkhoon>"
+	"olla" <mv> V Act Imprt Sg3 @FMV #2->0
+: 
+"<teiðän>"
+	"tet" Pron Pers Pl2 Gen @>P #3->4
+: 
+"<kansa>"
+	"kansa" Po @ADVL #4->0
+"<.>"
+	"." CLB #5->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

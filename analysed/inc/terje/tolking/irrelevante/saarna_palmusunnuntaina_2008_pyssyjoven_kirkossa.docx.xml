@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title/><genre code="inc"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>1489</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Palmusunnuntai>"
+	"palmusunnuntai" N Sg Nom @HNOUN #1->0
+: 
+"<2008>"
+	 Use/Circ Use/Circ"2008" Num Arab Sg Nom
+	 Use/Circ"2008" Num Arab Sem/ID
+	 Use/Circ"2008" Num Arab Sem/Year Sg Nom
+: 
+"<Pyssyjoven>"
+	"Pyssyjoki" N Prop Sem/Plc Sg Dial/Por Gen @>N #3->4
+: 
+"<kirkossa>"
+	"kirkko" N Sg Dial/Por Ine @N< #4->1
+: 
+"<– 50>"
+	 Use/Circ"– 50" Num Arab Sem/ID
+: 
+"<vuoden>"
+	"vuosi" N Dial/Por Sg Gen @X #6->0
+: 
+"<juhlatJoh>"
+	"juhlatJoh" ? @X #7->0
+"<.>"
+	"." CLB #8->1
+: 
+"<->"
+	"-" PUNCT MIDDLE #1->1
+	 Use/Circ"12:12-24" Num Arab Sem/ID
+	 Use/Circ"12:12-24" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"12:12-" Use/TTS"24" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ Use/Circ"24" Num Arab Sg Nom "<24>"
+			 Use/Circ"12:12" Num Arab Sem/ID "<12:12>"
+	 Use/Circ Use/Circ"24" Num Arab Sg Nom "<24>"
+			 Use/Circ"12:12" Num Arab Sem/Time-clock Sg Nom "<12:12>"
+	 Use/Circ"24" A Arab Ord Attr CLBfinal "<24>"
+			 Use/Circ"12:12" Num Arab Sem/ID "<12:12>"
+	 Use/Circ"24" A Arab Ord Attr CLBfinal "<24>"
+			 Use/Circ"12:12" Num Arab Sem/Time-clock Sg Nom "<12:12>"
+	 Use/Circ"24" Num Arab Sem/ID "<24>"
+			 Use/Circ"12:12" Num Arab Sem/ID "<12:12>"
+	 Use/Circ"24" Num Arab Sem/ID "<24>"
+			 Use/Circ"12:12" Num Arab Sem/Time-clock Sg Nom "<12:12>"
+	 Use/Circ"24" Num Arab Sem/Time-clock Sg Nom "<24>"
+			 Use/Circ"12:12" Num Arab Sem/ID "<12:12>"
+	 Use/Circ"24" Num Arab Sem/Time-clock Sg Nom "<24>"
+			 Use/Circ"12:12" Num Arab Sem/Time-clock Sg Nom "<12:12>"
+:  
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Alkusanat>"
+	"alkusanat" N Pl Dial/Por Nom @HNOUN #1->0
+	"alkusanat" N Pl Nom @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Onnee>"
+	"onnee" Interj @X #1->0
+	"onni" N Dial/Por Sg Dial/Por Par @X #1->0
+: 
+"<kirkon>"
+	"kirkko" N Sg Dial/Por Gen @X #2->0
+: 
+"<50>"
+	 Use/Circ Use/Circ"50" Num Arab Sg Nom
+	 Use/Circ"50" A Arab Ord Attr CLBfinal
+	 Use/Circ"50" Num Arab Sem/ID
+: 
+"<vuotisile>"
+	"vuotinen" A Pl All Err/Orth @>N #4->5
+: 
+"<juhlile>"
+	"Juhl" N Prop Sem/Sur Sg Dial/Por All @HNOUN #5->2
+"<!>"
+	"!" CLB #6->6
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kiitoksii>"
+	"kiitos" N Pl Dial/Por Par @X #1->0
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #2->3
+: 
+"<kuttuitta>"
+	"kuttu" N Pl Dial/Por Abe @X #3->0
+	"kuttuut" <mv> V Act Ind Prt Pl2 @FMV #3->0
+: 
+"<minun>"
+	"mie" Pron Pers Sg1 Gen @<OBJ #4->3
+: 
+"<juhlimhaan>"
+	"juhliit" V Act Inf3 Ill @<ADVL #5->3
+: 
+"<teiðän>"
+	"tet" Pron Pers Pl2 Gen @>P #6->7
+: 
+"<kansa>"
+	"kansa" Po @ADVL #7->3
+"<.>"
+	"." CLB #8->3
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Mie>"
+	"mie" Pron Pers Sg1 Nom @SUBJ> #1->2
+: 
+"<olen>"
+	"olla" <mv> V Act Ind Prs Sg1 @FMV #2->0
+: 
+"<iloittennu>"
+	"iloittennu" ? @X #3->0
+: 
+"<tulemisesta>"
+	"tulla" Ex/V Der/minen N Sg Ela @<ADVL #4->2
+: 
+"<tänne>"
+	"tänne" Adv @ADVL #5->3
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<kirkkojuhlin>"
+	"kirkkojuhlin" ? @X #7->0
+: 
+"<viettämisesta>"
+	"viettämisesta" ? @X #8->0
+: 
+"<teiðän>"
+	"tet" Pron Pers Pl2 Gen @>P #9->10
+: 
+"<kansa>"
+	"kansa" Po @ADVL #10->8
+"<.>"
+	"." CLB #11->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Ei>"
+	"ei" <aux> V Neg Act Sg3 @FAUX #1->0
+: 
+"<niin>"
+	"niin" Adv @ADVL #2->3
+: 
+"<pitken>"
+	"pitken" ? @X #3->0
+: 
+"<aian>"
+	"aita" N Sg Dial/Por Gen @<OBJ #4->4
+: 
+"<päästä>"
+	"päästä" Po @ADVL #5->3
+: 
+"<oon>"
+	"olla" <aux> V Act Ind Prs Sg3 @FAUX #6->1
+: 
+"<pispa>"
+	"Pispa" N Prop Sem/Sur Sg Nom @<SPRED #7->0
+:  
+"<¶>"
+	"¶" CLB #8->1
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2014</year><wordcount>32</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Mie>"
+	"mie" Pron Pers Sg1 Nom @SUBJ> #1->2
+: 
+"<pääsin>"
+	"päästä" <mv> V Act Ind Prt Sg1 @FMV #2->0
+: 
+"<lakiopiskelhuun>"
+	"lakiopiskelhuun" ? @X #3->0
+"<!>"
+	"!" CLB #4->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuul>"
+	"Kuul" ? @X #1->0
+"<!>"
+	"!" CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Olen>"
+	"olla" <mv> V Act Ind Prs Sg1 @FMV #1->0
+: 
+"<syönny>"
+	"syönny" ? @X #2->0
+: 
+"<koffeinitablettii>"
+	"koffeinitablettii" ? @X #3->0
+: 
+"<koko>"
+	"Koko" N Prop Sem/Plc Sg Nom @SUBJ> #4->8
+: 
+"<kevvään>"
+	"kevvään" ? @X #5->0
+: 
+"<niin>"
+	"niin" Adv @ADVL #6->5
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #7->8
+: 
+"<jaksoin>"
+	"jaksaat" <mv> V Act Ind Prt Sg1 @FS-<ADVL #8->1
+	"jakso" N Pl Dial/Por Gen @X #8->1
+: 
+"<lukkeet>"
+	"lukkeet" V Inf @X #9->0
+: 
+"<joka>"
+	"joka" Pron Qu Attr @>N #10->11
+	"joka" Pron Qu Nom @>N #10->11
+: 
+"<yö>"
+	"yö" N Sg Nom @<SPRED #11->8
+"<.>"
+	"." CLB #12->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Ja>"
+	"ja" CC @CNP #1->4
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #2->6
+: 
+"<mulla>"
+	"mie" Pron Pers Sg1 Ade @HAB #3->3
+	"mie" Pron Pers Sg1 Use/NG Ade @HAB #3->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<pakko>"
+	"pakko" N Sg Nom @SUBJ> #5->9
+: 
+"<syöđä>"
+	"syöđä" V Inf @X #6->0
+: 
+"<unitablettii>"
+	"tabletti" N Sg Dial/Por Par @<SUBJ #7->4
+		"uni" N Sg Nom Cmp #7->4
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #8->9
+: 
+"<saan>"
+	"saađa" <mv> V Act Ind Prs Sg1 @FS-<ADVL #9->4
+	"sata" N Sg Dial/Por Gen @X #9->4
+	"sata" Num Sg Gen @X #9->4
+	"sattaat" <mv> V TV Act Ind Prs Sg1 @FS-<ADVL #9->4
+: 
+"<nukkuut>"
+	"nukkuut" V Inf @X #10->0
+"<.>"
+	"." CLB #11->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lykkyy>"
+	"lykky" N Sg Dial/Por Par @X #1->0
+: 
+"<sulle>"
+	"sie" Pron Pers Sg2 All @HNOUN #2->1
+	"sie" Pron Pers Sg2 Use/NG All @HNOUN #2->1
+: 
+"<korkkeimassa>"
+	"korkkee" A Dial/Por Sg Superl Ine @>N #3->4
+	"korkkein" A Sg Ine @>N #3->4
+: 
+"<oikkeuđessa>"
+	"oikkeus" N Dial/Por Sg Ine @<ADVL #4->2
+"<!>"
+	"!" CLB #5->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

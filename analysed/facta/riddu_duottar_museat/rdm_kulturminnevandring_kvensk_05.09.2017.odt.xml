@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Kulttuurimuistovajelus Repokoskheen</title><genre code="facta"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FI"/></translator><translated_from xml:lang="nob"/><year>2019</year><wordcount>105</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>../Downloads/Pirjo/RDM/RDM Kulturminnevandring, kvensk 05.09.2017.docx</origFileName><parallel_text xml:lang="nob" location="rdm_kulturminnevandring_kvensk_05.09.2017.odt"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+"<:>"
+	":" CLB #4->4
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #6->5
+: 
+"<->"
+	"-" PUNCT MIDDLE #7->8
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #8->6
+: 
+"<05.09.2017>"
+	 Use/Circ"05.09.2017" Num Arab Sem/Date Sg Nom
+	 Use/Circ"05.09.2017" Num Arab Sem/ID
+: 
+"<¶>"
+	"¶" CLB #10->10
+:\n
+"<Kulttuurimuistovajelus>"
+	"vajelus" N Sg Nom @>N #1->2
+		"muisto" N Sg Nom Cmp #1->2
+			"kulttuuri" N Sg Nom Cmp #1->2
+	"vajelus" N Sg Nom @>N #1->2
+		"kulttuurimuisto" N Sg Nom Cmp #1->2
+: 
+"<Repokoskheen>"
+	"Repokoski" N Prop Sg Ill @HNOUN #2->0
+:  
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Porsangin komuuni>"
+	"Porsangin komuuni" N Prop Sem/Plc Sg Nom @OBJ> #1->9
+"<,>"
+	"," CLB #2->1
+: 
+"<Porsangin>"
+	"Porsanki" N Prop Sem/Plc Sg Gen @>N #3->4
+: 
+"<histoorialaaki>"
+	"histoorialaaki" N Sg Nom @SUBJ> #4->9
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<RDM>"
+	"RDM" N Prop Sem/Org ACR N Prop ACR Sg Nom @>N #6->7
+	"RDM" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @>N #6->7
+: 
+"<Porsangin>"
+	"Porsanki" N Prop Sem/Plc Sg Gen @N> #7->7
+: 
+"<museumi>"
+	"museumi" N Sg Nom @SUBJ> #8->4
+: 
+"<kuttuthaan>"
+	"kuttuut" <mv> V Act Ind Prs Pl3 @FMV #9->0
+	"kuttuut" <mv> V Pass Ind Prs @FMV #9->0
+: 
+"<myötä>"
+	"myötä" Adv @ADVL #10->0
+: 
+"<kulttuurimuistovajeluksele>"
+	"vajelus" N Sg All @<ADVL #11->9
+		"muisto" N Sg Nom Cmp #11->9
+			"kulttuuri" N Sg Nom Cmp #11->9
+	"vajelus" N Sg All @<ADVL #11->9
+		"kulttuurimuisto" N Sg Nom Cmp #11->9
+: 
+"<Repokoskheen>"
+	"Repokoski" N Prop Sg Ill @<ADVL #12->9
+: 
+"<lauvantaina>"
+	"lauvantai" N Pl Ess @<ADVL #13->9
+	"lauvantai" N Sg Ess @<ADVL #13->9
+: 
+"<.>"
+	"." CLB #14->9
+	 Use/Circ"9" A Arab Ord Attr
+		 Use/Circ Use/Circ"9" Num Arab Sg Nom "<9>"
+		 Use/Circ"9" A Arab Ord Attr CLBfinal "<9>"
+		 Use/Circ"9" Num Arab Sem/ID "<9>"
+		 Use/Circ"9" Num Arab Sem/Time-clock Sg Nom "<9>"
+: 
+"<septemperikuuta>"
+	"septemperikuu" N Sg Par @X #1->0
+: 
+"<kello>"
+	"kello" N Sg Nom @HNOUN #2->1
+: 
+"<->"
+	"-" PUNCT MIDDLE #3->2
+	 Use/Circ"15.00-18.00" Num Arab Sem/ID
+	 Use/Circ"15.00-18.00" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"15.00-" Use/TTS"18.00" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"18.00" Num Arab Sem/ID "<18.00>"
+			 Use/Circ"15.00" Num Arab Sem/ID "<15.00>"
+	 Use/Circ"18.00" Num Arab Sem/ID "<18.00>"
+			 Use/Circ"15.00" Num Arab Sem/Time-clock Sg Nom "<15.00>"
+	 Use/Circ"18.00" Num Arab Sem/Time-clock Sg Nom "<18.00>"
+			 Use/Circ"15.00" Num Arab Sem/ID "<15.00>"
+	 Use/Circ"18.00" Num Arab Sem/Time-clock Sg Nom "<18.00>"
+			 Use/Circ"15.00" Num Arab Sem/Time-clock Sg Nom "<15.00>"
+"<.>"
+	"." CLB #4->4
+: 
+"<Tämän>"
+	"tämä" Pron Dem Sg Gen @X #1->0
+: 
+"<järjestethään>"
+	"järjestäät" <mv> V Pass Ind Prs @FMV #2->0
+: 
+"<Kulttuurimuistopäiviin>"
+	"päivä" N Pl Dial/Por Gen @X #3->0
+		"muisto" N Sg Nom Cmp #3->0
+			"kulttuuri" N Sg Nom Cmp #3->0
+	"päivä" N Pl Dial/Por Gen @X #3->0
+		"kulttuurimuisto" N Sg Nom Cmp #3->0
+: 
+"<2017>"
+	 Use/Circ Use/Circ"2017" Num Arab Sg Nom
+	 Use/Circ"2017" Num Arab Sem/ID
+	 Use/Circ"2017" Num Arab Sem/Year Sg Nom
+: 
+"<yhtheyđessä>"
+	"yhtheys" N Dial/Por Sg Ine @<ADVL #5->2
+"<.>"
+	"." CLB #6->2
+: 
+"<Tule>"
+	"Tule" N Prop Sem/Plc Sg Nom @SUBJ> #1->0
+	"tulla" <mv> V Act Imprt Sg2 @FMV #1->0
+: 
+"<myötä>"
+	"myötä" Adv @ADVL #2->6
+: 
+"<kulttuurimuistovajeluksele>"
+	"vajelus" N Sg All @<ADVL #3->1
+		"muisto" N Sg Nom Cmp #3->1
+			"kulttuuri" N Sg Nom Cmp #3->1
+	"vajelus" N Sg All @<ADVL #3->1
+		"kulttuurimuisto" N Sg Nom Cmp #3->1
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<kohtaa>"
+	"kohta" N Dial/Por Sg Dial/Por Par @<OBJ #5->1
+	"kohđata" <mv> V Act Ind Prs Sg3 @FMV #5->1
+	"kohđata" <mv> V Act Imprt Sg2 @FMV #5->1
+: 
+"<pytinginvarjelusnikkarin>"
+	"pytinginvarjelusnikkarin" ? @X #6->0
+: 
+"<Arne>"
+	"Arne" N Prop Sem/Mal Sg Nom @SUBJ> #7->5
+: 
+"<Gravenin>"
+	"Gravenin" ? @X #8->0
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #9->10
+: 
+"<muistelee>"
+	"muistela" <mv> V Act Ind Prs Sg3 @FS-N< #10->7
+: 
+"<restaureerinkityön>"
+	"työ" N Sg Gen @<OBJ #11->10
+		"restaureerinki" N Sg Nom Cmp #11->10
+: 
+"<ympäri>"
+	"ympäri" Po @ADVL #12->8
+: 
+"<ja>"
+	"ja" CC @CNP #13->12
+: 
+"<vastaa>"
+	"vasta" N Sg Dial/Por Par @<OBJ #14->10
+	"vastata" <mv> V Act Ind Prs Sg3 @FS-N< #14->10
+	"vastata" <mv> V Act Imprt Sg2 @FS-N< #14->10
+: 
+"<kysymykshiin>"
+	"kysymys" N Pl Ill @<ADVL #15->14
+"<.>"
+	"." CLB #16->1
+: 
+"<Simppeli>"
+	"simppeli" A Sg Nom @>N #1->2
+: 
+"<serveeraus>"
+	"serveeraus" N Sg Nom @HNOUN #2->0
+"<.>"
+	"." CLB #3->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

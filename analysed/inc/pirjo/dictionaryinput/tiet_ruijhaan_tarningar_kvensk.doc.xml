@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Tiet Ruijhaan</title><genre code="inc"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FIN"/></translator><wordcount>65</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="swe"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Tiet>"
+	"tie" N Pl Nom @>N #1->2
+: 
+"<Ruijhaan>"
+	"Ruija" N Prop Sem/Plc Sg Dial/Por Ill @HNOUN #2->0
+	"Ruija" N Prop Sem/Plc Sg Ill @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+"<:>"
+	":" CLB #4->9
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<institutti-Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @HNOUN #6->5
+		"institutti" N Sg Nom Cmp/Hyph #6->5
+"</>"
+	"/" PUNCT MIDDLE @CNP #7->8
+: 
+"<Pirjo>"
+	"Pirjo" N Prop Sem/Fem Sg Nom @>N #8->9
+: 
+"<Paavalniemi>"
+	"Paavalniemi" N Prop Sem/Plc Sg Nom @SUBJ> #9->0
+: 
+"<¶>"
+	"¶" CLB #10->9
+:\n
+"<Mennä>"
+	"mennä" V Inf @X #1->0
+: 
+"<naimishiin>"
+	"naiđa" Ex/V Der/minen N Pl Ill @X #2->0
+: 
+"<Gifta>"
+	"Gifta" ? @X #3->0
+: 
+"<mig>"
+	"mig" ? @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Tohtori>"
+	"tohtori" N Sg Nom @HNOUN #1->0
+: 
+"<Läkare>"
+	"Läkare" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Poliisi>"
+	"poliisi" N Sg Nom @HNOUN #1->0
+: 
+"<Polis>"
+	"Polis" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Paikat>"
+	"paikka" N Pl Dial/Por Nom @HNOUN #1->0
+: 
+"<Platser>"
+	"Platser" ? @X #2->0
+:  
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Kuussa>"
+	"kuu" N Sg Ine @ADVL> #1->3
+: 
+"<På>"
+	"På" ? @X #2->0
+: 
+"<månen>"
+	"Månen" N Prop Sem/Plc Sg Nom @HNOUN #3->0
+: 
+"<¶>"
+	"¶" CLB #4->3
+:\n
+"<Kotona>"
+	"koto" N Sg Dial/Por Ess @HNOUN #1->2
+	"kotona" Adv @ADVL #1->2
+: 
+"<Hemma>"
+	"Hemma" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Tokiossa>"
+	"Tokiossa" ? @X #1->0
+: 
+"<I>"
+	"I" N Prop Sem/Hum ACR @>N #2->3
+	 Use/Circ Use/Circ"I" Use/Circ Num Rom Sg Nom Use/Circ
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<Tokyo>"
+	"Tokyo" N Prop Sem/Plc Sg Nom @HNOUN #3->0
+: 
+"<¶>"
+	"¶" CLB #4->3
+:\n
+
+]]></dependency></body></document>

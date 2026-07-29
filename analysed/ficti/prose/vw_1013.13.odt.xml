@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2013</year><wordcount>30</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Viivi>"
+	"Viivi" ? @X #1->0
+: 
+"<vettää>"
+	"vettäät" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<minnuu>"
+	"mie" Pron Pers Sg1 Par @<OBJ #3->2
+	"mie" Pron Pers Sg1 Use/NG Par @<OBJ #3->2
+: 
+"<kaikenlaishiin>"
+	"kaikenlainen" A Pl Ill @<ADVL #4->2
+: 
+"<attraksuunhiin>"
+	"attraksuunhiin" ? @X #5->0
+"<.>"
+	"." CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Menemä>"
+	"mennä" <mv> V Act Ind Prs Pl1 @FMV #1->0
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #2->0
+: 
+"<sisäle>"
+	"sisä" A Sg Dial/Por All @<ADVL #3->1
+	"sisäle" Adv @ADVL #3->1
+"<.>"
+	"." CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<En>"
+	"ei" <aux> V Neg Act Sg1 @FAUX #1->0
+: 
+"<ole>"
+	"olla" <aux> V Act Ind Prs ConNeg @IAUX #2->1
+: 
+"<pikkusenkhaan>"
+	"pikkusen" Adv Foc/kaan @ADVL #3->0
+:  
+"<...>"
+	"..." CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Missä>"
+	"mikä" Pron Interr Pl Ine @ADVL> #1->2
+	"mikä" Pron Interr Sg Ine @ADVL> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #2->0
+: 
+"<net>"
+	"net" Pron Dem Pl Nom @>N #3->4
+: 
+"<nuoret>"
+	"nuoret" N Pl Nom @<SPRED #4->2
+	"nuori" A Pl Nom @>N #4->2
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<rohkkeet>"
+	"rohkkeet" ? @X #6->0
+: 
+"<kirkot>"
+	"kirkko" N Pl Dial/Por Nom @SUBJ> #7->2
+"<?>"
+	"?" CLB #8->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

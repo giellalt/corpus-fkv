@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>4 Mos ja Aaronin siunaus 4</title><genre code="bible"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><translated_from xml:lang="nob"/><year>2003</year><wordcount>59</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<4>"
+	 Use/Circ Use/Circ"4" Num Arab Sg Nom
+	 Use/Circ"4" A Arab Ord Attr CLBfinal
+	 Use/Circ"4" Num Arab Sem/ID
+	 Use/Circ"4" Num Arab Sem/Time-clock Sg Nom
+: 
+"<Mos>"
+	"Mos" N Prop Sem/Obj ABBR Gram/TAbbr Sg Nom @HNOUN #2->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #3->2
+	 Use/Circ"6:24-26" Num Arab Sem/ID
+	 Use/Circ"6:24-26" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ"6:24-" Use/TTS"26" Num Arab Sem/Time-clock Span Sg Nom
+	 Use/Circ Use/Circ"26" Num Arab Sg Nom "<26>"
+			 Use/Circ"6:24" Num Arab Sem/ID "<6:24>"
+	 Use/Circ Use/Circ"26" Num Arab Sg Nom "<26>"
+			 Use/Circ"6:24" Num Arab Sem/Time-clock Sg Nom "<6:24>"
+	 Use/Circ"26" A Arab Ord Attr CLBfinal "<26>"
+			 Use/Circ"6:24" Num Arab Sem/ID "<6:24>"
+	 Use/Circ"26" A Arab Ord Attr CLBfinal "<26>"
+			 Use/Circ"6:24" Num Arab Sem/Time-clock Sg Nom "<6:24>"
+	 Use/Circ"26" Num Arab Sem/ID "<26>"
+			 Use/Circ"6:24" Num Arab Sem/ID "<6:24>"
+	 Use/Circ"26" Num Arab Sem/ID "<26>"
+			 Use/Circ"6:24" Num Arab Sem/Time-clock Sg Nom "<6:24>"
+	 Use/Circ"26" Num Arab Sem/Time-clock Sg Nom "<26>"
+			 Use/Circ"6:24" Num Arab Sem/ID "<6:24>"
+	 Use/Circ"26" Num Arab Sem/Time-clock Sg Nom "<26>"
+			 Use/Circ"6:24" Num Arab Sem/Time-clock Sg Nom "<6:24>"
+: 
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<Aaronin>"
+	"Aaronin" ? @X #1->0
+: 
+"<siunaus>"
+	"siunaus" N Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Herra>"
+	"herra" N Sg Nom @HNOUN #1->0
+: 
+"<siunatkhoon>"
+	"siunatkhoon" ? @X #2->0
+: 
+"<sinnuu>"
+	"sie" Pron Pers Sg2 Par @X #3->0
+	"sie" Pron Pers Sg2 Use/NG Par @X #3->0
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<varjelkhoon>"
+	"varjelkhoon" ? @X #5->0
+: 
+"<sinnuu>"
+	"sie" Pron Pers Sg2 Par @X #6->0
+	"sie" Pron Pers Sg2 Use/NG Par @X #6->0
+"<!>"
+	"!" CLB #7->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Herra>"
+	"herra" N Sg Nom @SUBJ> #1->8
+: 
+"<antakhoon>"
+	"antakhoon" ? @X #2->0
+: 
+"<kasvot>"
+	"kasvot" N Pl Nom @SUBJ> #3->8
+: 
+"<loistaaat>"
+	"loistaaat" ? @X #4->0
+: 
+"<sinun>"
+	"sie" Pron Pers Sg2 Gen @>P #5->6
+: 
+"<yli>"
+	"yli" Po @ADVL #6->4
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<olkhoon>"
+	"olla" <mv> V Act Imprt Sg3 @FMV #8->0
+: 
+"<sinule>"
+	"sie" Pron Pers Sg2 All @<ADVL #9->8
+: 
+"<armolinen>"
+	"armolinen" A Sg Nom @<SPRED #10->8
+"<!>"
+	"!" CLB #11->6
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Herra>"
+	"herra" N Sg Nom @HNOUN #1->0
+: 
+"<kääntäkhöön>"
+	"kääntäkhöön" ? @X #2->0
+:  
+"<kasvot>"
+	"kasvot" N Pl Nom @HNOUN #3->1
+: 
+"<sinun>"
+	"sie" Pron Pers Sg2 Gen @>P #4->5
+: 
+"<pääle>"
+	"pääle" Po @ADVL #5->2
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<antakhoon>"
+	"antakhoon" ? @X #7->0
+: 
+"<sinule>"
+	"sie" Pron Pers Sg2 All @X #8->0
+: 
+"<rauhan>"
+	"Rauha" N Prop Sem/Fem Sg Dial/Por Gen @X #9->0
+"<!>"
+	"!" CLB #10->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2013</year><wordcount>25</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Lujeskelen>"
+	"lujeskella" <mv> V Act Ind Prs Sg1 @FMV #1->0
+: 
+"<schizofreenin>"
+	"schizofreenin" ? @X #2->0
+: 
+"<päiväkirjaa>"
+	"kirja" N Sg Dial/Por Par @<OBJ #3->1
+		"päivä" N Sg Nom Cmp #3->1
+"<.>"
+	"." CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #1->2
+: 
+"<tunsi>"
+	"tuntteet" <mv> V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #3->6
+: 
+"<puu>"
+	"puu" N Sg Nom @SUBJ> #4->6
+: 
+"<kasuis>"
+	"kasuis" ? @X #5->0
+: 
+"<sisälä>"
+	"sisä" A Sg Dial/Por Ade @<ADVL #6->5
+	"sisälttäät" <mv> V TV Act Imprt Sg2 @FS-<ADVL #6->5
+	"sisälä" Adv @ADVL #6->5
+: 
+"<hänessä>"
+	"hän" Pron Pers Sg3 Ine @<ADVL #7->6
+"<.>"
+	"." CLB #8->2
+: 
+"<Ja>"
+	"ja" CC @CNP #1->2
+: 
+"<ei>"
+	"ei" <mv> V Neg Act Sg3 @FMV #2->0
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #3->4
+: 
+"<saattanu>"
+	"saattaat" <mv> V TV Act PrfPrc Sg Nom @FMV #4->2
+: 
+"<liikkuut>"
+	"liikkuut" V Inf @X #5->0
+"<!>"
+	"!" CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Minkälainen>"
+	"minkälainen" A Sg Nom @>N #1->2
+	"minkälainen" Adv @ADVL #1->2
+	"minkälainen" Pron Qu Nom @>N #1->2
+: 
+"<puu>"
+	"puu" N Sg Nom @SUBJ> #2->4
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #3->4
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #4->0
+"<?>"
+	"?" CLB #5->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Sii>"
+	"Sii" ? @X #1->0
+:  
+"<tä>"
+	"tä" ? @X #2->0
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #3->4
+: 
+"<ei>"
+	"ei" <aux> V Neg Act Sg3 @FAUX #4->0
+: 
+"<sano>"
+	"sannoot" <aux> V Act Ind Prs ConNeg @IAUX #5->4
+: 
+"<mithään>"
+	"mithään" Adv @ADVL #6->2
+"<.>"
+	"." CLB #7->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

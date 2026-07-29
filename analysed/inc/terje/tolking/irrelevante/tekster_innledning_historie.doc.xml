@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title/><genre code="inc"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>1245</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Joh>"
+	"Joh" ? @X #1->0
+: 
+"<10,1->"
+	 Use/Circ"10,1" Num Arab Sem/Time-clock Cmp/SplitR
+"<10>"
+	 Use/Circ Use/Circ"10" Num Arab Sg Nom
+	 Use/Circ"10" A Arab Ord Attr CLBfinal
+	 Use/Circ"10" Num Arab Sem/ID
+	 Use/Circ"10" Num Arab Sem/Time-clock Sg Nom
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<M>"
+	"m" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @HNOUN #1->0
+	"m" N Use/Circ Sem/Measr ABBR Gram/IAbbr Sg Nom @HNOUN #1->0
+	 Use/Circ Use/Circ"M" Use/Circ Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<pa>"
+	"pa" ? @X #1->0
+:  
+"<¶>"
+	"¶" CLB #2->2
+:\n
+
+]]></dependency></body></document>

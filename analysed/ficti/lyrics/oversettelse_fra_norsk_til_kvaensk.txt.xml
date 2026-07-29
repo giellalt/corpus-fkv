@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Tuulen pauhaamisessa</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><wordcount>192</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<.>"
+	"." CLB #1->1
+	 Use/Circ"1" A Arab Ord Attr
+		 Use/Circ Use/Circ"1" Num Arab Sg Nom "<1>"
+		 Use/Circ"1" A Arab Ord Attr CLBfinal "<1>"
+		 Use/Circ"1" Num Arab Sem/ID "<1>"
+		 Use/Circ"1" Num Arab Sem/Time-clock Sg Nom "<1>"
+: 
+"<tuulen>"
+	"tuula" <mv> V Act Ind Prs Sg1 @FMV #1->2
+	"tuuli" N Sg Gen @>N #1->2
+: 
+"<pauhaamisessa>"
+	"pauhaaminen" N Sg Ine @<ADVL #2->2
+	"pauhata" Ex/V Der/minen N Sg Ine @<ADVL #2->2
+: 
+"<yli>"
+	"yli" Pr @X #3->0
+: 
+"<vaarat>"
+	"Vaara" N Prop Sem/Sur Pl Dial/Por Nom @SUBJ> #4->7
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<meret>"
+	"meri" N Pl Nom @SUBJ> #6->4
+: 
+"<olin>"
+	"olla" <aux> V Act Ind Prt Sg1 @FAUX #7->1
+: 
+"<myötä>"
+	"myötä" Adv @ADVL #8->3
+: 
+"<vuoðet>"
+	"vuosi" N Dial/Por Pl Nom @SUBJ> #9->1
+	"vuođet" N Sg Dial/-Var Nom @SUBJ> #9->1
+: 
+"<takasin>"
+	"takaisin" Use/NG Adv @ADVL #10->3
+: 
+"<minun>"
+	"mie" Pron Pers Sg1 Gen @>N #11->12
+: 
+"<esivanhimitten>"
+	"esivanhin" N Dial/Por Pl Dial/Jok Gen @>N #12->14
+	"esivanhin" N Dial/Jok Pl Dial/Jok Gen @>N #12->14
+: 
+"<ajatettuihiin>"
+	"ajatettuihiin" ? @X #13->0
+: 
+"<ajatukshiin>"
+	"ajatus" N Pl Ill @<ADVL #14->1
+: 
+"<tuulen>"
+	"tuula" V Act Ind Prs Sg1 @X #15->16
+	"tuuli" N Sg Gen @>N #15->16
+: 
+"<pauhaamisessa>"
+	"pauhaaminen" N Sg Ine @<ADVL #16->1
+	"pauhata" Ex/V Der/minen N Sg Ine @<ADVL #16->1
+: 
+"<ja>"
+	"ja" CC @CNP #17->16
+: 
+"<meren>"
+	"meri" N Sg Gen @>N #18->19
+: 
+"<paaron>"
+	"paaro" N Sg Dial/Por Gen @<P #19->19
+: 
+"<vaahðessa>"
+	"vaahðessa" ? @X #20->0
+"<.>"
+	"." CLB #21->8
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"2" A Arab Ord Attr
+		 Use/Circ Use/Circ"2" Num Arab Sg Nom "<2>"
+		 Use/Circ"2" A Arab Ord Attr CLBfinal "<2>"
+		 Use/Circ"2" Num Arab Sem/ID "<2>"
+		 Use/Circ"2" Num Arab Sem/Time-clock Sg Nom "<2>"
+: 
+"<ruiðhaan>"
+	"Ruiđa" N Prop Sg Dial/Por Ill @ADVL> #1->4
+	"Ruiđa" N Prop Sg Ill @ADVL> #1->4
+	"ruiđa" N Dial/Por Sg Ill @ADVL> #1->4
+: 
+"<kaukkaa>"
+	"kaukkaa" Adv @ADVL #2->6
+: 
+"<pohjasessa>"
+	"Pohjanen" N Prop Sem/Sur Sg Ine @ADVL> #3->4
+	"pohjanen" A Sg Ine @ADVL> #3->4
+: 
+"<tulthiin>"
+	"tulla" <mv> V Act Ind Prt Pl3 @FMV #4->0
+: 
+"<siirtolinnut>"
+	"siirtolintu" N Pl Dial/Por Nom @SUBJ> #5->4
+: 
+"<lenttäin>"
+	"lenttäin" ? @X #6->0
+: 
+"<minun>"
+	"mie" Pron Pers Sg1 Gen @>N #7->8
+: 
+"<esivanhimitten>"
+	"esivanhin" N Dial/Por Pl Dial/Jok Gen @>P #8->9
+	"esivanhin" N Dial/Jok Pl Dial/Jok Gen @>P #8->9
+: 
+"<kansa>"
+	"kansa" Po @ADVL #9->6
+: 
+"<karhuun>"
+	"karhuu" N Dial/Por Sg Gen @>N #10->11
+	"karu" A Sg Dial/Por Ill @>N #10->11
+	"karu" A Sg Ill @>N #10->11
+: 
+"<maisemhaan>"
+	"maisema" N Sg Ill @<ADVL #11->4
+: 
+"<kassuutethiin>"
+	"kassuuttaat" V TV Act Ind Prt Pl3 @X #12->0
+: 
+"<paljon>"
+	"paljon" Adv @ADVL #13->12
+: 
+"<lapsii>"
+	"lapsi" N Pl Dial/Por Par @<OBJ #14->4
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #15->16
+: 
+"<elethiin>"
+	"elläät" <mv> V Act Ind Prt Pl3 @FS-N< #16->14
+: 
+"<niin>"
+	"niin" Adv @ADVL #17->12
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #18->0
+: 
+"<minusta>"
+	"mie" Pron Pers Sg1 Ela @<ADVL #19->16
+	"mie" Pron Pers Sg1 Use/NG Ela @<ADVL #19->16
+: 
+"<tuli>"
+	"Tule" N Prop Sem/Plc Pl Dial/Por Par @X #20->0
+: 
+"<mie>"
+	"mie" Pron Pers Sg1 Nom @X #21->0
+"<.>"
+	"." CLB #22->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

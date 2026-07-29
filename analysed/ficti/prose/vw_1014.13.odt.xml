@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2013</year><wordcount>26</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<KONSTINNÄYTTELY>"
+	"näyttely" N Sg Nom @HNOUN #1->0
+		"Konsti" N Prop Sem/Sur Sg Dial/Var Gen Cmp #1->0
+	"näyttely" N Sg Nom @HNOUN #1->0
+		"Konsti" N Prop Sem/Sur Sg Dial/Jok Gen Cmp #1->0
+	"näyttely" N Sg Nom @HNOUN #1->0
+		"Konsti" N Prop Sem/Sur Sg Dial/Por Gen Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Miksi>"
+	"miksi" Adv @ADVL #1->0
+: 
+"<maksoit>"
+	"maksaat" <mv> V Act Ind Prt Sg2 @FMV #2->0
+"<?>"
+	"?" CLB #3->1
+: 
+"<Olihan>"
+	"olla" <mv> V Act Ind Prt Sg3 Foc/han @FMV #1->0
+: 
+"<helppo>"
+	"helppo" A Sg Nom @<SPRED #2->1
+: 
+"<naakkiit>"
+	"naakkiit" V Inf @X #3->0
+: 
+"<sisäle>"
+	"sisäle" Adv @ADVL #4->3
+"<!>"
+	"!" CLB #5->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Jahaa>"
+	"jahaa" Interj @X #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<maanis-depressiivisestä>"
+	"maanis-depressiivisestä" ? @X #3->0
+: 
+"<koulusta>"
+	"koulu" N Sg Dial/Por Ela @HNOUN #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<tuoi>"
+	"tuo" Pron Dem Err/Orth @X #6->0
+: 
+"<Mynsi>"
+	"Mynsi" ? @X #7->0
+"<.>"
+	"." CLB #8->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<">"
+	""" PUNCT #1->2
+"<Mynk>"
+	"Mynk" ? @X #2->0
+"<">"
+	""" PUNCT #3->2
+"<,>"
+	"," CLB #4->5
+: 
+"<eikä>"
+	"ei" <aux> V Neg Act Sg3 Clt Qst @FAUX #5->0
+: 
+"<">"
+	""" PUNCT #6->5
+"<Myns>"
+	"Myns" ? @X #7->0
+"<">"
+	""" PUNCT #8->9
+: 
+"<oon>"
+	"olla" <aux> V Act Ind Prs Sg3 @FS-<ADVL #9->5
+: 
+"<hänen>"
+	"hän" Pron Pers Sg3 Gen @>N #10->11
+: 
+"<nimi>"
+	"nimi" N Dial/Por Sg Nom @<SPRED #11->0
+"<.>"
+	"." CLB #12->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lähđemäkö>"
+	"lähteet" <mv> V Act Ind Prs Pl1 Clt Qst @FMV #1->0
+"<?>"
+	"?" CLB #2->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Pane>"
+	"panna" <mv> V Act Imprt Sg2 @FMV #1->0
+: 
+"<net>"
+	"net" Pron Dem Pl Nom @>N #2->3
+: 
+"<kuvat>"
+	"Kuva" N Prop Sem/Plc Pl Dial/Por Nom @<OBJ #3->1
+: 
+"<takasin>"
+	"takaisin" Use/NG Adv @ADVL #4->0
+: 
+"<seinhään>"
+	"seinä" N Sg Dial/Por Ill @<ADVL #5->1
+"<!>"
+	"!" CLB #6->1
+"<!>"
+	"!" CLB #1->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

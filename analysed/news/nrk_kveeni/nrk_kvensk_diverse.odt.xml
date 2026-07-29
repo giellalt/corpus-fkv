@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>NRK Kvensk</title><genre code="news"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FI"/></translator><year>2018</year><wordcount>60</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>../Downloads/NRK/NRK Kvensk Diverse.docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+: 
+"<ava>"
+	"ava" ? @X #4->0
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @HNOUN #5->0
+: 
+"<30.01.2018>"
+	 Use/Circ"30.01.2018" Num Arab Sem/Date Sg Nom
+	 Use/Circ"30.01.2018" Num Arab Sem/ID
+: 
+"</>"
+	"/" PUNCT MIDDLE #7->8
+: 
+"<Pirjo>"
+	"Pirjo" N Prop Sem/Fem Sg Nom @>N #8->9
+: 
+"<Paavalniemi>"
+	"Paavalniemi" N Prop Sem/Plc Sg Nom @HNOUN #9->5
+: 
+"<¶>"
+	"¶" CLB #10->5
+:\n
+"<Met>"
+	"met" Pron Pers Pl1 Nom @SUBJ> #1->2
+: 
+"<olema>"
+	"olla" <mv> V Act Ind Prs Pl1 @FMV #2->0
+: 
+"<löytänheet>"
+	"löyttäät" V TV Act PrfPrc Pl Nom @>N #3->4
+: 
+"<programiita>"
+	"programi" N Pl Dial/Por Par @<SUBJ #4->2
+: 
+"<missä>"
+	"mikä" Pron Rel Pl Ine @<ADVL #5->2
+: 
+"<teemana>"
+	"teema" N Sg Ess @<ADVL #6->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FS-N< #7->4
+: 
+"<kväänit>"
+	"kvääni" N Pl Dial/Por Nom @<SPRED #8->7
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<ruijansuomalaiset>"
+	"suomalainen" N Pl Nom @SUBJ> #10->7
+		"Ruija" N Prop Sem/Plc Sg Dial/Jok Gen Cmp #10->7
+	"suomalainen" N Pl Nom @SUBJ> #10->7
+		"Ruija" N Prop Sem/Plc Sg Dial/Por Gen Cmp #10->7
+	"suomalainen" N Pl Nom @SUBJ> #10->7
+		"Ruija" N Prop Sem/Plc Sg Dial/Var Gen Cmp #10->7
+"<.>"
+	"." CLB #11->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuuntele>"
+	"kuunela" <mv> V Act Imprt Sg2 @FMV #1->0
+: 
+"<eeventyyrin>"
+	"eeventyyri" N Sg Gen @<OBJ #2->1
+: 
+"<Kolme>"
+	"kolme" Num Sg Nom @N< #3->2
+: 
+"<Pukkii>"
+	"Pukki" N Prop Sem/Sur Sg Dial/Por Par @<OBJ #4->1
+: 
+"<Pruusii>"
+	"Pruusii" ? @X #5->0
+: 
+"<norjaksi>"
+	"Norja" N Prop Sem/Plc Sg Dial/Por Tra @<ADVL #6->1
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<kvääniksi>"
+	"kvääni" N Sg Dial/Por Tra @<ADVL #8->6
+"<.>"
+	"." CLB #9->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<(>"
+	"(" PUNCT LEFT #1->2
+"<Tahi>"
+	"tahi" CC @X #2->0
+: 
+"<kans>"
+	"kans" Po @ADVL #3->2
+"<:>"
+	":" CLB #4->3
+: 
+"<Kuuntele>"
+	"kuunela" <mv> V Act Imprt Sg2 @FMV #5->0
+: 
+"<muisteluksen>"
+	"muistelus" N Sg Gen @<OBJ #6->5
+: 
+"<Kolme>"
+	"kolme" Num Sg Nom @N< #7->6
+: 
+"<Pukkii>"
+	"Pukki" N Prop Sem/Sur Sg Dial/Por Par @<OBJ #8->5
+: 
+"<Pruusii>"
+	"Pruusii" ? @X #9->0
+"<…>"
+	"…" CLB #10->3
+"<)>"
+	")" PUNCT RIGHT #11->10
+: 
+"<¶>"
+	"¶" CLB #12->3
+:\n
+
+]]></dependency></body></document>

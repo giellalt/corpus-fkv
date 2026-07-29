@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Meiðän päämäärä</title><genre code="facta"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>88</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="eng"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<">"
+	""" PUNCT #1->2
+"<Meiðän>"
+	"met" Pron Pers Pl1 Gen @>N #2->3
+: 
+"<päämäärä>"
+	"päämäärä" N Sg Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<paremman>"
+	"paremman" ? @X #5->0
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<turvemman>"
+	"turvemman" ? @X #7->0
+: 
+"<mailman>"
+	"mailma" N Sg Gen @>N #8->9
+: 
+"<rakentaminen>"
+	"rakenttaat" Ex/V TV Der/minen N Sg Nom @SUBJ> #9->13
+: 
+"<missä>"
+	"missä" Adv @ADVL #10->7
+: 
+"<kaikki>"
+	"kaikki" Pron Qu Sg Nom @>N #11->12
+: 
+"<lapset>"
+	"lapsi" N Pl Nom @SUBJ> #12->13
+: 
+"<saaðhaan>"
+	"saađa" <mv> V Act Ind Prs Pl3 @FMV #13->4
+: 
+"<hyvän>"
+	"hyvä" A Sg Dial/Por Gen @>N #14->15
+: 
+"<koulutuksen>"
+	"koulutus" N Sg Gen @<OBJ #15->13
+: 
+"<ja>"
+	"ja" CC @CNP #16->15
+: 
+"<missä>"
+	"mikä" Pron Rel Sg Ine @<ADVL #17->13
+: 
+"<het>"
+	"het" Pron Pers Pl3 Nom @SUBJ> #18->19
+: 
+"<saaðhaan>"
+	"saađa" <mv> V Act Ind Prs Pl3 @FS-N< #19->15
+: 
+"<täyðelisti>"
+	"täyðelisti" ? @X #20->0
+: 
+"<eðistäät>"
+	"eđistäät" V Inf @X #21->0
+: 
+"<heiðän>"
+	"het" Pron Pers Pl3 Gen @>N #22->23
+: 
+"<talentit>"
+	"talentti" N Pl Nom @SUBJ> #23->32
+: 
+"<niin>"
+	"niin" Adv @ADVL #24->21
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #25->27
+: 
+"<het>"
+	"het" Pron Pers Pl3 Nom @>N #26->29
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #27->21
+: 
+"<ja>"
+	"ja" CC @CNP #28->27
+: 
+"<jälkhiin>"
+	"jälkhiin" Adv @ADVL #29->21
+	"jälki" N Dial/Por Pl Ill @<ADVL #29->21
+: 
+"<raahvaina>"
+	"raahvaina" ? @X #30->0
+: 
+"<ihmisinä>"
+	"ihmisinä" ? @X #31->0
+: 
+"<saatethaan>"
+	"saattaat" <mv> V TV Act Ind Prs Pl3 @FS-<ADVL #32->19
+: 
+"<auttaat>"
+	"auttaat" V TV Inf @X #33->0
+: 
+"<toinen>"
+	"toinen" A Ord Sg Nom @<SPRED #34->32
+	"toinen" A Sg Nom @<SPRED #34->32
+	"toinen" Pron Recipr Sg Nom @X #34->32
+: 
+"<toista>"
+	"toinen" A Ord Sg Par @<OBJ #35->32
+	"toinen" A Sg Par @<OBJ #35->32
+	"toinen" Pron Recipr Sg Par @<OBJ #35->32
+: 
+"<solidartiteetin>"
+	"solidartiteetin" ? @X #36->0
+"<,>"
+	"," CLB #37->25
+: 
+"<luottamuksen>"
+	"luottamus" N Sg Gen @>N #38->42
+: 
+"<ja>"
+	"ja" CC @CNP #39->38
+: 
+"<keskinäisen>"
+	"keskinäinen" A Sg Gen @>N #40->38
+: 
+"<kunnioituksen>"
+	"kunnioitus" N Sg Gen @N> #41->41
+: 
+"<hengessä>"
+	"henki" N Dial/Por Sg Ine @<ADVL #42->32
+"<.>"
+	"." CLB #43->4
+"<”>"
+	"”" PUNCT RIGHT #1->0
+:  
+"<¶>"
+	"¶" CLB #2->2
+:\n
+
+]]></dependency></body></document>

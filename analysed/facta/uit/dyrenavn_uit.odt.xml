@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Dyrearter på kvensk</title><genre code="facta"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FI"/></translator><year>2020</year><wordcount>74</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>Dyrenavn UiT.docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+: 
+"<av>"
+	"av" ? @X #4->0
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #6->5
+: 
+"<—>"
+	"—" PUNCT #7->8
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #8->6
+: 
+"<.>"
+	"." CLB #9->9
+	 Use/Circ"18.05." Num Arab Sem/Date Sg Acc
+	 Use/Circ"18.05." Num Arab Sem/Date Sg Gen
+	 Use/Circ"18.05." Num Arab Sem/Date Sg Nom
+		 Use/Circ"18.05" Num Arab Sem/ID "<18.05>"
+		 Use/Circ"18.05" Num Arab Sem/Time-clock Sg Nom "<18.05>"
+		 Use/Circ"18.05." Num Arab Sem/Date Sg Acc CLBfinal "<18.05>"
+		 Use/Circ"18.05." Num Arab Sem/Date Sg Gen CLBfinal "<18.05>"
+		 Use/Circ"18.05." Num Arab Sem/Date Sg Nom CLBfinal "<18.05>"
+: 
+"<2020>"
+	 Use/Circ Use/Circ"2020" Num Arab Sg Nom
+	 Use/Circ"2020" Num Arab Sem/ID
+	 Use/Circ"2020" Num Arab Sem/Year Sg Nom
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Kvensk>"
+	"Kvensk" ? @X #1->0
+:  
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Riekko>"
+	"Riekko" N Prop Sem/Sur Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Saukko>"
+	"Saukko" N Prop Sem/Sur Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Näätä>"
+	"näätä" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Minkki>"
+	"minkki" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Murtukka>"
+	"murtukka" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Rotte>"
+	"Rotte" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Runo</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="1960" nationality="FIN"/></translator><year>2010</year><wordcount>191</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="sme"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Runo>"
+	"runo" N Sg Nom @HNOUN #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT #2->3
+"<täkäläinen>"
+	"täkäläinen" ? @X #3->0
+: 
+"<alkukurssilainen>"
+	"alkukurssilainen" ? @X #4->0
+"<)>"
+	")" PUNCT RIGHT #5->4
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<(>"
+	"(" PUNCT LEFT #1->2
+"<saattaa>"
+	"saattaat" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<olla>"
+	"olla" <aux> V Inf @FAUX #3->2
+: 
+"<kirjoitusvirheita>"
+	"kirjoitusvirheita" ? @X #4->0
+: 
+"<koska>"
+	"koska" Adv @ADVL #5->4
+	"koska" CS @CVP #5->4
+: 
+"<tekst>"
+	"tekst" ? @X #6->0
+: 
+"<ion>"
+	"ion" ? @X #7->0
+: 
+"<käsinkirjoitettu>"
+	"käsinkirjoitettu" ? @X #8->0
+"<)>"
+	")" PUNCT RIGHT #9->8
+: 
+"<¶>"
+	"¶" CLB #10->2
+:\n
+"<Mánnaruhtii>"
+	"Mánnaruhtii" ? @X #1->0
+: 
+"<Lapsuuteen>"
+	"Lapsuuteen" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Darffit>"
+	"Darffit" ? @X #1->0
+: 
+"<dáhkis>"
+	"dáhkis" ? @X #2->0
+: 
+"<Turpeet>"
+	"Turpeet" ? @X #3->0
+: 
+"<katossa>"
+	"katto" N Sg Dial/Por Ine @HNOUN #4->0
+: 
+"<¶>"
+	"¶" CLB #5->4
+:\n
+"<Jam>"
+	"Jam" ? @X #1->0
+: 
+"<on>"
+	"olla" <mv> V Act Ind Prs Sg3 Err/Orth @FMV #2->0
+: 
+"<manna>"
+	"manna" ? @X #3->0
+: 
+"<dohko>"
+	"dohko" ? @X #4->0
+: 
+"<sisa>"
+	"sisa" ? @X #5->0
+: 
+"<Ja>"
+	"ja" CC @CNP #6->5
+: 
+"<minä>"
+	"mikä" Pron Interr Pl Ess @<ADVL #7->2
+	"mikä" Pron Interr Sg Ess @<ADVL #7->2
+: 
+"<menen>"
+	"mennä" <mv> V Act Ind Prs Sg1 @FMV #8->2
+: 
+"<sinne>"
+	"sinne" Adv @ADVL #9->5
+: 
+"<sisälle>"
+	"sisä" A Sg Dial/Por All Err/Orth @<SPRED #10->8
+: 
+"<¶>"
+	"¶" CLB #11->2
+:\n
+"<Muorrakássa>"
+	"Muorrakássa" ? @X #1->0
+: 
+"<Puulaatikon>"
+	"Puulaatikon" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Suoidneseahka>"
+	"Suoidneseahka" ? @X #1->0
+: 
+"<Heinäsäkin>"
+	"säkki" N Sg Dial/Por Gen @X #2->0
+		"heinä" N Sg Nom Cmp #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Seaidnins>"
+	"Seaidnins" ? @X #1->0
+: 
+"<hengájet>"
+	"hengájet" ? @X #2->0
+: 
+"<gápmagat>"
+	"gápmagat" ? @X #3->0
+: 
+"<Seinällä>"
+	"seinä" N Sg Dial/Por Ade Err/Orth @ADVL> #4->5
+: 
+"<riippuvat>"
+	"riippuut" <mv> V Act Ind Prs Pl3 Err/Orth @FMV #5->0
+: 
+"<kengät>"
+	"kenkä" N Pl Dial/Por Nom @<OBJ #6->5
+: 
+"<¶>"
+	"¶" CLB #7->5
+:\n
+"<Lovttas>"
+	"Lovttas" ? @X #1->0
+: 
+"<oakta>"
+	"oakta" ? @X #2->0
+: 
+"<uhca>"
+	"uhca" ? @X #3->0
+: 
+"<seanga>"
+	"seanga" ? @X #4->0
+: 
+"<Vintissä>"
+	"Vintissä" ? @X #5->0
+: 
+"<yksi>"
+	"yksi" Pron Indef Sg Sg Nom @>N #6->7
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<pieni>"
+	"Piene" N Prop Sem/Sur Pl Dial/Por Par @NUM< #7->7
+: 
+"<sänky>"
+	"sänky" N Sg Nom @HNOUN #8->7
+: 
+"<¶>"
+	"¶" CLB #9->9
+:\n
+"<Darjenávet>"
+	"Darjenávet" ? @X #1->0
+: 
+"<Turvenavetta>"
+	"Turvenavetta" ? @X #2->0
+: 
+"<(>"
+	"(" PUNCT LEFT #3->4
+"<saattaa>"
+	"saattaat" <mv> V TV Act Ind Prs Sg3 @FMV #4->0
+: 
+"<olla>"
+	"olla" <aux> V Inf @FAUX #5->4
+: 
+"<joku>"
+	"joku" Pron Indef Sg Nom @>N #6->8
+: 
+"<muunkinlainen>"
+	"muunkinlainen" ? @X #7->0
+: 
+"<navetta>"
+	"navetta" N Sg Nom @<SPRED #8->4
+"<)>"
+	")" PUNCT RIGHT #9->8
+: 
+"<¶>"
+	"¶" CLB #10->4
+:\n
+"<(>"
+	"(" PUNCT LEFT #1->2
+"<tavallisesti>"
+	"tavallisesti" ? @X #2->0
+: 
+"<sana>"
+	"Sana" N Prop Sem/Plc Sg Nom @SUBJ> #3->5
+:  
+"<=>"
+	"=" PUNCT #4->5
+: 
+"<seisoo>"
+	"seissoot" <mv> V Act Ind Prs Sg3 Err/Orth @FMV #5->0
+"<)>"
+	")" PUNCT RIGHT #6->5
+: 
+"<¶>"
+	"¶" CLB #7->5
+:\n
+
+]]></dependency></body></document>

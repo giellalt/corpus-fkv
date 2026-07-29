@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id">
+  <header>
+    <title>Halvan kuula meren pauhun</title>
+    <genre code="ficti"/>
+    <author>
+      <unknown/>
+    </author>
+    <translator>
+      <person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="1960" nationality="FIN"/>
+    </translator>
+    <wordcount>36</wordcount>
+    <conversion_status type="standard"/>
+    <availability>
+      <free/>
+    </availability>
+    <submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/>
+    <multilingual>
+      <language xml:lang="nob"/>
+      <language xml:lang="fkv"/>
+    </multilingual>
+    <metadata>
+      <uncomplete/>
+    </metadata>
+    <version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version>
+  </header>
+  <body>
+    <dependency><![CDATA["<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #1->1
+: 
+"<institutti-Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @HNOUN #2->1
+		"institutti" N Sg Nom Cmp/Hyph #2->1
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Halvan>"
+	"halpa" A Sg Dial/Por Gen @>N #1->2
+: 
+"<kuula>"
+	"Kuula" N Prop Sem/Sur Sg Nom @>N #2->3
+	"kuu" N Sg Ade @HNOUN #2->3
+	"kuula" V Inf @X #2->3
+	"kuula" N Dial/Por Sg Nom @>N #2->3
+: 
+"<meren>"
+	"meri" N Sg Gen @>N #3->4
+: 
+"<pauhun>"
+	"pauhu" N Sg Dial/Por Gen @<OBJ #4->4
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<mennä>"
+	"mennä" V Inf @X #1->0
+: 
+"<myötä>"
+	"myötä" Adv @ADVL #2->1
+: 
+"<viimi>"
+	"viimi" Adv @ADVL #3->1
+: 
+"<alon>"
+	"alon" ? @X #4->0
+"</>"
+	"/" PUNCT MIDDLE #5->6
+: 
+"<aalot>"
+	"Aalto" N Prop Sem/Sur Pl Dial/Por Nom @SUBJ> #6->7
+: 
+"<lyö>"
+	"lyöđä" <mv> V Act Ind Prs ConNeg @FMV #7->0
+"<.>"
+	"." CLB #8->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lyöpi>"
+	"lyöđä" <mv> V Act Ind Prs Sg3 @FMV #1->0
+: 
+"<vasten>"
+	"vasten" Pr @X #2->0
+: 
+"<vuoren>"
+	"vuori" N Sg Gen @>N #3->4
+: 
+"<seinän>"
+	"seinä" N Sg Dial/Por Gen @<OBJ #4->1
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<raastaa>"
+	"raastaa" ? @X #1->0
+: 
+"<myötä>"
+	"myötä" Adv @ADVL #2->1
+: 
+"<maata>"
+	"maa" N Sg Par @X #3->0
+	"maata" V Inf @X #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<santaa>"
+	"santaa" ? @X #5->0
+"<.>"
+	"." CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Halvan>"
+	"halpa" A Sg Dial/Por Gen @>N #1->4
+: 
+"<kyntää>"
+	"kyntää" ? @X #2->0
+: 
+"<suolasen>"
+	"suolasen" ? @X #3->0
+: 
+"<pellon>"
+	"Pelto" N Prop Sem/Sur Sg Dial/Por Gen @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<noutaa>"
+	"nouttaat" V TV Inf Err/Orth @X #1->0
+: 
+"<meren>"
+	"meri" N Sg Gen @<OBJ #2->2
+: 
+"<rikhaan>"
+	"rikas" Err/Orth A Sg Gen @<OBJ #3->3
+: 
+"<saton>"
+	"saton" ? @X #4->0
+"<.>"
+	"." CLB #5->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<ko>"
+	"ko" CS @CVP #1->2
+: 
+"<liika>"
+	"liika" A Sg Nom @X #2->0
+	"liika" Adv @ADVL #2->0
+	"liika" N Sg Nom @HNOUN #2->0
+: 
+"<varhain>"
+	"varhain" Adv @ADVL #3->2
+: 
+"<hauthaan>"
+	"Hauta" N Prop Sem/Sur Sg Dial/Por Ill @N< #4->2
+	"Hauta" N Prop Sem/Sur Sg Ill @N< #4->2
+: 
+"<¶>"
+	"¶" CLB #5->2
+:\n
+
+]]></dependency>
+  </body>
+</document>

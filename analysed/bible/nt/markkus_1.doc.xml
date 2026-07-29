@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Markkus 1</title><genre code="bible"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><translated_from xml:lang="nob"/><year>2006</year><wordcount>37</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Markkus>"
+	"Markkus" ? @X #1->0
+: 
+"<1>"
+	 Use/Circ Use/Circ"1" Num Arab Sg Nom
+	 Use/Circ"1" A Arab Ord Attr CLBfinal
+	 Use/Circ"1" Num Arab Sem/ID
+	 Use/Circ"1" Num Arab Sem/Time-clock Sg Nom
+"<:>"
+	":" CLB #3->3
+:  
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<T>"
+	"T" N Prop Sem/Hum ACR @X #1->5
+	"t" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #1->5
+: 
+"<ämä>"
+	"ämä" ? @X #2->0
+: 
+"<pyhä>"
+	"pyhä" A Sg Nom @SUBJ> #3->5
+	"pyhä" N Sg Nom @SUBJ> #3->5
+: 
+"<evankeliumi>"
+	"evankeliumi" ? @X #4->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #5->0
+: 
+"<kirjotettu>"
+	"kirjotettu" ? @X #6->0
+: 
+"<evankelista>"
+	"evankelista" ? @X #7->0
+: 
+"<Markkuksen>"
+	"Markkuksen" ? @X #8->0
+: 
+"<ensimäisessä>"
+	"ensimäinen" A Ord Sg Ine @>N #9->10
+	"ensimäinen" A Sg Ine @>N #9->10
+: 
+"<luvussa>"
+	"luku" N Sg Dial/Por Ine @<ADVL #10->5
+"<:>"
+	":" CLB #11->5
+:   
+"<¶>"
+	"¶" CLB #12->5
+:\n
+"<Ko>"
+	"ko" CS @CVP #1->3
+: 
+"<Juhanneksen>"
+	"Juhannes" N Prop Sem/Mal Sg Gen @X #2->0
+: 
+"<olthiin>"
+	"olla" <mv> V Act Ind Prt Pl3 @FS-ADVL> #3->11
+: 
+"<panheet>"
+	"panna" V Act PrfPrc Pl Nom @>N #4->5
+: 
+"<fankilhaan>"
+	"fankila" N Sg Ill @<ADVL #5->3
+"<,>"
+	"," CLB #6->1
+: 
+"<tuli>"
+	"Tule" N Prop Sem/Plc Pl Dial/Por Par @<SUBJ #7->3
+: 
+"<Jeesus>"
+	"Jeesus" N Prop Sem/Mal Sg Nom @SUBJ> #8->11
+: 
+"<Kalileehaan>"
+	"Kalileehaan" ? @X #9->0
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<saarnais>"
+	"saarnata" <mv> V Act Cond Sg3 @FS-ADVL> #11->15
+: 
+"<Jumalan>"
+	"jumala" N Sg Gen @<OBJ #12->11
+: 
+"<evankekeliummii>"
+	"evankekeliummii" ? @X #13->0
+: 
+"<ja>"
+	"ja" CC @CNP #14->13
+: 
+"<sanoi>"
+	"sannoot" <mv> V Act Ind Prt Sg3 @FS-ADVL> #15->19
+"<:>"
+	":" CLB #16->19
+: 
+"<">"
+	""" PUNCT #17->18
+"<Aika>"
+	"aika" N Sg Nom @SUBJ> #18->19
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #19->0
+: 
+"<tullu>"
+	"tulla" V Act PrfPrc Sg Nom @SUBJ> #20->24
+"<,>"
+	"," CLB #21->1
+: 
+"<Jumalan>"
+	"jumala" N Sg Gen @N> #22->22
+: 
+"<valtakunta>"
+	"valtakunta" N Dial/Por Sg Nom @SUBJ> #23->20
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #24->19
+: 
+"<likeelä>"
+	"likeelä" ? @X #25->0
+"<.>"
+	"." CLB #26->19
+: 
+"<Käännykkää>"
+	"Käännykkää" ? @X #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<uskokkaa>"
+	"uskoot" <mv> V Act Imprt Pl2 @FMV #3->0
+: 
+"<evankeliummii>"
+	"evankeliummii" ? @X #4->0
+"<!>"
+	"!" CLB #5->3
+"<">"
+	""" PUNCT #1->1
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Utvalgte bibeltekster</title><genre code="bible"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><translated_from xml:lang="nob"/><year>2006</year><wordcount>23</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Näin>"
+	"näin" Adv @ADVL #1->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #2->0
+: 
+"<Herran>"
+	"herra" N Sg Dial/Por Gen @N> #3->3
+: 
+"<sanat>"
+	"Sana" N Prop Sem/Plc Pl Dial/Por Nom @<SPRED #4->2
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Pyhitä>"
+	"Pyhitä" ? @X #1->0
+: 
+"<meitä>"
+	"met" Pron Pers Pl1 Par @X #2->0
+: 
+"<totuuðessa>"
+	"totuuðessa" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<Sinun>"
+	"sie" Pron Pers Sg2 Gen @>N #1->2
+: 
+"<sanat>"
+	"Sana" N Prop Sem/Plc Pl Dial/Por Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #3->0
+: 
+"<totuus>"
+	"totuus" ? @X #4->0
+:  
+"<¶>"
+	"¶" CLB #5->3
+:\n
+
+]]></dependency></body></document>

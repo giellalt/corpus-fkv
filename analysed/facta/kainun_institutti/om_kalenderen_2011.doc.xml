@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id">
+  <header>
+    <title>Kalenterista Pohjaisen ihmissii – Olbmot davvin – Mennesker i nord</title>
+    <genre code="facta"/>
+    <author>
+      <unknown/>
+    </author>
+    <translator>
+      <person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FIN"/>
+    </translator>
+    <year>2011</year>
+    <wordcount>185</wordcount>
+    <conversion_status type="standard"/>
+    <availability>
+      <free/>
+    </availability>
+    <submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/>
+    <multilingual>
+      <language xml:lang="fkv"/>
+      <language xml:lang="sme"/>
+      <language xml:lang="nob"/>
+    </multilingual>
+    <parallel_text xml:lang="nob" location="om_kalenderen_2011_nob.doc"/>
+    <parallel_text xml:lang="sme" location="om_kalenderen_2011_sme.doc"/>
+    <metadata>
+      <uncomplete/>
+    </metadata>
+    <version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version>
+  </header>
+  <body>
+    <dependency><![CDATA["<Kalenteri>"
+	"kalenteri" N Sg Nom @SUBJ> #1->0
+: 
+"<'>"
+	"'" PUNCT #2->3
+"<Pohjaisen>"
+	"pohjainen" A Sg Gen @>N #3->4
+: 
+"<ihmissii>"
+	"ihminen" N Pl Dial/Por Par @X #4->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #5->6
+: 
+"<Olbmot>"
+	"Olbmot" ? @X #6->0
+: 
+"<davvin>"
+	"davvin" ? @X #7->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #8->9
+: 
+"<Mennesker>"
+	"Mennesker" ? @X #9->0
+: 
+"<i>"
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Attr @>N #10->11
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @>N #10->11
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<nord>"
+	"Nord" N Prop Sem/Sur Sg Nom @SUBJ> #11->13
+"<'>"
+	"'" PUNCT #12->13
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #13->0
+: 
+"<Merisaamen>"
+	"saame" N Sg Dial/Por Gen @>N #14->15
+		"meri" N Sg Nom Cmp #14->15
+: 
+"<tietosentterin>"
+	"sentteri" N Sg Gen @>N #15->17
+		"tieto" N Sg Nom Cmp #15->17
+: 
+"<ja>"
+	"ja" CC @CNP #16->15
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @>N #17->18
+: 
+"<institutin>"
+	"Institut" N Prop Sem/Org Sg Dial/Por Gen @X #18->0
+: 
+"<yhtheistyöprošekti>"
+	"yhtheistyöprošekti" ? @X #19->0
+"<.>"
+	"." CLB #20->1
+: 
+"<Kalenteri>"
+	"kalenteri" N Sg Nom @SUBJ> #1->2
+: 
+"<muistelee>"
+	"muistela" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<pohjaisen>"
+	"pohjainen" A Sg Gen @>N #3->4
+: 
+"<ihmisistä>"
+	"ihminen" N Pl Ela @<ADVL #4->2
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<heijän>"
+	"het" Pron Pers Pl3 Gen Err/Orth @>N #6->7
+: 
+"<elämästä>"
+	"elläät" V Act Inf3 Ela @<ADVL #7->4
+	"elämä" N Sg Ela @<ADVL #7->4
+"<.>"
+	"." CLB #8->2
+: 
+"<Kalenterin>"
+	"kalenteri" N Sg Gen @>N #1->2
+: 
+"<kuvat>"
+	"Kuva" N Prop Sem/Plc Pl Dial/Por Nom @SUBJ> #2->5
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<tekstit>"
+	"teksti" N Pl Dial/Por Nom @SUBJ> #4->2
+: 
+"<nostethaan>"
+	"nostaat" <mv> V Act Ind Prs Pl3 @FMV #5->0
+: 
+"<esile>"
+	"esile" Adv @ADVL #6->8
+: 
+"<ihmisten>"
+	"ihminen" N Pl Gen @>N #7->9
+: 
+"<jokapäiväsen>"
+	"jokapäiväsen" ? @X #8->0
+: 
+"<elämän>"
+	"elämä" N Sg Gen @<OBJ #9->5
+"<,>"
+	"," CLB #10->9
+: 
+"<työn>"
+	"työ" N Sg Gen @>N #11->13
+: 
+"<ja>"
+	"ja" CC @CNP #12->11
+: 
+"<elämänkeinon>"
+	"elämänkeino" N Sg Dial/Por Gen @<OBJ #13->9
+"<.>"
+	"." CLB #14->5
+: 
+"<Monikielisyys>"
+	"monikielisyys" N Dial/Por Sg Nom @SUBJ> #1->4
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<monikulttuurisuus>"
+	"monikulttuurisuus" N Dial/Por Sg Nom @SUBJ> #3->1
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<tradiittiitä>"
+	"tradiittiitä" ? @X #5->0
+: 
+"<sekä>"
+	"sekä" CC @X #6->0
+: 
+"<rannikolla>"
+	"Rannikko" N Prop Sem/Sur Sg Dial/Por Ade Err/Orth @<ADVL #7->4
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<sisämaassa>"
+	"sisämaa" N Sg Ine @<ADVL #9->7
+"<.>"
+	"." CLB #10->4
+: 
+"<Niinpä>"
+	"niin" Adv Foc/pa @ADVL #1->5
+: 
+"<tässäki>"
+	"tämä" Pron Dem Sg Ine Clt @>N #2->3
+: 
+"<kalenterissa>"
+	"kalenteri" N Sg Ine @ADVL> #3->4
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #4->0
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<saamen>"
+	"saame" N Sg Dial/Por Gen @X #5->0
+"<->"
+	"-" PUNCT MIDDLE #6->5
+"<,>"
+	"," CLB #7->1
+: 
+"<kväänin>"
+	"kvääni" N Sg Dial/Por Gen @X #8->0
+"<->"
+	"-" PUNCT MIDDLE #9->10
+: 
+"<ja>"
+	"ja" CC @CNP #10->8
+: 
+"<norjankieliset>"
+	"kielinen" N Pl Nom @>N #11->12
+		"Norja" N Prop Sem/Plc Sg Dial/Jok Gen Cmp #11->12
+	"kielinen" N Pl Nom @>N #11->12
+		"Norja" N Prop Sem/Plc Sg Dial/Por Gen Cmp #11->12
+	"kielinen" N Pl Nom @>N #11->12
+		"Norja" N Prop Sem/Plc Sg Dial/Var Gen Cmp #11->12
+: 
+"<tekstit>"
+	"teksti" N Pl Dial/Por Nom @X #12->0
+"<.>"
+	"." CLB #13->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency>
+  </body>
+</document>

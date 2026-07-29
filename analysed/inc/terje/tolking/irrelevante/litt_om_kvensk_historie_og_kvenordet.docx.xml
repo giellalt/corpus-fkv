@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title/><genre code="inc"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>1006</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<gain>"
+	"gain" ? @X #1->0
+: 
+"<>>"
+	">" PUNCT RIGHT #2->3
+: 
+"<kainu>"
+	"Kainu" N Prop Sem/Sur Sg Nom @HNOUN #3->0
+: 
+"<>>"
+	">" PUNCT RIGHT #4->5
+: 
+"<kven>"
+	"kven" ? @X #5->0
+: 
+"<¶>"
+	"¶" CLB #6->3
+:\n
+
+]]></dependency></body></document>

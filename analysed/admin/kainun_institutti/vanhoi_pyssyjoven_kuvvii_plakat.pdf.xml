@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Pressitieđotus Kuvatapattuma: Vanhoi Pyssyjoven kuvvii</title><genre code="admin"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavaniemi" sex="f" born="" nationality="FIN"/></translator><year>2012</year><wordcount>124</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="sme"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Vanhoi>"
+	"vanhaa" A Pl Dial/Por Par @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Pyssyjoven>"
+	"Pyssyjoki" N Prop Sem/Plc Sg Dial/Por Gen @N> #1->1
+: 
+"<kuvvii>"
+	"kuva" N Dial/Por Pl Dial/Por Par @X #2->0
+:  
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Ensimäinen>"
+	"ensimäinen" A Ord Sg Nom @SPRED> #1->3
+	"ensimäinen" A Sg Nom @SPRED> #1->3
+: 
+"<krampuodi>"
+	"krampuodi" ? @X #2->0
+: 
+"<Pyssyjovessa>"
+	"Pyssyjoki" N Prop Sem/Plc Sg Dial/Por Ine @HNOUN #3->0
+"<.>"
+	"." CLB #4->3
+: 
+"<·>"
+	"·" PUNCT #1->2
+	"·" PUNCT #1->2
+: 
+"<Vuosttas>"
+	"Vuosttas" ? @X #2->0
+: 
+"<rámbuvri>"
+	"rámbuvri" ? @X #3->0
+: 
+"<Bissojogas>"
+	"Bissojogas" ? @X #4->0
+: 
+"<·>"
+	"·" PUNCT #5->6
+	"·" PUNCT #5->6
+: 
+"<Det>"
+	"Det" ? @X #6->0
+: 
+"<første>"
+	"første" ? @X #7->0
+: 
+"<samvirkelaget>"
+	"samvirkelaget" ? @X #8->0
+: 
+"<i>"
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Attr @>N #9->10
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @>N #9->10
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<Børselv>"
+	"Børselv" N Prop Sem/Plc Sg Nom @HNOUN #10->0
+"<.>"
+	"." CLB #11->10
+: 
+"<RDM>"
+	"RDM" N Prop Sem/Org ACR N Prop ACR Sg Nom @>N #1->2
+	"RDM" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @>N #1->2
+: 
+"<kuvatapattuma>"
+	"tapattuma" N Sg Nom @HNOUN #2->0
+		"kuva" N Dial/Jok Sg Nom Cmp #2->0
+	"tapattuma" N Sg Nom @HNOUN #2->0
+		"kuva" N Dial/Por Sg Nom Cmp #2->0
+	"tapattuma" N Sg Nom @HNOUN #2->0
+		"kuva" N Dial/Var Sg Nom Cmp #2->0
+: ∙ 
+"<govvadoalut>"
+	"govvadoalut" ? @X #3->0
+: ∙ 
+"<bildearrangement>"
+	"bildearrangement" ? @X #4->0
+: 
+"<-->"
+	"--" PUNCT #5->5
+"<-->"
+	"--" PUNCT #6->6
+:ˇ  
+"<¶>"
+	"¶" CLB #7->2
+:\n
+"<Enämen>"
+	"enämen" Adv @ADVL #1->2
+: 
+"<tiettoo>"
+	"tieto" N Sg Dial/Por Par @X #2->0
+: 
+"<programista>"
+	"programi" N Sg Ela @ADVL> #3->20
+: 
+"<·>"
+	"·" PUNCT #4->5
+	"·" PUNCT #4->5
+: 
+"<Eambbo>"
+	"Eambbo" ? @X #5->0
+: 
+"<diedut>"
+	"Diedut" N Prop Sem/Obj Sg Nom @X #6->0
+: 
+"<prográmma>"
+	"prográmma" ? @X #7->0
+: 
+"<birra>"
+	"birra" ? @X #8->0
+: 
+"<·>"
+	"·" PUNCT #9->10
+	"·" PUNCT #9->10
+: 
+"<For>"
+	"For" ? @X #10->0
+: 
+"<mer>"
+	"mer" ? @X #11->0
+: 
+"<informasjon>"
+	"informasjon" ? @X #12->0
+: 
+"<om>"
+	"om" ? @X #13->0
+: 
+"<programmet>"
+	"programmet" ? @X #14->0
+"<:>"
+	":" CLB #15->1
+: 
+"<www.rdm.no>"
+	"www.rdm.no" URL #16->16
+: 
+"<&>"
+	"&" PUNCT #17->17
+: 
+"<www.kvenskinstitutt.no>"
+	"www.kvenskinstitutt.no" URL #18->18
+: 
+"<kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #19->19
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #20->19
+: 
+"<->"
+	"-" PUNCT MIDDLE #21->22
+: 
+"<kvensk>"
+	"kvensk" ? @X #22->0
+: 
+"<instituttklodii>"
+	"instituttklodii" ? @X #23->0
+"<.>"
+	"." CLB #24->1
+"<kl.>"
+	"kl" N Sem/Cat ABBR Gram/NumNoAbbr @X #1->0
+"<lauvantailávvardatlørdagpyssyjovessabissojogasi>"
+	"lauvantailávvardatlørdagpyssyjovessabissojogasi" ? @X #2->0
+: 
+"<børselv>"
+	"Børselv" N Prop Sem/Plc Sg Nom @HNOUN #3->1
+: 
+"<.>"
+	"." CLB #4->4
+	 Use/Circ"28.1." Num Arab Sem/Date Sg Acc
+	 Use/Circ"28.1." Num Arab Sem/Date Sg Gen
+	 Use/Circ"28.1." Num Arab Sem/Date Sg Nom
+		 Use/Circ"28.1" Num Arab Sem/ID "<28.1>"
+		 Use/Circ"28.1." Num Arab Sem/Date Sg Acc CLBfinal "<28.1>"
+		 Use/Circ"28.1." Num Arab Sem/Date Sg Gen CLBfinal "<28.1>"
+		 Use/Circ"28.1." Num Arab Sem/Date Sg Nom CLBfinal "<28.1>"
+: 
+"<13>"
+	 Use/Circ Use/Circ"13" Num Arab Sg Nom
+	 Use/Circ"13" A Arab Ord Attr CLBfinal
+	 Use/Circ"13" Num Arab Sem/ID
+	 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom
+:  
+"<¶>"
+	"¶" CLB #2->2
+:\n
+
+]]></dependency></body></document>

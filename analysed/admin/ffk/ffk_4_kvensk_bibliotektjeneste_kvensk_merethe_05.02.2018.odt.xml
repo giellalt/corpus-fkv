@@ -1,0 +1,4783 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Suomalaiset Finmarkussa</title><genre code="admin"/><author><unknown/></author><translator><person firstname="Merethe" lastname="Eidstø" sex="f" born="1984" nationality="NO"/></translator><translated_from xml:lang="nob"/><year>2018</year><wordcount>2970</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>../Downloads/FFK/FFK 4 Kvensk bibliotektjeneste, kvensk Merethe 05.02.2018.docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+: 
+"<av>"
+	"av" ? @X #4->0
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #6->5
+: 
+"<–>"
+	"–" PUNCT MIDDLE #7->8
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #8->6
+: 
+"<05.02.2018>"
+	 Use/Circ"05.02.2018" Num Arab Sem/Date Sg Nom
+	 Use/Circ"05.02.2018" Num Arab Sem/ID
+: 
+"</>"
+	"/" PUNCT MIDDLE #10->11
+: 
+"<Merethe>"
+	"Merethe" N Prop Sem/Fem Sg Nom @HNOUN #11->8
+: 
+"<Eidstø>"
+	"Eidstø" ? @X #12->0
+: 
+"<¶>"
+	"¶" CLB #13->13
+:\n
+"<Kvensk>"
+	"Kvensk" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Finmarkun>"
+	"Finmarkku" N Prop Sem/Plc Sg Gen @>N #1->2
+: 
+"<fylkinbiblioteekki>"
+	"biblioteekki" N Sg Nom @SUBJ> #2->3
+		"fylkki" N Sg Dial/Jok Gen Cmp #2->3
+	"biblioteekki" N Sg Nom @SUBJ> #2->3
+		"fylkki" N Sg Dial/Por Gen Cmp #2->3
+	"biblioteekki" N Sg Nom @SUBJ> #2->3
+		"fylkki" N Sg Dial/Var Gen Cmp #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<laittanu>"
+	"laittaat" V TV Act PrfPrc Sg Nom @>N #4->5
+: 
+"<kuvanäyttelyn>"
+	"kuvanäyttely" N Sg Gen @N> #5->5
+:  
+"<Pohjaista>"
+	"Pohja" N Prop Sem/Plc Pl Dial/Por Ela @<ADVL #6->3
+	"pohjainen" A Sg Par @>N #6->3
+: 
+"<Arkiivipäivää>"
+	"päivä" N Sg Dial/Por Par @<SUBJ #7->3
+		"arkiivi" N Sg Nom Cmp #7->3
+: 
+"<vuona>"
+	"vuosi" N Dial/Por Sg Ess @<ADVL #8->3
+: 
+"<2017>"
+	 Use/Circ Use/Circ"2017" Num Arab Sg Nom
+	 Use/Circ"2017" Num Arab Sem/ID
+	 Use/Circ"2017" Num Arab Sem/Year Sg Nom
+: 
+"<varten>"
+	"varten" Po @ADVL #10->0
+"<.>"
+	"." CLB #11->3
+: 
+"<Näyttely>"
+	"näyttely" N Sg Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<Suomen>"
+	"Suomi" N Prop Sem/Plc Sg Dial/Por Gen @X #3->0
+: 
+"<100-vuotisjubileeumin>"
+	"100-vuotisjubileeumin" ? @X #4->0
+: 
+"<kunniaksi>"
+	"kunnia" N Sg Tra @<ADVL #5->2
+"<.>"
+	"." CLB #6->2
+: 
+"<Uniikilla>"
+	"uniikki" A Sg Ade @>N #1->5
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<geograafisen>"
+	"geograafinen" A Sg Gen @X #3->0
+: 
+"<erikoisela>"
+	"erikoinen" A Sg Ade @>N #4->1
+: 
+"<tavala>"
+	"tapa" N Sg Dial/Por Ade @ADVL> #5->7
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #6->7
+: 
+"<näyttää>"
+	"näyttäät" <mv> V TV Act Ind Prs Sg3 @FMV #7->0
+"<,>"
+	"," CLB #8->9
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #9->11
+: 
+"<suomalaiset>"
+	"Suomalainen" N Prop Sem/Sur Pl Nom @SUBJ> #10->11
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FS-<ADVL #11->7
+: 
+"<olheet>"
+	"olla" V Act PrfPrc Pl Nom @>N #12->18
+: 
+"<ja>"
+	"ja" CC @CNP #13->12
+: 
+"<oonpi>"
+	"oonpi" ? @X #14->0
+: 
+"<vieläki>"
+	"Vie" N Prop Sem/Sur Sg Dial/Por Ade Clt @<ADVL #15->11
+: 
+"<tärkkee>"
+	"tärkkee" A Dial/Por Sg Nom @>N #16->17
+: 
+"<joukko>"
+	"joukko" N Sg Nom @>N #17->18
+: 
+"<Finmarkussa>"
+	"Finmarkku" N Prop Sem/Plc Sg Ine @<ADVL #18->11
+"<.>"
+	"." CLB #19->7
+: 
+"<Persoonaportrettiin>"
+	"Persoonaportrettiin" ? @X #1->0
+: 
+"<kautta>"
+	"kattuut" V Act Ind Prs Pl2 @X #2->0
+	"katu" N Sg Dial/Por Abe @X #2->0
+	"kausi" N Dial/Por Sg Par @X #2->0
+: 
+"<halluuma>"
+	"haluta" <mv> V Act Ind Prs Pl1 @FMV #3->0
+: 
+"<näyttäät>"
+	"näyttäät" V TV Inf @X #4->0
+: 
+"<kuinka>"
+	"kuinka" Adv @ADVL #5->4
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #6->7
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #7->3
+: 
+"<olla>"
+	"olla" <aux> V Inf @FAUX #8->7
+: 
+"<suomalainen>"
+	"Suomalainen" N Prop Sem/Sur Sg Nom @<SPRED #9->7
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<farriit>"
+	"farriit" ? @X #11->0
+: 
+"<Finmarkkhuun>"
+	"Finmarkku" N Prop Sem/Plc Sg Ill @<ADVL #12->7
+"<,>"
+	"," CLB #13->14
+: 
+"<ja>"
+	"ja" CC @CNP #14->12
+: 
+"<elläät>"
+	"elläät" V Inf @X #15->0
+: 
+"<krannimaassa>"
+	"krannimaa" N Sg Ine @<ADVL #16->7
+: 
+"<kielelisenä>"
+	"kielelinen" A Sg Ess @>N #17->20
+: 
+"<ja>"
+	"ja" CC @CNP #18->17
+: 
+"<kulttuurisena>"
+	"kulttuurinen" A Sg Ess @>N #19->17
+: 
+"<minoriteettinna>"
+	"minoriteetti" N Sg Ess @<ADVL #20->7
+"<.>"
+	"." CLB #21->3
+: 
+"<Näyttely>"
+	"näyttely" N Sg Nom @SUBJ> #1->2
+: 
+"<koskee>"
+	"koskeet" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<kans>"
+	"kans" Po @ADVL #3->0
+: 
+"<maholissii>"
+	"mahđolinen" A Pl Dial/Por Par @>N #4->6
+: 
+"<etnissii>"
+	"etninen" A Pl Dial/Por Par @>N #5->6
+: 
+"<identiteetin>"
+	"identiteetti" N Sg Gen @N> #6->6
+: 
+"<muutoksii>"
+	"muutos" N Pl Dial/Por Par @<OBJ #7->2
+"<.>"
+	"." CLB #8->2
+: 
+"<Mistanttaako>"
+	"mistanttaat" <mv> V TV Act Ind Prs Sg3 Clt Qst @FMV #1->0
+: 
+"<ihminen>"
+	"ihminen" N Sg Nom @X #2->0
+: 
+"<alkupöräisen>"
+	"alkupöräinen" A Sg Gen @>N #3->4
+: 
+"<identiteetin>"
+	"identiteetti" N Sg Gen @<OBJ #4->1
+"<,>"
+	"," CLB #5->6
+: 
+"<tahi>"
+	"tahi" CC @X #6->0
+: 
+"<tulleeko>"
+	"Tule" N Prop Sem/Plc Sg Dial/Por Par Clt Qst @<OBJ #7->4
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @X #8->0
+: 
+"<lujemaksi>"
+	"luja" A Sg Compar Tra @<ADVL #9->1
+: 
+"<vieraassa>"
+	"vieraassa" ? @X #10->0
+: 
+"<maassa>"
+	"maa" N Sg Ine @<ADVL #11->1
+"<?>"
+	"?" CLB #12->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuvanäyttelyssä>"
+	"kuvanäyttely" N Sg Ine @ADVL> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #2->0
+: 
+"<14>"
+	 Use/Circ Use/Circ"14" Num Arab Sg Nom
+	 Use/Circ"14" A Arab Ord Attr CLBfinal
+	 Use/Circ"14" Num Arab Sem/ID
+	 Use/Circ"14" Num Arab Sem/Time-clock Sg Nom
+: 
+"<portrettii>"
+	"portrettii" ? @X #4->0
+: 
+"<suomalaisista>"
+	"Suomalainen" N Prop Sem/Sur Pl Ela @<ADVL #5->2
+: 
+"<kekkä>"
+	"kuka" Pron Interr Pl Nom Dial/Por @SUBJ> #6->7
+: 
+"<asuthaan>"
+	"assuut" <mv> V Act Ind Prs Pl3 @FMV #7->2
+: 
+"<Finmarkussa>"
+	"Finmarkku" N Prop Sem/Plc Sg Ine @<ADVL #8->7
+"<.>"
+	"." CLB #9->2
+: 
+"<Fylkinbiblioteekin>"
+	"biblioteekki" N Sg Gen @N> #1->1
+		"fylkki" N Sg Dial/Jok Gen Cmp #1->1
+	"biblioteekki" N Sg Gen @N> #1->1
+		"fylkki" N Sg Dial/Por Gen Cmp #1->1
+	"biblioteekki" N Sg Gen @N> #1->1
+		"fylkki" N Sg Dial/Var Gen Cmp #1->1
+: 
+"<fotograaffi>"
+	"fotograaffi" N Sg Nom @>N #2->3
+: 
+"<Sonja>"
+	"Sonja" N Prop Sem/Fem Sg Nom @>N #3->4
+: 
+"<Siltala>"
+	"Siltala" N Prop Sem/Sur Sg Nom @SUBJ> #4->5
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #5->0
+: 
+"<kuvanu>"
+	"kuvata" <mv> V Act PrfPrc Sg Nom @FMV #6->5
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<portretteeranu>"
+	"portretteeranu" ? @X #8->0
+"<.>"
+	"." CLB #9->5
+: 
+"<Näyttelhyyn>"
+	"näyttely" N Sg Ill @ADVL> #1->3
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<pitäny>"
+	"pittäät" V Act PrfPrc Sg Nom @SUBJ> #4->3
+: 
+"<diptykit>"
+	"diptykit" ? @X #5->0
+: 
+"<jonka>"
+	"joka" Pron Rel Sg Gen @<OBJ #6->3
+: 
+"<kans>"
+	"kans" Po @ADVL #7->5
+: 
+"<käskethään>"
+	"käskeet" <mv> V Act Ind Prs Pl3 @FS-N< #8->3
+	"käskeet" <mv> V Pass Ind Prs @FS-N< #8->3
+: 
+"<tupultitauluiksi>"
+	"tupultitauluiksi" ? @X #9->0
+"<.>"
+	"." CLB #10->3
+: 
+"<Joka>"
+	"joka" Pron Qu Nom @SUBJ> #1->3
+: 
+"<portretthiin>"
+	"portretthiin" ? @X #2->0
+: 
+"<kuuluu>"
+	"kuuluut" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<kaksi>"
+	"kaksi" Num Sg Nom @SUBJ> #4->3
+		"kaksi" Num Use/NG Sg Nom Use/Circ #4->3
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<kuvvaa>"
+	"Kuva" N Prop Sem/Plc Sg Dial/Por Par @<OBJ #5->3
+"<:>"
+	":" CLB #6->3
+: 
+"<vanhaa>"
+	"vanhaa" A Sg Nom @>N #7->8
+: 
+"<kuva>"
+	"Kuva" N Prop Sem/Plc Sg Nom @SUBJ> #8->3
+: 
+"<jonka>"
+	"joka" Pron Rel Sg Gen @X #9->0
+: 
+"<otethiin>"
+	"ottaat" <mv> V TV Pass Ind Prt @FS-N< #10->8
+: 
+"<silloin>"
+	"silloin" Dial/Por Adv @ADVL #11->9
+: 
+"<ko>"
+	"ko" CS @CVP #12->14
+: 
+"<ihminen>"
+	"ihminen" N Sg Nom @SUBJ> #13->14
+: 
+"<tuli>"
+	"tulla" <mv> V Act Ind Prt Sg3 @FS-<ADVL #14->10
+: 
+"<Finmarkkhuun>"
+	"Finmarkku" N Prop Sem/Plc Sg Ill @<ADVL #15->14
+: 
+"<ensi>"
+	"ensi" A Attr @X #16->0
+: 
+"<kerran>"
+	"kerta" N Sg Dial/Por Gen @<OBJ #17->14
+"<,>"
+	"," CLB #18->12
+: 
+"<ja>"
+	"ja" CC @CNP #19->17
+: 
+"<uusi>"
+	"uusi" A Dial/Por Sg Nom @>N #20->21
+: 
+"<kuva>"
+	"Kuva" N Prop Sem/Plc Sg Nom @SUBJ> #21->14
+: 
+"<jonka>"
+	"joka" Pron Rel Sg Gen @<OBJ #22->14
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-N< #23->21
+: 
+"<otettu>"
+	"ottaat" V TV Pass PrfPrc Sg Nom @>N #24->25
+: 
+"<vuona>"
+	"vuosi" N Dial/Por Sg Ess @<ADVL #25->23
+: 
+"<2017>"
+	 Use/Circ Use/Circ"2017" Num Arab Sg Nom
+	 Use/Circ"2017" Num Arab Sem/ID
+	 Use/Circ"2017" Num Arab Sem/Year Sg Nom
+"<.>"
+	"." CLB #27->3
+: 
+"<Vanhiimat>"
+	"vanhaa" A Dial/Por Pl Superl Nom @>N #1->2
+: 
+"<osanottaajat>"
+	"osanottaaja" N Pl Nom @SUBJ> #2->3
+: 
+"<tulthiin>"
+	"tulla" <mv> V Act Ind Prt Pl3 @FMV #3->0
+: 
+"<Norjhaan>"
+	"Norja" N Prop Sem/Plc Sg Dial/Por Ill @<ADVL #4->3
+	"Norja" N Prop Sem/Plc Sg Ill @<ADVL #4->3
+: 
+"<1960-luvula>"
+	"luku" N Sg Dial/Por Ade @<ADVL #5->3
+		 Use/Circ Use/Circ"1960" Num Arab Use/NG Cmp/Hyph
+		 Use/Circ Use/Circ"1960" Num Arab Use/NG Cmp/Hyph
+		 Use/Circ Use/Circ"1960" Num Arab Use/NG Cmp/Hyph
+		 Use/Circ"1960" Num Arab Use/Circ Cmp/Hyph
+		 Use/Circ"1960" Num Arab Use/Circ Cmp/Hyph
+		 Use/Circ"1960" Num Arab Use/Circ Cmp/Hyph
+"<,>"
+	"," CLB #6->7
+: 
+"<ja>"
+	"ja" CC @CNP #7->5
+: 
+"<nuoriimat>"
+	"nuori" A Pl Superl Nom @<OBJ #8->3
+	"nuoriin" A Pl Nom @<OBJ #8->3
+: 
+"<nuoin>"
+	"nuoin" Adv @ADVL #9->0
+: 
+"<vuona>"
+	"vuosi" N Dial/Por Sg Ess @<ADVL #10->3
+: 
+"<2000>"
+	 Use/Circ Use/Circ"2000" Num Arab Sg Nom
+	 Use/Circ"2000" Num Arab Sem/ID
+	 Use/Circ"2000" Num Arab Sem/Year Sg Nom
+"<.>"
+	"." CLB #12->3
+: 
+"<Panemalla>"
+	"panna" V Act Inf3 Ade @ADVL> #1->8
+: 
+"<vanhaan>"
+	"vanhaa" A Sg Gen @>N #2->3
+: 
+"<kuvan>"
+	"Kuva" N Prop Sem/Plc Sg Dial/Por Gen @>N #3->5
+: 
+"<uuen>"
+	"uusi" A Dial/Por Sg Gen @>N #4->5
+: 
+"<kuvan>"
+	"Kuva" N Prop Sem/Plc Sg Dial/Por Gen @<OBJ #5->5
+: 
+"<vierheen>"
+	"vierheen" Po @ADVL #6->9
+"<,>"
+	"," CLB #7->6
+: 
+"<muistelee>"
+	"muistela" <mv> V Act Ind Prs Sg3 @FMV #8->0
+: 
+"<tämä>"
+	"tämä" Pron Dem Sg Nom @X #9->0
+: 
+"<diptyk>"
+	"diptyk" ? @X #10->0
+: 
+"<personaalisen>"
+	"personaalisen" ? @X #11->0
+: 
+"<ja>"
+	"ja" CC @CNP #12->11
+: 
+"<intiimin>"
+	"intiimin" ? @X #13->0
+: 
+"<histoorian>"
+	"histooria" N Sg Gen @>N #14->16
+: 
+"<yhen>"
+	"yksi" Num Sg Gen @N< #15->16
+	"yksi" Pron Indef Sg Sg Gen @>N #15->16
+: 
+"<ihmisen>"
+	"ihminen" N Sg Gen @>N #16->17
+: 
+"<aikamatkan>"
+	"aikamatka" N Sg Dial/Por Gen @<OBJ #17->8
+: 
+"<ympäri>"
+	"ympäri" Po @ADVL #18->13
+"<.>"
+	"." CLB #19->6
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Samhaan>"
+	"sama" Pron Indef Sg Ill @>N #1->9
+	"samhaan" Adv @ADVL #1->9
+: 
+"<aikhaan>"
+	"Ai" N Prop Sem/Sur Sg Nom Foc/kaan @SUBJ> #2->4
+: 
+"<ko>"
+	"ko" CS @CVP #3->4
+: 
+"<tehthiin>"
+	"tehđä" <mv> V Act Ind Prt Pl3 @FS-ADVL> #4->7
+	"tehđä" <mv> V Pass Ind Prt @FS-ADVL> #4->7
+: 
+"<kuvvauksii>"
+	"kuvvaus" N Pl Dial/Por Par @<OBJ #5->4
+"<,>"
+	"," CLB #6->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #7->0
+: 
+"<kovottu>"
+	"kovota" V Pass PrfPrc Sg Nom @>N #8->10
+: 
+"<personaalissii>"
+	"personaalissii" ? @X #9->0
+: 
+"<dokumenttiita>"
+	"dokumentti" N Dial/Por Pl Par @<SUBJ #10->7
+"<,>"
+	"," CLB #11->3
+: 
+"<päiväkirjoi>"
+	"kirja" N Pl Dial/Por Par @<SUBJ #12->10
+		"päivä" N Sg Nom Cmp #12->10
+"<,>"
+	"," CLB #13->3
+: 
+"<vanhoita>"
+	"vanhaa" A Pl Dial/Por Par @>N #14->15
+: 
+"<kuvvii>"
+	"kuva" N Dial/Por Pl Dial/Por Par @<SUBJ #15->10
+: 
+"<ja>"
+	"ja" CC @CNP #16->15
+: 
+"<muuta>"
+	"muu" Pron Indef Sg Par @>N #17->18
+	"muuttaat" <mv> V TV Act Imprt Sg2 @FMV #17->18
+: 
+"<materiaalii>"
+	"materiaali" N Sg Dial/Por Par @<SUBJ #18->0
+: 
+"<Finmarkun>"
+	"Finmarkku" N Prop Sem/Plc Sg Gen @>N #19->20
+: 
+"<fylkinbiblioteekin>"
+	"biblioteekki" N Sg Gen @N> #20->20
+		"fylkki" N Sg Dial/Jok Gen Cmp #20->20
+	"biblioteekki" N Sg Gen @N> #20->20
+		"fylkki" N Sg Dial/Por Gen Cmp #20->20
+	"biblioteekki" N Sg Gen @N> #20->20
+		"fylkki" N Sg Dial/Var Gen Cmp #20->20
+: 
+"<kuva>"
+	"Kuva" N Prop Sem/Plc Sg Nom @<OBJ #21->17
+"<->"
+	"-" PUNCT MIDDLE #22->23
+: 
+"<ja>"
+	"ja" CC @CNP #23->21
+: 
+"<privaattiarkiiville>"
+	"privaattiarkiivi" N Sg All @<ADVL #24->17
+"<.>"
+	"." CLB #25->7
+: 
+"<Materiaali>"
+	"materiaali" N Sg Nom @SUBJ> #1->2
+: 
+"<näyttää>"
+	"näyttäät" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<tämän>"
+	"tämä" Pron Dem Sg Gen @>N #3->5
+: 
+"<maahanmuuttaajajoukon>"
+	"maahanmuuttaajajoukon" ? @X #4->0
+: 
+"<olemassaolon>"
+	"olemassaolo" N Sg Dial/Por Gen @<OBJ #5->2
+: 
+"<mistä>"
+	"mistä" Adv @ADVL #6->4
+: 
+"<löyttyy>"
+	"Löytty" N Prop Sem/Sur Sg Dial/Por Par @X #7->0
+: 
+"<kovin>"
+	"kovin" Adv @ADVL #8->7
+: 
+"<vähän>"
+	"Vähä" N Prop Sem/Sur Sg Dial/Por Gen @N> #9->9
+: 
+"<tiettoo>"
+	"tieto" N Sg Dial/Por Par @X #10->0
+"<.>"
+	"." CLB #11->2
+: 
+"<Sonja>"
+	"Sonja" N Prop Sem/Fem Sg Nom @>N #1->2
+: 
+"<Siltalan>"
+	"Siltala" N Prop Sem/Sur Sg Dial/Por Gen @N> #2->2
+: 
+"<lisäksi>"
+	"lisä" N Sg Dial/Por Tra @ADVL> #3->11
+	"lisäksi" Adv @ADVL #3->11
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #4->0
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<kans>"
+	"kans" Po @ADVL #5->11
+: 
+"<Evy>"
+	"Evy" N Prop Sem/Fem Sg Nom @>N #6->7
+: 
+"<Andersen>"
+	"Andersen" N Prop Sem/Sur Sg Nom @<SPRED #7->4
+"<,>"
+	"," CLB #8->7
+: 
+"<Ida>"
+	"Ida" N Prop Sem/Fem Sg Nom @>N #9->10
+: 
+"<Kjeilen>"
+	"Kjeilen" N Prop Sem/Sur Sg Nom @SUBJ> #10->4
+: 
+"<Thuv>"
+	"Thuv" ? @X #11->0
+: 
+"<ja>"
+	"ja" CC @CNP #12->11
+: 
+"<Helena>"
+	"Helena" N Prop Sem/Fem Sg Nom @>N #13->14
+: 
+"<Maliniemi>"
+	"Maliniemi" N Prop Sem/Sur Sg Nom @SUBJ> #14->4
+: 
+"<olheet>"
+	"olla" V Act PrfPrc Pl Nom @>N #15->17
+: 
+"<myötä>"
+	"myötä" Adv @ADVL #16->11
+: 
+"<prosjektissa>"
+	"prosekti" N Sg Nom Err/Orth N Sg Ine @<SPRED #17->14
+"<.>"
+	"." CLB #18->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tavusta>"
+	"tavusta" N Sg Nom @SUBJ> #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<Finmarkku>"
+	"Finmarkku" N Prop Sem/Plc Sg Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<siottu>"
+	"sittoot" V Pass PrfPrc Sg Nom @>N #5->6
+: 
+"<Suomheen>"
+	"Suomi" N Prop Sem/Plc Sg Ill @<ADVL #6->4
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<suomalaisheen>"
+	"Suomalainen" N Prop Sem/Sur Sg Ill @<ADVL #8->6
+: 
+"<kulttuurhiin>"
+	"kulttuuri" N Pl Ill @<ADVL #9->4
+	"kulttuuri" N Sg Ill @<ADVL #9->4
+: 
+"<ko>"
+	"ko" CS @CVP #10->11
+: 
+"<ajattellee>"
+	"ajatella" <mv> V Act Ind Prs Sg3 @FS-<ADVL #11->4
+: 
+"<histooriaa>"
+	"histooria" N Sg Dial/Por Par @<OBJ #12->11
+"<,>"
+	"," CLB #13->10
+: 
+"<geografiita>"
+	"geografii" N Dial/Por Pl Par @<OBJ #14->12
+	"geografii" N Dial/Por Sg Par @<OBJ #14->12
+"<,>"
+	"," CLB #15->10
+: 
+"<kieltä>"
+	"kieli" N Sg Par @<OBJ #16->12
+: 
+"<ja>"
+	"ja" CC @CNP #17->16
+: 
+"<asutusta>"
+	"asutus" N Sg Par @<OBJ #18->12
+"<.>"
+	"." CLB #19->1
+: 
+"<Kvääni>"
+	"kvääni" N Sg Nom @SUBJ> #1->0
+"<->"
+	"-" PUNCT MIDDLE #2->5
+"</>"
+	"/" PUNCT MIDDLE #3->4
+"<norjansuomalainen>"
+	"suomalainen" N Sg Nom @>N #4->5
+		"Norja" N Prop Sem/Plc Sg Dial/Jok Gen Cmp #4->5
+	"suomalainen" N Sg Nom @>N #4->5
+		"Norja" N Prop Sem/Plc Sg Dial/Por Gen Cmp #4->5
+	"suomalainen" N Sg Nom @>N #4->5
+		"Norja" N Prop Sem/Plc Sg Dial/Var Gen Cmp #4->5
+: 
+"<väki>"
+	"väki" N Dial/Por Sg Nom @SUBJ> #5->0
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #6->7
+: 
+"<kulki>"
+	"kulkkeet" <mv> V Act Ind Prt Sg3 @FS-N< #7->5
+: 
+"<Pohjais-Suomesta>"
+	"Pohjais-Suomi" N Prop Sem/Plc Sg Dial/Por Ela @<ADVL #8->7
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<Pohjais-Ruottista>"
+	"Pohjais-Ruotti" N Prop Sem/Plc Sg Dial/Por Ela @<ADVL #10->8
+: 
+"<Finmarkkhuun>"
+	"Finmarkku" N Prop Sem/Plc Sg Ill @<ADVL #11->7
+: 
+"<usseeman>"
+	"ussee" Err/Orth A Dial/Por Sg Compar Gen @>N #12->13
+: 
+"<saan>"
+	"saađa" <mv> V Act Ind Prs Sg1 @FMV #13->14
+	"sata" N Sg Dial/Por Gen @>N #13->14
+	"sattaat" <mv> V TV Act Ind Prs Sg1 @FMV #13->14
+: 
+"<vuoen>"
+	"vuosi" N Dial/Por Sg Gen @<OBJ #14->7
+: 
+"<aikana>"
+	"aikana" Po @ADVL #15->20
+: 
+"<,>"
+	"," CLB #16->15
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #17->13
+: 
+"<yksi>"
+	"yksi" Pron Indef Sg Sg Nom @>N #18->21
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<vanhiimista>"
+	"vanhaa" A Dial/Por Pl Superl Ela @<SPRED #19->17
+: 
+"<yhteyksistä>"
+	"yhteyksistä" ? @X #20->0
+: 
+"<Norjan>"
+	"Norja" N Prop Sem/Plc Sg Dial/Por Gen @>N #21->23
+: 
+"<ja>"
+	"ja" CC @CNP #22->21
+: 
+"<Suomen>"
+	"Suomi" N Prop Sem/Plc Sg Dial/Por Gen @N> #23->23
+: 
+"<välilä>"
+	"Välilä" N Prop Sem/Sur Sg Nom @<SPRED #24->0
+"<.>"
+	"." CLB #25->1
+: 
+"<Hiljemin>"
+	"hiljemin" Adv @ADVL #1->4
+: 
+"<tuli>"
+	"tuli" N Sg Nom @SUBJ> #2->0
+: 
+"<monta>"
+	"moni" Pron Qu Sg Par @>N #3->4
+: 
+"<sattaa>"
+	"Satta" N Prop Sem/Plc Sg Dial/Por Par @X #4->0
+	"sata" N Sg Dial/Por Par @X #4->0
+	"sata" Num Sg Par @X #4->0
+	"sattaat" V TV Act Ind Prs Sg3 @X #4->0
+: 
+"<suomalaista>"
+	"Suomalainen" N Prop Sem/Sur Sg Par @<OBJ #5->7
+	"suomalainen" A Sg Par @>N #5->7
+	"suomalainen" N Sg Par @<OBJ #5->7
+: 
+"<uussiirtolaista>"
+	"uussiirtolaista" ? @X #6->0
+: 
+"<Finmarkun>"
+	"Finmarkku" N Prop Sem/Plc Sg Gen @N> #7->7
+: 
+"<rannikolle>"
+	"Rannikko" N Prop Sem/Sur Sg Dial/Por All Err/Orth @<ADVL #8->2
+: 
+"<työtelemhään>"
+	"työtelä" V Act Inf3 Ill @<ADVL #9->2
+: 
+"<kassuuvassa>"
+	"kassuuva" A Sg Ine @>N #10->11
+: 
+"<kalaindustriissa>"
+	"industrii" N Dial/Por Pl Ine @<ADVL #11->2
+		"kala" N Sg Nom Cmp #11->2
+	"industrii" N Dial/Por Sg Ine @<ADVL #11->2
+		"kala" N Sg Nom Cmp #11->2
+: 
+"<missä>"
+	"mikä" Pron Rel Pl Ine @<ADVL #12->2
+: 
+"<tarvithiin>"
+	"tarvita" <mv> V Act Ind Prt Pl3 @FS-N< #13->11
+	"tarvita" <mv> V Pass Ind Prt @FS-N< #13->11
+: 
+"<työvoimaa>"
+	"työvoima" N Dial/Por Sg Dial/Por Par @<OBJ #14->13
+"<.>"
+	"." CLB #15->1
+: 
+"<Vuossiin>"
+	"vuosi" N Dial/Por Pl Gen @>N #1->3
+: 
+"<->"
+	"-" PUNCT MIDDLE #2->3
+	 Use/Circ Use/Circ"1960-80" Num Arab Sg Nom
+	 Use/Circ"1960-80" Num Arab Sem/ID
+	 Use/Circ"1960-80" Num Sem/Year Pl Gen
+	 Use/Circ"1960-80" Num Sem/Year Pl Nom
+	 Use/Circ"1960-" Use/TTS"80" Num Sem/Year Pl Gen
+	 Use/Circ"1960-" Use/TTS"80" Num Sem/Year Pl Nom
+	 Use/Circ Use/Circ"80" Num Arab Sg Nom "<80>"
+			 Use/Circ Use/Circ"1960" Num Arab Sg Nom "<1960>"
+	 Use/Circ Use/Circ"80" Num Arab Sg Nom "<80>"
+			 Use/Circ"1960" Num Arab Sem/ID "<1960>"
+	 Use/Circ Use/Circ"80" Num Arab Sg Nom "<80>"
+			 Use/Circ"1960" Num Arab Sem/Year Sg Nom "<1960>"
+	 Use/Circ"80" A Arab Ord Attr CLBfinal "<80>"
+			 Use/Circ Use/Circ"1960" Num Arab Sg Nom "<1960>"
+	 Use/Circ"80" A Arab Ord Attr CLBfinal "<80>"
+			 Use/Circ"1960" Num Arab Sem/ID "<1960>"
+	 Use/Circ"80" A Arab Ord Attr CLBfinal "<80>"
+			 Use/Circ"1960" Num Arab Sem/Year Sg Nom "<1960>"
+	 Use/Circ"80" Num Arab Sem/ID "<80>"
+			 Use/Circ Use/Circ"1960" Num Arab Sg Nom "<1960>"
+	 Use/Circ"80" Num Arab Sem/ID "<80>"
+			 Use/Circ"1960" Num Arab Sem/ID "<1960>"
+	 Use/Circ"80" Num Arab Sem/ID "<80>"
+			 Use/Circ"1960" Num Arab Sem/Year Sg Nom "<1960>"
+: 
+"<välilä>"
+	"Välilä" N Prop Sem/Sur Sg Nom @SUBJ> #3->4
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #4->0
+: 
+"<suomalainen>"
+	"Suomalainen" N Prop Sem/Sur Sg Nom @>N #5->6
+: 
+"<työvoima>"
+	"työvoima" N Dial/Por Sg Nom @<SPRED #6->4
+: 
+"<–>"
+	"–" PUNCT MIDDLE #7->8
+: 
+"<eriliikaisesti>"
+	"eriliikaisesti" Adv @ADVL #8->14
+: 
+"<suomalaiset>"
+	"Suomalainen" N Prop Sem/Sur Pl Nom @>N #9->10
+: 
+"<vaimot>"
+	"vaimo" N Pl Dial/Por Nom @<SPRED #10->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #11->12
+: 
+"<rohki>"
+	"rohki" Adv @ADVL #12->14
+: 
+"<tärkkee>"
+	"tärkkee" A Dial/Por Sg Nom @<SPRED #13->0
+: 
+"<Finmarkun>"
+	"Finmarkku" N Prop Sem/Plc Sg Gen @X #14->0
+: 
+"<filetindustriile>"
+	"filetindustriile" ? @X #15->0
+"<.>"
+	"." CLB #16->4
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Fisku>"
+	"fisku" N Sg Nom @SUBJ> #1->0
+"<->"
+	"-" PUNCT MIDDLE #2->3
+: 
+"<ja>"
+	"ja" CC @CNP #3->1
+: 
+"<meriruokahomman>"
+	"homma" N Dial/Por Sg Gen @N> #4->4
+		"ruoka" N Dial/Jok Sg Nom Cmp #4->4
+			"meri" N Sg Nom Cmp #4->4
+	"homma" N Dial/Por Sg Gen @N> #4->4
+		"ruoka" N Dial/Por Sg Nom Cmp #4->4
+			"meri" N Sg Nom Cmp #4->4
+	"homma" N Dial/Por Sg Gen @N> #4->4
+		"ruoka" N Dial/Var Sg Nom Cmp #4->4
+			"meri" N Sg Nom Cmp #4->4
+: 
+"<lisäksi>"
+	"lisä" N Sg Dial/Por Tra @ADVL> #5->12
+	"lisäksi" Adv @ADVL #5->12
+"<,>"
+	"," CLB #6->5
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #7->0
+: 
+"<tullu>"
+	"tulla" V Act PrfPrc Sg Nom @>N #8->10
+: 
+"<paljon>"
+	"paljon" Adv @ADVL #9->12
+: 
+"<suomalaissii>"
+	"Suomalainen" N Prop Sem/Sur Pl Dial/Por Par @<SUBJ #10->7
+: 
+"<työtelemhään>"
+	"työtelä" V Act Inf3 Ill @<ADVL #11->7
+: 
+"<mekaanisessa>"
+	"mekaanisessa" ? @X #12->0
+: 
+"<industriissa>"
+	"industrii" N Dial/Por Pl Ine @<ADVL #13->7
+	"industrii" N Dial/Por Sg Ine @<ADVL #13->7
+"<,>"
+	"," CLB #14->13
+: 
+"<rakentamis>"
+	"rakentamis" ? @X #15->0
+"<->"
+	"-" PUNCT MIDDLE #16->17
+: 
+"<ja>"
+	"ja" CC @CNP #17->15
+: 
+"<rustinkihommassa>"
+	"homma" N Dial/Por Sg Ine @<ADVL #18->7
+		"rustinki" N Sg Nom Cmp #18->7
+: 
+"<ja>"
+	"ja" CC @CNP #19->18
+: 
+"<terveysalala>"
+	"terveysalala" ? @X #20->0
+"<.>"
+	"." CLB #21->1
+: 
+"<Vuona>"
+	"vuosi" N Dial/Por Sg Ess @ADVL> #1->3
+: 
+"<1980>"
+	 Use/Circ Use/Circ"1980" Num Arab Sg Nom
+	 Use/Circ"1980" Num Arab Sem/ID
+	 Use/Circ"1980" Num Arab Sem/Year Sg Nom
+: 
+"<olthiin>"
+	"olla" <mv> V Act Ind Prt Pl3 @FMV #3->0
+	"olla" <mv> V Pass Ind Prt @FMV #3->0
+: 
+"<monta>"
+	"moni" Pron Qu Sg Par @>N #4->5
+: 
+"<sattaa>"
+	"Satta" N Prop Sem/Plc Sg Dial/Por Par @SUBJ> #5->3
+: 
+"<suomalaista>"
+	"Suomalainen" N Prop Sem/Sur Sg Par @SUBJ> #6->3
+: 
+"<veronmaksaajaa>"
+	"veronmaksaaja" N Sg Dial/Por Par @<SUBJ #7->3
+: 
+"<komuunissa>"
+	"komuuni" N Sg Ine @<ADVL #8->3
+: 
+"<Finmarkun>"
+	"Finmarkku" N Prop Sem/Plc Sg Gen @N> #9->9
+: 
+"<rannikolla>"
+	"Rannikko" N Prop Sem/Sur Sg Dial/Por Ade Err/Orth @<ADVL #10->3
+"<,>"
+	"," CLB #11->10
+: 
+"<enimästi>"
+	"enimästi" Adv @ADVL #12->13
+: 
+"<Vuoreijassa>"
+	"Vuoreijassa" ? @X #13->0
+: 
+"<(>"
+	"(" PUNCT LEFT #14->15
+"<400>"
+	 Use/Circ Use/Circ"400" Num Arab Sg Nom
+	 Use/Circ"400" Num Arab Sem/ID
+"<)>"
+	")" PUNCT RIGHT #16->15
+"<,>"
+	"," CLB #17->3
+: 
+"<Båtsfjordissa>"
+	"Båtsfjord" N Prop Sem/Plc Sg Dial/Por Ine @<ADVL #18->3
+: 
+"<(>"
+	"(" PUNCT LEFT #19->20
+"<340>"
+	 Use/Circ Use/Circ"340" Num Arab Sg Nom
+	 Use/Circ"340" Num Arab Sem/ID
+"<)>"
+	")" PUNCT RIGHT #21->20
+"<,>"
+	"," CLB #22->3
+: 
+"<Kapassa>"
+	"Kappa" N Prop Sg Dial/Por Ine @<ADVL #23->3
+: 
+"<(>"
+	"(" PUNCT LEFT #24->25
+"<133>"
+	 Use/Circ Use/Circ"133" Num Arab Sg Nom
+	 Use/Circ"133" Num Arab Sem/ID
+"<)>"
+	")" PUNCT RIGHT #26->27
+: 
+"<ja>"
+	"ja" CC @CNP #27->23
+: 
+"<Etelä-Varenkissa>"
+	"Etelä-Varenkissa" ? @X #28->0
+: 
+"<(>"
+	"(" PUNCT LEFT #29->30
+"<130>"
+	 Use/Circ Use/Circ"130" Num Arab Sg Nom
+	 Use/Circ"130" Num Arab Sem/ID
+"<)>"
+	")" PUNCT RIGHT #31->30
+"<.>"
+	"." CLB #32->3
+: 
+"<Muutamat>"
+	"muutama" Pron Indef Pl Nom @SUBJ> #1->3
+	"muutampi" Pron Indef Pl Nom @SUBJ> #1->3
+: 
+"<heistä>"
+	"het" Pron Pers Pl3 Ela @ADVL> #2->3
+: 
+"<reisathiin>"
+	"reisata" <mv> V Act Ind Prt Pl3 @FMV #3->0
+: 
+"<takaisin>"
+	"takaisin" Adv @ADVL #4->5
+: 
+"<kotimaahan>"
+	"kotimaa" N Sg Nom Foc/han @X #5->0
+"<,>"
+	"," CLB #6->7
+: 
+"<ko>"
+	"ko" CS @CVP #7->9
+: 
+"<toiset>"
+	"toinen" A Ord Pl Nom @SUBJ> #8->9
+	"toinen" A Pl Nom @SUBJ> #8->9
+	"toinen" Pron Recipr Pl Nom @SUBJ> #8->9
+: 
+"<jääthiin>"
+	"jääđä" <mv> V Act Ind Prt Pl3 @FS-<ADVL #9->3
+: 
+"<asumhaan>"
+	"assuut" V Act Inf3 Ill @<ADVL #10->9
+"<.>"
+	"." CLB #11->3
+: 
+"<Jokku>"
+	"joku" Pron Indef Pl Nom @SUBJ> #1->2
+: 
+"<saathiin>"
+	"saađa" <mv> V Act Ind Prt Pl3 @FMV #2->0
+: 
+"<norjalaisen>"
+	"norjalainen" A Sg Gen @<OBJ #3->2
+	"norjalainen" N Sg Gen @<OBJ #3->2
+: 
+"<elämäkumppanin>"
+	"elämäkumppanin" ? @X #4->0
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<perheen>"
+	"Pere" N Prop Sem/Mal Sg Dial/Por Ill @<ADVL #6->2
+	"Pere" N Prop Sem/Mal Sg Ill @<ADVL #6->2
+"<.>"
+	"." CLB #7->2
+: 
+"<Nykyisin>"
+	"nykyisin" Adv @ADVL #1->13
+: 
+"<assuu>"
+	"assuut" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<enimästi>"
+	"enimästi" Adv @ADVL #3->13
+: 
+"<suomalaissii>"
+	"Suomalainen" N Prop Sem/Sur Pl Dial/Por Par @<OBJ #4->2
+	"suomalainen" A Pl Dial/Por Par @<OBJ #4->2
+	"suomalainen" N Pl Dial/Por Par @<OBJ #4->2
+: 
+"<Koutokeinossa>"
+	"Koutokeino" N Prop Sem/Plc Sg Dial/Por Ine @<ADVL #5->2
+"<,>"
+	"," CLB #6->5
+: 
+"<Kaarasjovessa>"
+	"Kaarasjoki" N Prop Sem/Plc Sg Dial/Por Ine @<ADVL #7->2
+"<,>"
+	"," CLB #8->7
+: 
+"<Taanassa>"
+	"Taana" N Prop Sem/Plc Sg Dial/Por Ine @<ADVL #9->2
+"<,>"
+	"," CLB #10->9
+: 
+"<Uuniemessä>"
+	"Uuniemi" N Prop Sem/Sur Sg Ine @<ADVL #11->2
+: 
+"<ja>"
+	"ja" CC @CNP #12->11
+: 
+"<Etelä-Varenkissa>"
+	"Etelä-Varenkissa" ? @X #13->0
+"<,>"
+	"," CLB #14->13
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @X #15->0
+: 
+"<kans>"
+	"kans" Po @ADVL #16->15
+: 
+"<monet>"
+	"Mone" N Prop Sem/Fem Pl Dial/Por Nom @>N #17->18
+: 
+"<Valasnuorassa>"
+	"Valasnuora" N Prop Sg Ine @<ADVL #18->2
+"<,>"
+	"," CLB #19->18
+: 
+"<Laakisvuonossa>"
+	"Laakisvuonossa" ? @X #20->0
+"<,>"
+	"," CLB #21->20
+: 
+"<Vesisaaressa>"
+	"Vesisaari" N Prop Sem/Plc Sg Ine @<ADVL #22->2
+: 
+"<ja>"
+	"ja" CC @CNP #23->22
+: 
+"<Vuoreassa>"
+	"Vuorea" N Prop Sem/Plc Sg Dial/Por Ine @<ADVL #24->22
+"<.>"
+	"." CLB #25->1
+: 
+"<Tääpänä>"
+	"tääpänä" Adv @ADVL #1->0
+: 
+"<assuu>"
+	"assuut" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<nuoin>"
+	"nuoin" Adv @ADVL #3->0
+: 
+"<8000>"
+	 Use/Circ Use/Circ"8000" Num Arab Sg Nom
+	 Use/Circ"8000" Num Arab Sem/ID
+: 
+"<suomalaista>"
+	"Suomalainen" N Prop Sem/Sur Sg Par @<OBJ #5->2
+: 
+"<koko>"
+	"Koko" N Prop Sem/Plc Sg Nom @>N #6->7
+: 
+"<Norjassa>"
+	"Norja" N Prop Sem/Plc Sg Dial/Por Ine @<ADVL #7->2
+"<.>"
+	"." CLB #8->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<700>"
+	 Use/Circ Use/Circ"700" Num Arab Sg Nom
+	 Use/Circ"700" Num Arab Sem/ID
+: 
+"<km>"
+	"km" N Sem/Measr ABBR Gram/IAbbr Sg Nom @SUBJ> #2->10
+: 
+"<pitukainen>"
+	"pitukainen" A Sg Nom @>N #3->5
+: 
+"<yhtheinen>"
+	"yhtheinen" A Sg Nom @>N #4->5
+: 
+"<raja>"
+	"Raja" N Prop Sem/Plc Sg Nom @>N #5->6
+: 
+"<Norjan>"
+	"Norja" N Prop Sem/Plc Sg Dial/Por Gen @>N #6->9
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<Suomen>"
+	"Suomi" N Prop Sem/Plc Sg Dial/Por Gen @>N #8->6
+: 
+"<välilä>"
+	"Välilä" N Prop Sem/Sur Sg Nom @SUBJ> #9->10
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #10->0
+: 
+"<laittanu>"
+	"laittaat" V TV Act PrfPrc Sg Nom @>N #11->15
+: 
+"<kulttuurissii>"
+	"kulttuurinen" A Pl Dial/Por Par @>N #12->15
+: 
+"<ja>"
+	"ja" CC @CNP #13->12
+: 
+"<kielelissii>"
+	"kielelinen" A Pl Dial/Por Par @>N #14->12
+: 
+"<yhtheyksii>"
+	"yhtheys" N Dial/Por Pl Par @<SUBJ #15->10
+: 
+"<ja>"
+	"ja" CC @CNP #16->15
+: 
+"<tehny>"
+	"tehđä" V Act PrfPrc Sg Nom @>N #17->18
+: 
+"<kontaktin>"
+	"kontakti" N Sg Gen @N> #18->18
+: 
+"<vielä>"
+	"Vie" N Prop Sem/Sur Sg Dial/Por Ade @<ADVL #19->10
+: 
+"<tivhiimäksi>"
+	"tivis" A Sg Compar Tra @<SPRED #20->10
+	"tivis" A Sg Superl Tra @<SPRED #20->10
+: 
+"<ja>"
+	"ja" CC @CNP #21->20
+: 
+"<tärkkeemäksi>"
+	"tärkkee" A Dial/Por Sg Compar Tra @<SPRED #22->20
+"<.>"
+	"." CLB #23->10
+: 
+"<Usseemissa>"
+	"ussee" Err/Orth A Dial/Por Pl Compar Ine @>N #1->2
+: 
+"<paikoissa>"
+	"paikka" N Pl Dial/Por Ine @ADVL> #2->4
+: 
+"<Finnmarkussa>"
+	"Finnmarkussa" ? @X #3->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<perustettu>"
+	"perustaat" <mv> V Pass PrfPrc Sg Nom @FMV #5->4
+: 
+"<foreeninkkiita>"
+	"foreeninkkiita" ? @X #6->0
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #7->21
+: 
+"<eesauttaat>"
+	"eđesauttaat" V TV Inf @X #8->0
+: 
+"<suomen>"
+	"suomi" N Dial/Por Sg Gen @N> #9->9
+: 
+"<kieltä>"
+	"kieli" N Sg Par @<OBJ #10->10
+: 
+"<ja>"
+	"ja" CC @CNP #11->10
+: 
+"<kulttuurii>"
+	"kulttuuri" N Sg Dial/Por Par @<OBJ #12->10
+"<,>"
+	"," CLB #13->14
+: 
+"<ja>"
+	"ja" CC @CNP #14->12
+: 
+"<lisätä>"
+	"lisätä" V Inf @X #15->0
+: 
+"<kulttuurista>"
+	"kulttuurinen" A Sg Par @>N #16->19
+: 
+"<ja>"
+	"ja" CC @CNP #17->16
+: 
+"<kielelistä>"
+	"kielelinen" A Sg Par @>N #18->16
+: 
+"<yhtheistyötä>"
+	"yhtheistyö" N Sg Par @<OBJ #19->10
+: 
+"<Suomen>"
+	"Suomi" N Prop Sem/Plc Sg Dial/Por Gen @<OBJ #20->20
+: 
+"<kans>"
+	"kans" Po @ADVL #21->15
+"<.>"
+	"." CLB #22->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kvensk>"
+	"Kvensk" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Yhessä>"
+	"yhđessä" Adv @ADVL #1->5
+	"yksi" Num Sg Ine @ADVL> #1->5
+	"yksi" Pron Indef Sg Sg Ine @>N #1->5
+: 
+"<artikkelissa>"
+	"artikkeli" N Sg Ine @NUM< #2->2
+: 
+"<tämän>"
+	"tämä" Pron Dem Sg Gen @>N #3->4
+: 
+"<vuoen>"
+	"vuosi" N Dial/Por Sg Gen @>N #4->5
+: 
+"<Varenkin>"
+	"Varenki" N Prop Sem/Plc Gen Err/Orth @X #5->0
+: 
+"<vuosikirjassa>"
+	"vuosikirjassa" ? @X #6->0
+: 
+"<selittää>"
+	"selittäät" <mv> V TV Act Ind Prs Sg3 @FMV #7->0
+: 
+"<Kaisa>"
+	"Kaisa" N Prop Sem/Fem Sg Nom @>N #8->9
+: 
+"<Maliniemi>"
+	"Maliniemi" N Prop Sem/Sur Sg Nom @>N #9->10
+: 
+"<Hans>"
+	"Hans" N Prop Sem/Sur Sg Nom @>N #10->11
+: 
+"<Kristian>"
+	"Kristian" N Prop Sem/Mal Sg Nom @>N #11->12
+: 
+"<Eriksenin>"
+	"Eriksen" N Prop Sem/Sur Sg Dial/Por Gen @>N #12->13
+: 
+"<kirjoin>"
+	"kirja" N Pl Dial/Por Gen @>P #13->14
+: 
+"<ympäri>"
+	"ympäri" Po @ADVL #14->6
+"<.>"
+	"." CLB #15->7
+: 
+"<Eriksen>"
+	"Eriksen" N Prop Sem/Sur Sg Nom @SUBJ> #1->2
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<yksi>"
+	"yksi" Pron Indef Sg Sg Nom @SUBJ> #3->2
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<ensimäisistä>"
+	"ensimäinen" A Ord Pl Ela @<SPRED #4->2
+	"ensimäinen" A Pl Ela @<SPRED #4->2
+: 
+"<kuka>"
+	"kuka" Pron Interr Sg Nom @SUBJ> #5->6
+: 
+"<kirjoitti>"
+	"kirjoittaat" <mv> V Act Ind Prt Sg3 @FMV #6->2
+: 
+"<kväänin>"
+	"kvääni" N Sg Dial/Por Gen @>N #7->9
+"</>"
+	"/" PUNCT MIDDLE @CNP #8->9
+"<norjansuomalaisen>"
+	"suomalainen" N Sg Gen @>N #9->10
+		"Norja" N Prop Sem/Plc Sg Dial/Jok Gen Cmp #9->10
+	"suomalainen" N Sg Gen @>N #9->10
+		"Norja" N Prop Sem/Plc Sg Dial/Por Gen Cmp #9->10
+	"suomalainen" N Sg Gen @>N #9->10
+		"Norja" N Prop Sem/Plc Sg Dial/Var Gen Cmp #9->10
+: 
+"<minoriteettijoukon>"
+	"joukko" N Sg Dial/Por Gen @<OBJ #10->6
+		"minoriteetti" N Sg Nom Cmp #10->6
+: 
+"<ympäri>"
+	"ympäri" Po @ADVL #11->14
+: 
+"<sievälitteratuurissa>"
+	"sievälitteratuuri" N Sg Ine @<ADVL #12->6
+: 
+"<ja>"
+	"ja" CC @CNP #13->12
+: 
+"<assiipruusassa>"
+	"assiipruusassa" ? @X #14->0
+"<.>"
+	"." CLB #15->2
+: 
+"<Hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #1->2
+: 
+"<syntyi>"
+	"synttyyt" <mv> V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<kasus>"
+	"kasuta" <mv> V Act Ind Prt Sg3 @FMV #4->2
+: 
+
+"<Kiiperissä>"
+	"Kiiperi" N Prop Sg Dial/Por Ine @<ADVL #5->4
+"<,>"
+	"," CLB #6->5
+: 
+"<samfynnissa>"
+	"samfynnissa" ? @X #7->0
+: 
+"<missä>"
+	"mikä" Pron Rel Sg Ine @<ADVL #8->4
+: 
+"<soanaijan>"
+	"sođanaika" N Sg Dial/Por Gen @N> #9->9
+: 
+"<partisaanitoimi>"
+	"toimi" N Sg Nom @SUBJ> #10->11
+		"partisaani" N Sg Nom Cmp #10->11
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FS-N< #11->5
+: 
+"<kovin>"
+	"kovin" Adv @ADVL #12->7
+: 
+"<näkkyyvä>"
+	"näkkyyt" <mv> V Act PrsPrc Sg Nom @FMV #13->11
+	"näkkyyvä" A Sg Nom @<SPRED #13->11
+"<.>"
+	"." CLB #14->2
+: 
+"<Perheelä>"
+	"peret" N Sg Ade @ADVL> #1->2
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<karjalaiset>"
+	"Karjalainen" N Prop Sem/Sur Pl Nom @SUBJ> #3->17
+"<,>"
+	"," CLB #4->3
+: 
+"<suomalaiset>"
+	"Suomalainen" N Prop Sem/Sur Pl Nom @SUBJ> #5->3
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<saamelaiset>"
+	"saamelainen" N Pl Nom @>N #7->8
+: 
+"<juuret>"
+	"juuri" N Pl Nom @SUBJ> #8->3
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #9->10
+: 
+"<ulotuthiin>"
+	"ulottuut" <mv> V Act Ind Prt Pl3 @FS-N< #10->8
+: 
+"<monheen>"
+	"Mone" N Prop Sem/Fem Sg Dial/Por Ill @<ADVL #11->10
+	"Mone" N Prop Sem/Fem Sg Ill @<ADVL #11->10
+: 
+"<Pohjaiskalotin>"
+	"Pohjaiskalotti" N Prop Sem/Plc Sg Gen @N> #12->12
+: 
+"<paikkhaan>"
+	"paikka" N Sg Ill @<ADVL #13->10
+"<,>"
+	"," CLB #14->15
+: 
+"<ja>"
+	"ja" CC @CNP #15->13
+: 
+"<tämä>"
+	"tämä" Pron Dem Sg Nom @SUBJ> #16->17
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #17->2
+: 
+"<tärkkee>"
+	"tärkkee" A Dial/Por Sg Nom @>N #18->19
+: 
+"<Hans>"
+	"Hans" N Prop Sem/Sur Sg Nom @>N #19->20
+: 
+"<Kristian>"
+	"Kristian" N Prop Sem/Mal Sg Nom @>N #20->21
+: 
+"<Eriksenile>"
+	"Eriksen" N Prop Sem/Sur Sg Dial/Por All @<ADVL #21->17
+: 
+"<jo>"
+	"jo" Adv @ADVL #22->0
+: 
+"<nuoressa>"
+	"nuori" A Sg Ine @>N #23->24
+: 
+"<ijässä>"
+	"ikä" N Sg Dial/Por Ine @<ADVL #24->17
+"<.>"
+	"." CLB #25->2
+: 
+"<Hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #1->2
+: 
+"<valitti>"
+	"valita" <mv> V Act Ind Prt Sg3 @FMV #2->0
+	"valittaat" <mv> V TV Act Ind Prt Sg3 @FMV #2->0
+: 
+"<lapsuuen>"
+	"lapsuus" N Dial/Por Sg Gen @>N #3->4
+: 
+"<ylöskassuumismiljöön>"
+	"miljöö" N Sg Gen @>N #4->5
+		"ylöskassuuminen" N Sg Nom Cmp #4->5
+: 
+"<lisäksi>"
+	"lisä" N Sg Dial/Por Tra @<ADVL #5->12
+	"lisäksi" Adv @ADVL #5->12
+: 
+"<partisaanit>"
+	"partisaani" N Pl Nom @<OBJ #6->2
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<maahansiirtymisen>"
+	"maahansiirtyminen" N Sg Gen @N> #8->8
+: 
+"<Suomesta>"
+	"Suomi" N Prop Sem/Plc Sg Dial/Por Ela @<ADVL #9->2
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<Tornionlaksosta>"
+	"Tornionlakso" N Prop Sem/Plc Sg Dial/Por Ela @<ADVL #11->9
+: 
+"<litteräärisiksi>"
+	"litteräärisiksi" ? @X #12->0
+: 
+"<pääteemoiksi>"
+	"pääteema" N Pl Dial/Por Tra @<ADVL #13->2
+"<.>"
+	"." CLB #14->2
+: 
+"<Kummassaki>"
+	"kumma" A Sg Ine Clt @>N #1->2
+	"kumpi" Pron Interr Ine Clt @>N #1->2
+	"kumpiki" Pron Qu Sg Ine @>N #1->2
+: 
+"<assiissa>"
+	"assii" Dial/Por N Dial/Por Pl Ine @ADVL> #2->4
+	"assii" Dial/Por N Dial/Por Sg Ine @ADVL> #2->4
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<ollu>"
+	"olla" V Act PrfPrc Sg Nom @SUBJ> #5->4
+: 
+"<piuneeri>"
+	"piuneeri" ? @X #6->0
+"<,>"
+	"," CLB #7->6
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @SUBJ> #8->4
+: 
+"<tällä>"
+	"tämä" Pron Dem Sg Ade @<ADVL #9->4
+: 
+"<kerttaa>"
+	"kerrata" V Act Imprt Sg2 @X #10->4
+	"kerrata" V Act Ind Prs Sg3 @X #10->4
+	"kerta" N Sg Dial/Por Par @<SUBJ #10->4
+: 
+"<fokuseeraa>"
+	"fokuseerata" V Act Ind Prs Sg3 @X #11->0
+: 
+"<Maliniemi>"
+	"Maliniemi" N Prop Sem/Sur Sg Nom @>N #12->13
+: 
+"<Eriksenhiin>"
+	"Eriksen" N Prop Sem/Sur Sg Ill @<ADVL #13->4
+: 
+"<kväänikirjaliijana>"
+	"kväänikirjaliijana" ? @X #14->0
+"<.>"
+	"." CLB #15->4
+: 
+"<Eriliikaisen>"
+	"eriliikainen" A Sg Gen @X #1->0
+: 
+"<syvästi>"
+	"syvä" A Sg Dial/Por Gen PxSg2 @X #2->0
+: 
+"<muistelee>"
+	"muistela" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @X #4->0
+: 
+"<näitten>"
+	"nämät" Pron Dem Pl Gen @>N #5->7
+: 
+"<kahen>"
+	"kahđen" Adv @ADVL #6->4
+: 
+"<kirjan>"
+	"kirja" N Sg Dial/Por Gen @<OBJ #7->3
+: 
+"<ympäri>"
+	"ympäri" Po @ADVL #8->4
+"<,>"
+	"," CLB #9->8
+: 
+"<Vandrere>"
+	"Vandrere" ? @X #10->0
+: 
+"<i>"
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #11->3
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<grenseland>"
+	"grenseland" ? @X #12->0
+: 
+"<(>"
+	"(" PUNCT LEFT #13->14
+"<1973>"
+	 Use/Circ Use/Circ"1973" Num Arab Sg Nom
+	 Use/Circ"1973" Num Arab Sem/ID
+	 Use/Circ"1973" Num Arab Sem/Year Sg Nom
+"<)>"
+	")" PUNCT RIGHT #15->14
+"<,>"
+	"," CLB #16->17
+: 
+"<jonka>"
+	"joka" Pron Rel Sg Gen @<OBJ #17->3
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #18->19
+: 
+"<defineeraa>"
+	"defineerata" <mv> V Act Ind Prs Sg3 @FS-N< #19->11
+: 
+"<puolidokumentaariseksi>"
+	"puolidokumentaariseksi" ? @X #20->0
+: 
+"<romaaniksi>"
+	"rommaani" Err/Orth N Sg Tra @<ADVL #21->19
+"<,>"
+	"," CLB #22->23
+: 
+"<ja>"
+	"ja" CC @CNP #23->21
+: 
+"<nuortenromaani>"
+	"nuortenromaani" ? @X #24->0
+: 
+"<Flukten>"
+	"Flukten" ? @X #25->0
+: 
+"<til>"
+	"til" ? @X #26->0
+: 
+"<havet>"
+	"havet" ? @X #27->0
+: 
+"<(>"
+	"(" PUNCT LEFT #28->29
+"<1985>"
+	 Use/Circ Use/Circ"1985" Num Arab Sg Nom
+	 Use/Circ"1985" Num Arab Sem/ID
+	 Use/Circ"1985" Num Arab Sem/Year Sg Nom
+"<)>"
+	")" PUNCT RIGHT #30->29
+"<.>"
+	"." CLB #31->3
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Vandrere>"
+	"Vandrere" ? @X #1->0
+: 
+"<i>"
+	"i" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #2->4
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<grenseland>"
+	"grenseland" ? @X #3->0
+: 
+"<muistelee>"
+	"muistela" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<kvääniin>"
+	"kvääni" N Pl Dial/Por Gen @>N #5->6
+: 
+"<siirtymisen>"
+	"siirttyyt" Ex/V Der/minen N Sg Gen @>N #6->8
+	"siirtyminen" N Sg Gen @>N #6->8
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<asettumisen>"
+	"asettuut" Ex/V Der/minen N Sg Gen @<OBJ #8->4
+: 
+"<ympäri>"
+	"ympäri" Po @ADVL #9->3
+"<,>"
+	"," CLB #10->11
+: 
+"<ja>"
+	"ja" CC @CNP #11->9
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #12->13
+: 
+"<kulkkee>"
+	"kulkkeet" <mv> V Act Ind Prs Sg3 @FMV #13->4
+: 
+"<aijassa>"
+	"aika" N Sg Dial/Por Ine @<ADVL #14->13
+: 
+"<usseitten>"
+	"ussee" Err/Orth A Dial/Por Pl Gen @>N #15->16
+: 
+"<histoorian>"
+	"histooria" N Sg Gen @>N #16->17
+: 
+"<aikajaksoin>"
+	"jakso" N Pl Dial/Por Gen @>N #17->20
+		"aika" N Sg Nom Cmp #17->20
+: 
+"<ja>"
+	"ja" CC @CNP #18->17
+: 
+"<ja>"
+	"ja" CC @CNP #19->18
+: 
+"<kirjailiijan>"
+	"kirjailiija" N Sg Gen @>N #20->21
+: 
+"<oman>"
+	"Oma" N Prop Sem/Plc Sg Dial/Por Gen @>N #21->22
+	"Oman" N Prop Sem/Plc Sg Nom @>N #21->22
+: 
+"<aijan>"
+	"aika" N Sg Dial/Por Gen @N> #22->22
+: 
+"<välilä>"
+	"Välilä" N Prop Sem/Sur Sg Nom @X #23->0
+"<.>"
+	"." CLB #24->4
+: 
+"<Materiaalin>"
+	"materiaali" N Sg Gen @X #1->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<jajettu>"
+	"jakkaat" V Pass PrfPrc Sg Nom @>N #3->4
+: 
+"<kapittelhiin>"
+	"kapitteli" N Dial/Por Pl Ill @<ADVL #4->2
+	"kapitteli" N Sg Ill @<ADVL #4->2
+: 
+"<jossa>"
+	"joka" Pron Rel Sg Ine @<ADVL #5->2
+: 
+"<käsitelhään>"
+	"käsitellä" <mv> V Act Ind Prs Pl3 @FS-N< #6->4
+	"käsitellä" <mv> V Pass Ind Prs @FS-N< #6->4
+: 
+"<histoorialissii>"
+	"histoorialinen" A Pl Dial/Por Par @>N #7->8
+: 
+"<faktoi>"
+	"fakta" N Pl Dial/Por Par @<OBJ #8->6
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<syysuhtheita>"
+	"syysuhtheita" ? @X #10->0
+"<.>"
+	"." CLB #11->2
+: 
+"<Osa>"
+	"osa" N Dial/Por Sg Nom @SUBJ> #1->3
+: 
+"<näistä>"
+	"nämät" Pron Dem Pl Ela @ADVL> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #3->0
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<kirjailiijan>"
+	"kirjailiija" N Sg Gen @N> #4->4
+: 
+"<hunteerauksii>"
+	"hunteeraus" N Pl Dial/Por Par @<SUBJ #5->3
+"<,>"
+	"," CLB #6->7
+: 
+"<ja>"
+	"ja" CC @CNP #7->5
+: 
+"<osa>"
+	"osa" N Dial/Por Sg Nom @SUBJ> #8->9
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #9->3
+: 
+"<reportaasjiita>"
+	"reportaasjiita" ? @X #10->0
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #11->12
+: 
+"<piethään>"
+	"pittäät" <mv> V Act Ind Prs Pl3 @FS-N< #12->9
+	"piđetä" <mv> V Act Ind Prs Pl3 @FS-N< #12->9
+: 
+"<sisälä>"
+	"sisälä" Adv @ADVL #13->10
+: 
+"<intervjyyit>"
+	"intervjyyit" ? @X #14->0
+: 
+"<kvääniin>"
+	"kvääni" N Pl Dial/Por Gen @X #15->0
+"</>"
+	"/" PUNCT MIDDLE #16->17
+"<suomensukuisten>"
+	"suomensukuinen" A Pl Gen @<SPRED #17->12
+: 
+"<kans>"
+	"kans" Po @ADVL #18->15
+: 
+"<Varenkissa>"
+	"Varenki" N Prop Sem/Plc Ine Err/Orth @<ADVL #19->12
+"<.>"
+	"." CLB #20->3
+: 
+"<Kirjassa>"
+	"kirja" N Sg Dial/Por Ine @ADVL> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<kans>"
+	"kans" Po @ADVL #3->4
+: 
+"<kaksi>"
+	"kaksi" Num Sg Nom @X #4->0
+		"kaksi" Num Use/NG Sg Nom Use/Circ #4->0
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<puhthaan>"
+	"puhđas" A Sg Gen @<SPRED #5->2
+: 
+"<sievälitterääristä>"
+	"sievälitteräärinen" A Sg Par @>N #6->7
+: 
+"<muistelusta>"
+	"muistelus" N Sg Par @<SUBJ #7->2
+"<.>"
+	"." CLB #8->2
+:  
+"<muistelee>"
+	"muistela" <mv> V Act Ind Prs Sg3 @FMV #1->0
+: 
+"<histoorialisen>"
+	"histoorialinen" A Sg Gen @>N #2->3
+: 
+"<persoonan>"
+	"persoona" N Sg Gen @N> #3->3
+: 
+"<Knut>"
+	"Knut" N Prop Sem/Mal Sg Nom @SUBJ> #4->1
+: 
+"<kvenin>"
+	"kvenin" ? @X #5->0
+: 
+"<ympäri>"
+	"ympäri" Pr @X #6->0
+"<,>"
+	"," CLB #7->6
+: 
+"<kuka>"
+	"kuka" Pron Interr Sg Nom @>N #8->9
+: 
+"<vuona>"
+	"vuosi" N Dial/Por Sg Ess @<ADVL #9->1
+: 
+"<1747>"
+	 Use/Circ Use/Circ"1747" Num Arab Sg Nom
+	 Use/Circ"1747" Num Arab Sem/ID
+	 Use/Circ"1747" Num Arab Sem/Year Sg Nom
+: 
+"<reisas>"
+	"reisata" <mv> V Act Ind Prt Sg3 @FMV #11->1
+: 
+"<kunikhaan>"
+	"kunikhaan" ? @X #12->0
+: 
+"<tykö>"
+	"Ty" N Prop Sg Nom Clt Qst @>N #13->14
+: 
+"<Alattiosta>"
+	"Alattio" N Prop Sem/Plc Sg Dial/Por Ela @<ADVL #14->11
+: 
+"<Kööpenhaminhaan>"
+	"Kööpenhamina" N Prop Sg Ill @<ADVL #15->11
+: 
+"<saakka>"
+	"saakka" Adv @ADVL #16->12
+: 
+"<puhumhaan>"
+	"puhhuut" V Act Inf3 Ill @<ADVL #17->11
+: 
+"<kvääniin>"
+	"kvääni" N Pl Dial/Por Gen @>N #18->19
+: 
+"<assiitten>"
+	"assii" Dial/Por N Dial/Por Pl Gen @>P #19->20
+: 
+"<eestä>"
+	"eđestä" Po @ADVL #20->12
+"<.>"
+	"." CLB #21->1
+: 
+"<Muisteluksessa>"
+	"muistelus" N Sg Ine @ADVL> #1->2
+:  
+"<tullee>"
+	"tulla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<kymmenenvuotisesta>"
+	"kymmenenvuotisesta" ? @X #3->0
+: 
+"<huutolaistyttärestä>"
+	"huutolaistyttärestä" ? @X #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<Britasta>"
+	"Britta" N Prop Sem/Fem Sg Dial/Por Ela @<ADVL #6->2
+"<,>"
+	"," CLB #7->6
+: 
+"<litteräärinen>"
+	"litteräärinen" ? @X #8->0
+: 
+"<representantti>"
+	"representantti" N Sg Nom @X #9->0
+: 
+"<siitä>"
+	"se" Pron Pers Sg3 Ela @<ADVL #10->9
+	"siitä" Adv @ADVL #10->9
+"<,>"
+	"," CLB #11->12
+: 
+"<ko>"
+	"ko" CS @CVP #12->0
+: 
+"<lapset>"
+	"lapsi" N Pl Nom @X #13->0
+: 
+"<farrithiin>"
+	"farrithiin" ? @X #14->0
+: 
+"<Tornionlaksosta>"
+	"Tornionlakso" N Prop Sem/Plc Sg Dial/Por Ela @<ADVL #15->2
+: 
+"<Pohjais-Tromsshaan>"
+	"Pohjais-Tromssa" N Prop Sem/Plc Sg Dial/Por Ill @<ADVL #16->2
+	"Pohjais-Tromssa" N Prop Sem/Plc Sg Ill @<ADVL #16->2
+: 
+"<nälkävuosina>"
+	"nälkävuosi" N Dial/Por Pl Ess @<ADVL #17->2
+: 
+"<1860-luvula>"
+	"luku" N Sg Dial/Por Ade @<ADVL #18->2
+		 Use/Circ Use/Circ"1860" Num Arab Use/NG Cmp/Hyph
+		 Use/Circ Use/Circ"1860" Num Arab Use/NG Cmp/Hyph
+		 Use/Circ Use/Circ"1860" Num Arab Use/NG Cmp/Hyph
+		 Use/Circ"1860" Num Arab Use/Circ Cmp/Hyph
+		 Use/Circ"1860" Num Arab Use/Circ Cmp/Hyph
+		 Use/Circ"1860" Num Arab Use/Circ Cmp/Hyph
+"<.>"
+	"." CLB #19->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tapattumat>"
+	"tapattuma" N Pl Nom @OBJ> #1->12
+: 
+"<nuortenruomaanissa>"
+	"nuortenruomaanissa" ? @X #2->0
+: 
+"<Flukten>"
+	"Flukten" ? @X #3->0
+: 
+"<til>"
+	"til" ? @X #4->0
+: 
+"<havet>"
+	"havet" ? @X #5->0
+"<,>"
+	"," CLB #6->5
+: 
+"<alatitteli>"
+	"alatitteli" N Sg Nom @>N #7->8
+: 
+"<Juhani>"
+	"Juhani" N Prop Sem/Mal Sg Nom @SUBJ> #8->12
+: 
+"<og>"
+	"og" ? @X #9->0
+: 
+"<Hilja>"
+	"Hilja" N Prop Sem/Fem Sg Nom @SUBJ> #10->12
+: 
+"<,>"
+	"," CLB #11->10
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #12->0
+: 
+"<pantu>"
+	"panna" V Pass PrfPrc Sg Nom @>N #13->14
+: 
+"<Pohjais-Suomheen>"
+	"Pohjais-Suomi" N Prop Sem/Plc Sg Ill @<ADVL #14->12
+"<.>"
+	"." CLB #15->12
+: 
+"<Nuori>"
+	"nuori" A Sg Nom @>N #1->2
+: 
+"<poika>"
+	"poika" N Dial/Por Sg Nom @>N #2->3
+: 
+"<Juhani>"
+	"Juhani" N Prop Sem/Mal Sg Nom @SUBJ> #3->4
+: 
+"<toivoo>"
+	"toivoot" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #5->7
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #6->7
+: 
+"<saattaa>"
+	"saattaat" <mv> V TV Act Ind Prs Sg3 @FS-<ADVL #7->4
+: 
+"<reisata>"
+	"reisata" V Inf @X #8->0
+: 
+"<Ruijhaan>"
+	"Ruija" N Prop Sem/Plc Sg Dial/Por Ill @<ADVL #9->7
+	"Ruija" N Prop Sem/Plc Sg Ill @<ADVL #9->7
+"<,>"
+	"," CLB #10->5
+: 
+"<missä>"
+	"mikä" Pron Rel Sg Ine @<ADVL #11->7
+: 
+"<löyttyy>"
+	"Löytty" N Prop Sem/Sur Sg Dial/Por Par @X #12->0
+: 
+"<elämänleippää>"
+	"leipä" N Sg Dial/Por Par @X #13->0
+		"elämä" N Sg Gen Cmp #13->0
+: 
+"<ja>"
+	"ja" CC @CNP #14->13
+: 
+"<nokko>"
+	"nokko" Adv @ADVL #15->13
+: 
+"<ruokkaa>"
+	"ruoka" N Dial/Por Sg Dial/Por Par @X #16->0
+: 
+"<kaikile>"
+	"kaikki" Pron Qu Pl All @<ADVL #17->7
+"<.>"
+	"." CLB #18->4
+: 
+"<Krannitytär>"
+	"krannitytär" N Dial/Por Sg Nom @>N #1->2
+: 
+"<Hilja>"
+	"Hilja" N Prop Sem/Fem Sg Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<hänen>"
+	"hän" Pron Pers Sg3 Gen @>N #4->6
+: 
+"<likheinen>"
+	"likheinen" A Sg Nom @>N #5->6
+: 
+"<ystävä>"
+	"ystävä" N Sg Nom @SUBJ> #6->10
+"<,>"
+	"," CLB #7->8
+: 
+"<ja>"
+	"ja" CC @CNP #8->6
+: 
+"<Hilja>"
+	"Hilja" N Prop Sem/Fem Sg Nom @SUBJ> #9->6
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #10->3
+: 
+"<jo>"
+	"jo" Adv @ADVL #11->17
+: 
+"<määräny>"
+	"määrätä" V Act PrfPrc Sg Nom @SUBJ> #12->16
+"<,>"
+	"," CLB #13->14
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #14->16
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #15->16
+: 
+"<aikkoo>"
+	"aikkoot" <mv> V Act Ind Prs Sg3 @FS-<ADVL #16->10
+: 
+"<Reino-seän>"
+	"Reino-seän" ? @X #17->0
+: 
+"<tykö>"
+	"Ty" N Prop Sg Nom Clt Qst @>N #18->19
+: 
+"<Vesisaaressa>"
+	"Vesisaari" N Prop Sem/Plc Sg Ine @<ADVL #19->16
+"<.>"
+	"." CLB #20->3
+: 
+"<Ko>"
+	"ko" CS @CVP #1->3
+: 
+"<Hilja>"
+	"Hilja" N Prop Sem/Fem Sg Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-ADVL> #3->11
+: 
+"<lähteny>"
+	"lähteet" V Act PrfPrc Sg Nom @SUBJ> #4->11
+"<,>"
+	"," CLB #5->1
+: 
+"<Juhanin>"
+	"Juhan" N Prop Sem/Plc Sg Dial/Por Gen @>N #6->9
+	"Juhani" N Prop Sem/Mal Sg Dial/Por Gen @>N #6->9
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<hänen>"
+	"hän" Pron Pers Sg3 Gen @>N #8->6
+: 
+"<perheen>"
+	"Pere" N Prop Sem/Mal Sg Dial/Por Ill @<ADVL #9->3
+	"Pere" N Prop Sem/Mal Sg Ill @<ADVL #9->3
+: 
+"<elämä>"
+	"elläät" V Act Ind Prs Pl1 @X #10->11
+	"elämä" N Sg Nom @SUBJ> #10->11
+: 
+"<tullee>"
+	"tulla" <mv> V Act Ind Prs Sg3 @FS-ADVL> #11->0
+: 
+"<raskhaamaksi>"
+	"raskas" A Sg Compar Tra @<ADVL #12->11
+"<.>"
+	"." CLB #13->11
+: 
+"<Vuona>"
+	"vuosi" N Dial/Por Sg Ess @ADVL> #1->3
+: 
+"<1867>"
+	 Use/Circ Use/Circ"1867" Num Arab Sg Nom
+	 Use/Circ"1867" Num Arab Sem/ID
+	 Use/Circ"1867" Num Arab Sem/Year Sg Nom
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<nälkävuosi>"
+	"nälkävuosi" N Dial/Por Sg Nom @SUBJ> #4->8
+"<,>"
+	"," CLB #5->6
+: 
+"<ja>"
+	"ja" CC @CNP #6->4
+: 
+"<Juhaniki>"
+	"Juhani" N Prop Sem/Mal Sg Nom Clt @SUBJ> #7->4
+: 
+"<lähtee>"
+	"lähteet" <mv> V Act Ind Prs Sg3 @FMV #8->3
+: 
+"<kulkemhaan>"
+	"kulkkeet" V Act Inf3 Ill @<ADVL #9->8
+: 
+"<Varenkii>"
+	"Varenkii" ? @X #10->0
+: 
+"<kohi>"
+	"kohđi" Po @ADVL #11->10
+"<.>"
+	"." CLB #12->3
+: 
+"<Hänelä>"
+	"hän" Pron Pers Sg3 Ade @HAB #1->1
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<toivo>"
+	"Toivo" N Prop Sem/Mal Sg Nom @SUBJ> #3->7
+"<,>"
+	"," CLB #4->5
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #5->7
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #6->7
+: 
+"<kohtaa>"
+	"kohđata" <mv> V Act Ind Prs Sg3 @FS-<ADVL #7->2
+: 
+"<taas>"
+	"taas" Adv @ADVL #8->0
+: 
+"<Hiljan>"
+	"Hilja" N Prop Sem/Fem Sg Dial/Por Gen @<OBJ #9->7
+"<.>"
+	"." CLB #10->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kaisa>"
+	"Kaisa" N Prop Sem/Fem Sg Nom @>N #1->2
+: 
+"<Maliniemi>"
+	"Maliniemi" N Prop Sem/Sur Sg Nom @SUBJ> #2->3
+: 
+"<peekkaa>"
+	"peekata" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<muutamppii>"
+	"muutampi" Pron Indef Pl Par @>N #4->6
+: 
+"<yhtheissii>"
+	"yhtheinen" A Pl Dial/Por Par @>N #5->6
+: 
+"<trekkii>"
+	"trekki" N Pl Dial/Por Par @<OBJ #6->3
+	"trekki" N Sg Dial/Por Par @<OBJ #6->3
+: 
+"<kväänilitteratuurissa>"
+	"kväänilitteratuuri" N Sg Ine @<ADVL #7->3
+"<,>"
+	"," CLB #8->9
+: 
+"<mitä>"
+	"mikä" Pron Rel Sg Par @<OBJ #9->3
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #10->12
+: 
+"<kans>"
+	"kans" Po @ADVL #11->0
+: 
+"<näkkee>"
+	"nähđä" <mv> V Act Ind Prs Sg3 @FS-N< #12->7
+: 
+"<Hans>"
+	"Hans" N Prop Sem/Sur Sg Nom @>N #13->14
+: 
+"<Kristian>"
+	"Kristian" N Prop Sem/Mal Sg Nom @>N #14->15
+: 
+"<Eriksenin>"
+	"Eriksen" N Prop Sem/Sur Sg Dial/Por Gen @N> #15->15
+: 
+"<kirjoissa>"
+	"kirja" N Pl Dial/Por Ine @<ADVL #16->12
+"<.>"
+	"." CLB #17->3
+: 
+"<Siinä>"
+	"se" Pron Pers Sg3 Ine @ADVL> #1->8
+	"siinä" Adv @ADVL #1->8
+: 
+"<kattothaan>"
+	"kattoot" <mv> V Act Ind Prs Pl3 @FMV #2->0
+: 
+"<taakse>"
+	"taakse" Po @ADVL #3->8
+: 
+"<käsin>"
+	"käsin" Adv @ADVL #4->8
+: 
+"<aijassa>"
+	"aika" N Sg Dial/Por Ine @<ADVL #5->2
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<haluthaan>"
+	"haluta" <mv> V Act Ind Prs Pl3 @FMV #7->2
+: 
+"<löyttäät>"
+	"löyttäät" V TV Inf @X #8->0
+: 
+"<syitä>"
+	"syy" N Pl Par @<OBJ #9->7
+: 
+"<siihen>"
+	"se" Pron Pers Sg3 Ill @>N #10->8
+	"siihen" Adv @ADVL #10->8
+: 
+"<miksi>"
+	"miksi" Adv @ADVL #11->8
+: 
+"<kväänit>"
+	"kvääni" N Pl Dial/Por Nom @SUBJ> #12->13
+: 
+"<tulthiin>"
+	"tulla" <mv> V Act Ind Prt Pl3 @FMV #13->2
+: 
+"<Norjhaan>"
+	"Norja" N Prop Sem/Plc Sg Dial/Por Ill @<ADVL #14->13
+	"Norja" N Prop Sem/Plc Sg Ill @<ADVL #14->13
+"<,>"
+	"," CLB #15->16
+: 
+"<ja>"
+	"ja" CC @CNP #16->14
+: 
+"<siinä>"
+	"se" Pron Pers Sg3 Ine @<ADVL #17->8
+	"siinä" Adv @ADVL #17->8
+: 
+"<kuvathaan>"
+	"kuvata" <mv> V Act Ind Prs Pl3 @FMV #18->2
+: 
+"<raskhaita>"
+	"raskas" A Pl Par @>N #19->20
+: 
+"<elämänehtoi>"
+	"elämänehto" N Pl Dial/Por Par @<OBJ #20->18
+: 
+"<kotimaassa>"
+	"kotimaa" N Sg Ine @<ADVL #21->18
+"<.>"
+	"." CLB #22->2
+: 
+"<Merimaa>"
+	"Merimaa" N Prop Sg Nom @>N #1->2
+: 
+"<Ruija>"
+	"Ruija" N Prop Sem/Plc Sg Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<niin>"
+	"niin" Adv @ADVL #4->0
+: 
+"<ko>"
+	"ko" CS @CVP #5->6
+: 
+"<luvattu>"
+	"luvata" V Pass PrfPrc Sg Nom @>N #6->7
+	"luvattu" A Sg Nom @>N #6->7
+: 
+"<maa>"
+	"maa" N Sg Nom @<OBJ #7->7
+"<.>"
+	"." CLB #8->3
+: 
+"<Siinä>"
+	"se" Pron Pers Sg3 Ine @ADVL> #1->15
+	"siinä" Adv @ADVL #1->15
+: 
+"<tutkithaan>"
+	"tutkiit" <mv> V Act Ind Prs Pl3 @FMV #2->0
+	"tutkiit" <mv> V Pass Ind Prs @FMV #2->0
+: 
+"<kans>"
+	"kans" Po @ADVL #3->15
+: 
+"<sisäistä>"
+	"sisäinen" A Sg Par @>N #4->5
+: 
+"<kokemusta>"
+	"kokemus" N Sg Par @<OBJ #5->2
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<kuinka>"
+	"kuinka" Adv @ADVL #7->15
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #8->9
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #9->2
+: 
+"<olla>"
+	"olla" <aux> V Inf @FAUX #10->2
+: 
+"<kvääni>"
+	"kvääni" N Sg Nom @SUBJ> #11->19
+"</>"
+	"/" PUNCT MIDDLE #12->13
+"<suomensukuinen>"
+	"suomensukuinen" A Sg Nom @SUBJ> #13->19
+: 
+"<monikulttuurisessa>"
+	"monikulttuurinen" A Sg Ine @<SPRED #14->9
+: 
+"<samfynnissa>"
+	"samfynnissa" ? @X #15->0
+"<,>"
+	"," CLB #16->17
+: 
+"<ja>"
+	"ja" CC @CNP #17->15
+: 
+"<siinä>"
+	"se" Pron Pers Sg3 Ine @<ADVL #18->15
+	"siinä" Adv @ADVL #18->15
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #19->2
+: 
+"<minoriteetin>"
+	"minoriteetti" N Sg Gen @X #20->0
+: 
+"<sisäinen>"
+	"sisäinen" A Sg Nom @>N #21->22
+: 
+"<näkemys>"
+	"näkemys" N Sg Nom @<OBJ #22->19
+"<.>"
+	"." CLB #23->2
+: 
+"<Maliniemi>"
+	"Maliniemi" N Prop Sem/Sur Sg Nom @SUBJ> #1->2
+: 
+"<käskee>"
+	"käskeet" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<näitä>"
+	"nämät" Pron Dem Pl Par @N> #3->3
+: 
+"<alkupöräisiksi>"
+	"alkupöräinen" A Pl Tra @>N #4->5
+: 
+"<histooriiksi>"
+	"histoorii" N Dial/Por Pl Tra @<ADVL #5->2
+	"histoorii" N Dial/Por Sg Tra @<ADVL #5->2
+"<,>"
+	"," CLB #6->7
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #7->8
+: 
+"<ilmaisthaan>"
+	"ilmaista" <mv> V Act Ind Prs Pl3 @FS-N< #8->5
+: 
+"<kuulumisen>"
+	"kuuluut" Ex/V Der/minen N Sg Gen @>N #9->13
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<identiteetin>"
+	"identiteetti" N Sg Gen @X #11->0
+: 
+"<yhtheissii>"
+	"yhtheinen" A Pl Dial/Por Par @>N #12->9
+: 
+"<tuntheita>"
+	"tunnet" N Pl Par @<OBJ #13->8
+"<.>"
+	"." CLB #14->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Artikkeli>"
+	"artikkeli" N Sg Nom @SUBJ> #1->2
+: 
+"<vettää>"
+	"vettäät" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<interessantit>"
+	"interessantit" ? @X #3->0
+: 
+"<linjat>"
+	"Linja" N Prop Sem/Plc Pl Dial/Por Nom @<OBJ #4->2
+: 
+"<muitten>"
+	"muu" Pron Indef Pl Gen @>N #5->6
+: 
+"<maitten>"
+	"maa" N Pl Gen @>N #6->8
+	"mai" N Pl Gen @>N #6->8
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<kulttuuriitten>"
+	"kulttuuri" N Pl Dial/Por Gen @N> #8->8
+: 
+"<minoriteettilitteratuurhiin>"
+	"litteratuuri" N Pl Ill @<ADVL #9->2
+		"minoriteetti" N Sg Nom Cmp #9->2
+	"litteratuuri" N Sg Ill @<ADVL #9->2
+		"minoriteetti" N Sg Nom Cmp #9->2
+"<.>"
+	"." CLB #10->2
+: 
+"<Kirjan>"
+	"kirja" N Sg Dial/Por Gen @X #1->0
+:  
+"<saattaa>"
+	"saattaat" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<esimerksi>"
+	"esimerksi" ? @X #3->0
+: 
+"<lukkeet>"
+	"lukkeet" V Inf @X #4->0
+: 
+"<pakolaisromaaninna>"
+	"rommaani" Err/Orth N Sg Ess @<ADVL #5->2
+		"pakolainen" N Sg Nom Cmp #5->2
+"<.>"
+	"." CLB #6->2
+: 
+"<Niinko>"
+	"niinko" Pcle @PCLE #1->2
+: 
+"<litteratuuri>"
+	"litteratuuri" N Sg Nom @SUBJ> #2->10
+: 
+"<meän>"
+	"met" Pron Pers Pl1 Gen Err/Orth @>N #3->4
+: 
+"<oman>"
+	"Oma" N Prop Sem/Plc Sg Dial/Por Gen @>N #4->5
+	"Oman" N Prop Sem/Plc Sg Nom @>N #4->5
+: 
+"<aijan>"
+	"aika" N Sg Dial/Por Gen @>N #5->6
+: 
+"<pakolaisten>"
+	"pakolainen" N Pl Gen @>P #6->7
+: 
+"<ympäri>"
+	"ympäri" Po @ADVL #7->0
+"<,>"
+	"," CLB #8->7
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #9->10
+: 
+"<kuvvaa>"
+	"kuvata" <mv> V Act Ind Prs Sg3 @FMV #10->0
+: 
+"<uuen>"
+	"uusi" A Dial/Por Sg Gen @>N #11->12
+: 
+"<maan>"
+	"maa" N Sg Gen @N> #12->12
+: 
+"<vierhaaksi>"
+	"vieras" A Sg Tra @<ADVL #13->10
+	"vieras" N Sg Tra @<ADVL #13->10
+"<,>"
+	"," CLB #14->13
+: 
+"<erilaiseksi>"
+	"erilainen" A Sg Tra @<ADVL #15->10
+"<.>"
+	"." CLB #16->7
+: 
+"<Juhani>"
+	"Juhani" N Prop Sem/Mal Sg Nom @SUBJ> #1->2
+: 
+"<seissoo>"
+	"seissoot" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<Varenkinvuonola>"
+	"Varenkinvuono" N Prop Sg Dial/Por Ade @<ADVL #3->2
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<tunttee>"
+	"tuntteet" <mv> V Act Ind Prs Sg3 @FMV #5->2
+: 
+"<suolaisen>"
+	"suolainen" A Sg Gen @>N #6->7
+: 
+"<meriveen>"
+	"merivesi" N Dial/Por Sg Gen @<OBJ #7->5
+"<,>"
+	"," CLB #8->9
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #9->10
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-N< #10->7
+: 
+"<hänele>"
+	"hän" Pron Pers Sg3 All @<ADVL #11->10
+: 
+"<aivan>"
+	"aivan" Adv @ADVL #12->0
+: 
+"<uusi>"
+	"uusi" A Dial/Por Sg Nom @>N #13->14
+: 
+"<kokemus>"
+	"kokemus" N Sg Nom @<SPRED #14->10
+"<.>"
+	"." CLB #15->2
+: 
+"<Suolaisen>"
+	"suolainen" A Sg Gen @>N #1->2
+: 
+"<meren>"
+	"meri" N Sg Gen @>N #2->3
+: 
+"<mavussa>"
+	"maku" N Sg Dial/Por Ine @ADVL> #3->4
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<parallelli>"
+	"parallelli" A Sg Nom @SUBJ> #5->4
+: 
+"<kyyneliitten>"
+	"kyynel" N Dial/Por Pl Dial/Por Gen @X #6->0
+: 
+"<suolaisheen>"
+	"suolainen" A Sg Ill @>N #7->8
+: 
+"<makhuun>"
+	"maku" N Sg Dial/Por Ill @<ADVL #8->4
+	"maku" N Sg Ill @<ADVL #8->4
+"<,>"
+	"," CLB #9->10
+: 
+"<joka>"
+	"joka" Pron Qu Nom @SUBJ> #10->12
+	"joka" Pron Rel Sg Nom @SUBJ> #10->12
+: 
+"<taas>"
+	"taas" Adv @ADVL #11->6
+: 
+"<saattaa>"
+	"saattaat" <mv> V TV Act Ind Prs Sg3 @FS-N< #12->8
+: 
+"<symboleerata>"
+	"symboleerata" ? @X #13->0
+: 
+"<kotimaan>"
+	"kotimaa" N Sg Gen @N> #14->14
+: 
+"<kaippausta>"
+	"kaippaus" N Sg Par @<OBJ #15->12
+"<.>"
+	"." CLB #16->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Hans>"
+	"Hans" N Prop Sem/Sur Sg Nom @>N #1->2
+: 
+"<Kristian>"
+	"Kristian" N Prop Sem/Mal Sg Nom @>N #2->3
+: 
+"<Eriksen>"
+	"Eriksen" N Prop Sem/Sur Sg Nom @SUBJ> #3->0
+: 
+"<(>"
+	"(" PUNCT LEFT #4->7
+"<->"
+	"-" PUNCT MIDDLE #5->7
+	 Use/Circ Use/Circ"1933-2014" Num Arab Sg Nom
+	 Use/Circ"1933-2014" Num Arab Sem/ID
+	 Use/Circ"1933-2014" Num Sem/Year Pl Gen
+	 Use/Circ"1933-2014" Num Sem/Year Pl Nom
+	 Use/Circ"1933-" Use/TTS"2014" Num Sem/Year Pl Gen
+	 Use/Circ"1933-" Use/TTS"2014" Num Sem/Year Pl Nom
+	 Use/Circ Use/Circ"2014" Num Arab Sg Nom "<2014>"
+			 Use/Circ Use/Circ"1933" Num Arab Sg Nom "<1933>"
+	 Use/Circ Use/Circ"2014" Num Arab Sg Nom "<2014>"
+			 Use/Circ"1933" Num Arab Sem/ID "<1933>"
+	 Use/Circ Use/Circ"2014" Num Arab Sg Nom "<2014>"
+			 Use/Circ"1933" Num Arab Sem/Year Sg Nom "<1933>"
+	 Use/Circ"2014" Num Arab Sem/ID "<2014>"
+			 Use/Circ Use/Circ"1933" Num Arab Sg Nom "<1933>"
+	 Use/Circ"2014" Num Arab Sem/ID "<2014>"
+			 Use/Circ"1933" Num Arab Sem/ID "<1933>"
+	 Use/Circ"2014" Num Arab Sem/ID "<2014>"
+			 Use/Circ"1933" Num Arab Sem/Year Sg Nom "<1933>"
+	 Use/Circ"2014" Num Arab Sem/Year Sg Nom "<2014>"
+			 Use/Circ Use/Circ"1933" Num Arab Sg Nom "<1933>"
+	 Use/Circ"2014" Num Arab Sem/Year Sg Nom "<2014>"
+			 Use/Circ"1933" Num Arab Sem/ID "<1933>"
+	 Use/Circ"2014" Num Arab Sem/Year Sg Nom "<2014>"
+			 Use/Circ"1933" Num Arab Sem/Year Sg Nom "<1933>"
+"<)>"
+	")" PUNCT RIGHT #6->7
+: 
+"<syntyi>"
+	"synttyyt" <mv> V Act Ind Prt Sg3 @FMV #7->0
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<kasus>"
+	"kasuta" <mv> V Act Ind Prt Sg3 @FMV #9->7
+: 
+"<ylös>"
+	"ylös" Adv @ADVL #10->11
+: 
+"<Sisä-Kiiperissä>"
+	"Sisä-Kiiperissä" ? @X #11->0
+: 
+"<Varenkissa>"
+	"Varenki" N Prop Sem/Plc Ine Err/Orth @<ADVL #12->9
+"<,>"
+	"," CLB #13->12
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @SUBJ> #14->15
+: 
+"<asui>"
+	"assuut" <mv> V Act Ind Prt Sg3 @FMV #15->7
+: 
+"<enniimän>"
+	"enniin" A Sg Gen @>N #16->17
+	"enniin" Pron Qu Sg Gen @>N #16->17
+: 
+"<osan>"
+	"osa" N Dial/Por Sg Gen @N> #17->17
+: 
+"<raavhaasta>"
+	"raavas" A Sg Ela @>N #18->15
+	"raavas" N Sg Ela @<ADVL #18->15
+: 
+"<elämästä>"
+	"elläät" V Act Inf3 Ela @<ADVL #19->15
+	"elämä" N Sg Ela @<ADVL #19->15
+: 
+"<Stonglandseidetissa>"
+	"Stonglandseidet" N Prop Sem/Plc Sg Dial/Por Ine @<ADVL #20->15
+"<,>"
+	"," CLB #21->20
+: 
+"<Tranöyassa>"
+	"Tranöyassa" ? @X #22->0
+"<,>"
+	"," CLB #23->22
+: 
+"<Senjassa>"
+	"Senja" N Prop Sem/Fem Sg Dial/Por Ine @<ADVL #24->15
+"<.>"
+	"." CLB #25->3
+: 
+"<Soan>"
+	"Soan" N Prop Sem/Sur Sg Nom @>N #1->2
+: 
+"<tapattumat>"
+	"tapattuma" N Pl Nom @SUBJ> #2->8
+"<,>"
+	"," CLB #3->2
+: 
+"<partisaanitoimet>"
+	"toimi" N Pl Nom @SUBJ> #4->2
+		"partisaani" N Sg Nom Cmp #4->2
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<tyskäläisten>"
+	"tyskäläinen" A Pl Gen @X #6->0
+	"tyskäläinen" N Pl Gen @X #6->0
+: 
+"<likheisyys>"
+	"likheisyys" ? @X #7->0
+: 
+"<färjäthiin>"
+	"färjätä" <mv> V Act Ind Prt Pl3 @FMV #8->0
+: 
+"<hänen>"
+	"hän" Pron Pers Sg3 Gen @>N #9->10
+: 
+"<lapsuuen>"
+	"lapsuus" N Dial/Por Sg Gen @<OBJ #10->8
+"<.>"
+	"." CLB #11->8
+: 
+"<Hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #1->2
+: 
+"<reisas>"
+	"reisata" <mv> V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<varhain>"
+	"varhain" Adv @ADVL #3->21
+: 
+"<kottoo>"
+	"koto" N Sg Dial/Por Par @<OBJ #4->2
+"<,>"
+	"," CLB #5->4
+: 
+"<kävi>"
+	"käyđä" <mv> V Act Ind Prt Sg3 @FMV #6->2
+: 
+"<opettaajankouluu>"
+	"koulu" N Sg Dial/Por Par @<OBJ #7->6
+		"opettaaja" Dial/Por N Sg Gen Cmp #7->6
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<työteli>"
+	"työtelä" <mv> V Act Ind Prt Sg3 @FMV #9->2
+: 
+"<opettaajana>"
+	"opettaaja" Dial/Por N Sg Ess @<ADVL #10->9
+: 
+"<ja>"
+	"ja" CC @CNP #11->10
+: 
+"<rekturinna>"
+	"rekturi" N Sg Ess @<ADVL #12->10
+: 
+"<monta>"
+	"moni" Pron Qu Sg Par @>N #13->14
+: 
+"<vuotta>"
+	"vuosi" N Dial/Por Sg Par @<OBJ #14->9
+"<,>"
+	"," CLB #15->14
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @>N #16->17
+: 
+"<aikkaa>"
+	"aika" N Sg Dial/Por Par @<OBJ #17->14
+: 
+"<myöten>"
+	"myöten" Po @ADVL #18->21
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #19->20
+: 
+"<tuli>"
+	"tulla" <mv> V Act Ind Prt Sg3 @FMV #20->2
+: 
+"<täysiaikhaiseksi>"
+	"täysiaikhaiseksi" ? @X #21->0
+: 
+"<kirjailiijaksi>"
+	"kirjailiija" N Sg Tra @<ADVL #22->20
+: 
+"<ja>"
+	"ja" CC @CNP #23->22
+: 
+"<kulttuurityöntekkiijäksi>"
+	"tekkiijä" N Sg Tra @<ADVL #24->22
+		"työ" N Sg Gen Cmp #24->22
+			"kulttuuri" N Sg Nom Cmp #24->22
+	"työntekkiijä" N Sg Tra @<ADVL #24->22
+		"kulttuuri" N Sg Nom Cmp #24->22
+	"tekkiijä" N Sg Tra @<ADVL #24->22
+		"kulttuurityö" N Sg Gen Cmp #24->22
+"<.>"
+	"." CLB #25->2
+: 
+"<Kirjailiijana>"
+	"kirjailiija" N Sg Ess @ADVL> #1->3
+: 
+
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #2->3
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #3->0
+: 
+"<piuneeri>"
+	"piuneeri" ? @X #4->0
+: 
+"<monessa>"
+	"Mone" N Prop Sem/Fem Sg Dial/Por Ine @<ADVL #5->3
+: 
+"<alassa>"
+	"Ala" N Prop Sem/Plc Sg Dial/Por Ine @<ADVL #6->3
+"<,>"
+	"," CLB #7->6
+: 
+"<muun>"
+	"muu" Pron Indef Sg Gen @>P #8->9
+: 
+"<myötä>"
+	"myötä" Po @ADVL #9->4
+: 
+"<öystäsaamelaisten>"
+	"saamelainen" N Pl Gen @>N #10->12
+		"öystä" N Sg Nom Cmp #10->12
+: 
+"<ja>"
+	"ja" CC @CNP #11->10
+: 
+"<Senja-saamelaisten>"
+	"saamelainen" N Pl Gen @N> #12->12
+		"Senja" N Prop Sem/Fem Cmp/Hyph #12->12
+: 
+"<histooriassa>"
+	"histooria" N Sg Ine @<ADVL #13->3
+"<,>"
+	"," CLB #14->13
+: 
+"<kvääniin>"
+	"kvääni" N Pl Dial/Por Gen @N> #15->15
+: 
+"<histooriassa>"
+	"histooria" N Sg Ine @<ADVL #16->3
+: 
+"<ja>"
+	"ja" CC @CNP #17->16
+: 
+"<partisaani>"
+	"partisaani" N Sg Nom @X #18->0
+"<->"
+	"-" PUNCT MIDDLE #19->20
+: 
+"<ja>"
+	"ja" CC @CNP #20->18
+: 
+"<sotahistooriassa>"
+	"histooria" N Sg Ine @<ADVL #21->3
+		"sota" N Dial/Jok Sg Nom Cmp #21->3
+	"histooria" N Sg Ine @<ADVL #21->3
+		"sota" N Dial/Por Sg Nom Cmp #21->3
+	"histooria" N Sg Ine @<ADVL #21->3
+		"sota" N Dial/Var Sg Nom Cmp #21->3
+"<.>"
+	"." CLB #22->3
+: 
+"<Hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #1->2
+: 
+"<teki>"
+	"tehđä" <mv> V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<tähelisen>"
+	"tähđelinen" A Sg Gen @>N #3->4
+: 
+"<työn>"
+	"työ" N Sg Gen @>N #4->5
+: 
+"<luonon>"
+	"luonto" N Sg Dial/Por Gen @>N #5->8
+"<->"
+	"-" PUNCT MIDDLE #6->7
+: 
+"<ja>"
+	"ja" CC @CNP #7->5
+: 
+"<kulttuurimuistoin>"
+	"kulttuurimuisto" N Pl Dial/Por Gen @<OBJ #8->8
+: 
+"<suojeluu>"
+	"suojeluu" ? @X #9->0
+: 
+"<varten>"
+	"varten" Po @ADVL #10->9
+"<,>"
+	"," CLB #11->12
+: 
+"<ja>"
+	"ja" CC @CNP #12->10
+: 
+"<häntä>"
+	"häntä" N Sg Nom @SUBJ> #13->14
+: 
+"<käskethään>"
+	"käskeet" <mv> V Act Ind Prs Pl3 @FMV #14->2
+	"käskeet" <mv> V Pass Ind Prs @FMV #14->2
+: 
+"<kahen>"
+	"kahđen" Adv @ADVL #15->9
+: 
+"<kansalistarhaan>"
+	"kansalistaras" N Sg Gen @>N #16->20
+: 
+"<–>"
+	"–" PUNCT MIDDLE #17->18
+: 
+"<Ånderdalenin>"
+	"Ånderdalenin" ? @X #18->0
+: 
+"<ja>"
+	"ja" CC @CNP #19->18
+: 
+"<Varenkin>"
+	"Varenki" N Prop Sem/Plc Gen Err/Orth @N> #20->20
+: 
+"<niemimaan>"
+	"Niemimaa" N Prop Sg Gen @<OBJ #21->21
+: 
+"<–>"
+	"–" PUNCT MIDDLE #22->23
+: 
+"<faariksi>"
+	"faari" N Sg Dial/Por Tra @<ADVL #23->14
+"<.>"
+	"." CLB #24->2
+: 
+"<Hänen>"
+	"hän" Pron Pers Sg3 Gen @X #1->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<kans>"
+	"kans" Po @ADVL #3->1
+: 
+"<tunnettu>"
+	"tuntteet" V Pass PrfPrc Sg Nom @>N #4->6
+: 
+"<läpimurttaavan>"
+	"läpimurttaavan" ? @X #5->0
+: 
+"<kulttuuriaikakirjoituksen>"
+	"kirjoitus" N Sg Gen @<OBJ #6->2
+		"aika" N Sg Nom Cmp #6->2
+			"kulttuuri" N Sg Nom Cmp #6->2
+"<,>"
+	"," CLB #7->6
+: 
+"<Nordnorsk>"
+	"Nordnorsk" N Prop Sem/Org Sg Nom @<OBJ #8->6
+: 
+"<magasinin>"
+	"magasinin" ? @X #9->0
+"<,>"
+	"," CLB #10->9
+: 
+"<redaktöörinä>"
+	"redaktööri" N Sg Ess @<ADVL #11->2
+"<.>"
+	"." CLB #12->2
+: 
+"<Hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #1->2
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<redaktööri>"
+	"redaktööri" N Sg Nom @<SPRED #3->2
+: 
+"<ensi>"
+	"ensi" A Attr @<SPRED #4->0
+: 
+"<numerosta>"
+	"numero" N Sg Ela @<ADVL #5->2
+: 
+"<saakka>"
+	"saakka" Adv @ADVL #6->10
+: 
+"<vuona>"
+	"vuosi" N Dial/Por Sg Ess @<ADVL #7->2
+: 
+"<1978>"
+	 Use/Circ Use/Circ"1978" Num Arab Sg Nom
+	 Use/Circ"1978" Num Arab Sem/ID
+	 Use/Circ"1978" Num Arab Sem/Year Sg Nom
+: 
+"<kiini>"
+	"kiini" Adv @ADVL #9->10
+: 
+"<vuotheen>"
+	"vuosi" N Dial/Por Sg Ill @<ADVL #10->2
+	"vuođet" N Sg Gen @X #10->2
+: 
+"<2005>"
+	 Use/Circ Use/Circ"2005" Num Arab Sg Nom
+	 Use/Circ"2005" Num Arab Sem/ID
+	 Use/Circ"2005" Num Arab Sem/Year Sg Nom
+: 
+"<asti>"
+	"asti" Adv @ADVL #12->10
+"<.>"
+	"." CLB #13->2
+: 
+"<Hans>"
+	"Hans" N Prop Sem/Sur Sg Nom @>N #1->2
+: 
+"<Kristian>"
+	"Kristian" N Prop Sem/Mal Sg Nom @>N #2->3
+: 
+"<Eriksen>"
+	"Eriksen" N Prop Sem/Sur Sg Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<Nordnorsk>"
+	"Nordnorsk" N Prop Sem/Org Sg Nom @SUBJ> #5->12
+: 
+"<forfatterlagin>"
+	"forfatterlagin" ? @X #6->0
+: 
+"<kunniajäsen>"
+	"kunniajäsen" ? @X #7->0
+"<,>"
+	"," CLB #8->9
+: 
+"<ja>"
+	"ja" CC @CNP #9->7
+: 
+"<vuona>"
+	"vuosi" N Dial/Por Sg Ess @<ADVL #10->4
+: 
+"<1996>"
+	 Use/Circ Use/Circ"1996" Num Arab Sg Nom
+	 Use/Circ"1996" Num Arab Sem/ID
+	 Use/Circ"1996" Num Arab Sem/Year Sg Nom
+: 
+"<sai>"
+	"saađa" <mv> V Act Ind Prt Sg3 @FMV #12->4
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @X #13->0
+: 
+"<Kuninkhaan>"
+	"kuningas" N Sg Gen @>N #14->18
+: 
+"<kultaisen>"
+	"kultainen" A Sg Gen @>N #15->18
+: 
+"<kunnia-arvon>"
+	"kunnia-arvon" ? @X #16->0
+: 
+"<mitalin>"
+	"mitalin" ? @X #17->0
+: 
+"<kirjoin>"
+	"kirja" N Pl Dial/Por Gen @>N #18->20
+: 
+"<ja>"
+	"ja" CC @CNP #19->18
+: 
+"<kulttuuritevon>"
+	"kulttuuriteko" N Sg Dial/Por Gen @<OBJ #20->12
+: 
+"<eestä>"
+	"eđestä" Po @ADVL #21->17
+"<.>"
+	"." CLB #22->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kvensk>"
+	"Kvensk" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Jammisti>"
+	"jammisti" Adv @ADVL #1->0
+: 
+"<tullee>"
+	"tulla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<sievälitteräärissii>"
+	"sievälitteräärinen" A Pl Dial/Por Par @>N #3->4
+: 
+"<kirjoi>"
+	"kirja" N Pl Dial/Por Par @<OBJ #4->2
+"<,>"
+	"," CLB #5->6
+: 
+"<missä>"
+	"mikä" Pron Rel Pl Ine @<ADVL #6->2
+: 
+"<muistelhaan>"
+	"muistela" <mv> V Act Ind Prs Pl3 @FS-N< #7->4
+	"muistela" <mv> V Pass Ind Prs @FS-N< #7->4
+: 
+"<kulkemisista>"
+	"kulkkeet" Ex/V Der/minen N Pl Ela @<ADVL #8->7
+: 
+"<Pohjaiskalotilla>"
+	"Pohjaiskalotti" N Prop Sem/Plc Sg Ade @<ADVL #9->7
+"<.>"
+	"." CLB #10->1
+: 
+"<Yksi>"
+	"yksi" Pron Indef Sg Sg Nom @SUBJ> #1->2
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<niistä>"
+	"niistäät" <mv> V Act Imprt Sg2 @FMV #2->0
+: 
+"<kuka>"
+	"kuka" Pron Interr Sg Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" <aux> V Act Ind Prs Sg3 @FS-OBJ #4->2
+: 
+"<pannu>"
+	"panna" V Act PrfPrc Sg Nom @>N #5->6
+: 
+"<merkile>"
+	"merkki" N Sg Dial/Por All @<ADVL #6->2
+: 
+"<tämän>"
+	"tämä" Pron Dem Sg Gen @<OBJ #7->7
+: 
+"<oon>"
+	"olla" <aux> V Act Ind Prs Sg3 @FAUX #8->2
+: 
+"<suomalainen>"
+	"Suomalainen" N Prop Sem/Sur Sg Nom @>N #9->10
+	"suomalainen" A Sg Nom @>N #9->10
+	"suomalainen" N Sg Nom @>N #9->10
+: 
+"<kirjailiija>"
+	"kirjailiija" N Sg Nom @<SPRED #10->2
+: 
+"<Tuula>"
+	"tuula" V Inf @X #11->0
+: 
+"<Väisänen>"
+	"Väisänen" N Prop Sem/Sur Sg Nom @<SPRED #12->0
+"<.>"
+	"." CLB #13->2
+: 
+"<Romaanissa>"
+	"rommaani" Err/Orth N Sg Ine @ADVL> #1->4
+: 
+"<Ida>"
+	"Ida" N Prop Sem/Fem Sg Nom @SUBJ> #2->4
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #3->4
+: 
+"<muistelee>"
+	"muistela" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<mitä>"
+	"mikä" Pron Interr Pl Par @<OBJ #5->4
+	"mikä" Pron Interr Sg Par @<OBJ #5->4
+: 
+"<tapattui>"
+	"tapattuut" <mv> V Act Ind Prt Sg3 @FMV #6->4
+: 
+"<yhele>"
+	"yksi" Num Sg All @<ADVL #7->6
+	"yksi" Pron Indef Sg Sg All @<ADVL #7->6
+: 
+"<monista>"
+	"moni" Pron Qu Pl Ela @<ADVL #8->6
+"<.>"
+	"." CLB #9->4
+: 
+"<Idan>"
+	"Ida" N Prop Sem/Fem Sg Dial/Por Gen @X #1->0
+: 
+"<Pudasjärvestä>"
+	"Pudasjärvestä" ? @X #2->0
+: 
+"<viehään>"
+	"vieđä" <mv> V Act Ind Prs Pl3 @FMV #3->0
+	"vieđä" <mv> V Pass Ind Prs @FMV #3->0
+: 
+"<sikkiinä>"
+	"sikkii" N Dial/Por Pl Ess @<ADVL #4->3
+	"sikkii" N Dial/Por Sg Ess @<ADVL #4->3
+: 
+"<matkalaisten>"
+	"matkalainen" N Pl Gen @>P #5->6
+: 
+"<kans>"
+	"kans" Po @ADVL #6->2
+: 
+"<Vesisaarheen>"
+	"Vesisaari" N Prop Sem/Plc Sg Ill @<ADVL #7->3
+: 
+"<nälkävuona>"
+	"vuosi" N Dial/Por Sg Ess @<ADVL #8->3
+		"nälkä" N Sg Nom Cmp #8->3
+: 
+"<1866>"
+	 Use/Circ Use/Circ"1866" Num Arab Sg Nom
+	 Use/Circ"1866" Num Arab Sem/ID
+	 Use/Circ"1866" Num Arab Sem/Year Sg Nom
+"<,>"
+	"," CLB #10->3
+: 
+"<ilman>"
+	"ilman" Adv @ADVL #11->2
+: 
+"<vanhiimiita>"
+	"vanhiin" N Dial/Por Pl Dial/Por Par @<OBJ #12->3
+"<.>"
+	"." CLB #13->3
+: 
+"<Tytär>"
+	"tytär" N Dial/Por Sg Nom @SUBJ> #1->2
+: 
+"<kassuu>"
+	"kasuta" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<ylös>"
+	"ylös" Adv @ADVL #3->0
+: 
+"<kauppamiehen>"
+	"kauppamies" N Sg Gen @<OBJ #4->2
+: 
+"<tykönä>"
+	"tykönä" Po @ADVL #5->0
+"<,>"
+	"," CLB #6->11
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @SUBJ> #7->11
+: 
+"<ko>"
+	"ko" CS @CVP #8->11
+: 
+"<uusi>"
+	"uusi" A Dial/Por Sg Nom @>N #9->10
+: 
+"<ruokkomuori>"
+	"ruokkomuori" N Sg Nom @SUBJ> #10->11
+: 
+"<tullee>"
+	"tulla" <mv> V Act Ind Prs Sg3 @FS-<ADVL #11->2
+: 
+"<myötä>"
+	"myötä" Adv @ADVL #12->0
+: 
+"<kuvhaan>"
+	"Kuva" N Prop Sem/Plc Sg Dial/Por Ill @<ADVL #13->11
+	"Kuva" N Prop Sem/Plc Sg Ill @<ADVL #13->11
+"<,>"
+	"," CLB #14->8
+: 
+"<tullee>"
+	"Tule" N Prop Sem/Plc Sg Dial/Por Par @<OBJ #15->11
+: 
+"<Idan>"
+	"Ida" N Prop Sem/Fem Sg Dial/Por Gen @N> #16->16
+: 
+"<tila>"
+	"tila" N Sg Nom @<OBJ #17->11
+: 
+"<värremäksi>"
+	"värrempi" A Sg Tra @<ADVL #18->11
+"<.>"
+	"." CLB #19->2
+: 
+"<Ko>"
+	"ko" CS @CVP #1->3
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-ADVL> #3->14
+: 
+"<puolikassuuva>"
+	"puolikassuuva" A Sg Nom @SUBJ> #4->14
+"<,>"
+	"," CLB #5->1
+: 
+"<farrii>"
+	"farrii" ? @X #6->0
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #7->4
+: 
+"<kruuvasamfynnhiin>"
+	"kruuvasamfynni" N Sg Ill @<ADVL #8->3
+	"kruuvasamfynni" N Pl Ill @<ADVL #8->3
+: 
+"<Kaavuonossa>"
+	"Kaavuonossa" ? @X #9->0
+: 
+"<Vesta-Finmarkussa>"
+	"Finmarkku" N Prop Sem/Plc Sg Ine @<ADVL #10->3
+		"Vesta" N Prop Sem/Plc Cmp/Hyph #10->3
+"<,>"
+	"," CLB #11->1
+: 
+"<minne>"
+	"minne" Adv @ADVL #12->9
+: 
+"<moni>"
+	"Mone" N Prop Sem/Fem Pl Dial/Por Par @<SUBJ #13->3
+: 
+"<lähti>"
+	"lähteet" <mv> V Act Ind Prt Sg3 @FMV #14->0
+: 
+"<työtä>"
+	"työ" N Sg Par @<SUBJ #15->14
+: 
+"<hakemhaan>"
+	"hakkeet" V Act Inf3 Ill @<ADVL #16->14
+"<.>"
+	"." CLB #17->12
+: 
+"<Idan>"
+	"Ida" N Prop Sem/Fem Sg Dial/Por Gen @N> #1->1
+: 
+"<elämä>"
+	"elläät" V Act Ind Prs Pl1 @X #2->3
+	"elämä" N Sg Nom @SUBJ> #2->3
+: 
+"<ei>"
+	"ei" <aux> V Neg Act Sg3 @FAUX #3->0
+: 
+"<tule>"
+	"tulla" <mv> V Act Ind Prs ConNeg @FMV #4->3
+: 
+"<pitkäksi>"
+	"Pitkä" N Prop Sem/Sur Sg Dial/Por Tra @<ADVL #5->4
+	"pitkä" A Sg Dial/Por Tra @<ADVL #5->4
+: 
+"<eikä>"
+	"ei" <aux> V Neg Act Sg3 Clt Qst @FAUX #6->4
+: 
+"<iloiseksi>"
+	"iloinen" A Sg Tra @<ADVL #7->6
+"<,>"
+	"," CLB #8->11
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @>N #9->10
+: 
+"<romaanissa>"
+	"rommaani" Err/Orth N Sg Ine @<ADVL #10->6
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-<ADVL #11->4
+: 
+"<kuitenki>"
+	"kuiten" Adv Clt @ADVL #12->2
+	"kuitenki" Adv @ADVL #12->2
+: 
+"<tulleevaisuuen>"
+	"tulleevaisuus" N Dial/Por Sg Gen @N> #13->13
+: 
+"<toivo>"
+	"Toivo" N Prop Sem/Mal Sg Nom @<OBJ #14->11
+"<,>"
+	"," CLB #15->14
+: 
+"<Idan>"
+	"Ida" N Prop Sem/Fem Sg Dial/Por Gen @<OBJ #16->14
+: 
+"<poijassa>"
+	"poijassa" ? @X #17->0
+"<.>"
+	"." CLB #18->3
+: 
+"<Forlaakin>"
+	"forlaaki" N Sg Gen @>N #1->2
+: 
+"<kuvvauksen>"
+	"kuvvaus" N Sg Gen @X #2->0
+: 
+"<jälkhiin>"
+	"jälkhiin" Pr @X #3->0
+: 
+"<kirjan>"
+	"kirja" N Sg Dial/Por Gen @N> #4->4
+: 
+"<valtateemana>"
+	"teema" N Sg Ess @ADVL> #5->6
+		"valta" N Sg Nom Cmp #5->6
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #6->0
+: 
+"<identiteettiprobleemit>"
+	"probleemi" N Pl Nom @<SPRED #7->6
+		"identiteetti" Err/Orth N Sg Nom Cmp #7->6
+	"probleemi" N Pl Nom @<SPRED #7->6
+		"identiteetti" N Sg Nom Cmp #7->6
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<ulkopuolisuus>"
+	"ulkopuolisuus" ? @X #9->0
+"<,>"
+	"," CLB #10->9
+: 
+"<kuuluvuuen>"
+	"kuuluvuuen" ? @X #11->0
+: 
+"<vailuminen>"
+	"vailuut" Ex/V Der/minen N Sg Nom @SUBJ> #12->18
+"<,>"
+	"," CLB #13->12
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @SUBJ> #14->12
+: 
+"<kans>"
+	"kans" Po @ADVL #15->11
+: 
+"<äitinrakkhauen>"
+	"rakkhaus" N Dial/Por Sg Gen @<P #16->16
+		"äiti" N Sg Dial/Jok Gen Cmp #16->16
+	"rakkhaus" N Dial/Por Sg Gen @<P #16->16
+		"äiti" N Sg Dial/Por Gen Cmp #16->16
+: 
+"<pitkälekanttaava>"
+	"pitkälekanttaava" ? @X #17->0
+: 
+"<voima>"
+	"voima" N Dial/Por Sg Nom @X #18->6
+	"voiđa" <mv> V Act Ind Prs Pl1 @FMV #18->6
+	"voiđa" <mv> V Act Ind Prt Pl1 @FMV #18->6
+"<.>"
+	"." CLB #19->6
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tuula>"
+	"tuula" V Inf @X #1->0
+: 
+"<Väisänen>"
+	"Väisänen" N Prop Sem/Sur Sg Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<syntyny>"
+	"synttyyt" <mv> V Act PrfPrc Sg Nom @FMV #4->3
+: 
+"<Kajaanissa>"
+	"Kajaanissa" ? @X #5->0
+"<.>"
+	"." CLB #6->3
+: 
+"<Hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<resjissööri>"
+	"resjissööri" ? @X #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<dramaatikkari>"
+	"dramaatikkari" ? @X #5->0
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<kirjailiija>"
+	"kirjailiija" N Sg Nom @SUBJ> #7->11
+"<,>"
+	"," CLB #8->9
+: 
+"<ja>"
+	"ja" CC @CNP #9->7
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #10->7
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #11->2
+: 
+"<muun>"
+	"muu" Pron Indef Sg Gen @>P #12->13
+: 
+"<myötä>"
+	"myötä" Po @ADVL #13->5
+: 
+"<ollu>"
+	"olla" V Act PrfPrc Sg Nom @>N #14->15
+: 
+"<Lapin>"
+	"Lappi" N Prop Sem/Sur Sg Dial/Por Gen @>N #15->16
+	"Lapin" N Prop Sem/Sur Sg Nom @>N #15->16
+: 
+"<lääninkynstintekkiijä>"
+	"tekkiijä" N Sg Nom @<SPRED #16->11
+		"kynsti" N Sg Dial/Jok Gen Cmp #16->11
+			"lääni" N Sg Dial/Jok Gen Cmp #16->11
+	"tekkiijä" N Sg Nom @<SPRED #16->11
+		"kynsti" N Sg Dial/Por Gen Cmp #16->11
+			"lääni" N Sg Dial/Jok Gen Cmp #16->11
+	"tekkiijä" N Sg Nom @<SPRED #16->11
+		"kynsti" N Sg Dial/Var Gen Cmp #16->11
+			"lääni" N Sg Dial/Jok Gen Cmp #16->11
+	"tekkiijä" N Sg Nom @<SPRED #16->11
+		"kynsti" N Sg Dial/Jok Gen Cmp #16->11
+			"lääni" N Sg Dial/Por Gen Cmp #16->11
+	"tekkiijä" N Sg Nom @<SPRED #16->11
+		"kynsti" N Sg Dial/Por Gen Cmp #16->11
+			"lääni" N Sg Dial/Por Gen Cmp #16->11
+	"tekkiijä" N Sg Nom @<SPRED #16->11
+		"kynsti" N Sg Dial/Var Gen Cmp #16->11
+			"lääni" N Sg Dial/Por Gen Cmp #16->11
+	"tekkiijä" N Sg Nom @<SPRED #16->11
+		"kynsti" N Sg Dial/Jok Gen Cmp #16->11
+			"lääni" N Sg Dial/Var Gen Cmp #16->11
+	"tekkiijä" N Sg Nom @<SPRED #16->11
+		"kynsti" N Sg Dial/Por Gen Cmp #16->11
+			"lääni" N Sg Dial/Var Gen Cmp #16->11
+	"tekkiijä" N Sg Nom @<SPRED #16->11
+		"kynsti" N Sg Dial/Var Gen Cmp #16->11
+			"lääni" N Sg Dial/Var Gen Cmp #16->11
+"<.>"
+	"." CLB #17->2
+: 
+"<Ida>"
+	"Ida" N Prop Sem/Fem Sg Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<hänen>"
+	"hän" Pron Pers Sg3 Gen @X #3->0
+: 
+"<ensi>"
+	"ensi" A Attr @<SPRED #4->2
+: 
+"<romaani>"
+	"rommaani" Err/Orth N Sg Nom @<SPRED #5->0
+"<.>"
+	"." CLB #6->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kvensk>"
+	"Kvensk" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Kväänin>"
+	"kvääni" N Sg Dial/Por Gen @>N #1->2
+: 
+"<grammatikki>"
+	"grammatikki" N Sg Nom @>N #2->3
+: 
+"<norjan>"
+	"norja" N Dial/Por Sg Gen @N> #3->3
+: 
+"<kielelä>"
+	"kieli" N Sg Ade @HNOUN #4->3
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Ensi>"
+	"ensi" A Attr @X #1->0
+: 
+"<kväänin>"
+	"kvääni" N Sg Dial/Por Gen @>N #2->3
+: 
+"<kielen>"
+	"kieli" N Sg Gen @>N #3->4
+: 
+"<grammatikin>"
+	"grammatikki" N Sg Gen @X #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<Eira>"
+	"Eira" N Prop Sem/Sur Sg Nom @>N #6->7
+: 
+"<Söderholmin>"
+	"Söderholm" N Prop Sem/Sur Sg Dial/Por Gen @>N #7->8
+: 
+"<Kainun>"
+	"kainu" N Sg Dial/Por Gen @>N #8->9
+: 
+"<kielen>"
+	"kieli" N Sg Gen @N> #9->9
+: 
+"<grammatikki>"
+	"grammatikki" N Sg Nom @SUBJ> #10->12
+: 
+"<,>"
+	"," CLB #11->10
+: 
+"<annethiin>"
+	"anttaat" <mv> V TV Act Ind Prt Pl3 @FMV #12->0
+	"anttaat" <mv> V TV Pass Ind Prt @FMV #12->0
+: 
+"<ulvos>"
+	"ulvos" Adv @ADVL #13->4
+: 
+"<vuona>"
+	"vuosi" N Dial/Por Sg Ess @<ADVL #14->12
+: 
+"<2014>"
+	 Use/Circ Use/Circ"2014" Num Arab Sg Nom
+	 Use/Circ"2014" Num Arab Sem/ID
+	 Use/Circ"2014" Num Arab Sem/Year Sg Nom
+"<,>"
+	"," CLB #16->17
+: 
+"<ja>"
+	"ja" CC @CNP #17->14
+: 
+"<kaikki>"
+	"kaikki" Pron Qu Sg Nom @>N #18->19
+: 
+"<kirjan>"
+	"kirja" N Sg Dial/Por Gen @>N #19->20
+: 
+"<teksti>"
+	"teksti" N Sg Nom @SUBJ> #20->21
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #21->12
+: 
+"<kväänin>"
+	"kvääni" N Sg Dial/Por Gen @N> #22->22
+: 
+"<kielelä>"
+	"kieli" N Sg Ade @<ADVL #23->21
+"<.>"
+	"." CLB #24->12
+: 
+"<Nyt>"
+	"nyt" Adv @ADVL #1->12
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<tullu>"
+	"tulla" V Act PrfPrc Sg Nom @SUBJ> #3->2
+: 
+"<uusi>"
+	"uusi" A Dial/Por Sg Nom @SUBJ> #4->2
+"<,>"
+	"," CLB #5->4
+: 
+"<ylösdateerattu>"
+	"ylösdateerata" V Pass PrfPrc Sg Nom @>N #6->7
+: 
+"<kirja>"
+	"kirja" N Sg Nom @>N #7->8
+: 
+"<norjan>"
+	"norja" N Dial/Por Sg Gen @N> #8->8
+: 
+"<kielelä>"
+	"kieli" N Sg Ade @<ADVL #9->2
+"<,>"
+	"," CLB #10->9
+: 
+"<tittelinnä>"
+	"titteli" N Sg Ess @<ADVL #11->2
+: 
+"<Kvensk>"
+	"Kvensk" ? @X #12->0
+: 
+"<grammatikk>"
+	"grammatikk" ? @X #13->0
+: 
+"<,>"
+	"," CLB #14->15
+: 
+"<minkä>"
+	"mikä" Pron Rel Sg Gen @>N #15->16
+: 
+"<Philipp>"
+	"Philipp" N Prop Sem/Mal Sg Nom @SUBJ> #16->2
+: 
+"<Conzett>"
+	"Conzett" ? @X #17->0
+: 
+"<Tromssan>"
+	"Tromssa" N Prop Sem/Plc Sg Dial/Por Gen @X #18->0
+: 
+"<universiteetistä>"
+	"universiteetistä" ? @X #19->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #20->21
+: 
+"<Norges>"
+	"Norges" ? @X #21->0
+: 
+"<arktiske>"
+	"arktiske" ? @X #22->0
+: 
+"<universitet>"
+	"Universitet" N Prop Sem/Obj Sg Nom @SUBJ> #23->2
+: 
+"<->"
+	"-" PUNCT MIDDLE #24->25
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-N< #25->11
+: 
+"<kääntäny>"
+	"käänttäät" V TV Act PrfPrc Sg Nom @<OBJ #26->25
+"<.>"
+	"." CLB #27->1
+: 
+"<Kväänin>"
+	"kvääni" N Sg Dial/Por Gen @>N #1->2
+: 
+"<kielitinka>"
+	"kielitinka" N Sg Nom @SUBJ> #2->6
+"</>"
+	"/" PUNCT MIDDLE @CNP #3->4
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @>N #4->5
+: 
+"<institutti>"
+	"institutti" N Sg Nom @SUBJ> #5->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #6->0
+: 
+"<hyväksynheet>"
+	"hyväksyyt" V Act PrfPrc Pl Nom @>N #7->8
+: 
+"<grammatikin>"
+	"grammatikki" N Sg Gen @<OBJ #8->6
+"<,>"
+	"," CLB #9->10
+: 
+"<ja>"
+	"ja" CC @CNP #10->8
+: 
+"<siksi>"
+	"se" Pron Pers Sg3 Tra @<ADVL #11->15
+	"siksi" Adv @ADVL #11->15
+	"siksi" CS @CVP #11->15
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #12->13
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-<ADVL #13->6
+: 
+"<kväänin>"
+	"kvääni" N Sg Dial/Por Gen @>N #14->15
+: 
+"<kielen>"
+	"kieli" N Sg Gen @X #15->0
+: 
+"<oppikirjanormaali>"
+	"oppikirjanormaali" ? @X #16->0
+"<.>"
+	"." CLB #17->6
+: 
+"<Koko>"
+	"koko" Pron Qu Nom @SUBJ> #1->3
+: 
+"<kirjan>"
+	"kirja" N Sg Dial/Por Gen @X #2->0
+: 
+"<saattaa>"
+	"saattaat" <mv> V TV Act Ind Prs Sg3 @FMV #3->0
+: 
+"<lukkeet>"
+	"lukkeet" V Inf @X #4->0
+: 
+"<netissä>"
+	"netti" N Sg Dial/Por Ine @<ADVL #5->3
+: 
+"<(>"
+	"(" PUNCT LEFT #6->7
+: 
+"<nettutgave>"
+	"nettutgave" ? @X #7->0
+: 
+"<)>"
+	")" PUNCT RIGHT #8->7
+: 
+"<,>"
+	"," CLB #9->10
+: 
+"<tahi>"
+	"tahi" CC @X #10->0
+: 
+"<sen>"
+	"se" Pron Pers Sg3 Gen @X #11->0
+: 
+"<saattaa>"
+	"saattaat" <mv> V TV Act Ind Prs Sg3 @FMV #12->3
+: 
+"<kans>"
+	"kans" Po @ADVL #13->11
+: 
+"<lukkeet>"
+	"lukkeet" V Inf @X #14->0
+: 
+"<tavalisena>"
+	"tavalinen" A Sg Ess @>N #15->16
+: 
+"<kirjana>"
+	"kirja" N Sg Ess @<ADVL #16->12
+"<,>"
+	"," CLB #17->18
+: 
+"<jonka>"
+	"joka" Pron Rel Sg Gen @>N #18->19
+: 
+"<Cappelen>"
+	"Cappelen" N Prop Sem/Org Sg Nom @>N #19->20
+: 
+"<Damm>"
+	"Damm" N Prop Sem/Sur Sg Nom @SUBJ> #20->22
+: 
+"<Akademisk>"
+	"Akademisk" ? @X #21->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-N< #22->16
+: 
+"<antanu>"
+	"anttaat" <mv> V TV Act PrfPrc Sg Nom @FMV #23->3
+: 
+"<ulvos>"
+	"ulvos" Adv @ADVL #24->21
+"<.>"
+	"." CLB #25->3
+: 
+"<Kirjan>"
+	"kirja" N Sg Dial/Por Gen @X #1->0
+: 
+"<saattaa>"
+	"saattaat" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<lainata>"
+	"lainata" V Inf @X #3->0
+: 
+"<biblioteekista>"
+	"biblioteekki" N Sg Ela @<ADVL #4->2
+: 
+"<tahi>"
+	"tahi" CC @X #5->0
+: 
+"<ostaat>"
+	"ostaat" V Inf @X #6->0
+: 
+"<tästä>"
+	"tämä" Pron Dem Sg Ela @<ADVL #7->6
+	"tästä" Adv @ADVL #7->6
+"<:>"
+	":" CLB #8->2
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #9->9
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #10->9
+: 
+"<–>"
+	"–" PUNCT MIDDLE #11->12
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #12->10
+: 
+"<.>"
+	"." CLB #13->2
+: 
+"<Katto>"
+	"katto" N Sg Nom @SUBJ> #1->0
+	"kattoot" <mv> V Act Imprt Sg2 @FMV #1->0
+: 
+"<mitä>"
+	"mikä" Pron Rel Sg Par @<OBJ #2->1
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-N< #3->1
+: 
+"<sanottu>"
+	"sannoot" V Pass PrfPrc Sg Nom @>N #4->5
+: 
+"<kirjasta>"
+	"kirja" N Sg Dial/Por Ela @<ADVL #5->3
+: 
+"<tässä>"
+	"tämä" Pron Dem Sg Ine @<ADVL #6->8
+	"tässä" Adv @ADVL #6->8
+"<:>"
+	":" CLB #7->1
+: 
+"<her>"
+	"her" ? @X #8->0
+: 
+"<.>"
+	"." CLB #9->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Eira>"
+	"Eira" N Prop Sem/Sur Sg Nom @>N #1->2
+: 
+"<Söderholm>"
+	"Söderholm" N Prop Sem/Sur Sg Nom @HNOUN #2->0
+"<.>"
+	"." CLB #3->2
+: 
+"<Kvensk>"
+	"Kvensk" ? @X #1->0
+: 
+"<grammatikk>"
+	"grammatikk" ? @X #2->0
+"<.>"
+	"." CLB #3->3
+: 
+"<Cappelen>"
+	"Cappelen" N Prop Sem/Org Sg Nom @>N #1->2
+: 
+"<Damm>"
+	"Damm" N Prop Sem/Sur Sg Nom @HNOUN #2->0
+: 
+"<Akademisk>"
+	"Akademisk" ? @X #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<2017>"
+	 Use/Circ Use/Circ"2017" Num Arab Sg Nom
+	 Use/Circ"2017" Num Arab Sem/ID
+	 Use/Circ"2017" Num Arab Sem/Year Sg Nom
+"<.>"
+	"." CLB #6->2
+: 
+"<493>"
+	 Use/Circ Use/Circ"493" Num Arab Sg Nom
+	 Use/Circ"493" Num Arab Sem/ID
+: 
+"<laittaa>"
+	"laittaat" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+"<.>"
+	"." CLB #3->2
+: 
+"<Kääntäny>"
+	"käänttäät" V TV Act PrfPrc Sg Nom @>N #1->2
+: 
+"<kväänin>"
+	"kvääni" N Sg Dial/Por Gen @N> #2->2
+: 
+"<kielestä>"
+	"kieli" N Sg Ela @ADVL> #3->5
+"<:>"
+	":" CLB #4->4
+: 
+"<Philipp>"
+	"Philipp" N Prop Sem/Mal Sg Nom @HNOUN #5->2
+: 
+"<Conzett>"
+	"Conzett" ? @X #6->0
+"<.>"
+	"." CLB #7->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kvensk>"
+	"Kvensk" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Laulaaja>"
+	"laulaaja" N Sg Nom @SUBJ> #1->8
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<laulunkirjoittaaja>"
+	"kirjoittaaja" N Sg Nom @>N #3->4
+		"laulu" N Sg Dial/Jok Gen Cmp #3->4
+	"kirjoittaaja" N Sg Nom @>N #3->4
+		"laulu" N Sg Dial/Por Gen Cmp #3->4
+	"kirjoittaaja" N Sg Nom @>N #3->4
+		"laulu" N Sg Dial/Var Gen Cmp #3->4
+: 
+"<Trine>"
+	"Trine" N Prop Sem/Fem Sg Nom @>N #4->5
+: 
+"<Strand>"
+	"Strand" N Prop Sem/Sur Sg Nom @>N #5->6
+: 
+"<Malangenista>"
+	"Malangen" N Prop Sem/Plc Sg Dial/Por Ela @ADVL> #6->8
+: 
+"<pois>"
+	"pois" Adv @ADVL #7->0
+: 
+"<sannoo>"
+	"sannoot" <mv> V Act Ind Prs Sg3 @FMV #8->0
+"<,>"
+	"," CLB #9->10
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #10->12
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #11->12
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-<ADVL #12->8
+: 
+"<pohjaisnorjalainen>"
+	"pohjaisnorjalainen" A Sg Nom @>N #13->14
+	"pohjaisnorjalainen" N Sg Nom @>N #13->14
+: 
+"<artisti>"
+	"artisti" N Sg Nom @SUBJ> #14->12
+: 
+"<kellä>"
+	"kuka" Pron Interr Pl Ade @<ADVL #15->12
+	"kuka" Pron Interr Sg Ade @<ADVL #15->12
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #16->8
+: 
+"<kvääni>"
+	"kvääni" N Sg Nom @<SPRED #17->16
+"<->"
+	"-" PUNCT MIDDLE #18->19
+: 
+"<ja>"
+	"ja" CC @CNP #19->17
+: 
+"<saamelaiset>"
+	"saamelainen" N Pl Nom @>N #20->21
+: 
+"<juuret>"
+	"juuri" N Pl Nom @<SPRED #21->0
+"<.>"
+	"." CLB #22->7
+: 
+"<Hänen>"
+	"hän" Pron Pers Sg3 Gen @>N #1->2
+: 
+"<musikki>"
+	"musikki" N Sg Nom @SUBJ> #2->3
+: 
+"<kuuluu>"
+	"kuuluut" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<viisusjangerhiin>"
+	"viisusjangerhiin" ? @X #4->0
+"<.>"
+	"." CLB #5->3
+: 
+"<Albumissa>"
+	"albumi" N Sg Ine @ADVL> #1->3
+: 
+"<Nord>"
+	"Nord" N Prop Sem/Sur Sg Nom @SUBJ> #2->3
+: 
+"<kulkkee>"
+	"kulkkeet" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #4->9
+: 
+"<usseesti>"
+	"usseesti" Adv @ADVL #5->0
+: 
+"<opphaassa>"
+	"opas" A Sg Ine @>N #6->3
+	"opas" N Sg Ine @<ADVL #6->3
+: 
+"<maassa>"
+	"maa" N Sg Ine @<ADVL #7->3
+: 
+"<ko>"
+	"ko" CS @CVP #8->9
+: 
+"<ajattellee>"
+	"ajatella" <mv> V Act Ind Prs Sg3 @FS-<ADVL #9->3
+: 
+"<teemaa>"
+	"teema" N Sg Dial/Por Par @<OBJ #10->9
+"<.>"
+	"." CLB #11->3
+: 
+"<Lauluin>"
+	"laulu" N Pl Dial/Por Gen @N> #1->1
+: 
+"<teemat>"
+	"teema" N Pl Dial/Por Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #3->0
+: 
+"<sellaissii>"
+	"sellainen" A Pl Dial/Por Par @<SUBJ #4->3
+"<,>"
+	"," CLB #5->6
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @SUBJ> #6->7
+: 
+"<koskethaan>"
+	"koskeet" <mv> V Act Ind Prs Pl3 @FS-N< #7->4
+: 
+"<kaikkii>"
+	"kaikki" Pron Qu Pl Par Dial/Por @>N #8->9
+: 
+"<ihmissii>"
+	"ihminen" N Pl Dial/Por Par @<OBJ #9->7
+"<:>"
+	":" CLB #10->3
+: 
+"<Rakkaus>"
+	"Rakkaus" ? @X #11->0
+"<,>"
+	"," CLB #12->11
+: 
+"<identiteetti>"
+	"identiteetti" N Sg Nom @HNOUN #13->9
+"<,>"
+	"," CLB #14->13
+: 
+"<kuuluvuus>"
+	"kuuluvuus" ? @X #15->0
+: 
+"<ja>"
+	"ja" CC @CNP #16->15
+: 
+"<vaphauenkaippaus>"
+	"kaippaus" N Sg Nom @HNOUN #17->13
+		"vaphaus" N Dial/Jok Sg Gen Cmp #17->13
+	"kaippaus" N Sg Nom @HNOUN #17->13
+		"vaphaus" N Dial/Por Sg Gen Cmp #17->13
+	"kaippaus" N Sg Nom @HNOUN #17->13
+		"vaphaus" N Dial/Var Sg Gen Cmp #17->13
+"<.>"
+	"." CLB #18->3
+: 
+"<Trine>"
+	"Trine" N Prop Sem/Fem Sg Nom @SUBJ> #1->2
+: 
+"<laulaa>"
+	"laulaat" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<matalalla>"
+	"matala" A Sg Ade @>N #3->4
+: 
+"<äänelä>"
+	"ääni" N Sg Ade @<ADVL #4->2
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<personaalisella>"
+	"sella" N Sg Nom @>N #6->7
+		"personaali" N Sg Nom Cmp #6->7
+: 
+"<tavala>"
+	"tapa" N Sg Dial/Por Ade @<ADVL #7->4
+"<,>"
+	"," CLB #8->9
+: 
+"<ja>"
+	"ja" CC @CNP #9->7
+: 
+"<hänelä>"
+	"hän" Pron Pers Sg3 Ade @HAB #10->10
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #11->2
+: 
+"<sepät>"
+	"Seppä" N Prop Sem/Plc Pl Dial/Por Nom @>N #12->13
+: 
+"<musikkarit>"
+	"musikkari" N Pl Nom @<OBJ #13->11
+: 
+"<myötä>"
+	"myötä" Adv @ADVL #14->0
+"<.>"
+	"." CLB #15->2
+:  
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #1->0
+: 
+"<yksi>"
+	"yksi" Pron Indef Sg Sg Nom @X #2->0
+	 Use/Circ"I" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+: 
+"<plaatan>"
+	"plaatta" N Sg Dial/Por Gen @NUM< #3->3
+: 
+"<interessantimiista>"
+	"interessantimiista" ? @X #4->0
+: 
+"<lauluista>"
+	"laulu" N Pl Dial/Por Ela @<ADVL #5->1
+"<.>"
+	"." CLB #6->1
+: 
+"<Siinä>"
+	"se" Pron Pers Sg3 Ine @ADVL> #1->3
+	"siinä" Adv @ADVL #1->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<refrenki>"
+	"refrenki" ? @X #3->0
+: 
+"<kväänin>"
+	"kvääni" N Sg Dial/Por Gen @N> #4->4
+: 
+"<kielelä>"
+	"kieli" N Sg Ade @<ADVL #5->2
+"<,>"
+	"," CLB #6->7
+: 
+"<ja>"
+	"ja" CC @CNP #7->5
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #8->9
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #9->2
+: 
+"<Trinen>"
+	"Trine" N Prop Sem/Fem Sg Dial/Por Gen @>N #10->11
+: 
+"<ämminämmin>"
+	"ämmi" N Sg Dial/Por Gen @>N #11->12
+		"ämmi" N Sg Dial/Jok Gen Cmp #11->12
+	"ämmi" N Sg Dial/Por Gen @>N #11->12
+		"ämmi" N Sg Dial/Por Gen Cmp #11->12
+	"ämmi" N Sg Dial/Por Gen @>N #11->12
+		"ämmi" N Sg Dial/Var Gen Cmp #11->12
+: 
+"<ämmin>"
+	"ämmi" N Sg Dial/Por Gen @N> #12->12
+: 
+"<kunniaksi>"
+	"kunnia" N Sg Tra @<ADVL #13->9
+"<,>"
+	"," CLB #14->13
+: 
+"<kuka>"
+	"kuka" Pron Interr Sg Nom @SUBJ> #15->16
+: 
+"<siirtyi>"
+	"siirttyyt" <mv> V Act Ind Prt Sg3 @FMV #16->2
+: 
+"<Rovaniemestä>"
+	"Rovaniemi" N Prop Sem/Plc Sg Ela @<ADVL #17->16
+: 
+"<Vesisaarheen>"
+	"Vesisaari" N Prop Sem/Plc Sg Ill @<ADVL #18->16
+: 
+"<->"
+	"-" PUNCT MIDDLE #19->20
+	 Use/Circ"5-6" Num Arab Sem/Time-clock Span Cmp/SplitR
+	 Use/Circ"5-" Use/TTS"6" Num Arab Sem/Time-clock Span Cmp/SplitR
+	 Use/Circ"6" Num Arab Sem/Time-clock Cmp/SplitR "<6->"
+			 Use/Circ Use/Circ"5" Num Arab Sg Nom "<5>"
+	 Use/Circ"6" Num Arab Sem/Time-clock Cmp/SplitR "<6->"
+			 Use/Circ"5" A Arab Ord Attr CLBfinal "<5>"
+	 Use/Circ"6" Num Arab Sem/Time-clock Cmp/SplitR "<6->"
+			 Use/Circ"5" Num Arab Sem/ID "<5>"
+	 Use/Circ"6" Num Arab Sem/Time-clock Cmp/SplitR "<6->"
+			 Use/Circ"5" Num Arab Sem/Time-clock Sg Nom "<5>"
+"<vuotisenna>"
+	"vuotinen" A Sg Ess @<ADVL #20->16
+"<.>"
+	"." CLB #21->2
+: 
+"<Usseissa>"
+	"ussee" Err/Orth A Dial/Por Pl Ine @>N #1->2
+: 
+"<tekstiissä>"
+	"teksti" N Pl Dial/Por Ine @ADVL> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #3->0
+: 
+"<kaunhiit>"
+	"kaunis" A Pl Nom @>N #4->5
+: 
+"<luononkuvat>"
+	"kuva" N Dial/Por Pl Nom @SUBJ> #5->19
+		"luonto" N Sg Dial/Por Gen Cmp #5->19
+	"kuva" N Dial/Por Pl Nom @SUBJ> #5->19
+		"luonto" N Sg Dial/Jok Gen Cmp #5->19
+	"kuva" N Dial/Por Pl Nom @SUBJ> #5->19
+		"luonto" N Sg Dial/Var Gen Cmp #5->19
+"<,>"
+	"," CLB #6->24
+: 
+"<niin>"
+	"niin" Adv @ADVL #7->20
+: 
+
+"<ko>"
+	"ko" CS @CVP #8->0
+: 
+"<nämät>"
+	"nämät" Pron Dem Pl Nom @>N #9->10
+: 
+"<linjat>"
+	"Linja" N Prop Sem/Plc Pl Dial/Por Nom @>N #10->11
+: 
+"<laulusta>"
+	"laulu" N Sg Dial/Por Ela @<ADVL #11->3
+: 
+"<,>"
+	"," CLB #12->24
+: 
+"<eli>"
+	"Eli" N Prop Sem/Fem Sg Nom @>N #13->14
+: 
+"<Kesä>"
+	"kesä" N Sg Nom @SUBJ> #14->3
+: 
+"<:>"
+	":" CLB #15->3
+: 
+"<«>"
+	"«" PUNCT LEFT #16->17
+"<Hyvä>"
+	"hyvä" A Sg Nom @SUBJ> #17->19
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #18->19
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-VFIN< #19->3
+: 
+"<elläät>"
+	"elläät" V Inf @X #20->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #21->22
+: 
+"<Ko>"
+	"ko" CS @CVP #22->24
+: 
+"<muurhaispounu>"
+	"pounu" N Sg Nom @SUBJ> #23->24
+		"muurhainen" N Sg Nom Cmp #23->24
+: 
+"<kassuu>"
+	"kasuta" <mv> V Act Ind Prs Sg3 @FS-<ADVL #24->19
+: 
+"</>"
+	"/" PUNCT MIDDLE #25->26
+: 
+"<Ko>"
+	"ko" CS @CVP #26->28
+: 
+"<neulan>"
+	"neula" N Sg Dial/Por Gen @X #27->0
+: 
+"<panhaan>"
+	"panna" <mv> V Act Ind Prs Pl3 @FS-<ADVL #28->24
+: 
+"<neulan>"
+	"neula" N Sg Dial/Por Gen @<OBJ #29->28
+: 
+"<pääle>"
+	"pääle" Po @ADVL #30->27
+: 
+"<iloksi>"
+	"Ilo" N Prop Sem/Obj Sg Dial/Por Tra @<ADVL #31->28
+: 
+"</>"
+	"/" PUNCT MIDDLE @CNP #32->33
+: 
+"<Auringon>"
+	"aurinko" N Sg Gen @N> #33->33
+: 
+"<paistheessa>"
+	"paistet" N Sg Ine @<ADVL #34->31
+"<”>"
+	"”" PUNCT RIGHT #35->34
+"<.>"
+	"." CLB #36->3
+: 
+"<Laulussa>"
+	"laulu" N Sg Dial/Por Ine @ADVL> #1->9
+: 
+"<«>"
+	"«" PUNCT LEFT #2->3
+"<Kjærlighetsvisa>"
+	"Kjærlighetsvisa" ? @X #3->0
+"<»>"
+	"»" PUNCT RIGHT #4->5
+: 
+"<eli>"
+	"Eli" N Prop Sem/Fem Sg Nom @>N #5->6
+: 
+"<Rakkhauen>"
+	"rakkhaus" N Dial/Por Sg Gen @N> #6->6
+: 
+"<viisu>"
+	"viisu" N Sg Nom @SUBJ> #7->9
+"<,>"
+	"," CLB #8->13
+: 
+"<näyttää>"
+	"näyttäät" <mv> V TV Act Ind Prs Sg3 @FMV #9->0
+: 
+"<Trine>"
+	"Trine" N Prop Sem/Fem Sg Nom @>N #10->11
+: 
+"<Strand>"
+	"Strand" N Prop Sem/Sur Sg Nom @SUBJ> #11->13
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #12->13
+: 
+"<ei>"
+	"ei" <aux> V Neg Act Sg3 @FS-<ADVL #13->9
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #14->15
+: 
+"<ole>"
+	"olla" <aux> V Act Imprt Sg2 @FAUX #15->9
+: 
+"<kyllä>"
+	"kyllä" Adv @ADVL #16->3
+: 
+"<tyhä>"
+	"tyhä" Adv @ADVL #17->3
+: 
+"<Halvdan>"
+	"Halvdan" N Prop Sem/Mal Sg Nom @>N #18->19
+: 
+"<Sivertsen>"
+	"Sivertsen" N Prop Sem/Sur Sg Nom @SUBJ> #19->9
+: 
+"<kuka>"
+	"kuka" Pron Interr Sg Nom @SUBJ> #20->21
+: 
+"<saattaa>"
+	"saattaat" <mv> V TV Act Ind Prs Sg3 @FS-OBJ #21->9
+: 
+"<kuvata>"
+	"kuvata" V Inf @X #22->0
+: 
+"<rakkhautta>"
+	"rakkhaus" N Dial/Por Sg Par @<OBJ #23->21
+: 
+"<pohjaisessa>"
+	"pohjainen" A Sg Ine @<SPRED #24->21
+"<.>"
+	"." CLB #25->9
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

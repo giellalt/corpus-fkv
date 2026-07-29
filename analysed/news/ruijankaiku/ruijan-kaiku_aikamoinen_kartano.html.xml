@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Aikamoinen kartano</title><genre code="news"/><author><unknown/></author><wordcount>231</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>https://www.ruijan-kaiku.no/aikamoinen-kartano-staselig-herregard/</origFileName><parallel_text xml:lang="nob" location="ruijan-kaiku_aikamoinen_kartano.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Ota>"
+	"ottaat" <mv> V TV Act Imprt Sg2 @FMV #1->0
+: 
+"<kontaktii>"
+	"kontakti" N Sg Dial/Por Par @<OBJ #2->1
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<Kontakt>"
+	"Kontakt" ? @X #4->0
+: 
+"<oss>"
+	"oss" ? @X #5->0
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<Ruijan>"
+	"Ruija" N Prop Sem/Plc Sg Dial/Por Gen @>N #1->2
+: 
+"<Kaijusta>"
+	"Kaiju" N Prop Sg Dial/Por Ela @HNOUN #2->0
+	"kaiku" N Sg Dial/Por Ela @HNOUN #2->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<Om>"
+	"Om" ? @X #4->0
+: 
+"<Ruijan>"
+	"Ruija" N Prop Sem/Plc Sg Dial/Por Gen @N> #5->5
+: 
+"<Kaiku>"
+	"kaiku" N Sg Nom @<SPRED #6->2
+: 
+"<¶>"
+	"¶" CLB #7->2
+:\n
+"<Aikamoinen>"
+	"aikamoinen" A Sg Nom @>N #1->2
+:    
+"<kartano>"
+	"Kartano" N Prop Sem/Plc Sg Nom @HNOUN #2->0
+:  
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Lantalaiset>"
+	"lantalainen" N Pl Nom @>N #1->2
+: 
+"<talot>"
+	"talo" N Pl Dial/Por Nom @SUBJ> #2->3
+: 
+"<ei>"
+	"ei" <mv> V Neg Act Pl3 @FMV #3->0
+: 
+"<suinkhaan>"
+	"suinkhaan" Adv @ADVL #4->11
+: 
+"<aina>"
+	"Ai" N Prop Sem/Sur Sg Dial/Por Ess @<ADVL #5->11
+	"aina" Adv @ADVL #5->11
+: 
+"<olheet>"
+	"olla" V Act PrfPrc Pl Nom @>N #6->7
+: 
+"<pienet>"
+	"Piene" N Prop Sem/Sur Pl Dial/Por Nom @SUBJ> #7->11
+	"pieni" A Pl Nom @>N #7->11
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<vaivaiset>"
+	"vaivainen" A Pl Nom @>N #9->7
+	"vaivainen" N Pl Nom @SUBJ> #9->7
+: 
+"<yhđen>"
+	"yksi" Num Sg Gen @N< #10->9
+	"yksi" Pron Indef Sg Sg Gen @>N #10->9
+: 
+"<eli>"
+	"eli" CC @X #11->3
+	"elläät" <mv> V Act Ind Prt Sg3 @FMV #11->3
+: 
+"<kahđen>"
+	"kahđen" Adv @ADVL #12->11
+: 
+"<loman>"
+	"loma" N Dial/Por Sg Gen @N> #13->13
+: 
+"<pirtit>"
+	"pirtti" N Pl Dial/Por Nom @<OBJ #14->11
+"<.>"
+	"." CLB #15->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Sen>"
+	"se" Pron Pers Sg3 Gen @X #1->0
+: 
+"<kyllä>"
+	"kyllä" Adv @ADVL #2->1
+	"kyllä" Interj @X #2->1
+: 
+"<näkkee>"
+	"nähđä" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<selvästi>"
+	"selvästi" Adv @ADVL #4->2
+: 
+"<ko>"
+	"ko" CS @CVP #5->6
+: 
+"<kattoo>"
+	"kađota" <mv> V Act Ind Prs Sg3 @FS-<ADVL #6->3
+	"kattoot" <mv> V Act Ind Prs Sg3 @FS-<ADVL #6->3
+: 
+"<tätä>"
+	"tämä" Pron Dem Sg Par @>N #7->9
+: 
+"<kommeeta>"
+	"kommee" A Dial/Por Sg Dial/-Var Par @>N #8->9
+: 
+"<pytinkkii>"
+	"pytinki" N Sg Dial/Por Par @<OBJ #9->6
+: 
+"<Kaalasjärveltä>"
+	"Kaalasjärveltä" ? @X #10->0
+"<.>"
+	"." CLB #11->2
+: 
+"<Tämä>"
+	"tämä" Pron Dem Sg Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<sen>"
+	"se" Pron Dem Sg Gen @>N #3->4
+: 
+"<aijan>"
+	"aika" N Sg Dial/Por Gen @>N #4->5
+: 
+"<mallin>"
+	"malli" N Sg Dial/Por Gen @>P #5->6
+: 
+"<jälkheen>"
+	"jälkheen" Po @ADVL #6->14
+: 
+"<oikkee>"
+	"oikkee" A Dial/Por Sg Nom @>N #7->8
+: 
+"<kartano>"
+	"Kartano" N Prop Sem/Plc Sg Nom @SUBJ> #8->10
+"<,>"
+	"," CLB #9->8
+: 
+"<katto>"
+	"katto" N Sg Nom @SUBJ> #10->2
+	"kattoot" <mv> V Act Imprt Sg2 @FMV #10->2
+: 
+"<vaikka>"
+	"vaikka" Adv @ADVL #11->14
+: 
+"<fiinii>"
+	"fiini" A Pl Dial/Por Par @>N #12->13
+	"fiini" A Sg Dial/Por Par @>N #12->13
+: 
+"<uuttui>"
+	"Uuttu" N Prop Sem/Sur Pl Dial/Por Par @<SUBJ #13->10
+: 
+"<harjarästhään>"
+	"harjarästhään" ? @X #14->0
+: 
+"<alla>"
+	"alla" Po @ADVL #15->14
+: 
+"<ja>"
+	"ja" CC @CNP #16->15
+: 
+"<monessa>"
+	"Mone" N Prop Sem/Fem Sg Dial/Por Ine @<ADVL #17->10
+: 
+"<paikkaa>"
+	"paikata" <mv> V Act Ind Prs Sg3 @FMV #18->2
+	"paikka" N Sg Dial/Por Par @<SUBJ #18->2
+: 
+"<seinilä>"
+	"Seine" N Prop Sem/Plc Pl Dial/Por Ade @<ADVL #19->18
+"<.>"
+	"." CLB #20->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Niin>"
+	"niin" Adv @ADVL #1->0
+: 
+"<ko>"
+	"ko" CS @CVP #2->7
+: 
+"<taloki>"
+	"talo" N Sg Nom Clt @SUBJ> #3->7
+"<,>"
+	"," CLB #4->14
+: 
+"<se>"
+	"se" Pron Dem Sg Nom @>N #5->6
+: 
+"<uutut>"
+	"Uuttu" N Prop Sem/Sur Pl Dial/Por Nom @SUBJ> #6->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FS-ADVL> #7->11
+: 
+"<kansa>"
+	"kansa" N Sg Nom @SUBJ> #8->11
+: 
+"<isot>"
+	"iso" A Pl Dial/Por Nom @OBJ> #9->11
+"<,>"
+	"," CLB #10->2
+: 
+"<näkkee>"
+	"nähđä" <mv> V Act Ind Prs Sg3 @FS-ADVL> #11->14
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #12->14
+: 
+"<net>"
+	"net" Pron Pers Pl3 Nom @SUBJ> #13->14
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FS-<ADVL #14->0
+: 
+"<tarkoitettu>"
+	"tarkoittaat" V TV Pass PrfPrc Sg Nom @>N #15->17
+: 
+"<isoile>"
+	"iso" A Pl Dial/Por All @>N #16->17
+: 
+"<linnuile>"
+	"Lintu" N Prop Sem/Sur Pl Dial/Por All @<ADVL #17->14
+"<.>"
+	"." CLB #18->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<KUVASARJOI>"
+	"kuvasarja" N Pl Dial/Por Par @X #1->0
+: 
+"<JA>"
+	"JA" N Prop Sem/Org ACR N Prop ACR Sg Nom @>N #2->3
+	"JA" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @>N #2->3
+: 
+"<VITSII>"
+	"vitsi" N Sg Dial/Por Par @X #3->0
+: 
+"<•>"
+	"•" PUNCT #4->5
+: 
+"<TEGNESERIER>"
+	"TEGNESERIER" ? @X #5->0
+: 
+"<OG>"
+	"OG" N Prop Sem/Event ACR N Prop ACR Sg Nom @X #6->0
+	"OG" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @X #6->0
+: 
+"<VITSER>"
+	"VITSER" ? @X #7->0
+: 
+"<¶>"
+	"¶" CLB #8->8
+:\n
+"<Kuvasarjoi>"
+	"kuvasarja" N Pl Dial/Por Par @X #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<vitsii>"
+	"vitsi" N Pl Dial/Por Par @X #3->0
+	"vitsi" N Sg Dial/Por Par @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<Kuvasarjoi>"
+	"kuvasarja" N Pl Dial/Por Par @X #1->0
+: 
+"<|>"
+	"|" CLB #2->2
+: 
+"<Tegneserier>"
+	"Tegneserier" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<Pääkirjoituksii>"
+	"Pääkirjoituksii" ? @X #1->0
+: 
+"<|>"
+	"|" CLB #2->2
+: 
+"<Ledere>"
+	"Ledere" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id">
+  <header>
+    <title> 
+Untitled
+</title>
+    <genre code="admin"/>
+    <author>
+      <unknown/>
+    </author>
+    <translator>
+      <person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FIN"/>
+    </translator>
+    <wordcount>67</wordcount>
+    <conversion_status type="standard"/>
+    <availability>
+      <free/>
+    </availability>
+    <submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/>
+    <multilingual>
+      <language xml:lang="fkv"/>
+      <language xml:lang="nob"/>
+    </multilingual>
+    <parallel_text xml:lang="fkv" location="kvensk_samarbeidsrad_diplom_pa_kvensk.doc"/>
+    <parallel_text xml:lang="nob" location="kvensk_samarbeidsrad_diplom_pa_nob.doc"/>
+    <metadata>
+      <uncomplete/>
+    </metadata>
+    <version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision: 154948 $; </version>
+  </header>
+  <body><dependency><![CDATA["<Kvensk>"
+	"Kvensk" ? @X #1->0
+: 
+"<samarbeidsråd>"
+	"samarbeidsråd" ? @X #2->0
+: 
+"<v>"
+	"v" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @HNOUN #3->0
+	 Use/Circ"V" Use/NG Use/Circ Num Rom Sg Nom Use/Circ
+"</>"
+	"/" PUNCT MIDDLE @CNP #4->5
+: 
+"<Halti>"
+	"Halti" N Prop Sem/Plc Sg Nom @SUBJ> #5->0
+: 
+"<kvenkultursenter>"
+	"kvenkultursenter" ? @X #6->0
+: 
+"<¶>"
+	"¶" CLB #7->3
+:\n
+"<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+"<:>"
+	":" CLB #4->11
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #6->5
+: 
+"<->"
+	"-" PUNCT MIDDLE #7->8
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #8->6
+: 
+"</>"
+	"/" PUNCT MIDDLE @CNP #9->10
+: 
+"<Pirjo>"
+	"Pirjo" N Prop Sem/Fem Sg Nom @>N #10->11
+: 
+"<Paavalniemi>"
+	"Paavalniemi" N Prop Sem/Plc Sg Nom @SUBJ> #11->0
+: 
+"<07.06.2012>"
+	 Use/Circ"07.06.2012" Num Arab Sem/Date Sg Nom
+	 Use/Circ"07.06.2012" Num Arab Sem/ID
+: 
+"<¶>"
+	"¶" CLB #13->11
+:\n
+"<KVÄÄNIN>"
+	"kvääni" N Sg Dial/Por Gen @>N #1->2
+: 
+"<KIELEN>"
+	"kieli" N Sg Gen @>N #2->3
+: 
+"<JA>"
+	"JA" N Prop Sem/Org ACR N Prop ACR Sg Nom @>N #3->4
+	"JA" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @>N #3->4
+: 
+"<KULTTUURIN>"
+	"kulttuuri" N Sg Gen @>N #4->5
+: 
+"<KEHITTÄMISEN>"
+	"kehittäminen" N Sg Gen @>P #5->6
+	"kehittäät" Ex/V TV Der/minen N Sg Gen @>P #5->6
+: 
+"<ETHEEN>"
+	"etheen" Po @ADVL #6->0
+: 
+"<¶>"
+	"¶" CLB #7->6
+:\n
+"<Kväänin>"
+	"kvääni" N Sg Dial/Por Gen @X #1->0
+: 
+"<yhtheistyöraatin>"
+	"yhtheistyöraatin" ? @X #2->0
+: 
+"<puolesta>"
+	"puoli" A Sg Ela @HNOUN #3->1
+	"puoli" N Sg Ela @HNOUN #3->1
+: 
+"<...>"
+	"..." CLB #4->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

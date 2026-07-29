@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2013</year><wordcount>25</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Mie>"
+	"mie" Pron Pers Sg1 Nom @SUBJ> #1->2
+: 
+"<unistelen>"
+	"unistella" <mv> V Act Ind Prs Sg1 @FMV #2->0
+: 
+"<niin>"
+	"niin" Adv @ADVL #3->0
+: 
+"<hulluu>"
+	"hullu" A Sg Dial/Por Par @<OBJ #4->2
+	"hullu" N Sg Dial/Por Par @<OBJ #4->2
+: 
+"<...>"
+	"..." CLB #5->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Viimi>"
+	"viimi" A Attr @X #1->6
+	"viimi" Adv @ADVL #1->6
+: 
+"<yönä>"
+	"yö" N Sg Ess @ADVL> #2->3
+: 
+"<unistelin>"
+	"unistella" <mv> V Act Ind Prt Sg1 @FMV #3->0
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #4->5
+: 
+"<olin>"
+	"olla" <mv> V Act Ind Prt Sg1 @FS-<ADVL #5->3
+: 
+"<plyjantinteroittaaja>"
+	"plyjantinteroittaaja" ? @X #6->0
+"<.>"
+	"." CLB #7->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Eihän>"
+	"ei" <mv> V Neg Act Sg3 Foc/han @FMV #1->0
+: 
+"<se>"
+	"se" Pron Dem Sg Nom @>N #2->3
+: 
+"<juuri>"
+	"juuri" Adv @ADVL #3->8
+	"juuri" N Sg Nom @SUBJ> #3->8
+: 
+"<kippeesti>"
+	"kippee" A Dial/Por Sg Gen PxSg2 @<OBJ #4->1
+: 
+"<tehny>"
+	"tehđä" V Act PrfPrc Sg Nom @SUBJ> #5->8
+"<,>"
+	"," CLB #6->5
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @SUBJ> #7->5
+: 
+"<olihan>"
+	"olla" <mv> V Act Ind Prt Sg3 Foc/han @FMV #8->1
+: 
+"<se>"
+	"se" Pron Dem Sg Nom @N> #9->9
+: 
+"<pikkusen>"
+	"pikkusen" Adv @ADVL #10->0
+: 
+"<hulluu>"
+	"hullu" A Sg Dial/Por Par @<SUBJ #11->8
+	"hullu" N Sg Dial/Por Par @<SUBJ #11->8
+: 
+"<...>"
+	"..." CLB #12->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

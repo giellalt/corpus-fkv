@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id">
+  <header>
+    <title>Siunaus</title>
+    <genre code="bible"/>
+    <author>
+      <unknown/>
+    </author>
+    <translator>
+      <person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/>
+    </translator>
+    <translated_from xml:lang="nob"/>
+    <year>2003</year>
+    <wordcount>58</wordcount>
+    <conversion_status type="standard"/>
+    <availability>
+      <free/>
+    </availability>
+    <submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/>
+    <multilingual>
+      <language xml:lang="nob"/>
+      <language xml:lang="fkv"/>
+    </multilingual>
+    <metadata>
+      <uncomplete/>
+    </metadata>
+    <version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version>
+  </header>
+  <body>
+    <dependency><![CDATA["<Siunaus>"
+	"siunaus" N Sg Nom @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Herra>"
+	"herra" N Sg Nom @HNOUN #1->0
+: 
+"<hyvväilkhöön>"
+	"hyvväilkhöön" ? @X #2->0
+: 
+"<sinnuu>"
+	"sie" Pron Pers Sg2 Par @X #3->0
+	"sie" Pron Pers Sg2 Use/NG Par @X #3->0
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<varjelkhoon>"
+	"varjelkhoon" ? @X #5->0
+: 
+"<sinnuu>"
+	"sie" Pron Pers Sg2 Par @X #6->0
+	"sie" Pron Pers Sg2 Use/NG Par @X #6->0
+"<.>"
+	"." CLB #7->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Herra>"
+	"herra" N Sg Nom @X #1->0
+: 
+"<antakhoon>"
+	"antakhoon" ? @X #2->0
+: 
+"<kattheen>"
+	"kattet" N Sg Gen @X #3->0
+: 
+"<lämmittäät>"
+	"lämmittäät" V TV Inf @X #4->0
+: 
+"<sinun>"
+	"sie" Pron Pers Sg2 Gen @X #5->0
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<antakhoon>"
+	"antakhoon" ? @X #7->0
+: 
+"<sinule>"
+	"sie" Pron Pers Sg2 All @X #8->0
+: 
+"<armon>"
+	"armo" N Sg Dial/Por Gen @<OBJ #9->9
+"<.>"
+	"." CLB #10->10
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Herra>"
+	"herra" N Sg Nom @X #1->0
+: 
+"<antakhoon>"
+	"antakhoon" ? @X #2->0
+: 
+"<kasvot>"
+	"kasvot" N Pl Nom @X #3->0
+: 
+"<loistaat>"
+	"loistaat" V Inf @X #4->0
+: 
+"<sinule>"
+	"sie" Pron Pers Sg2 All @X #5->0
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<antakhoon>"
+	"antakhoon" ? @X #7->0
+: 
+"<sinule>"
+	"sie" Pron Pers Sg2 All @X #8->0
+: 
+"<rauhan>"
+	"Rauha" N Prop Sem/Fem Sg Dial/Por Gen @<OBJ #9->9
+"<!>"
+	"!" CLB #10->10
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency>
+  </body>
+</document>

@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Käsityö</title><genre code="inc"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>21</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<K>"
+	"k" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @HNOUN #1->0
+: 
+"<äsityö>"
+	"äsityö" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Oonko>"
+	"olla" <mv> V Act Ind Prs Sg3 Clt Qst @FMV #1->0
+: 
+"<sulla>"
+	"sie" Pron Pers Sg2 Ade @<ADVL #2->1
+	"sie" Pron Pers Sg2 Use/NG Ade @<ADVL #2->1
+: 
+"<halu>"
+	"halu" N Sg Nom @<SPRED #3->1
+: 
+"<tehðä>"
+	"tehđä" V Inf @X #4->0
+: 
+"<käsityötä>"
+	"käsityö" N Sg Par @<SUBJ #5->1
+"<?>"
+	"?" CLB #6->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kohðattelemako>"
+	"kohđatella" <mv> V Act Ind Prs Pl1 Clt Qst @FMV #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<puhuskelemako>"
+	"puhuskella" <mv> V Act Ind Prs Pl1 Clt Qst @FS-<ADVL #3->1
+: 
+"<siitä>"
+	"siitä" Adv @ADVL #4->0
+"<?>"
+	"?" CLB #5->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuka>"
+	"kuka" Pron Interr Sg Nom @SUBJ> #1->2
+: 
+"<saattaa>"
+	"saattaat" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<mitä>"
+	"mikä" Pron Interr Pl Par @<OBJ #3->2
+	"mikä" Pron Interr Sg Par @<OBJ #3->2
+"<?>"
+	"?" CLB #4->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Toorniolakson>"
+	"Toorniolakson" ? @X #1->0
+: 
+"<talossa>"
+	"talo" N Sg Dial/Por Ine @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Lauantaina>"
+	"lauvantai" Err/Orth N Pl Ess @HNOUN #1->0
+	"lauvantai" Err/Orth N Sg Ess @HNOUN #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<.>"
+	"." CLB #3->1
+	 Use/Circ"3" A Arab Ord Attr
+		 Use/Circ Use/Circ"3" Num Arab Sg Nom "<3>"
+		 Use/Circ"3" A Arab Ord Attr CLBfinal "<3>"
+		 Use/Circ"3" Num Arab Sem/ID "<3>"
+		 Use/Circ"3" Num Arab Sem/Time-clock Sg Nom "<3>"
+: 
+"<marsikuuta>"
+	"marsikuu" N Sg Par @X #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<klo>"
+	"Klo" N Prop Sg Nom @HNOUN #3->1
+"<.>"
+	"." CLB #4->4
+: 
+"<14:00>"
+	 Use/Circ"14:00" Num Arab Sem/ID
+	 Use/Circ"14:00" Num Arab Sem/Time-clock Sg Nom
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+
+]]></dependency></body></document>

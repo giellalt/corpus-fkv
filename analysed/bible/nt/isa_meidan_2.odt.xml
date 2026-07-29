@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Isä meiðän</title><genre code="bible"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><translated_from xml:lang="nob"/><year>2012</year><wordcount>46</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Isä>"
+	"isä" N Sg Nom @HNOUN #1->0
+: 
+"<meiðän>"
+	"met" Pron Pers Pl1 Gen @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Isä>"
+	"isä" N Sg Nom @SUBJ> #1->0
+: 
+"<meiðän>"
+	"met" Pron Pers Pl1 Gen @X #2->0
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #3->4
+: 
+"<olet>"
+	"olla" <mv> V Act Ind Prs Sg2 @FS-N< #4->2
+: 
+"<taivhaassa>"
+	"taivas" N Sg Ine @<ADVL #5->4
+"<!>"
+	"!" CLB #6->1
+"<Pyhitetty>"
+	"pyhitetty" A Sg Nom @SUBJ> #1->2
+: 
+"<olkhoon>"
+	"olla" <mv> V Act Imprt Sg3 @FMV #2->0
+: 
+"<sinun>"
+	"sie" Pron Pers Sg2 Gen @>N #3->4
+: 
+"<nimi>"
+	"nimi" N Dial/Por Sg Nom @SUBJ> #4->2
+"<;>"
+	";" CLB #5->2
+"<llikennytkhöön>"
+	"llikennytkhöön" ? @X #6->0
+: 
+"<sinun>"
+	"sie" Pron Pers Sg2 Gen @>N #7->8
+: 
+"<valtakunta>"
+	"valtakunta" N Dial/Por Sg Nom @SUBJ> #8->2
+"<;>"
+	";" CLB #9->2
+"<tapattukhoon>"
+	"tapattukhoon" ? @X #10->0
+: 
+"<sinun>"
+	"sie" Pron Pers Sg2 Gen @>N #11->12
+: 
+"<tahto>"
+	"tahto" N Sg Nom @SUBJ> #12->2
+"<,>"
+	"," CLB #13->12
+"<niin>"
+	"niin" Adv @ADVL #14->10
+: 
+"<maassa>"
+	"maa" N Sg Ine @<ADVL #15->2
+"<,>"
+	"," CLB #16->15
+: 
+"<niinko>"
+	"niinko" Pcle @PCLE #17->18
+: 
+"<taivhaassa>"
+	"taivas" N Sg Ine @<ADVL #18->2
+"<;>"
+	";" CLB #19->2
+"<anna>"
+	"Anna" N Prop Sem/Fem Sg Nom @>N #20->21
+: 
+"<meile>"
+	"Meti" N Prop Sem/Fem Sg Dial/Por All @<ADVL #21->2
+: 
+"<tänä>"
+	"tämä" Pron Dem Sg Ess @>N #22->23
+: 
+"<päivänä>"
+	"päivä" N Sg Dial/Por Ess @<ADVL #23->10
+	"päivänä" Adv @ADVL #23->10
+: 
+"<meiðän>"
+	"met" Pron Pers Pl1 Gen @>N #24->26
+: 
+"<jokapäiväsen>"
+	"jokapäiväsen" ? @X #25->0
+: 
+"<leivän>"
+	"leipä" N Sg Dial/Por Gen @X #26->0
+"<;>"
+	";" CLB #27->2
+"<ja>"
+	"ja" CC @CNP #28->26
+: 
+"<anna>"
+	"Anna" N Prop Sem/Fem Sg Nom @>N #29->30
+: 
+"<meile>"
+	"Meti" N Prop Sem/Fem Sg Dial/Por All @<ADVL #30->2
+: 
+"<meiðän>"
+	"met" Pron Pers Pl1 Gen @>N #31->32
+: 
+"<synnit>"
+	"synti" N Pl Dial/Por Nom @X #32->0
+: 
+"<antheeksi>"
+	"antheeksi" Adv @ADVL #33->32
+	"antheeksi" Interj @X #33->32
+"<,>"
+	"," CLB #34->33
+"<niinko>"
+	"niinko" Pcle @PCLE #35->36
+: 
+"<metki>"
+	"met" Pron Pers Pl1 Nom Clt @SUBJ> #36->37
+: 
+"<annama>"
+	"anttaat" <mv> V TV Act Ind Prs Pl1 @FMV #37->2
+: 
+"<antheeksi>"
+	"antheeksi" Adv @ADVL #38->33
+: 
+"<meiðän>"
+	"met" Pron Pers Pl1 Gen @<OBJ #39->37
+: 
+"<velvolisile>"
+	"velvolinen" A Pl All @<ADVL #40->37
+"<;>"
+	";" CLB #41->2
+"<ja>"
+	"ja" CC @CNP #42->40
+: 
+"<älä>"
+	"ei" <mv> V Neg Act Imprt Sg2 @FMV #43->2
+: 
+"<johðata>"
+	"johđata" V Inf @X #44->0
+: 
+"<meitä>"
+	"met" Pron Pers Pl1 Par @<OBJ #45->43
+: 
+"<kiussauksheen>"
+	"kiussaus" N Sg Ill @<ADVL #46->43
+"<;>"
+	";" CLB #47->2
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @SUBJ> #48->49
+: 
+"<päästä>"
+	"päästäät" <mv> V Act Ind Prt Sg3 Err/Orth @FMV #49->2
+: 
+"<meiðät>"
+	"met" Pron Pers Pl1 Acc @<OBJ #50->49
+: 
+"<pahasta>"
+	"pahas" A Sg Par @<OBJ #51->49
+"<.>"
+	"." CLB #52->2
+"<Sillä>"
+	"sillä" CS @CVP #1->3
+: 
+"<sinun>"
+	"sie" Pron Pers Sg2 Gen @X #2->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-ADVL> #3->7
+: 
+"<valtakunta>"
+	"valtakunta" N Dial/Por Sg Nom @<SPRED #4->3
+"<,>"
+	"," CLB #5->1
+"<ja>"
+	"ja" CC @CNP #6->4
+: 
+"<voima>"
+	"voima" N Dial/Por Sg Nom @X #7->0
+	"voiđa" <mv> V Act Ind Prs Pl1 @FS-ADVL> #7->0
+	"voiđa" <mv> V Act Ind Prt Pl1 @FS-ADVL> #7->0
+"<,>"
+	"," CLB #8->1
+"<ja>"
+	"ja" CC @CNP #9->7
+: 
+"<kunnia>"
+	"kunnia" N Sg Nom @X #10->0
+: 
+"<ijänkaikkisesti>"
+	"ijänkaikkisesti" Adv @ADVL #11->10
+"<.>"
+	"." CLB #12->7
+"<Aamen>"
+	"aamen" Interj @X #1->0
+"<.>"
+	"." CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

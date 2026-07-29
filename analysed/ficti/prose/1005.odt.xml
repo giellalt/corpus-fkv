@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2013</year><wordcount>34</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Mulla>"
+	"mie" Pron Pers Sg1 Ade @ADVL> #1->1
+	"mie" Pron Pers Sg1 Use/NG Ade @ADVL> #1->1
+: 
+"<ei>"
+	"ei" <aux> V Neg Act Sg3 @FAUX #2->0
+: 
+"<ole>"
+	"olla" <aux> V Act Ind Prs ConNeg @IAUX #3->2
+: 
+"<rahhaa>"
+	"raha" N Sg Dial/Por Par @<SUBJ #4->2
+"<.>"
+	"." CLB #5->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tartten>"
+	"tarvita" Err/Orth Act Ind Prs Sg1 @+FMAINV #1->1
+: 
+"<työtä>"
+	"työ" N Sg Par @X #2->0
+"<.>"
+	"." CLB #3->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Työkontturhiin>"
+	"Työkontturhiin" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Oonko>"
+	"olla" <mv> V Act Ind Prs Sg3 Clt Qst @FMV #1->0
+: 
+"<teilä>"
+	"tee" N Pl Ade @<ADVL #2->1
+	"tet" Pron Pers Pl2 Ade @<ADVL #2->1
+	"tie" N Pl Ade @<ADVL #2->1
+: 
+"<työtä>"
+	"työ" N Sg Par @<SUBJ #3->1
+: 
+"<missä>"
+	"missä" Adv @ADVL #4->0
+: 
+"<tienaa>"
+	"tienata" <mv> V Act Ind Prs Sg3 @FS-<ADVL #5->1
+: 
+"<hyvin>"
+	"hyvin" Adv @ADVL #6->0
+"<?>"
+	"?" CLB #7->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Met>"
+	"met" Pron Pers Pl1 Nom @SUBJ> #1->2
+: 
+"<saatama>"
+	"saattaat" <mv> V TV Act Ind Prs Pl1 @FMV #2->0
+: 
+"<auttaat>"
+	"auttaat" V TV Inf @X #3->0
+: 
+"<sinnuu>"
+	"sie" Pron Pers Sg2 Par @<OBJ #4->2
+	"sie" Pron Pers Sg2 Use/NG Par @<OBJ #4->2
+: 
+"<näilä>"
+	"nämät" Pron Dem Pl Ade @<ADVL #5->2
+: 
+"<työmarkkinaavuila>"
+	"työmarkkinaavuila" ? @X #6->0
+"<.>"
+	"." CLB #7->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lähteekö>"
+	"lähteet" V Act Ind Prs Sg3 Clt Qst @X #1->0
+:  
+"<niistä>"
+	"niistäät" V Act Ind Prt Sg3 Err/Orth @X #2->0
+: 
+"<rahhaa>"
+	"raha" N Sg Dial/Por Par @<OBJ #3->3
+"<?>"
+	"?" CLB #4->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kutkuta>"
+	"kutkuttaat" V TV Act Imprt Sg2 @X #1->0
+: 
+"<kutkuta>"
+	"kutkuttaat" V TV Act Ind Prs ConNeg @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Eihän>"
+	"ei" <aux> V Neg Act Sg3 Foc/han @FAUX #1->0
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #2->3
+: 
+"<niistä>"
+	"niistäät" V Act Ind Prs ConNeg @X #3->0
+: 
+"<tule>"
+	"Tule" N Prop Sem/Plc Sg Nom @X #4->0
+: 
+"<rikhaaksi>"
+	"rikas" Err/Orth A Sg Tra @<ADVL #5->1
+: 
+"<kyllä>"
+	"kyllä" Adv @ADVL #6->4
+	"kyllä" Interj @X #6->4
+: 
+"<...>"
+	"..." CLB #7->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<...>"
+	"..." CLB #1->1
+: 
+"<pikku>"
+	"pikku" A Attr @X #1->0
+: 
+"<ystäväni>"
+	"ystävä" N Sg Gen PxSg1 @X #2->0
+"<!>"
+	"!" CLB #3->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

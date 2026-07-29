@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2013</year><wordcount>26</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Olen>"
+	"olla" <mv> V Act Ind Prs Sg1 @FMV #1->0
+: 
+"<tulemassa>"
+	"tulema" N Sg Ine @<ADVL #2->1
+	"tulla" V Act Inf3 Ine @<ADVL #2->1
+: 
+"<hulluksi>"
+	"hullu" A Sg Dial/Por Tra @<SPRED #3->1
+	"hullu" N Sg Dial/Por Tra @<ADVL #3->1
+"<.>"
+	"." CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tartten>"
+	"tarvita" Err/Orth Act Ind Prs Sg1 @+FMAINV #1->1
+: 
+"<proffiappuu>"
+	"proffiappuu" ? @X #2->0
+"<.>"
+	"." CLB #3->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"3" A Arab Ord Attr
+		 Use/Circ Use/Circ"3" Num Arab Sg Nom "<3>"
+		 Use/Circ"3" A Arab Ord Attr CLBfinal "<3>"
+		 Use/Circ"3" Num Arab Sem/ID "<3>"
+		 Use/Circ"3" Num Arab Sem/Time-clock Sg Nom "<3>"
+: 
+"<tas>"
+	"tas" ? @X #1->0
+"<.>"
+	"." CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Muistele>"
+	"muistela" <mv> V Act Imprt Sg2 @FMV #1->0
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #2->0
+: 
+"<mulle>"
+	"mie" Pron Pers Sg1 All @<ADVL #3->1
+	"mie" Pron Pers Sg1 Use/NG All @<ADVL #3->1
+: 
+"<sinusta>"
+	"sie" Pron Pers Sg2 Ela @<ADVL #4->1
+	"sie" Pron Pers Sg2 Use/NG Ela @<ADVL #4->1
+"<.>"
+	"." CLB #5->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Minun>"
+	"mie" Pron Pers Sg1 Gen @>N #1->2
+: 
+"<pappa>"
+	"pappa" N Sg Nom @SUBJ> #2->3
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #3->0
+: 
+"<sika>"
+	"sika" N Sg Nom @<SPRED #4->3
+"<.>"
+	"." CLB #5->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #1->2
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<se>"
+	"se" Pron Dem Sg Nom @>N #3->4
+: 
+"<tiima>"
+	"tiima" N Sg Nom @<SPRED #4->2
+"<.>"
+	"." CLB #5->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<500>"
+	 Use/Circ Use/Circ"500" Num Arab Sg Nom
+	 Use/Circ"500" Num Arab Sem/ID
+"<,>"
+	"," CLB #2->3
+: 
+"<kiitos>"
+	"kiitos" N Sg Nom @HNOUN #3->0
+"<!>"
+	"!" CLB #4->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Vielä>"
+	"Vie" N Prop Sem/Sur Sg Dial/Por Ade @ADVL> #1->3
+	"vielä" Adv @ADVL #1->3
+: 
+"<sieki>"
+	"sie" Pron Pers Sg2 Nom Clt @SUBJ> #2->3
+: 
+"<olet>"
+	"olla" <mv> V Act Ind Prs Sg2 @FMV #3->0
+: 
+"<tullu>"
+	"tulla" V Act PrfPrc Sg Nom @>N #4->5
+: 
+"<hulluksi>"
+	"hullu" A Sg Dial/Por Tra @<SPRED #5->3
+	"hullu" N Sg Dial/Por Tra @<ADVL #5->3
+"<!>"
+	"!" CLB #6->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

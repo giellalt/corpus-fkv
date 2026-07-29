@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Piä huolen</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="1960" nationality="FIN"/></translator><year>2011</year><wordcount>108</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="sme"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Uuet>"
+	"uusi" A Dial/Por Pl Nom @>N #1->2
+: 
+"<laulut>"
+	"laulu" N Pl Dial/Por Nom @HNOUN #2->0
+: 
+"<2011>"
+	 Use/Circ Use/Circ"2011" Num Arab Sg Nom
+	 Use/Circ"2011" Num Arab Sem/ID
+	 Use/Circ"2011" Num Arab Sem/Year Sg Nom
+: 
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<Pave>"
+	"Pave" ? @X #1->0
+: 
+"<Maijanen>"
+	"Maijanen" N Prop Sem/Sur Sg Nom @HNOUN #2->4
+"<:>"
+	":" CLB #3->4
+: 
+"<Pidä>"
+	"pittäät" <mv> V Act Imprt Sg2 @FMV #4->0
+: 
+"<huolen>"
+	"huoli" N Sg Gen @<OBJ #5->4
+: 
+"<¶>"
+	"¶" CLB #6->4
+:\n
+"<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+: 
+"<og>"
+	"og" ? @X #4->0
+: 
+"<samisk>"
+	"samisk" ? @X #5->0
+: 
+"<(>"
+	"(" PUNCT LEFT #6->15
+"<1>"
+	 Use/Circ Use/Circ"1" Num Arab Sg Nom
+	 Use/Circ"1" A Arab Ord Attr CLBfinal
+	 Use/Circ"1" Num Arab Sem/ID
+	 Use/Circ"1" Num Arab Sem/Time-clock Sg Nom
+: 
+"<vers>"
+	"vers" ? @X #8->0
+"<)>"
+	")" PUNCT RIGHT #9->8
+"<:>"
+	":" CLB #10->15
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #11->11
+: 
+"<institutti-Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @HNOUN #12->11
+		"institutti" N Sg Nom Cmp/Hyph #12->11
+"</>"
+	"/" PUNCT MIDDLE @CNP #13->14
+: 
+"<Pirjo>"
+	"Pirjo" N Prop Sem/Fem Sg Nom @>N #14->15
+: 
+"<Paavalniemi>"
+	"Paavalniemi" N Prop Sem/Plc Sg Nom @SUBJ> #15->0
+: 
+"<¶>"
+	"¶" CLB #16->15
+:\n
+"<Kvensk>"
+	"Kvensk" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Piä>"
+	"pittäät" <mv> V Act Imprt Sg2 @FMV #1->0
+: 
+"<huolen>"
+	"huoli" N Sg Gen @<OBJ #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Piä>"
+	"pittäät" <mv> V Act Imprt Sg2 @FMV #1->0
+: 
+"<huolen>"
+	"huoli" N Sg Gen @<OBJ #2->1
+: 
+"<ittestä>"
+	"itte" Pron Qu Ela @<ADVL #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<ja>"
+	"ja" CC @CNP #1->2
+: 
+"<niistä>"
+	"net" Pron Pers Pl3 Ela @HNOUN #2->0
+	"niistäät" <mv> V Act Imprt Sg2 @FMV #2->0
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @X #3->0
+: 
+"<kärsii>"
+	"kärsii" ? @X #4->0
+"<.>"
+	"." CLB #5->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Anna>"
+	"Anna" N Prop Sem/Fem Sg Nom @HNOUN #1->0
+	"anttaat" <mv> V TV Act Imprt Sg2 @FMV #1->0
+: 
+"<almun>"
+	"almun" ? @X #2->0
+: 
+"<sillekki>"
+	"sillekki" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<joka>"
+	"joka" Pron Qu Nom @SUBJ> #1->3
+: 
+"<köyhyyvessä>"
+	"köyhyyvessä" ? @X #2->0
+: 
+"<ellää>"
+	"elläät" <mv> V Act Ind Prs Sg3 @FMV #3->0
+"<.>"
+	"." CLB #4->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Muista>"
+	"muistaat" V Act Imprt Sg2 @X #1->0
+: 
+"<sielä>"
+	"sielä" Adv @ADVL #2->1
+: 
+"<rakentaa>"
+	"rakenttaat" Err/Orth Act Imprt Sg2 #3->3
+: 
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<missä>"
+	"mikä" Pron Interr Pl Ine @ADVL> #1->4
+	"mikä" Pron Interr Sg Ine @ADVL> #1->4
+	"missä" Adv @ADVL #1->4
+: 
+"<koti>"
+	"koti" N Sg Nom @>N #2->3
+: 
+"<maahan>"
+	"maa" N Sg Ill @HNOUN #3->0
+	"maa" N Sg Nom Foc/han @HNOUN #3->0
+: 
+"<sortuu>"
+	"sortuu" ? @X #4->0
+"<.>"
+	"." CLB #5->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Freistaa>"
+	"freistata" V Act Imprt Sg2 @X #1->0
+	"freistata" V Act Ind Prs Sg3 @X #1->0
+: 
+"<sitä>"
+	"se" Pron Pers Sg3 Par @<OBJ #2->2
+: 
+"<avittaa>"
+	"avittaat" V TV Act Ind Prs Sg3 @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<joka>"
+	"joka" Pron Qu Attr @X #1->3
+	"joka" Pron Qu Nom @SUBJ> #1->3
+: 
+"<päätöksissä>"
+	"päätös" N Pl Ine @ADVL> #2->3
+: 
+"<horjuu>"
+	"horjuut" <mv> V Act Ind Prs Sg3 @FMV #3->0
+"<.>"
+	"." CLB #4->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Sillä>"
+	"sillä" CS @CVP #1->5
+: 
+"<ihminen>"
+	"ihminen" N Sg Nom @SUBJ> #2->5
+: 
+"<joka>"
+	"joka" Pron Qu Attr @X #3->5
+	"joka" Pron Qu Nom @SUBJ> #3->5
+: 
+"<avun>"
+	"apu" N Sg Dial/Por Gen @X #4->0
+: 
+"<saa>"
+	"saađa" <mv> V Act Ind Prs ConNeg @FMV #5->0
+	"sattaat" <mv> V TV Act Ind Prs ConNeg @FMV #5->0
+: 
+"<¶>"
+	"¶" CLB #6->5
+:\n
+"<sitä>"
+	"se" Pron Pers Sg3 Par @>N #1->3
+: 
+"<joskus>"
+	"joskus" Adv @ADVL #2->5
+: 
+"<hoksaa>"
+	"hoksa" N Dial/Por Sg Dial/Por Par @>P #3->4
+	"hoksata" <mv> V Act Ind Prs Sg3 @FMV #3->4
+	"hoksata" <mv> V Act Imprt Sg2 @FMV #3->4
+: 
+"<kans>"
+	"kans" Po @ADVL #4->5
+: 
+"<antaa>"
+	"anttaat" V TV Inf Err/Orth @X #5->0
+"<,>"
+	"," CLB #6->5
+: 
+"<¶>"
+	"¶" CLB #7->2
+:\n
+"<hoksaa>"
+	"hoksa" N Dial/Por Sg Dial/Por Par @>P #1->2
+	"hoksata" <mv> V Act Ind Prs Sg3 @FMV #1->2
+	"hoksata" <mv> V Act Imprt Sg2 @FMV #1->2
+: 
+"<kans>"
+	"kans" Po @ADVL #2->3
+: 
+"<antaa>"
+	"anttaat" V TV Inf Err/Orth @X #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<hoksaa>"
+	"hoksa" N Dial/Por Sg Dial/Por Par @<OBJ #5->1
+	"hoksata" <mv> V Act Ind Prs Sg3 @FMV #5->1
+	"hoksata" <mv> V Act Imprt Sg2 @FMV #5->1
+: 
+"<kans>"
+	"kans" Po @ADVL #6->3
+: 
+"<antaa>"
+	"anttaat" V TV Inf Err/Orth @X #7->0
+: 
+"<¶>"
+	"¶" CLB #8->2
+:\n
+
+]]></dependency></body></document>

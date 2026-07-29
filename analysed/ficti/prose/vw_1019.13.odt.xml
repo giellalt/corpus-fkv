@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2013</year><wordcount>25</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Lähđetkö>"
+	"lähteet" <mv> V Act Ind Prs Sg2 Clt Qst @FMV #1->0
+: 
+"<kiinhoon>"
+	"kiinhoon" ? @X #2->0
+"<?>"
+	"?" CLB #3->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<En>"
+	"ei" <mv> V Neg Act Sg1 @FMV #1->0
+"<,>"
+	"," CLB #2->3
+: 
+"<sillä>"
+	"sillä" CS @CVP #3->0
+: 
+"<ko>"
+	"ko" CS @CVP #4->6
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #5->6
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-<ADVL #6->1
+: 
+"<selvästi>"
+	"selvästi" Adv @ADVL #7->0
+:  
+"<surulinen>"
+	"surulinen" A Sg Nom @>N #8->9
+: 
+"<kulttuurifilmi>"
+	"filmi" N Sg Nom @<SPRED #9->6
+		"kulttuuri" N Sg Nom Cmp #9->6
+"<!>"
+	"!" CLB #10->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<Tarkovskij>"
+	"Tarkovskij" ? @X #3->0
+"<.>"
+	"." CLB #4->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Niin>"
+	"niin" Adv @ADVL #1->0
+: 
+"<mie>"
+	"mie" Pron Pers Sg1 Nom @SUBJ> #2->3
+: 
+"<eppäilinki>"
+	"eppäilä" <mv> V Act Ind Prt Sg1 Clt @FMV #3->0
+"<.>"
+	"." CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Mie>"
+	"mie" Pron Pers Sg1 Nom @SUBJ> #1->2
+: 
+"<tykkään>"
+	"tykätä" <mv> V Act Ind Prs Sg1 @FMV #2->0
+: 
+"<paremmin>"
+	"paremmin" ? @X #3->0
+: 
+"<Tex>"
+	"Tex" ? @X #4->0
+: 
+"<Willeristä>"
+	"Willeristä" ? @X #5->0
+"<.>"
+	"." CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

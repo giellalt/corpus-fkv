@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Kaivuonon ja Raisin komuunitten ökoprošekti</title><genre code="inc"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FIN"/></translator><wordcount>29</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #1->1
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #2->1
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #4->2
+:  
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Käänös>"
+	"käänös" N Sg Nom @HNOUN #1->0
+: 
+"<09.06.09>"
+	 Use/Circ"09.06.09" Num Arab Sem/Date Sg Nom
+	 Use/Circ"09.06.09" Num Arab Sem/ID
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Kaivuonon>"
+	"Kaivuono" N Prop Sg Dial/Por Gen @>N #1->3
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<Raisin>"
+	"Raisi" N Prop Sem/Plc Sg Dial/Por Gen @>N #3->4
+: 
+"<komuunitten>"
+	"komuuni" N Pl Dial/Jok Gen @X #4->0
+: 
+"<ökoprošekti>"
+	"ökoprošekti" ? @X #5->0
+: 
+"<¶>"
+	"¶" CLB #6->6
+:\n
+
+]]></dependency></body></document>

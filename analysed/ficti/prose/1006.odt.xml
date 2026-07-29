@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2013</year><wordcount>13</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Ilman>"
+	"ilman" Adv @ADVL #1->2
+: 
+"<koulutusta>"
+	"koulutus" N Sg Par @X #2->0
+: 
+"<et>"
+	"ei" <aux> V Neg Act Sg2 @FAUX #3->2
+	"et" Adv Sem/Txt @ADVL #3->2
+: 
+"<saa>"
+	"saađa" <aux> V Act Ind Prs ConNeg @IAUX #4->3
+	"sattaat" <aux> V TV Act Ind Prs ConNeg @IAUX #4->3
+: 
+"<työtä>"
+	"työ" N Sg Par @<OBJ #5->5
+"<.>"
+	"." CLB #6->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Ota>"
+	"ottaat" <mv> V TV Act Imprt Sg2 @FMV #1->0
+: 
+"<kursin>"
+	"kursi" N Sg Dial/Por Gen @<OBJ #2->1
+"<!>"
+	"!" CLB #3->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Oui>"
+	"Oui" ? @X #1->0
+"<.>"
+	"." CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Bonjour>"
+	"Bonjour" ? @X #1->0
+"<.>"
+	"." CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>VAPPUS oon applikasjuuni digitaalisille opastuksile</title><genre code="facta"/><author><unknown/></author><wordcount>85</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>VAPPUS oon applikasjuuni digitaalisille opastuksile-2.docx</origFileName><parallel_text xml:lang="nob" location="vappus_oon_applikasjuuni_digitaalisille_opastuksile-2.odt"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<VAPPUS>"
+	"VAPPUS" ? @X #1->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<applikasjuuni>"
+	"applikasjuuni" ? @X #3->0
+: 
+"<digitaalisille>"
+	"digitaalinen" A Pl All @>N #4->5
+: 
+"<opastuksile>"
+	"opastus" N Pl All @<ADVL #5->2
+: 
+"<museumin>"
+	"Museum" N Prop Sem/Org Sg Dial/Por Gen @N> #6->6
+: 
+"<näyttelyissä>"
+	"näyttely" N Pl Ine @<ADVL #7->2
+"<.>"
+	"." CLB #8->2
+: 
+"<VAPPUS>"
+	"VAPPUS" ? @X #1->0
+: 
+"<meinaa>"
+	"meinata" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<opastaajaa>"
+	"opastaajaa" ? @X #3->0
+: 
+"<tahi>"
+	"tahi" CC @X #4->0
+: 
+"<opasmiestä>"
+	"opasmiestä" ? @X #5->0
+: 
+"<saameksi>"
+	"saame" N Sg Dial/Por Tra @<ADVL #6->2
+"<.>"
+	"." CLB #7->2
+: 
+"<Tämä>"
+	"tämä" Pron Dem Sg Nom @>N #1->3
+: 
+"<tullee>"
+	"tulla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<sanasta>"
+	"Sana" N Prop Sem/Plc Sg Dial/Por Ela @<ADVL #3->2
+: 
+"<“>"
+	"“" PUNCT LEFT #4->5
+: 
+"<oahpis>"
+	"oahpis" ? @X #5->0
+"<”>"
+	"”" PUNCT RIGHT #6->7
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #7->8
+: 
+"<tarkoittaa>"
+	"tarkoittaat" <mv> V TV Act Ind Prs Sg3 @FS-N< #8->3
+: 
+"<”>"
+	"”" PUNCT RIGHT #9->8
+"<opastaaja>"
+	"opastaaja" ? @X #10->0
+"<,>"
+	"," CLB #11->10
+: 
+"<joku>"
+	"joku" Pron Indef Sg Nom @SUBJ> #12->8
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #13->14
+: 
+"<tiettää>"
+	"tiettäät" <mv> V TV Act Ind Prs Sg3 @FS-N< #14->12
+"<.>"
+	"." CLB #15->2
+"<”>"
+	"”" PUNCT RIGHT #1->2
+: 
+"<VAPPUS>"
+	"VAPPUS" ? @X #2->0
+: 
+"<tullee>"
+	"Tule" N Prop Sem/Plc Sg Dial/Por Par @X #3->0
+: 
+"<siitä>"
+	"se" Pron Dem Sg Ela @>N #4->5
+: 
+"<aijasta>"
+	"aika" N Sg Dial/Por Ela @ADVL> #5->16
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #6->7
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FS-N< #7->5
+: 
+"<ennen>"
+	"ennen" Adv @ADVL #8->3
+: 
+"<motoriseerattui>"
+	"motoriseerattu" A Pl Dial/Por Par @>N #9->10
+: 
+"<kulkuneuvoi>"
+	"kulkuneuvo" N Pl Dial/Por Par @<SUBJ #10->7
+"<,>"
+	"," CLB #11->12
+: 
+"<ko>"
+	"ko" CS @CVP #12->16
+: 
+"<porroi>"
+	"poro" N Pl Dial/Por Par @X #13->0
+: 
+"<ja>"
+	"ja" CC @CNP #14->13
+: 
+"<hevossii>"
+	"hevonen" N Pl Dial/Por Par @X #15->0
+: 
+"<olthiin>"
+	"olla" <mv> V Act Ind Prt Pl3 @FS-<ADVL #16->8
+	"olla" <mv> V Pass Ind Prt @FS-<ADVL #16->8
+: 
+"<pietty>"
+	"pittäät" V Pass PrfPrc Sg Nom @>N #17->18
+	"piđetä" V Pass PrfPrc Sg Nom @>N #17->18
+: 
+"<frahthiin>"
+	"frahti" N Pl Ill @<ADVL #18->16
+	"frahti" N Sg Ill @<ADVL #18->16
+"<.>"
+	"." CLB #19->8
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

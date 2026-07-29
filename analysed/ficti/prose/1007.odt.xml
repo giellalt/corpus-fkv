@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2013</year><wordcount>15</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Miksi>"
+	"miksi" Adv @ADVL #1->5
+: 
+"<tomppeli>"
+	"tomppeli" N Sg Nom @SUBJ> #2->4
+: 
+"<mie>"
+	"mie" Pron Pers Sg1 Nom @SUBJ> #3->4
+: 
+"<piđän>"
+	"pittäät" <mv> V Act Ind Prs Sg1 @FMV #4->0
+: 
+"<träänätä>"
+	"träänätä" V Inf @X #5->0
+: 
+"<sauvahyppyy>"
+	"hyppy" N Sg Dial/Por Par @<OBJ #6->4
+		"sauva" N Sg Nom Cmp #6->4
+"<?>"
+	"?" CLB #7->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<En>"
+	"ei" <aux> V Neg Act Sg1 @FAUX #1->0
+: 
+"<pääse>"
+	"päästä" <mv> V Act Ind Prs ConNeg @FMV #2->1
+: 
+"<koskhaan>"
+	"koskhaan" Adv @ADVL #3->4
+: 
+"<yli>"
+	"yli" Pr @X #4->0
+: 
+"<tuota>"
+	"tuo" Pron Dem Sg Par @<OBJ #5->2
+	"tuottaat" V TV Act Imprt Sg2 @X #5->2
+: 
+"<...>"
+	"..." CLB #6->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<likeläkhään>"
+	"likelä" Adv Foc/kaan @ADVL #1->0
+"<.>"
+	"." CLB #2->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

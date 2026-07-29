@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2014</year><wordcount>19</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Erilaisissa>"
+	"erilainen" A Pl Ine @>N #1->2
+: 
+"<paikoissa>"
+	"paikka" N Pl Dial/Por Ine @ADVL> #2->3
+: 
+"<lujethaan>"
+	"lujeta" <mv> V Act Ind Prs Pl3 @FMV #3->0
+	"lujeta" <mv> V Pass Ind Prs @FMV #3->0
+	"lukkeet" <mv> V Act Ind Prs Pl3 @FMV #3->0
+	"lukkeet" <mv> V Pass Ind Prs @FMV #3->0
+: 
+"<erilaissii>"
+	"erilainen" A Pl Dial/Por Par @>N #4->5
+: 
+"<lehtii>"
+	"Lehti" N Prop Sem/Sur Sg Dial/Por Par @<OBJ #5->3
+: 
+"<…>"
+	"…" CLB #6->3
+: 
+"<¶>"
+	"¶" CLB #7->3
+:\n
+"<Naistenlehtii>"
+	"Naistenlehtii" ? @X #1->0
+: 
+"<frisöörin>"
+	"frisööri" N Sg Gen @>P #2->3
+: 
+"<tykönä>"
+	"tykönä" Po @ADVL #3->1
+: 
+"<…>"
+	"…" CLB #4->3
+: 
+"<¶>"
+	"¶" CLB #5->3
+:\n
+"<Priimusarjoi>"
+	"sarja" N Pl Dial/Por Par @X #1->0
+		"priimu" N Sg Nom Cmp #1->0
+: 
+"<hyysikässä>"
+	"hyysikkä" N Sg Ine @HNOUN #2->1
+: 
+"<…>"
+	"…" CLB #3->3
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<Ja>"
+	"ja" CC @CNP #1->1
+: 
+"<miestenlehtii>"
+	"miestenlehtii" ? @X #2->0
+: 
+"<sängyssä>"
+	"sänky" N Sg Dial/Por Ine @HNOUN #3->0
+: 
+"<…>"
+	"…" CLB #4->3
+: 
+"<¶>"
+	"¶" CLB #5->3
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title/><genre code="inc"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>156</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<MET>"
+	"MET" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @SUBJ> #1->2
+: 
+"<OPIMA>"
+	"oppiit" <mv> V Act Ind Prs Pl1 @FMV #2->0
+	"oppiit" <mv> V Act Ind Prt Pl1 @FMV #2->0
+: 
+"<SANNOI>"
+	"sana" N Pl Dial/Por Par @<OBJ #3->2
+: 
+"<KOLMELA>"
+	"kolme" Num Sg Ade @N< #4->3
+: 
+"<KIELELÄ>"
+	"kieli" N Sg Ade @NUM< #5->5
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<NORSK>"
+	"Norsk" N Prop Sem/Sur Sg Nom @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Palmusunnuntai>"
+	"palmusunnuntai" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Helatuorestai>"
+	"helatuorestai" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Pitkeperjantai>"
+	"Pitkeperjantai" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Päässiisaatto>"
+	"aatto" N Sg Nom @HNOUN #1->0
+		"päässiinen" N Sg Nom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Päässiispäivä>"
+	"päivä" N Sg Nom @HNOUN #1->0
+		"päässiinen" N Sg Nom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Konkurranse>"
+	"Konkurranse" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Sill>"
+	"Sill" ? @X #1->0
+:  
+"<ä>"
+	"ä" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #2->4
+	"æ" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #2->4
+: 
+"<niin>"
+	"niin" Adv @ADVL #3->1
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<Jumala>"
+	"jumala" N Sg Nom @SUBJ> #5->11
+: 
+"<rakastanu>"
+	"rakastanu" ? @X #6->0
+: 
+"<mailmaa>"
+	"mailma" N Sg Dial/Por Par @<SUBJ #7->4
+"<,>"
+	"," CLB #8->9
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #9->11
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #10->11
+: 
+"<antoi>"
+	"anttaat" <mv> V TV Act Ind Prt Sg3 @FS-<ADVL #11->4
+: 
+"<ainuan>"
+	"ainua" A Sg Gen @>N #12->13
+	"ainua" Pron Qu Gen @>N #12->13
+: 
+"<Pojan>"
+	"poika" N Dial/Por Sg Gen @<OBJ #13->11
+"<,>"
+	"," CLB #14->9
+: 
+"<niin>"
+	"niin" Adv @ADVL #15->6
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #16->17
+: 
+"<ei yksikhään>"
+	"ei yksikhään" Adv @ADVL #17->6
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #18->19
+: 
+"<uskoo>"
+	"usko" N Sg Dial/Por Par @X #19->13
+	"uskoot" <mv> V Act Ind Prs Sg3 @FS-N< #19->13
+: 
+"<hänheen>"
+	"hän" Pron Pers Sg3 Ill @<ADVL #20->19
+"<,>"
+	"," CLB #21->16
+: 
+"<kattois>"
+	"kattoot" <mv> V Act Cond Sg3 @FS-VFIN< #22->19
+	"kađota" <mv> V Act Cond Sg3 @FS-VFIN< #22->19
+"<,>"
+	"," CLB #23->16
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @SUBJ> #24->25
+: 
+"<eläis>"
+	"elläät" <mv> V Act Cond Sg3 @FMV #25->4
+: 
+"<ijänkaikkisesti>"
+	"ijänkaikkisesti" Adv @ADVL #26->19
+"<.>"
+	"." CLB #27->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Dasgo>"
+	"Dasgo" ? @X #1->0
+: 
+"<nu>"
+	"nu" ? @X #2->0
+: 
+"<lea>"
+	"Lea" N Prop Sem/Fem Sg Nom @HNOUN #3->0
+: 
+"<Ipmil>"
+	"Ipmil" ? @X #4->0
+: 
+"<ráhkistan>"
+	"ráhkistan" ? @X #5->0
+: 
+"<máilmmi>"
+	"máilmmi" ? @X #6->0
+: 
+"<ahte>"
+	"ahte" ? @X #7->0
+: 
+"<son>"
+	"so" N Sem/Time ABBR Gram/IAbbr Gen @X #8->0
+: 
+"<attii>"
+	"attii" ? @X #9->0
+: 
+"<áidnoriegádan>"
+	"áidnoriegádan" ? @X #10->0
+: 
+"<Bártnis>"
+	"Bártnis" ? @X #11->0
+"<,>"
+	"," CLB #12->11
+: 
+"<amas>"
+	"amas" ? @X #13->0
+: 
+"<oktage>"
+	"oktage" ? @X #14->0
+: 
+"<guhte>"
+	"guhte" ? @X #15->0
+: 
+"<osku>"
+	"osku" ? @X #16->0
+: 
+"<sutnje>"
+	"sutnje" ? @X #17->0
+: 
+"<mannat>"
+	"mannat" ? @X #18->0
+: 
+"<gáđohussii>"
+	"gáđohussii" ? @X #19->0
+"<,>"
+	"," CLB #20->19
+: 
+"<muhto>"
+	"muhto" ? @X #21->0
+: 
+"<vai>"
+	"vai" CC @X #22->0
+: 
+"<son>"
+	"so" N Sem/Time ABBR Gram/IAbbr Gen @X #23->0
+: 
+"<oažžu>"
+	"oažžu" ? @X #24->0
+: 
+"<agálaš>"
+	"agálaš" ? @X #25->0
+: 
+"<eallima>"
+	"eallima" ? @X #26->0
+"<.>"
+	"." CLB #27->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

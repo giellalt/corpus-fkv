@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Raporttiskjeema</title><genre code="admin"/><author><unknown/></author><translator><person firstname="Mari" lastname="Keränen" sex="f" born="" nationality="FIN"/></translator><translated_from xml:lang="nob"/><year>2020</year><wordcount>158</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Aili Eriksen" email="aili.eriksen@kvenskinstitutt.no"/><multilingual><language xml:lang="nob"/><language xml:lang="sme"/><language xml:lang="fkv"/></multilingual><origFileName>Midler kvensk-norskfinsk - Rapporteringsskjema 2020.docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Prosjektin>"
+	"prosekti" N Sg Nom Err/Orth N Sg Gen @>N #1->2
+: 
+"<nimi>"
+	"nimi" N Dial/Por Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Referansinro>"
+	"Referansinro" ? @X #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT #2->3
+"<katto>"
+	"katto" N Sg Nom @>N #3->4
+	"kattoot" <mv> V Act Imprt Sg2 @FMV #3->4
+: 
+"<päätöspreevin>"
+	"preivi" Err/Orth N Sg Dial/Por Gen @<OBJ #4->4
+		"päätös" N Sg Nom Cmp #4->4
+"<)>"
+	")" PUNCT RIGHT #5->4
+: 
+"<¶>"
+	"¶" CLB #6->6
+:\n
+"<Anomussumma>"
+	"summa" N Dial/Por Sg Nom @HNOUN #1->0
+		"anomus" N Sg Nom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Vasthaanottaajan>"
+	"vasthaanottaaja" N Sg Gen @N> #1->1
+: 
+"<nimi>"
+	"nimi" N Dial/Por Sg Nom @HNOUN #2->1
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Kontaktipersoona>"
+	"persoona" N Sg Nom @HNOUN #1->0
+		"kontakti" N Sg Nom Cmp #1->0
+"</>"
+	"/" PUNCT MIDDLE #2->3
+"<Prosjektin-johtaaja>"
+	"Prosjektin-johtaaja" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Prosjektin>"
+	"prosekti" N Sg Nom Err/Orth N Sg Gen @>N #1->2
+: 
+"<mooli>"
+	"mooli" N Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Muistele>"
+	"muistela" <mv> V Act Imprt Sg2 @FMV #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<kunka>"
+	"kunka" Adv @ADVL #3->0
+: 
+"<tet>"
+	"tet" Pron Pers Pl2 Nom @SUBJ> #4->5
+: 
+"<pääsittä>"
+	"päästä" <mv> V Act Ind Prt Pl2 @FMV #5->1
+: 
+"<moolhiin>"
+	"mooli" N Pl Ill @<ADVL #6->5
+	"mooli" N Sg Ill @<ADVL #6->5
+: 
+"<prosjektin>"
+	"prosekti" N Sg Nom Err/Orth N Sg Gen @<OBJ #7->5
+: 
+"<kans>"
+	"kans" Po @ADVL #8->0
+"<.>"
+	"." CLB #9->1
+: 
+"<Jos>"
+	"jos" CS @CVP #1->6
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #2->3
+: 
+"<pääsheet>"
+	"päästä" V Act PrfPrc Pl Nom @>N #3->4
+: 
+"<moolhiin>"
+	"mooli" N Pl Ill @ADVL> #4->6
+	"mooli" N Sg Ill @ADVL> #4->6
+"<,>"
+	"," CLB #5->4
+: 
+"<muistele>"
+	"muistela" <mv> V Act Imprt Sg2 @FMV #6->0
+: 
+"<miksi>"
+	"miksi" Adv @ADVL #7->0
+"<.>"
+	"." CLB #8->6
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Moolijoukko>"
+	"moolijoukko" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Muistele>"
+	"muistela" <mv> V Act Imprt Sg2 @FMV #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<kunka>"
+	"kunka" Adv @ADVL #3->0
+: 
+"<prosjekti>"
+	"prosekti" N Sg Nom Err/Orth @SUBJ> #4->5
+: 
+"<räkkäsi>"
+	"räkätä" <mv> V Act Ind Prt Sg3 @FMV #5->1
+: 
+"<moolijoukon>"
+	"moolijoukko" N Sg Dial/Por Gen @<OBJ #6->5
+"<.>"
+	"." CLB #7->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Aktiviteetit>"
+	"aktiviteetti" N Pl Nom @HNOUN #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<läpivieminen>"
+	"läpivieminen" N Sg Nom @SUBJ> #3->0
+	"läpivieđä" Ex/V Der/minen N Sg Nom @SUBJ> #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Muistele>"
+	"muistela" <mv> V Act Imprt Sg2 @FMV #1->0
+"<,>"
+	"," CLB #2->3
+: 
+"<mikkä>"
+	"mikä" Pron Interr Pl Nom @>N #3->4
+	"mikä" Pron Rel Pl Nom @>N #3->4
+: 
+"<aktiviteetit>"
+	"aktiviteetti" N Pl Nom @>N #4->5
+: 
+"<prosjektissa>"
+	"prosekti" N Sg Nom Err/Orth N Sg Ine @SUBJ> #5->6
+: 
+"<tehthiin>"
+	"tehđä" <mv> V Act Ind Prt Pl3 @FS-N< #6->1
+"<.>"
+	"." CLB #7->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Räkinginpito>"
+	"pito" N Sg Nom @HNOUN #1->0
+		"räkinki" N Sg Gen Cmp #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT #2->3
+"<selvitys>"
+	"selvitys" N Sg Nom @<SPRED #3->1
+: 
+"<mah>"
+	"mah" ? @X #4->0
+"<.>"
+	"." CLB #5->1
+: 
+"<administratiivisista>"
+	"administratiivinen" A Pl Ela @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<kustanuksista>"
+	"kustanus" N Pl Ela @HNOUN #1->0
+"<)>"
+	")" PUNCT RIGHT #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Finansieerinki>"
+	"finansieerinki" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Liittheet>"
+	"liitet" N Pl Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Paikka>"
+	"paikka" N Sg Nom @HNOUN #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<daattumi>"
+	"daattumi" N Sg Nom @HNOUN #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Allekirjoitus>"
+	"allekirjoitus" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+
+]]></dependency></body></document>

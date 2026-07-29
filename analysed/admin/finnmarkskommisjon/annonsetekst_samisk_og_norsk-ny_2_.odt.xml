@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Uusi selvitysala – Ala 9 Porsanki</title><genre code="admin"/><author><unknown/></author><translator><person firstname="Aili" lastname="Eriksen" sex="f" born="1990" nationality="NO"/></translator><translated_from xml:lang="nob"/><year>2020</year><wordcount>102</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>Annonsetekst samisk og norsk-ny (2).docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 187360 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Finnmárkokommišuvdna>"
+	"Finnmárkokommišuvdna" ? @X #1->0
+: 
+"<almmuha>"
+	"almmuha" ? @X #2->0
+: 
+"<Porsáŋggu>"
+	"Porsáŋggu" ? @X #3->0
+: 
+"<.>"
+	"." CLB #4->4
+	 Use/Circ"9" A Arab Ord Attr
+		 Use/Circ Use/Circ"9" Num Arab Sg Nom "<9>"
+		 Use/Circ"9" A Arab Ord Attr CLBfinal "<9>"
+		 Use/Circ"9" Num Arab Sem/ID "<9>"
+		 Use/Circ"9" Num Arab Sem/Time-clock Sg Nom "<9>"
+: 
+"<čielggadanguovlun>"
+	"čielggadanguovlun" ? @X #1->0
+"<.>"
+	"." CLB #2->2
+: 
+"<Dievaslaš>"
+	"Dievaslaš" ? @X #1->0
+: 
+"<almmuhusa>"
+	"almmuhusa" ? @X #2->0
+: 
+"<gávnnat>"
+	"gávnnat" ? @X #3->0
+: 
+"<dáppe>"
+	"dáppe" ? @X #4->0
+"<:>"
+	":" CLB #5->9
+: 
+"<www.finnmarkskommisjonen.no>"
+	"www.finnmarkskommisjonen.no" URL #6->6
+: 
+"<ja>"
+	"ja" CC @CNP #7->4
+: 
+"<Norsk>"
+	"Norsk" N Prop Sem/Sur Sg Nom @>N #8->9
+: 
+"<lysingsblad>"
+	"Lysingsblad" N Prop Sem/Org Sg Nom @HNOUN #9->0
+"<.>"
+	"." CLB #10->9
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Uusi>"
+	"uusi" A Dial/Por Sg Nom @>N #1->2
+: 
+"<selvitysala>"
+	"ala" N Sg Nom @HNOUN #2->0
+		"selvitys" N Sg Nom Cmp #2->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<Ala>"
+	"Ala" N Prop Sem/Plc Sg Nom @<SPRED #4->2
+: 
+"<9>"
+	 Use/Circ Use/Circ"9" Num Arab Sg Nom
+	 Use/Circ"9" A Arab Ord Attr CLBfinal
+	 Use/Circ"9" Num Arab Sem/ID
+	 Use/Circ"9" Num Arab Sem/Time-clock Sg Nom
+: 
+"<Porsanki>"
+	"Porsanki" N Prop Sem/Plc Sg Nom @<SPRED #6->0
+:  
+"<¶>"
+	"¶" CLB #7->2
+:\n
+"<Finmarkunkommisjuuni>"
+	"kommisuuni" Err/Orth N Sg Nom @SUBJ> #1->2
+		"Finmarkku" N Prop Sem/Plc Sg Gen Cmp #1->2
+: 
+"<anttaa>"
+	"anttaat" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<tällä>"
+	"tämä" Pron Dem Sg Ade @<ADVL #3->2
+: 
+"<tion>"
+	"tion" ? @X #4->0
+: 
+"<uuesta>"
+	"uusi" A Dial/Por Sg Ela @>N #5->6
+: 
+"<selvitysalasta>"
+	"alanen" N Sg Par @<OBJ #6->2
+		"selvitys" N Sg Nom Cmp #6->2
+"<:>"
+	":" CLB #7->2
+: 
+"<Ala>"
+	"Ala" N Prop Sem/Plc Sg Nom @HNOUN #8->2
+: 
+"<9>"
+	 Use/Circ Use/Circ"9" Num Arab Sg Nom
+	 Use/Circ"9" A Arab Ord Attr CLBfinal
+	 Use/Circ"9" Num Arab Sem/ID
+	 Use/Circ"9" Num Arab Sem/Time-clock Sg Nom
+: 
+"<Porsanki>"
+	"Porsanki" N Prop Sem/Plc Sg Nom @HNOUN #10->8
+"<.>"
+	"." CLB #11->2
+: 
+"<Koko>"
+	"koko" Pron Qu Nom @>N #1->2
+: 
+"<ilmotus>"
+	"ilmotus" N Sg Nom @SUBJ> #2->3
+: 
+"<löyttyy>"
+	"löyttyyt" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @N> #4->4
+: 
+"<nettilaialta>"
+	"nettilaita" N Sg Dial/Por Abl @<ADVL #5->3
+"<:>"
+	":" CLB #6->3
+: 
+"<www>"
+	"www" N Sem/Txt ACR N ACR Sg Nom @HNOUN #7->3
+"<.>"
+	"." CLB #8->3
+"<finnmarkskommisjonen>"
+	"finnmarkskommisjonen" ? @X #1->0
+"<.>"
+	"." CLB #2->2
+: 
+"<no>"
+	"no" Interj @X #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<Norjan>"
+	"Norja" N Prop Sem/Plc Sg Dial/Por Gen @N> #3->3
+: 
+"<ilmotusblaai>"
+	"blaađi" N Sg Nom @HNOUN #4->3
+		"ilmotus" N Sg Nom Cmp #4->3
+"<.>"
+	"." CLB #5->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @N> #1->1
+: 
+"<sekretariaatti>"
+	"sekretariaatti" N Sg Nom @SUBJ> #2->3
+: 
+"<anttaa>"
+	"anttaat" <mv> V TV Act Ind Prs Sg3 @FMV #3->0
+: 
+"<lissää>"
+	"lissää" Adv @ADVL #4->7
+: 
+"<informasjuunii>"
+	"informasuuni" Err/Orth N Sg Dial/Por Par @<OBJ #5->3
+"<;>"
+	";" CLB #6->3
+: 
+"<tlf>"
+	"tlf" N Sem/Obj-el ABBR Gram/TNumAbbr Sg Nom @X #7->0
+: 
+"<78>"
+	 Use/Circ Use/Circ"78" Num Arab Sg Nom
+	 Use/Circ"78" A Arab Ord Attr CLBfinal
+	 Use/Circ"78" Num Arab Sem/ID
+: 
+"<92>"
+	 Use/Circ Use/Circ"92" Num Arab Sg Nom
+	 Use/Circ"92" A Arab Ord Attr CLBfinal
+	 Use/Circ"92" Num Arab Sem/ID
+: 
+"<64>"
+	 Use/Circ Use/Circ"64" Num Arab Sg Nom
+	 Use/Circ"64" A Arab Ord Attr CLBfinal
+	 Use/Circ"64" Num Arab Sem/ID
+: 
+"<49>"
+	 Use/Circ Use/Circ"49" Num Arab Sg Nom
+	 Use/Circ"49" A Arab Ord Attr CLBfinal
+	 Use/Circ"49" Num Arab Sem/ID
+"<,>"
+	"," CLB #12->3
+: 
+"<¶>"
+	"¶" CLB #13->3
+:\n
+
+]]></dependency></body></document>

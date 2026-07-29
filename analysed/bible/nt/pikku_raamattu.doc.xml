@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Pikku Raamattu</title><genre code="bible"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><translated_from xml:lang="nob"/><year>2004</year><wordcount>28</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Juh>"
+	"Juh" ? @X #1->0
+"<.>"
+	"." CLB #2->2
+: 
+"<3:16>"
+	 Use/Circ"3:16" Num Arab Sem/ID
+	 Use/Circ"3:16" Num Arab Sem/Time-clock Sg Nom
+:  
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Pikku>"
+	"pikku" A Attr @X #1->0
+: 
+"<Raamattu>"
+	"raamattu" N Sg Nom @HNOUN #2->0
+: 
+"<:>"
+	":" CLB #3->2
+:   
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<Sill>"
+	"Sill" ? @X #1->0
+:  
+"<ä>"
+	"ä" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #2->4
+	"æ" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #2->4
+: 
+"<niin>"
+	"niin" Adv @ADVL #3->1
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<Jumala>"
+	"jumala" N Sg Nom @SUBJ> #5->11
+: 
+"<rakastanu>"
+	"rakastanu" ? @X #6->0
+: 
+"<mailmaa>"
+	"mailma" N Sg Dial/Por Par @<SUBJ #7->4
+"<,>"
+	"," CLB #8->9
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #9->11
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #10->11
+: 
+"<antoi>"
+	"anttaat" <mv> V TV Act Ind Prt Sg3 @FS-<ADVL #11->4
+: 
+"<ainuan>"
+	"ainua" A Sg Gen @>N #12->13
+	"ainua" Pron Qu Gen @>N #12->13
+: 
+"<Pojan>"
+	"poika" N Dial/Por Sg Gen @<OBJ #13->11
+"<,>"
+	"," CLB #14->9
+: 
+"<niin>"
+	"niin" Adv @ADVL #15->6
+: 
+"<ette>"
+	"ette" Dial/Por CS @CVP #16->17
+: 
+"<ei yksikhään>"
+	"ei yksikhään" Adv @ADVL #17->6
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #18->19
+: 
+"<uskoo>"
+	"usko" N Sg Dial/Por Par @X #19->13
+	"uskoot" <mv> V Act Ind Prs Sg3 @FS-N< #19->13
+: 
+"<hänheen>"
+	"hän" Pron Pers Sg3 Ill @<ADVL #20->19
+"<,>"
+	"," CLB #21->16
+: 
+"<kattois>"
+	"kattoot" <mv> V Act Cond Sg3 @FS-VFIN< #22->19
+	"kađota" <mv> V Act Cond Sg3 @FS-VFIN< #22->19
+"<,>"
+	"," CLB #23->16
+: 
+"<mutta>"
+	"Mutta" N Prop Sem/Plc Sg Nom @SUBJ> #24->25
+: 
+"<eläis>"
+	"elläät" <mv> V Act Cond Sg3 @FMV #25->4
+: 
+"<ijänkaikkisesti>"
+	"ijänkaikkisesti" Adv @ADVL #26->19
+"<.>"
+	"." CLB #27->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

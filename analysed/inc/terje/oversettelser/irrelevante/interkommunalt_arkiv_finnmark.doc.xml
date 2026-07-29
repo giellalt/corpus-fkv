@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Interkommunalt arkiv Finnmark</title><genre code="inc"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>6</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Finmarkun>"
+	"Finmarkku" N Prop Sem/Plc Sg Gen @X #1->0
+: 
+"<interkomuunaalinen>"
+	"interkomuunaalinen" ? @X #2->0
+: 
+"<arkiivi>"
+	"arkiivi" N Sg Nom @HNOUN #3->1
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+
+]]></dependency></body></document>

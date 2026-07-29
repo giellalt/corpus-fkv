@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Adventsbønn</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>71</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Tervettulemaa>"
+	"tervettulemaa" Interj @X #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<Jeesus>"
+	"Jeesus" N Prop Sem/Mal Sg Nom @>N #3->4
+: 
+"<veli>"
+	"veli" N Dial/Por Sg Nom @HNOUN #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<meiðän>"
+	"met" Pron Pers Pl1 Gen @>N #6->7
+: 
+"<armas>"
+	"armas" A Sg Nom @<SPRED #7->4
+	"armas" N Sg Nom @HNOUN #7->4
+"<,>"
+	"," CLB #8->7
+: 
+"<¶>"
+	"¶" CLB #9->4
+:\n
+"<tervettulemaa>"
+	"tervettulemaa" Interj @X #1->0
+: 
+"<ihmisenä>"
+	"ihmisenä" ? @X #2->0
+"<!>"
+	"!" CLB #3->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Emmä>"
+	"ei" <aux> V Neg Act Pl1 @FAUX #1->0
+: 
+"<kethään>"
+	"kukhaan" Pron Qu Par @<OBJ #2->2
+: 
+"<niin>"
+	"niin" Adv @ADVL #3->6
+: 
+"<kovin>"
+	"kovin" Adv @ADVL #4->6
+: 
+"<halluu>"
+	"haluta" <mv> V Act Imprt Sg2 @FMV #5->1
+	"haluta" <mv> V Act Ind Prs Sg3 @FMV #5->1
+: 
+"<kiittäät>"
+	"kiittäät" V TV Inf @X #6->0
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<kunnioittaat>"
+	"kunnioittaat" V TV Inf @X #8->0
+"<,>"
+	"," CLB #9->8
+: 
+"<¶>"
+	"¶" CLB #10->1
+:\n
+"<emmä>"
+	"ei" <mv> V Neg Act Pl1 @FMV #1->0
+: 
+"<kethään>"
+	"kukhaan" Pron Qu Par @<OBJ #2->1
+: 
+"<joka>"
+	"joka" Pron Rel Sg Nom @SUBJ> #3->4
+: 
+"<synttyy>"
+	"synttyyt" <mv> V Act Ind Prs Sg3 @FS-N< #4->2
+: 
+"<äitin>"
+	"äiti" N Sg Dial/Por Gen @N> #5->5
+: 
+"<lihasta>"
+	"lihas" N Sg Par @<OBJ #6->4
+: 
+"<¶>"
+	"¶" CLB #7->1
+:\n
+"<Tuhanssii>"
+	"tuhat" Num Pl Par @X #1->0
+: 
+"<kiitoksii>"
+	"kiitos" N Pl Dial/Por Par @NUM< #2->2
+"<,>"
+	"," CLB #3->2
+: 
+"<tuhanssii>"
+	"tuhat" Num Pl Par @X #4->0
+: 
+"<kiitoksii>"
+	"kiitos" N Pl Dial/Por Par @NUM< #5->5
+"<,>"
+	"," CLB #6->5
+: 
+"<¶>"
+	"¶" CLB #7->7
+:\n
+"<sulle>"
+	"sie" Pron Pers Sg2 All @ADVL> #1->5
+	"sie" Pron Pers Sg2 Use/NG All @ADVL> #1->5
+"<,>"
+	"," CLB #2->1
+: 
+"<siunatule>"
+	"siunattu" A Sg All Err/Orth @ADVL> #3->5
+"<,>"
+	"," CLB #4->3
+: 
+"<nousthaan>"
+	"nousta" <mv> V Act Ind Prs Pl3 @FMV #5->0
+: 
+"<meiðän>"
+	"met" Pron Pers Pl1 Gen @>N #6->7
+: 
+"<kiitokset>"
+	"kiitos" N Pl Nom @<OBJ #7->5
+"<.>"
+	"." CLB #8->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Opi kvääniä: Hyppyluokassa</title><genre code="news"/><author><unknown/></author><translator><person firstname="Merethe" lastname="Eidstø" sex="f" born="FI" nationality=""/></translator><year>2019</year><wordcount>98</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>../Downloads/NRK/Lær kvensk_i hoppbakken_oversatt til kvensk av Kvensk institutt_19.2.2019.docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<.>"
+	"." CLB #1->1
+	 Use/Circ"2" A Arab Ord Attr
+		 Use/Circ Use/Circ"2" Num Arab Sg Nom "<2>"
+		 Use/Circ"2" A Arab Ord Attr CLBfinal "<2>"
+		 Use/Circ"2" Num Arab Sem/ID "<2>"
+		 Use/Circ"2" Num Arab Sem/Time-clock Sg Nom "<2>"
+: 
+"<Opi>"
+	"oppiit" <mv> V Act Imprt Sg2 @FMV #1->0
+: 
+"<kvääniä>"
+	"kvääni" N Sg Dial/Por Par Err/Orth @<OBJ #2->1
+"<:>"
+	":" CLB #3->1
+: 
+"<Hyppyluokassa>"
+	"luokka" N Dial/Por Sg Ine @<ADVL #4->1
+		"hyppy" N Sg Nom Cmp #4->1
+:  
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Sivakoila>"
+	"sivakka" N Pl Ade @ADVL> #1->5
+: 
+"<hyppääminen>"
+	"hypätä" Ex/V Der/minen N Sg Nom @SUBJ> #2->5
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<tyyrääminen>"
+	"tyyrätä" Ex/V Der/minen N Sg Nom @SUBJ> #4->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #5->0
+: 
+"<fiinit>"
+	"fiini" A Pl Dial/Por Nom @>N #6->7
+: 
+"<talviaktiviteetit>"
+	"talviaktiviteetti" N Pl Nom @>N #7->8
+: 
+"<nuorilet>"
+	"nuora" N Dial/Jok Pl Dial/Jok Dial/Jok All @<ADVL #8->5
+	"nuora" N Dial/Jok Pl Dial/Por Dial/Jok All @<ADVL #8->5
+	"nuoret" N Pl Dial/Jok All @<ADVL #8->5
+	"nuori" A Pl Dial/Jok All @>N #8->5
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<lapsilet>"
+	"lapsi" N Pl Dial/Jok All @<ADVL #10->8
+"<.>"
+	"." CLB #11->5
+: 
+"<Tässä>"
+	"tämä" Pron Dem Sg Ine @>N #1->2
+: 
+"<videossa>"
+	"video" N Sg Ine @ADVL> #2->10
+: 
+"<pojat>"
+	"poika" N Dial/Por Pl Nom @>N #3->4
+: 
+"<Olmavankassa>"
+	"Olmavankka" N Prop Sg Dial/Por Ine @ADVL> #4->10
+: 
+"<hyppäävä>"
+	"hypätä" V Act PrsPrc Sg Nom @>N #5->8
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<samhaan>"
+	"sama" Pron Indef Sg Ill @>N #7->11
+	"samhaan" Adv @ADVL #7->11
+: 
+"<aikhaan>"
+	"Ai" N Prop Sem/Sur Sg Nom Foc/kaan @SUBJ> #8->10
+: 
+"<met>"
+	"met" Pron Pers Pl1 Nom @SUBJ> #9->10
+: 
+"<opima>"
+	"oppiit" <mv> V Act Ind Prs Pl1 @FMV #10->0
+	"oppiit" <mv> V Act Ind Prt Pl1 @FMV #10->0
+: 
+"<muutampia>"
+	"muutampia" ? @X #11->0
+: 
+"<sanoja>"
+	"sana" N Pl Dial/Jok Par @<OBJ #12->10
+: 
+"<kvääniksi>"
+	"kvääni" N Sg Dial/Por Tra @<ADVL #13->10
+"<.>"
+	"." CLB #14->10
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuvateksti>"
+	"teksti" N Sg Nom @SUBJ> #1->0
+		"kuva" N Dial/Jok Sg Nom Cmp #1->0
+	"teksti" N Sg Nom @SUBJ> #1->0
+		"kuva" N Dial/Por Sg Nom Cmp #1->0
+	"teksti" N Sg Nom @SUBJ> #1->0
+		"kuva" N Dial/Var Sg Nom Cmp #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<Olmavankan>"
+	"Olmavankka" N Prop Sg Dial/Por Gen @>N #3->4
+: 
+"<kväänin>"
+	"kvääni" N Sg Dial/Por Gen @>N #4->5
+: 
+"<kielen>"
+	"kieli" N Sg Gen @X #5->0
+: 
+"<oppijat>"
+	"oppijat" ? @X #6->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #7->0
+: 
+"<hyppyluokassa>"
+	"luokka" N Dial/Por Sg Ine @<ADVL #8->7
+		"hyppy" N Sg Nom Cmp #8->7
+"<,>"
+	"," CLB #9->10
+: 
+"<missä>"
+	"mikä" Pron Rel Sg Ine @<ADVL #10->7
+: 
+"<het>"
+	"het" Pron Pers Pl3 Nom @X #11->0
+: 
+"<tarvitteva>"
+	"tarvitteva" ? @X #12->0
+: 
+"<sanoja>"
+	"sana" N Pl Dial/Jok Par @X #13->0
+: 
+"<kvääniksi>"
+	"kvääni" N Sg Dial/Por Tra @<ADVL #14->7
+"<.>"
+	"." CLB #15->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

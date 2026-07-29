@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2014</year><wordcount>21</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Tule>"
+	"Tule" N Prop Sem/Plc Sg Nom @X #1->0
+	"tulla" <mv> V Act Imprt Sg2 @FMV #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<Vivi>"
+	"Vivi" N Prop Sem/Fem Sg Nom @X #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<kattomhaan>"
+	"kattoot" V Act Inf3 Ill @<ADVL #5->1
+"<!>"
+	"!" CLB #6->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<TV:ssä>"
+	"TV:ssä" ? @X #1->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<uusi>"
+	"uusi" A Dial/Por Sg Nom @<SPRED #3->2
+"<,>"
+	"," CLB #4->3
+: 
+"<huono>"
+	"huono" A Sg Nom @X #5->0
+: 
+"<talkshowi>"
+	"talkshowi" ? @X #6->0
+"<!>"
+	"!" CLB #7->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Hah>"
+	"hah" Interj @X #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<hah>"
+	"hah" Interj @X #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<haa>"
+	"haa" ? @X #5->0
+"<!>"
+	"!" CLB #6->6
+"<!>"
+	"!" CLB #1->1
+"<!>"
+	"!" CLB #1->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Oonhan>"
+	"olla" <mv> V Act Ind Prs Sg3 Foc/han @FMV #1->0
+: 
+"<se>"
+	"se" Pron Dem Sg Nom @X #2->0
+: 
+"<huono>"
+	"huono" A Sg Nom @<SPRED #3->1
+"<!>"
+	"!" CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tätä>"
+	"tämä" Pron Dem Sg Par @X #1->0
+: 
+"<meilä>"
+	"Meti" N Prop Sem/Fem Sg Dial/Por Ade @HAB #2->2
+	"met" Pron Pers Pl1 Ade @HAB #2->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<pakko>"
+	"pakko" N Sg Nom @SUBJ> #4->3
+: 
+"<alkkaat>"
+	"alkkaat" V Inf @X #5->0
+: 
+"<kattomhaan>"
+	"kattoot" V Act Inf3 Ill @<ADVL #6->3
+"<.>"
+	"." CLB #7->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

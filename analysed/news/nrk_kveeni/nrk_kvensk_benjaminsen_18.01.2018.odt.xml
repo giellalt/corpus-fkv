@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>NRK Kvensk: Einar Benjaminsen</title><genre code="news"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FI"/></translator><year>2018</year><wordcount>83</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>../Downloads/NRK/NRK Kvensk Benjaminsen 18.01.2018.docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+: 
+"<av>"
+	"av" ? @X #4->0
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #6->5
+: 
+"<->"
+	"-" PUNCT MIDDLE #7->8
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #8->6
+: 
+"<18.01.2018>"
+	 Use/Circ"18.01.2018" Num Arab Sem/Date Sg Nom
+	 Use/Circ"18.01.2018" Num Arab Sem/ID
+: 
+"</>"
+	"/" PUNCT MIDDLE #10->11
+: 
+"<Pirjo>"
+	"Pirjo" N Prop Sem/Fem Sg Nom @>N #11->12
+: 
+"<Paavalniemi>"
+	"Paavalniemi" N Prop Sem/Plc Sg Nom @HNOUN #12->8
+: 
+"<¶>"
+	"¶" CLB #13->13
+:\n
+"<Einar>"
+	"Einar" N Prop Sem/Mal Sg Nom @>N #1->2
+: 
+"<Benjaminsen>"
+	"Benjaminsen" N Prop Sem/Sur Sg Nom @SUBJ> #2->3
+: 
+"<ellää>"
+	"elläät" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<kahessa>"
+	"kaksi" Num Sg Ine @<ADVL #4->3
+: 
+"<mailmassa>"
+	"mailma" N Sg Ine @NUM< #5->5
+"<:>"
+	":" CLB #6->3
+: 
+"<Yhtenä>"
+	"yhtenä" Adv @ADVL #7->12
+	"yksi" Num Sg Ess @<ADVL #7->12
+	"yksi" Pron Indef Sg Sg Ess @>N #7->12
+: 
+"<päivänä>"
+	"päivänä" Adv @ADVL #8->12
+: 
+"<hänen>"
+	"hän" Pron Pers Sg3 Gen @>P #9->10
+: 
+"<ympärillä>"
+	"ympärillä" Po @ADVL #10->12
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #11->3
+: 
+"<kristallii>"
+	"kristallii" ? @X #12->0
+"<,>"
+	"," CLB #13->12
+: 
+"<valkkeita>"
+	"valkkee" A Dial/Por Pl Par @>N #14->18
+	"valkkee" N Dial/Por Pl Par @<SUBJ #14->18
+: 
+"<pöytätuukii>"
+	"pöytätuukii" ? @X #15->0
+: 
+"<ja>"
+	"ja" CC @CNP #16->15
+: 
+"<fästaavii>"
+	"fästaavii" ? @X #17->0
+: 
+"<ihmissii>"
+	"ihminen" N Pl Dial/Por Par @<SUBJ #18->11
+: 
+"<Grandissa>"
+	"Grand" N Prop Sem/Obj Sg Dial/Por Ine @<ADVL #19->11
+: 
+"<Oslossa>"
+	"Oslo" N Prop Sem/Plc Sg Dial/Por Ine @<ADVL #20->11
+"<.>"
+	"." CLB #21->3
+: 
+"<Toisena>"
+	"toinen" A Ord Sg Ess @>N #1->2
+	"toinen" A Sg Ess @>N #1->2
+	"toinen" Pron Recipr Sg Ess @>N #1->2
+: 
+"<päivänä>"
+	"päivä" N Sg Dial/Por Ess @ADVL> #2->5
+	"päivänä" Adv @ADVL #2->5
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<tervatussa>"
+	"tervatussa" ? @X #5->0
+: 
+"<jokivenheessä>"
+	"jokivenet" N Sg Ine @<ADVL #6->4
+: 
+"<tahi>"
+	"tahi" CC @CNP #7->6
+: 
+"<maanpruukityössä>"
+	"maanpruukityö" N Sg Ine @<ADVL #8->6
+: 
+"<Lemmijovenlaksossa>"
+	"lakso" N Sg Dial/Por Ine @<ADVL #9->4
+		"Lemmijoki" N Prop Sem/Plc Sg Dial/Por Gen Cmp #9->4
+"<.>"
+	"." CLB #10->4
+: 
+"<Uuenaikhainen>"
+	"uuđenaikhainen" A Sg Nom @>N #1->4
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<tradisjunelli>"
+	"tradisunelli" Err/Orth #3->3
+: 
+"<kväänin>"
+	"kvääni" N Sg Dial/Por Gen @N> #4->4
+: 
+"<elämä>"
+	"elläät" <mv> V Act Ind Prs Pl1 @FMV #5->0
+"<.>"
+	"." CLB #6->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

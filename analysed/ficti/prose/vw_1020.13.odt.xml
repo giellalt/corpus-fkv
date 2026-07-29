@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2013</year><wordcount>21</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Olen>"
+	"olla" <mv> V Act Ind Prs Sg1 @FMV #1->0
+: 
+"<käyny>"
+	"käyđä" V Act PrfPrc Der/A @>N #2->4
+	"käyđä" V Act PrfPrc Sg Nom @>N #2->4
+: 
+"<kirjottamassa>"
+	"kirjottamassa" ? @X #3->0
+: 
+"<nimmee>"
+	"nimi" N Dial/Por Sg Dial/Por Par @<SUBJ #4->1
+: 
+"<Trond>"
+	"Trond" N Prop Sem/Mal Sg Nom @<SPRED #5->1
+: 
+"<Kirkvaagin>"
+	"Kirkvaagin" ? @X #6->0
+: 
+"<kondolansiprotokollhaan>"
+	"kondolansiprotokollhaan" ? @X #7->0
+"<.>"
+	"." CLB #8->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Ja>"
+	"ja" CC @CNP #1->1
+: 
+"<mie>"
+	"mie" Pron Pers Sg1 Nom @>N #2->4
+: 
+"<kirjotin>"
+	"kirjotin" ? @X #3->0
+: 
+"<nimen>"
+	"nimi" N Dial/Por Sg Gen @N> #4->4
+: 
+"<Neill>"
+	"Neill" N Prop Sem/Sur Sg Nom @HNOUN #5->4
+: 
+"<¶>"
+	"¶" CLB #6->6
+:\n
+"<Aspnallin>"
+	"Aspnallin" ? @X #1->0
+: 
+"<protokollhaan>"
+	"protokolla" N Sg Ill @HNOUN #2->0
+"<.>"
+	"." CLB #3->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Sielä>"
+	"sielä" Adv @ADVL #1->3
+: 
+"<oli>"
+	"olla" <mv> V Act Ind Prt Sg3 @FMV #2->0
+: 
+"<vähemmän>"
+	"vähemmän" ? @X #3->0
+: 
+"<ihmissii>"
+	"ihminen" N Pl Dial/Por Par @<SUBJ #4->2
+"<.>"
+	"." CLB #5->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

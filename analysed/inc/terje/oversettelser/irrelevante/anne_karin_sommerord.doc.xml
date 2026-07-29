@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Hei Terje</title><genre code="inc"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>92</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Hei>"
+	"hei" Interj @X #1->0
+: 
+"<Terje>"
+	"Terje" N Prop Sem/Mal Sg Nom @HNOUN #2->0
+"<!>"
+	"!" CLB #3->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<MET>"
+	"MET" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @SUBJ> #1->2
+: 
+"<OPIMA>"
+	"oppiit" <mv> V Act Ind Prs Pl1 @FMV #2->0
+	"oppiit" <mv> V Act Ind Prt Pl1 @FMV #2->0
+: 
+"<kesäSANNOI>"
+	"kesäSANNOI" ? @X #3->0
+: 
+"<KOLMELA>"
+	"kolme" Num Sg Ade @<ADVL #4->2
+: 
+"<KIELELÄ>"
+	"kieli" N Sg Ade @NUM< #5->5
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<NORSK>"
+	"Norsk" N Prop Sem/Sur Sg Nom @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<KVÆNSK>"
+	"Kvænsk" N Prop Sem/Sur Sg Nom @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<kukkii>"
+	"kukkiit" <mv> V Act Ind Prs Sg3 @FMV #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<laulaat>"
+	"laulaat" V Inf @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<jokivenet>"
+	"jokivenet" N Sg Dial/-Var Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<kalastaat>"
+	"kalastaat" V Inf @X #1->0
+"</>"
+	"/" PUNCT MIDDLE @CNP #2->3
+"<pyyttäät>"
+	"pyyttäät" V TV Inf @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<feeriä>"
+	"feeriä" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+
+]]></dependency></body></document>

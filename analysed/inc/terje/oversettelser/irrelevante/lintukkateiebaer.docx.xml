@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title/><genre code="inc"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>35</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Lintukka>"
+	"lintukka" N Sg Nom @HNOUN #1->0
+: 
+"<Teiebær>"
+	"Teiebær" ? @X #2->0
+"</>"
+	"/" PUNCT MIDDLE #3->4
+"<tegerbær>"
+	"tegerbær" ? @X #4->0
+: 
+"<(>"
+	"(" PUNCT LEFT #5->6
+"<Rubus>"
+	"Rubus" ? @X #6->0
+: 
+"<saxatilis>"
+	"saxatilis" ? @X #7->0
+"<)>"
+	")" PUNCT RIGHT #8->7
+"<,>"
+	"," CLB #9->1
+: 
+"<suomeksi>"
+	"Suomi" N Prop Sem/Plc Sg Dial/Por Tra @X #10->0
+: 
+"<lillukka>"
+	"lillukka" ? @X #11->0
+: 
+"<¶>"
+	"¶" CLB #12->1
+:\n
+"<Engklokke>"
+	"Engklokke" ? @X #1->0
+: 
+"<(>"
+	"(" PUNCT LEFT #2->3
+"<Campanula>"
+	"Campanula" ? @X #3->0
+: 
+"<patula>"
+	"patula" ? @X #4->0
+"<)>"
+	")" PUNCT RIGHT #5->4
+: 
+"<,>"
+	"," CLB #6->8
+: 
+"<suomeksi>"
+	"Suomi" N Prop Sem/Plc Sg Dial/Por Tra @ADVL> #7->8
+: 
+"<harakankello>"
+	"kello" N Sg Nom @HNOUN #8->0
+		"Harakka" N Prop Sem/Sur Sg Dial/Jok Gen Cmp #8->0
+	"kello" N Sg Nom @HNOUN #8->0
+		"Harakka" N Prop Sem/Sur Sg Dial/Por Gen Cmp #8->0
+	"kello" N Sg Nom @HNOUN #8->0
+		"Harakka" N Prop Sem/Sur Sg Dial/Var Gen Cmp #8->0
+"<,>"
+	"," CLB #9->8
+: 
+"<svensk>"
+	"Svensk" N Prop Sem/Sur Sg Nom @HNOUN #10->8
+"<;>"
+	";" CLB #11->8
+: 
+"<ångsklocka>"
+	"ångsklocka" ? @X #12->0
+: 
+"<¶>"
+	"¶" CLB #13->8
+:\n
+"<Engklokke>"
+	"Engklokke" ? @X #1->0
+"</>"
+	"/" PUNCT MIDDLE #2->3
+: 
+"<Småengkall>"
+	"Småengkall" ? @X #3->0
+: 
+"<(>"
+	"(" PUNCT LEFT #4->5
+"<Rhinanthus>"
+	"Rhinanthus" ? @X #5->0
+: 
+"<minor>"
+	"minor" ? @X #6->0
+"<)>"
+	")" PUNCT RIGHT #7->6
+"<,>"
+	"," CLB #8->12
+: 
+"<suomeksi>"
+	"Suomi" N Prop Sem/Plc Sg Dial/Por Tra @ADVL> #9->12
+: 
+"<pikkulaukku>"
+	"pikkulaukku" ? @X #10->0
+"<,>"
+	"," CLB #11->10
+: 
+"<svensk>"
+	"Svensk" N Prop Sem/Sur Sg Nom @HNOUN #12->0
+"<:>"
+	":" CLB #13->12
+: 
+"<ängsskallra>"
+	"ängsskallra" ? @X #14->0
+: 
+"<¶>"
+	"¶" CLB #15->12
+:\n
+
+]]></dependency></body></document>

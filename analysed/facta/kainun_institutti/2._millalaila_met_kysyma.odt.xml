@@ -1,0 +1,1024 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Aikamatka, Millälaila met kysymä?</title><genre code="facta"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2011</year><wordcount>246</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Aikamatka>"
+	"aikamatka" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Millälaila>"
+	"millälaila" Adv @ADVL #1->0
+: 
+"<met>"
+	"met" Pron Pers Pl1 Nom @SUBJ> #2->3
+: 
+"<kysymä>"
+	"kyssyyt" <mv> V Act Ind Prs Pl1 @FMV #3->0
+"<.>"
+	"." CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuka>"
+	"kuka" Pron Interr Sg Nom @HNOUN #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<kene>"
+	"kene" ? @X #3->0
+"<->"
+	"-" PUNCT MIDDLE #4->4
+"</>"
+	"/" PUNCT MIDDLE #5->6
+"<ke>"
+	"ke" ? @X #6->0
+"<->"
+	"-" PUNCT MIDDLE #7->6
+: 
+"<¶>"
+	"¶" CLB #8->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<nominativ:entall>"
+	"nominativ:entall" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Kuka>"
+	"kuka" Pron Interr Sg Nom @SUBJ> #4->0
+: 
+"<Kuka>"
+	"kuka" Pron Interr Sg Nom @SUBJ> #5->7
+: 
+"<sie>"
+	"sie" Pron Pers Sg2 Nom @SUBJ> #6->7
+: 
+"<olet>"
+	"olla" <mv> V Act Ind Prs Sg2 @FMV #7->0
+"<?>"
+	"?" CLB #8->2
+"<flertall>"
+	"flertall" ? @X #1->0
+"<:>"
+	":" CLB #2->5
+: 
+"<Kekkä>"
+	"kuka" Pron Interr Pl Nom Dial/Por @>N #3->5
+"</>"
+	"/" PUNCT MIDDLE #4->5
+"<Kukka>"
+	"Kukka" N Prop Sem/Sur Sg Nom @SUBJ> #5->0
+: 
+"<Kekkä>"
+	"kuka" Pron Interr Pl Nom Dial/Por @>N #6->8
+"</>"
+	"/" PUNCT MIDDLE #7->8
+"<kukka>"
+	"Kukka" N Prop Sem/Sur Sg Nom @SUBJ> #8->10
+: 
+"<tet>"
+	"tet" Pron Pers Pl2 Nom @SUBJ> #9->10
+: 
+"<oletta>"
+	"olla" <mv> V Act Ind Prs Pl2 @FMV #10->0
+"<?>"
+	"?" CLB #11->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<entall>"
+	"entall" ? @X #1->0
+"<:>"
+	":" CLB #2->5
+: 
+"<Kene>"
+	"Kene" ? @X #3->0
+"<|>"
+	"|" CLB #4->5
+"<n>"
+	"n" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #5->0
+: 
+"<Kenen>"
+	"kuka" Pron Interr Pl Gen @>N #6->8
+	"kuka" Pron Interr Sg Gen @>N #6->8
+: 
+"<tuo>"
+	"tuo" Pron Dem Sg Nom @>N #7->8
+: 
+"<kuppi>"
+	"kuppi" N Sg Nom @SUBJ> #8->9
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #9->0
+"<?>"
+	"?" CLB #10->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<flertall>"
+	"flertall" ? @X #1->0
+"<:>"
+	":" CLB #2->7
+: 
+"<Keitten>"
+	"Keitten" ? @X #3->0
+: 
+"<Keitten>"
+	"Keitten" ? @X #4->0
+: 
+"<kupit>"
+	"kuppi" N Pl Dial/Por Nom @SUBJ> #5->7
+: 
+"<nämät>"
+	"nämät" Pron Dem Pl Nom @SUBJ> #6->7
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #7->0
+"<?>"
+	"?" CLB #8->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<entall>"
+	"entall" ? @X #1->0
+"<:>"
+	":" CLB #2->3
+: 
+"<Ketä>"
+	"kuka" Pron Interr Pl Par @X #3->0
+	"kuka" Pron Interr Sg Par @X #3->0
+: 
+"<Ketä>"
+	"kuka" Pron Interr Sg Par @X #4->0
+: 
+"<sie>"
+	"sie" Pron Pers Sg2 Nom @SUBJ> #5->6
+: 
+"<näjet>"
+	"nähđä" <mv> V Act Ind Prs Sg2 @FMV #6->0
+: 
+"<sielä>"
+	"sielä" Adv @ADVL #7->4
+"<?>"
+	"?" CLB #8->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<flertall>"
+	"flertall" ? @X #1->0
+"<:>"
+	":" CLB #2->3
+: 
+"<Keitä>"
+	"kuka" Pron Interr Pl Par @X #3->0
+: 
+"<Keitä>"
+	"kuka" Pron Interr Pl Par @X #4->0
+: 
+"<tet>"
+	"tet" Pron Pers Pl2 Nom @SUBJ> #5->6
+: 
+"<oletta>"
+	"olla" <mv> V Act Ind Prs Pl2 @FMV #6->0
+: 
+"<tet>"
+	"tet" Pron Pers Pl2 Nom @>N #7->8
+: 
+"<pienet>"
+	"Piene" N Prop Sem/Sur Pl Dial/Por Nom @>N #8->9
+: 
+"<pojat>"
+	"poika" N Dial/Por Pl Nom @<SPRED #9->6
+"<?>"
+	"?" CLB #10->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<adessiv>"
+	"adessiv" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Kenelä>"
+	"kuka" Pron Interr Pl Ade @ADVL> #4->6
+	"kuka" Pron Interr Sg Ade @ADVL> #4->6
+: 
+"<Kenelä>"
+	"kuka" Pron Interr Pl Ade @ADVL> #5->6
+	"kuka" Pron Interr Sg Ade @ADVL> #5->6
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #6->0
+: 
+"<pännä>"
+	"pännä" N Sg Nom @<SPRED #7->6
+"<?>"
+	"?" CLB #8->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<allativ>"
+	"allativ" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Kenele>"
+	"kuka" Pron Interr Pl All @ADVL> #4->7
+	"kuka" Pron Interr Sg All @ADVL> #4->7
+: 
+"<Kenele>"
+	"kuka" Pron Interr Pl All @ADVL> #5->7
+	"kuka" Pron Interr Sg All @ADVL> #5->7
+: 
+"<mie>"
+	"mie" Pron Pers Sg1 Nom @SUBJ> #6->7
+: 
+"<annan>"
+	"anttaat" <mv> V TV Act Ind Prs Sg1 @FMV #7->0
+: 
+"<tämä>"
+	"tämä" Pron Dem Sg Nom @X #8->0
+: 
+"<toolin>"
+	"tooli" N Sg Dial/Por Gen @<OBJ #9->7
+"<?>"
+	"?" CLB #10->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<ablativ>"
+	"ablativ" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Keneltä>"
+	"kuka" Pron Interr Pl Abl @ADVL> #4->7
+	"kuka" Pron Interr Sg Abl @ADVL> #4->7
+: 
+"<Keneltä>"
+	"kuka" Pron Interr Pl Abl @ADVL> #5->7
+	"kuka" Pron Interr Sg Abl @ADVL> #5->7
+: 
+"<sie>"
+	"sie" Pron Pers Sg2 Nom @SUBJ> #6->7
+: 
+"<sait>"
+	"saađa" <mv> V Act Ind Prt Sg2 @FMV #7->0
+: 
+"<sen>"
+	"se" Pron Dem Sg Gen @>N #8->9
+: 
+"<toolin>"
+	"tooli" N Sg Dial/Por Gen @<OBJ #9->7
+"<?>"
+	"?" CLB #10->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<illativ>"
+	"illativ" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Kenheen>"
+	"kuka" Pron Interr Pl Ill @ADVL> #4->7
+	"kuka" Pron Interr Sg Ill @ADVL> #4->7
+: 
+"<Kenheen>"
+	"kuka" Pron Interr Pl Ill @ADVL> #5->7
+	"kuka" Pron Interr Sg Ill @ADVL> #5->7
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #6->7
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #7->0
+: 
+"<menossa>"
+	"menossa" Adv @ADVL #8->2
+"<?>"
+	"?" CLB #9->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<inessiv>"
+	"inessiv" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Kenessä>"
+	"kuka" Pron Interr Pl Ine @ADVL> #4->7
+	"kuka" Pron Interr Sg Ine @ADVL> #4->7
+: 
+"<Kenessä>"
+	"kuka" Pron Interr Pl Ine @ADVL> #5->7
+	"kuka" Pron Interr Sg Ine @ADVL> #5->7
+: 
+"<tet>"
+	"tet" Pron Pers Pl2 Nom @SUBJ> #6->7
+: 
+"<kävittä>"
+	"käyđä" <mv> V Act Ind Prt Pl2 @FMV #7->0
+: 
+"<eilen>"
+	"eilen" Adv @ADVL #8->2
+"<?>"
+	"?" CLB #9->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<elativ>"
+	"elativ" ? @X #2->0
+: 
+"<Kenestä>"
+	"kuka" Pron Interr Pl Ela @ADVL> #3->5
+	"kuka" Pron Interr Sg Ela @ADVL> #3->5
+: 
+"<Kenestä>"
+	"kuka" Pron Interr Pl Ela @ADVL> #4->5
+	"kuka" Pron Interr Sg Ela @ADVL> #4->5
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @HNOUN #5->0
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #6->2
+: 
+"<tullee>"
+	"Tule" N Prop Sem/Plc Sg Dial/Por Par @X #7->0
+"<?>"
+	"?" CLB #8->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Mikä>"
+	"mikä" Pron Interr Sg Nom @HNOUN #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<mi>"
+	"mikhään" Pron Qu Nom @X #3->0
+"<->"
+	"-" PUNCT MIDDLE #4->3
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<nominativ:entall>"
+	"nominativ:entall" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Mikä>"
+	"mikä" Pron Interr Sg Nom @SUBJ> #4->0
+: 
+"<Mikä>"
+	"mikä" Pron Interr Sg Nom @SUBJ> #5->7
+: 
+"<sie>"
+	"sie" Pron Pers Sg2 Nom @SUBJ> #6->7
+: 
+"<olet>"
+	"olla" <mv> V Act Ind Prs Sg2 @FMV #7->0
+"<?>"
+	"?" CLB #8->2
+"<flertall>"
+	"flertall" ? @X #1->0
+"<:>"
+	":" CLB #2->3
+: 
+"<Mikkä>"
+	"mikä" Pron Interr Pl Nom @SUBJ> #3->0
+: 
+"<Mikkä>"
+	"mikä" Pron Interr Pl Nom @SUBJ> #4->6
+: 
+"<tet>"
+	"tet" Pron Pers Pl2 Nom @SUBJ> #5->6
+: 
+"<oletta>"
+	"olla" <mv> V Act Ind Prs Pl2 @FMV #6->0
+"<?>"
+	"?" CLB #7->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<entall>"
+	"entall" ? @X #1->0
+"<:>"
+	":" CLB #2->3
+: 
+"<Minkä>"
+	"mikä" Pron Interr Pl Gen @X #3->0
+	"mikä" Pron Interr Sg Gen @X #3->0
+: 
+"<Minkä>"
+	"mikä" Pron Interr Pl Gen @>N #4->5
+	"mikä" Pron Interr Sg Gen @>N #4->5
+: 
+"<seinä>"
+	"See" N Prop Pl Dial/Por Ess @ADVL> #5->7
+: 
+"<tämä>"
+	"tämä" Pron Dem Sg Nom @SUBJ> #6->7
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #7->0
+"<?>"
+	"?" CLB #8->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<flertall>"
+	"flertall" ? @X #1->0
+"<:>"
+	":" CLB #2->7
+: 
+"<Miitten>"
+	"Miitten" ? @X #3->0
+: 
+"<Miitten>"
+	"Miitten" ? @X #4->0
+: 
+"<klasit>"
+	"klasi" N Pl Dial/Por Nom @SUBJ> #5->7
+: 
+"<nämät>"
+	"nämät" Pron Dem Pl Nom @SUBJ> #6->7
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #7->0
+"<?>"
+	"?" CLB #8->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<entall>"
+	"entall" ? @X #1->0
+"<:>"
+	":" CLB #2->3
+: 
+"<Mitä>"
+	"mikä" Pron Interr Pl Par @X #3->0
+	"mikä" Pron Interr Sg Par @X #3->0
+: 
+"<Mitä>"
+	"mikä" Pron Interr Sg Par @X #4->0
+: 
+"<sie>"
+	"sie" Pron Pers Sg2 Nom @SUBJ> #5->6
+: 
+"<näjet>"
+	"nähđä" <mv> V Act Ind Prs Sg2 @FMV #6->0
+: 
+"<sielä>"
+	"sielä" Adv @ADVL #7->4
+"<?>"
+	"?" CLB #8->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<flertall>"
+	"flertall" ? @X #1->0
+"<:>"
+	":" CLB #2->7
+: 
+"<Miitä>"
+	"Miitä" ? @X #3->0
+: 
+"<Miitä>"
+	"Miitä" ? @X #4->0
+: 
+"<piilii>"
+	"Piili" N Prop Sem/Sur Sg Dial/Por Par @X #5->0
+: 
+"<tet>"
+	"tet" Pron Pers Pl2 Nom @SUBJ> #6->7
+: 
+"<näjettä>"
+	"nähđä" <mv> V Act Ind Prs Pl2 @FMV #7->0
+: 
+"<sielä>"
+	"sielä" Adv @ADVL #8->5
+"<?>"
+	"?" CLB #9->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<adessiv>"
+	"adessiv" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Millä>"
+	"mikä" Pron Interr Pl Ade @ADVL> #4->8
+	"mikä" Pron Interr Sg Ade @ADVL> #4->8
+: 
+"<Millä>"
+	"mikä" Pron Interr Pl Ade @>N #5->6
+	"mikä" Pron Interr Sg Ade @>N #5->6
+: 
+"<pyssilä>"
+	"bussi" N Sg Nom Err/Orth N Sg Dial/Por Ade @SUBJ> #6->8
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #7->8
+: 
+"<tullee>"
+	"tulla" <mv> V Act Ind Prs Sg3 @FMV #8->0
+"<?>"
+	"?" CLB #9->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<allativ>"
+	"allativ" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Mille>"
+	"mikä" Pron Interr Pl All @>N #4->6
+	"mikä" Pron Interr Sg All @>N #4->6
+: 
+"<Mile>"
+	"Mile" ? @X #5->0
+: 
+"<pöyðäle>"
+	"pöytä" N Sg Dial/Por All @ADVL> #6->8
+: 
+"<mie>"
+	"mie" Pron Pers Sg1 Nom @SUBJ> #7->8
+: 
+"<panen>"
+	"panna" <mv> V Act Ind Prs Sg1 @FMV #8->0
+: 
+"<tämän>"
+	"tämä" Pron Dem Sg Gen @>N #9->10
+: 
+"<kirjan>"
+	"kirja" N Sg Dial/Por Gen @<OBJ #10->8
+"<?>"
+	"?" CLB #11->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<ablativ>"
+	"ablativ" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Miltä>"
+	"mikä" Pron Interr Pl Abl @ADVL> #4->8
+	"mikä" Pron Interr Sg Abl @ADVL> #4->8
+: 
+"<Miltä>"
+	"mikä" Pron Interr Pl Abl @>N #5->6
+	"mikä" Pron Interr Sg Abl @>N #5->6
+: 
+"<pöyðältä>"
+	"pöytä" N Sg Dial/Por Abl @ADVL> #6->8
+: 
+"<mie>"
+	"mie" Pron Pers Sg1 Nom @SUBJ> #7->8
+: 
+"<otan>"
+	"ottaat" <mv> V TV Act Ind Prs Sg1 @FMV #8->0
+: 
+"<kirjan>"
+	"kirja" N Sg Dial/Por Gen @<OBJ #9->8
+"<?>"
+	"?" CLB #10->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<illativ>"
+	"illativ" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Mihiin>"
+	"mikä" Pron Interr Sg Ill Err/Orth @ADVL> #4->7
+: 
+"<Mihiin>"
+	"mikä" Pron Interr Sg Ill Err/Orth @ADVL> #5->7
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #6->7
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #7->0
+: 
+"<menossa>"
+	"menossa" Adv @ADVL #8->2
+"<?>"
+	"?" CLB #9->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<inessiv>"
+	"inessiv" ? @X #2->0
+"<:>"
+	":" CLB #3->2
+: 
+"<Missä>"
+	"mikä" Pron Interr Pl Ine @ADVL> #4->7
+	"mikä" Pron Interr Sg Ine @ADVL> #4->7
+: 
+"<Missä>"
+	"mikä" Pron Interr Pl Ine @ADVL> #5->7
+	"mikä" Pron Interr Sg Ine @ADVL> #5->7
+: 
+"<tet>"
+	"tet" Pron Pers Pl2 Nom @SUBJ> #6->7
+: 
+"<kävittä>"
+	"käyđä" <mv> V Act Ind Prt Pl2 @FMV #7->0
+: 
+"<eilen>"
+	"eilen" Adv @ADVL #8->2
+"<?>"
+	"?" CLB #9->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<elativ>"
+	"elativ" ? @X #2->0
+: 
+"<Mistä>"
+	"mikä" Pron Interr Pl Ela @ADVL> #3->5
+	"mikä" Pron Interr Sg Ela @ADVL> #3->5
+: 
+"<Mistä>"
+	"mikä" Pron Interr Pl Ela @ADVL> #4->5
+	"mikä" Pron Interr Sg Ela @ADVL> #4->5
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @HNOUN #5->0
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #6->2
+: 
+"<tullee>"
+	"Tule" N Prop Sem/Plc Sg Dial/Por Par @X #7->0
+"<?>"
+	"?" CLB #8->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+"<KO>"
+	"ko" CS @CVP #2->5
+"</>"
+	"/" PUNCT MIDDLE #3->5
+"<->"
+	"-" PUNCT MIDDLE #4->5
+"<KÖ>"
+	"KÖ" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #5->0
+	"KØ" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #5->0
+"<?>"
+	"?" CLB #6->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<Mie>"
+	"mie" Pron Pers Sg1 Nom @SUBJ> #2->3
+: 
+"<olen>"
+	"olla" <aux> V Act Ind Prs Sg1 @FAUX #3->0
+: 
+"<köyhä>"
+	"köyhä" A Sg Nom @SUBJ> #4->5
+: 
+"<Olenko>"
+	"olla" <aux> V Act Ind Prs Sg1 Clt Qst @FAUX #5->3
+: 
+"<mie>"
+	"mie" Pron Pers Sg1 Nom @X #6->0
+: 
+"<köyhä>"
+	"köyhä" A Sg Nom @<SPRED #7->0
+"<?>"
+	"?" CLB #8->3
+: 
+"<Miekö>"
+	"mie" Pron Pers Sg1 Nom Clt Qst @SUBJ> #1->2
+: 
+"<olen>"
+	"olla" <mv> V Act Ind Prs Sg1 @FMV #2->0
+: 
+"<köyhä>"
+	"köyhä" A Sg Nom @<SPRED #3->2
+"<?>"
+	"?" CLB #4->2
+: 
+"<Köyhäkö>"
+	"köyhä" A Sg Nom Clt Qst @SUBJ> #1->3
+: 
+"<mie>"
+	"mie" Pron Pers Sg1 Nom @SUBJ> #2->3
+: 
+"<olen>"
+	"olla" <mv> V Act Ind Prs Sg1 @FMV #3->0
+"<?>"
+	"?" CLB #4->3
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<Hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" <aux> V Act Ind Prs Sg3 @FAUX #3->0
+: 
+"<rikas>"
+	"rikas" A Sg Nom @SUBJ> #4->5
+: 
+"<Oonko>"
+	"olla" <aux> V Act Ind Prs Sg3 Clt Qst @FAUX #5->3
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @X #6->0
+: 
+"<rikas>"
+	"rikas" A Sg Nom @<SPRED #7->0
+"<?>"
+	"?" CLB #8->3
+: 
+"<Hänkö>"
+	"hän" Pron Pers Sg3 Nom Clt Qst @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<rikas>"
+	"rikas" A Sg Nom @<SPRED #3->2
+"<?>"
+	"?" CLB #4->2
+: 
+"<Rikasko>"
+	"rikas" A Sg Nom Clt Qst @SUBJ> #1->3
+: 
+"<hän>"
+	"hän" Pron Pers Sg3 Nom @SUBJ> #2->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #3->0
+"<?>"
+	"?" CLB #4->3
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<Tet>"
+	"tet" Pron Pers Pl2 Nom @SUBJ> #2->3
+: 
+"<oletta>"
+	"olla" <aux> V Act Ind Prs Pl2 @FAUX #3->0
+: 
+"<tulheet>"
+	"tulla" V Act PrfPrc Pl Nom @SUBJ> #4->6
+: 
+"<kothiin>"
+	"kothiin" Adv @ADVL #5->0
+: 
+"<Olettako>"
+	"olla" <aux> V Act Ind Prs Pl2 Clt Qst @FAUX #6->3
+: 
+"<tulheet>"
+	"tulla" V Act PrfPrc Pl Nom @<OBJ #7->7
+: 
+"<kothiin>"
+	"kothiin" Adv @ADVL #8->0
+"<?>"
+	"?" CLB #9->3
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<Sie>"
+	"sie" Pron Pers Sg2 Nom @SUBJ> #2->3
+: 
+"<olet>"
+	"olla" <aux> V Act Ind Prs Sg2 @FAUX #3->0
+: 
+"<menossa>"
+	"menossa" Adv @ADVL #4->0
+: 
+"<sinne>"
+	"sinne" Adv @ADVL #5->0
+: 
+"<Siekö>"
+	"sie" Pron Pers Sg2 Nom Clt Qst @SUBJ> #6->7
+: 
+"<olet>"
+	"olla" <aux> V Act Ind Prs Sg2 @FAUX #7->3
+: 
+"<menossa>"
+	"menossa" Adv @ADVL #8->0
+: 
+"<sinne>"
+	"sinne" Adv @ADVL #9->0
+"<?>"
+	"?" CLB #10->3
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<Poika>"
+	"poika" N Dial/Por Sg Nom @SUBJ> #2->0
+: 
+"<assuu>"
+	"assuut" V Act Ind Prs Sg3 @X #3->0
+: 
+"<Etelä-Ruiðassa>"
+	"Etelä-Ruiðassa" ? @X #4->0
+: 
+"<Assuuko>"
+	"assuut" V Act Ind Prs Sg3 Clt Qst @X #5->0
+: 
+"<poika>"
+	"poika" N Dial/Por Sg Nom @X #6->0
+: 
+"<Etelä-Ruiðassa>"
+	"Etelä-Ruiðassa" ? @X #7->0
+"<?>"
+	"?" CLB #8->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Minkälainen>"
+	"minkälainen" A Sg Nom @HNOUN #1->0
+	"minkälainen" Adv @ADVL #1->0
+	"minkälainen" Pron Qu Nom @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<minkälainen>"
+	"minkälainen" A Sg Nom @>N #2->3
+	"minkälainen" Adv @ADVL #2->3
+	"minkälainen" Pron Qu Nom @>N #2->3
+: 
+"<talo>"
+	"talo" N Sg Nom @SUBJ> #3->5
+: 
+"<sulla>"
+	"sie" Pron Pers Sg2 Ade @HAB #4->4
+	"sie" Pron Pers Sg2 Use/NG Ade @HAB #4->4
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #5->0
+"<?>"
+	"?" CLB #6->5
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<minkälaisen>"
+	"minkälainen" A Sg Gen @>N #2->3
+	"minkälainen" Pron Qu Gen @>N #2->3
+: 
+"<piilin>"
+	"Piili" N Prop Sem/Sur Sg Dial/Por Gen @X #3->0
+: 
+"<sie>"
+	"sie" Pron Pers Sg2 Nom @SUBJ> #4->5
+: 
+"<olet>"
+	"olla" <mv> V Act Ind Prs Sg2 @FMV #5->0
+: 
+"<ostanu>"
+	"ostaat" <mv> V Act PrfPrc Sg Nom @FMV #6->5
+"<?>"
+	"?" CLB #7->5
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<minkälaista>"
+	"minkälainen" A Sg Par @>N #2->3
+	"minkälainen" Pron Qu Par @>N #2->3
+: 
+"<kaffii>"
+	"kaffi" N Sg Dial/Por Par @X #3->0
+: 
+"<sie>"
+	"sie" Pron Pers Sg2 Nom @SUBJ> #4->5
+: 
+"<juot>"
+	"juođa" <mv> V Act Ind Prs Sg2 @FMV #5->0
+"<?>"
+	"?" CLB #6->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kunka>"
+	"kunka" Adv @ADVL #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<kunka>"
+	"kunka" Adv @ADVL #2->0
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #3->4
+: 
+"<mennee>"
+	"mennä" <mv> V Act Ind Prs Sg3 @FMV #4->0
+"<?>"
+	"?" CLB #5->2
+"<->"
+	"-" PUNCT MIDDLE #1->2
+: 
+"<kunka>"
+	"kunka" Adv @ADVL #2->0
+: 
+"<paljon>"
+	"paljon" Adv @ADVL #3->0
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #4->5
+: 
+"<maksaa>"
+	"maksaat" <mv> V Act Ind Prs Sg3 @FMV #5->0
+"<?>"
+	"?" CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

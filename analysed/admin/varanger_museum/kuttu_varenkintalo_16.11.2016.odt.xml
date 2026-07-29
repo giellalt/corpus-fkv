@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Kuttu Varenkintalo 16.11.2016</title><genre code="admin"/><author><unknown/></author><year>2016</year><wordcount>112</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>./Kuttu Varenkintalo 16.11.2016.docx</origFileName><parallel_text xml:lang="nob" location="kuttu_varenkintalo_16.11.2016.odt"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+"<:>"
+	":" CLB #4->4
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #6->5
+: 
+"<->"
+	"-" PUNCT MIDDLE #7->8
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #8->6
+: 
+"<16.11.2016>"
+	 Use/Circ"16.11.2016" Num Arab Sem/Date Sg Nom
+	 Use/Circ"16.11.2016" Num Arab Sem/ID
+: 
+"<¶>"
+	"¶" CLB #10->10
+:\n
+"<KUTTU>"
+	"kuttu" N Sg Nom @HNOUN #1->0
+	"kuttuut" <mv> V Act Imprt Sg2 @FMV #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Vadsø>"
+	"Vadsø" N Prop Sem/Plc Sg Nom @>N #1->2
+: 
+"<museum>"
+	"Museum" N Prop Sem/Org Sg Nom @SUBJ> #2->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #3->4
+: 
+"<Ruija>"
+	"Ruija" N Prop Sem/Plc Sg Nom @SUBJ> #4->6
+: 
+"<kvenmuseum>"
+	"kvenmuseum" ? @X #5->0
+: 
+"<kuttuu>"
+	"kuttu" N Sg Dial/Por Par @X #6->0
+	"kuttuut" <mv> V Act Ind Prs Sg3 @FMV #6->0
+: 
+"<teät>"
+	"tet" Pron Pers Pl2 Acc Err/Orth @<OBJ #7->6
+: 
+"<tapahtumhaan>"
+	"tapahtuut" V Act Inf3 Ill @<ADVL #8->6
+"<,>"
+	"," CLB #9->10
+: 
+"<jossa>"
+	"joka" Pron Rel Sg Ine @<ADVL #10->6
+: 
+"<aukasemma>"
+	"aukasemma" ? @X #11->0
+: 
+"<Varenkintalo>"
+	"Varenkintalo" ? @X #12->0
+"</>"
+	"/" PUNCT MIDDLE #13->14
+"<Varangerhus>"
+	"Varangerhus" ? @X #14->0
+"<–>"
+	"–" PUNCT MIDDLE #15->16
+"<näyttelyn>"
+	"näyttely" N Sg Gen @X #16->0
+"<.>"
+	"." CLB #17->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Aika>"
+	"aika" N Sg Nom @HNOUN #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<.>"
+	"." CLB #3->1
+	 Use/Circ"23" A Arab Ord Attr
+		 Use/Circ Use/Circ"23" Num Arab Sg Nom "<23>"
+		 Use/Circ"23" A Arab Ord Attr CLBfinal "<23>"
+		 Use/Circ"23" Num Arab Sem/ID "<23>"
+		 Use/Circ"23" Num Arab Sem/Time-clock Sg Nom "<23>"
+: 
+"<novemperikuuta>"
+	"novemperikuu" N Sg Par @X #1->0
+: 
+"<klo>"
+	"Klo" N Prop Sg Nom @HNOUN #2->1
+: 
+"<18.00>"
+	 Use/Circ"18.00" Num Arab Sem/ID
+	 Use/Circ"18.00" Num Arab Sem/Time-clock Sg Nom
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<Randi>"
+	"Randi" N Prop Sem/Fem Sg Nom @>N #1->2
+: 
+"<Berit>"
+	"Berit" N Prop Sem/Fem Sg Nom @>N #2->3
+: 
+"<Sjølie>"
+	"Sjølie" N Prop Sem/Sur Sg Nom @SUBJ> #3->4
+: 
+"<muistelee>"
+	"muistela" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<paikalisesta>"
+	"paikalinen" A Sg Ela @<ADVL #5->4
+: 
+"<pykkäystavasta>"
+	"pykkäystavasta" ? @X #6->0
+"<.>"
+	"." CLB #7->4
+: 
+"<Kuulema>"
+	"kuula" <mv> V Act Ind Prs Pl1 @FMV #1->0
+: 
+"<kans>"
+	"kans" Po @ADVL #2->0
+: 
+"<musikkia>"
+	"musikki" N Sg Dial/Por Par Err/Orth @<OBJ #3->1
+"<.>"
+	"." CLB #4->1
+: 
+"<Kevyt>"
+	"Kevyt" ? @X #1->0
+: 
+"<serveeraus>"
+	"serveeraus" N Sg Nom @HNOUN #2->0
+"<.>"
+	"." CLB #3->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Sishäänpääsy>"
+	"sishäänpääsy" N Sg Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<ilman>"
+	"ilman" Adv @ADVL #3->0
+: 
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<Tervettulemaa>"
+	"tervettulemaa" Interj @X #1->0
+"<!>"
+	"!" CLB #2->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Nämät>"
+	"nämät" Pron Dem Pl Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #2->0
+: 
+"<kuuronheet>"
+	"kuurota" V Act PrfPrc Pl Nom @>N #3->4
+: 
+"<näyttelyä>"
+	"näyttely" N Sg Dial/Por Par Err/Orth @<SUBJ #4->2
+"<:>"
+	":" CLB #5->2
+: 
+"<Uuistus>"
+	"Uuistus" ? @X #6->0
+"<->"
+	"-" PUNCT MIDDLE #7->8
+: 
+"<ja>"
+	"ja" CC @CNP #8->6
+: 
+"<komunaalidepartementti>"
+	"komunaalidepartementti" N Sg Nom @HNOUN #9->4
+: 
+"<ja>"
+	"ja" CC @CNP #10->9
+: 
+"<Barentsinsekretariaatti>"
+	"Barentsinsekretariaatti" ? @X #11->0
+: 
+"<¶>"
+	"¶" CLB #12->2
+:\n
+
+]]></dependency></body></document>

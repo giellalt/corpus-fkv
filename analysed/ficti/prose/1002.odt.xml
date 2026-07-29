@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Viivi ja Wagner</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2013</year><wordcount>25</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<En>"
+	"ei" <aux> V Neg Act Sg1 @FAUX #1->0
+: 
+"<ole>"
+	"olla" <aux> V Act Ind Prs ConNeg @FAUX #2->1
+: 
+"<koskhaan>"
+	"koskhaan" Adv @ADVL #3->5
+: 
+"<tohtinu>"
+	"tohtiit" V Act PrfPrc Sg Nom @>N #4->6
+: 
+"<sukalttaat>"
+	"sukalttaat" V TV Inf @X #5->0
+: 
+"<viitoselta>"
+	"viitonen" N Sg Abl @<ADVL #6->1
+"<.>"
+	"." CLB #7->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Mutta>"
+	"mutta" CC @CVP #1->2
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #2->4
+: 
+"<mie>"
+	"mie" Pron Pers Sg1 Nom @HNOUN #3->0
+: 
+"<sukall>"
+	"sukall" ? @X #4->0
+:  
+"<an>"
+	"a" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Gen @X #5->0
+"<.>"
+	"." CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Katto>"
+	"katto" N Sg Nom @HNOUN #1->0
+	"kattoot" <mv> V Act Imprt Sg2 @FMV #1->0
+"<.>"
+	"." CLB #2->1
+: 
+"<mamma>"
+	"mamma" N Sg Nom @HNOUN #1->0
+"<!>"
+	"!" CLB #2->1
+: 
+"<Pikku>"
+	"pikku" A Attr @X #1->0
+: 
+"<sika>"
+	"sika" N Sg Nom @SUBJ> #2->3
+: 
+"<makkaa>"
+	"maata" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<pohjassa>"
+	"Pohja" N Prop Sem/Plc Sg Dial/Por Ine @<ADVL #4->3
+"<.>"
+	"." CLB #5->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Älä>"
+	"ei" <aux> V Neg Act Imprt Sg2 @FAUX #1->0
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #2->3
+: 
+"<taajo>"
+	"taajoot" V Act Ind Prs ConNeg @X #3->0
+"<.>"
+	"." CLB #4->1
+: 
+"<Tule>"
+	"Tule" N Prop Sem/Plc Sg Nom @SUBJ> #1->5
+	"tulla" <mv> V Act Imprt Sg2 @FMV #1->5
+: 
+"<nyt>"
+	"nyt" Adv @ADVL #2->0
+"<,>"
+	"," CLB #3->4
+: 
+"<ja>"
+	"ja" CC @CNP #4->2
+: 
+"<otama>"
+	"ottaat" <mv> V TV Act Ind Prs Pl1 @FMV #5->0
+: 
+"<saunaa>"
+	"sauna" N Sg Dial/Por Par @<OBJ #6->5
+"<.>"
+	"." CLB #7->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Infotekst til utsending</title><genre code="admin"/><author><unknown/></author><translator><person firstname="Mari" lastname="Keränen" sex="f" born="" nationality="FIN"/></translator><translated_from xml:lang="nob"/><year>2020</year><wordcount>269</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Aili" email="aili.eriksen@kvenskinstitutt.no"/><multilingual><language xml:lang="nob"/><language xml:lang="sme"/><language xml:lang="fkv"/></multilingual><origFileName>Infotekst til utsending.docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Aksesspunkt>"
+	"Aksesspunkt" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<Visma>"
+	"Visma" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<Aksesspunkt>"
+	"Aksesspunkt" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<Visma>"
+	"Visma" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<Hyvvää>"
+	"hyvä" A Sg Dial/Por Par @>N #1->2
+: 
+"<uutta>"
+	"utu" N Sg Dial/Por Abe @HNOUN #2->3
+	"uu" N Sg Abe @HNOUN #2->3
+	"uusi" A Dial/Por Sg Par @>N #2->3
+: 
+"<vuotta>"
+	"vuosi" N Dial/Por Sg Par @X #3->0
+"<!>"
+	"!" CLB #4->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Niin>"
+	"niin" Adv @ADVL #1->4
+: 
+"<ko>"
+	"ko" CS @CVP #2->6
+: 
+"<kaikki>"
+	"kaikki" Pron Qu Sg Nom @SUBJ> #3->6
+: 
+"<tiiethään>"
+	"tiiethään" ? @X #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<yhistethiin>"
+	"yhđistäät" <mv> V Act Ind Prt Pl3 @FMV #6->0
+: 
+"<Tromssan>"
+	"Tromssa" N Prop Sem/Plc Sg Dial/Por Gen @>N #7->9
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<Finmarkun>"
+	"Finmarkku" N Prop Sem/Plc Sg Gen @N> #9->9
+: 
+"<fylkinkomuunit>"
+	"fylkinkomuuni" N Pl Nom @<OBJ #10->6
+: 
+"<yheksi>"
+	"yksi" Num Sg Tra @N< #11->10
+	"yksi" Pron Indef Sg Sg Tra @>N #11->10
+: 
+"<fylkiksi>"
+	"fylkki" N Sg Dial/Por Tra @NUM< #12->12
+: 
+"<01.01.2020>"
+	 Use/Circ"01.01.2020" Num Arab Sem/Date Sg Nom
+	 Use/Circ"01.01.2020" Num Arab Sem/ID
+"<.>"
+	"." CLB #14->1
+: 
+"<Meän>"
+	"met" Pron Pers Pl1 Gen Err/Orth @>N #1->3
+: 
+"<uusi>"
+	"uusi" A Dial/Por Sg Nom @>N #2->3
+: 
+"<nimi>"
+	"nimi" N Dial/Por Sg Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #4->0
+: 
+"<Tromssan>"
+	"Tromssa" N Prop Sem/Plc Sg Dial/Por Gen @>N #5->8
+: 
+"<ja>"
+	"ja" CC @CNP #6->5
+: 
+"<Finmarkun>"
+	"Finmarkku" N Prop Sem/Plc Sg Gen @>N #7->5
+: 
+"<fylkinkomuuni>"
+	"fylkinkomuuni" N Sg Nom @SUBJ> #8->11
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<tässä>"
+	"tämä" Pron Dem Sg Ine @<ADVL #10->4
+: 
+"<tullee>"
+	"Tule" N Prop Sem/Plc Sg Dial/Por Par @<SUBJ #11->4
+	"tulla" <mv> V Act Ind Prs Sg3 @FMV #11->4
+: 
+"<vähäisen>"
+	"vähäisen" Adv @ADVL #12->18
+: 
+"<tiettoo>"
+	"tieto" N Sg Dial/Por Par @<SUBJ #13->11
+: 
+"<praktilisten>"
+	"praktilinen" A Pl Gen @>N #14->15
+: 
+"<muutosten>"
+	"muutos" N Pl Gen @>P #15->16
+: 
+"<ympäri>"
+	"ympäri" Po @ADVL #16->18
+"<,>"
+	"," CLB #17->18
+: 
+"<minkä>"
+	"mikä" Pron Interr Pl Gen @X #18->11
+	"mikä" Pron Interr Sg Gen @<OBJ #18->11
+	"mikä" Pron Rel Pl Gen @X #18->11
+	"mikä" Pron Rel Sg Gen @<OBJ #18->11
+: 
+"<tet>"
+	"tet" Pron Pers Pl2 Nom @X #19->0
+: 
+"<häyvyttä>"
+	"häyvyttä" ? @X #20->0
+: 
+"<ottaat>"
+	"ottaat" V TV Inf @X #21->0
+: 
+"<huomihoon>"
+	"huomio" N Sg Ill @<ADVL #22->11
+"<:>"
+	":" CLB #23->4
+: 
+"<¶>"
+	"¶" CLB #24->4
+:\n
+"<Kaikki>"
+	"kaikki" Pron Qu Sg Nom @>N #1->2
+: 
+"<työteliijät>"
+	"työteliijä" N Pl Nom @SUBJ> #2->3
+: 
+"<saahaan>"
+	"saađa" <mv> V Act Ind Prs Pl3 @FMV #3->0
+: 
+"<uuen>"
+	"uusi" A Dial/Por Sg Gen @>N #4->5
+: 
+"<e-postiadressin>"
+	"postiadressi" N Sg Gen @<OBJ #5->3
+		"e" Use/SpellNoSugg N Sem/Sign ABBR Gram/TAbbr Cmp/Hyph #5->3
+"<:>"
+	":" CLB #6->3
+: 
+"<etunimi.sukunimi@tffk.no>"
+	"etunimi.sukunimi@tffk.no" URL #7->7
+: 
+"<.>"
+	"." CLB #8->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Uusi>"
+	"uusi" A Dial/Por Sg Nom @X #1->0
+: 
+"<elektrooninen>"
+	"elektrooninen" A Sg Nom @X #2->0
+: 
+"<faktuura-adressi>"
+	"faktuura-adressi" ? @X #3->0
+"<:>"
+	":" CLB #4->4
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Aksesspunkt>"
+	"Aksesspunkt" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<Visma>"
+	"Visma" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<Faktuurassa>"
+	"Faktuurassa" ? @X #1->0
+: 
+"<häyttyy>"
+	"häyttyyt" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<olla>"
+	"olla" <aux> V Inf @FAUX #3->2
+: 
+"<tämä>"
+	"tämä" Pron Dem Sg Nom @>N #4->5
+: 
+"<adressitieto>"
+	"tieto" N Sg Nom @<SPRED #5->2
+		"adressi" N Sg Nom Cmp #5->2
+"<:>"
+	":" CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #7->2
+:\n
+"<Tromssan>"
+	"Tromssa" N Prop Sem/Plc Sg Dial/Por Gen @>N #1->3
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<Finmarkun>"
+	"Finmarkku" N Prop Sem/Plc Sg Gen @N> #3->3
+: 
+"<fylkinkomuuni>"
+	"fylkinkomuuni" N Sg Nom @HNOUN #4->3
+"<(>"
+	"(" PUNCT LEFT #5->6
+"<Osasto>"
+	"osasto" N Sg Nom @<SPRED #6->4
+"<)>"
+	")" PUNCT RIGHT #7->8
+"<Postiloova>"
+	"loova" N Dial/Por Sg Nom @<SPRED #8->0
+		"posti" N Sg Nom Cmp #8->0
+: 
+"<7019815>"
+	 Use/Circ"7019815" Num Arab Sem/ID
+: 
+"<Vesisaari>"
+	"Vesisaari" N Prop Sem/Plc Sg Nom @<SPRED #10->0
+: 
+"<¶>"
+	"¶" CLB #11->8
+:\n
+"<Faktuurat>"
+	"Faktuurat" ? @X #1->0
+: 
+"<jokka>"
+	"joka" Pron Rel Pl Nom @HNOUN #2->0
+: 
+"<lähätäthään>"
+	"lähätäthään" ? @X #3->0
+: 
+"<e-postila>"
+	"e-posti" N Sg Dial/Por Ade @<ADVL #4->2
+"<:>"
+	":" CLB #5->2
+: 
+"<faktura@tffk.no>"
+	"faktura@tffk.no" URL #6->6
+: 
+"<¶>"
+	"¶" CLB #7->2
+:\n
+"<Teile>"
+	"tee" N Pl All @ADVL> #1->8
+	"tet" Pron Pers Pl2 All @ADVL> #1->8
+	"tie" N Pl All @ADVL> #1->8
+: 
+"<kekkä>"
+	"kuka" Pron Interr Pl Nom Dial/Por @SUBJ> #2->3
+: 
+"<piättä>"
+	"pittäät" <mv> V Act Ind Prs Pl2 @FMV #3->0
+: 
+"<meän>"
+	"met" Pron Pers Pl1 Gen Err/Orth @<OBJ #4->3
+: 
+"<loggoi>"
+	"loggoi" ? @X #5->0
+"<,>"
+	"," CLB #6->5
+: 
+"<tet>"
+	"tet" Pron Pers Pl2 Nom @SUBJ> #7->8
+: 
+"<löyättä>"
+	"löyttäät" <mv> V TV Act Ind Prs Pl2 @FMV #8->3
+: 
+"<uuen>"
+	"uusi" A Dial/Por Sg Gen @>N #9->12
+: 
+"<logon>"
+	"logon" ? @X #10->0
+: 
+"<meän>"
+	"met" Pron Pers Pl1 Gen Err/Orth @>N #11->12
+: 
+"<nettilaialta>"
+	"nettilaita" N Sg Dial/Por Abl @<ADVL #12->8
+: 
+"<www.tffk.no>"
+	"www.tffk.no" URL #13->13
+: 
+"<.>"
+	"." CLB #14->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Muutoin>"
+	"muutoin" Adv @ADVL #1->4
+: 
+"<ottakkaa>"
+	"ottaat" <mv> V TV Act Imprt Pl2 @FMV #2->0
+: 
+"<yhtheyen>"
+	"yhtheys" N Dial/Por Sg Gen @<OBJ #3->2
+: 
+"<kommunikasjuuniosasthoon>"
+	"kommunikasjuuniosasthoon" ? @X #4->0
+"<.>"
+	"." CLB #5->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

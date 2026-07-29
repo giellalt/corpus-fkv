@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Vapaa maaherran virka Tromssassa ja Finmarkussa (määrätyiksi vuosiksi)</title><genre code="admin"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FI"/></translator><translated_from xml:lang="nob"/><year>2017</year><wordcount>65</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>../Downloads/Departement/KMD Ledig embete som fylkesmann i Troms og Finnmark, kvensk 15.06.2017.docx</origFileName><parallel_text xml:lang="nob" location="kmd_ledig_embete_som_fylkesmann_i_troms_og_finnmark_kvensk_15.06.2017.docx"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+"<:>"
+	":" CLB #4->4
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #6->5
+: 
+"<->"
+	"-" PUNCT MIDDLE #7->8
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #8->6
+: 
+"<15.06.2017>"
+	 Use/Circ"15.06.2017" Num Arab Sem/Date Sg Nom
+	 Use/Circ"15.06.2017" Num Arab Sem/ID
+: 
+"<¶>"
+	"¶" CLB #10->10
+:\n
+"<Vapaa>"
+	"vapaa" A Sg Nom @>N #1->2
+: 
+"<maaherran>"
+	"maaherra" N Sg Dial/Por Gen @N> #2->2
+: 
+"<virka>"
+	"virka" N Sg Nom @>N #3->4
+: 
+"<Tromssassa>"
+	"Tromssa" N Prop Sem/Plc Sg Dial/Por Ine @HNOUN #4->2
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<Finmarkussa>"
+	"Finmarkku" N Prop Sem/Plc Sg Ine @HNOUN #6->4
+: 
+"<(>"
+	"(" PUNCT LEFT #7->8
+"<määrätyiksi>"
+	"määrätty" A Pl Tra @>N #8->9
+: 
+"<vuosiksi>"
+	"vuosi" N Dial/Por Pl Tra @<ADVL #9->6
+"<)>"
+	")" PUNCT RIGHT #10->9
+:  
+"<¶>"
+	"¶" CLB #11->11
+:\n
+"<Hakemafristi>"
+	"Hakemafristi" ? @X #1->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<.>"
+	"." CLB #3->2
+	 Use/Circ"8" A Arab Ord Attr
+		 Use/Circ Use/Circ"8" Num Arab Sg Nom "<8>"
+		 Use/Circ"8" A Arab Ord Attr CLBfinal "<8>"
+		 Use/Circ"8" Num Arab Sem/ID "<8>"
+		 Use/Circ"8" Num Arab Sem/Time-clock Sg Nom "<8>"
+: 
+"<aukustikuuta>"
+	"aukustikuu" N Sg Par @X #1->0
+: 
+"<2017>"
+	 Use/Circ Use/Circ"2017" Num Arab Sg Nom
+	 Use/Circ"2017" Num Arab Sem/ID
+	 Use/Circ"2017" Num Arab Sem/Year Sg Nom
+"<.>"
+	"." CLB #3->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Enämen>"
+	"enämen" Adv @ADVL #1->2
+: 
+"<tiettoo>"
+	"tieto" N Sg Dial/Por Par @X #2->0
+: 
+"<viran>"
+	"virka" N Sg Dial/Por Gen @>P #3->4
+: 
+"<ympäri>"
+	"ympäri" Po @ADVL #4->2
+: 
+"<näjet>"
+	"nähđä" <mv> V Act Ind Prs Sg2 @FMV #5->0
+: 
+"<tästä>"
+	"tästä" Adv @ADVL #6->2
+"<:>"
+	":" CLB #7->1
+: 
+"<¶>"
+	"¶" CLB #8->1
+:\n
+
+]]></dependency></body></document>

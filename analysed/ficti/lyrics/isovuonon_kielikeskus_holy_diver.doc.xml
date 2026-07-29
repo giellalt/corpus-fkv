@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Holy Diver</title><genre code="ficti"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="1960" nationality="FIN"/></translator><year>2011</year><wordcount>318</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="eng"/><language xml:lang="nob"/><language xml:lang="sme"/><language xml:lang="fkv"/></multilingual><parallel_text xml:lang="sme" location="isovuonon_kielikeskus_holy_diver_sme.doc"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Uuet>"
+	"uusi" A Dial/Por Pl Nom @>N #1->2
+: 
+"<laulut>"
+	"laulu" N Pl Dial/Por Nom @HNOUN #2->0
+: 
+"<2011>"
+	 Use/Circ Use/Circ"2011" Num Arab Sg Nom
+	 Use/Circ"2011" Num Arab Sem/ID
+	 Use/Circ"2011" Num Arab Sem/Year Sg Nom
+"<,>"
+	"," CLB #4->2
+: 
+"<Isovuonon>"
+	"Isovuono" N Prop Sg Dial/Por Gen @N> #5->5
+: 
+"<kielikeskus>"
+	"kielikeskus" N Sg Nom @HNOUN #6->5
+"</>"
+	"/" PUNCT MIDDLE @CNP #7->8
+: 
+"<Storfjord>"
+	"Storfjord" N Prop Sem/Plc Sg Nom @SUBJ> #8->0
+: 
+"<språksenter>"
+	"språksenter" ? @X #9->0
+: 
+"<¶>"
+	"¶" CLB #10->2
+:\n
+"<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+"</>"
+	"/" PUNCT MIDDLE #4->5
+"<finsk>"
+	"Finsk" N Prop Sem/Sur Sg Nom @HNOUN #5->0
+: 
+"<og>"
+	"og" ? @X #6->0
+: 
+"<samisk>"
+	"samisk" ? @X #7->0
+"<:>"
+	":" CLB #8->5
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #9->9
+: 
+"<institutti-Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @HNOUN #10->9
+		"institutti" N Sg Nom Cmp/Hyph #10->9
+"</>"
+	"/" PUNCT MIDDLE @CNP #11->12
+: 
+"<Pirjo>"
+	"Pirjo" N Prop Sem/Fem Sg Nom @>N #12->13
+: 
+"<Paavalniemi>"
+	"Paavalniemi" N Prop Sem/Plc Sg Nom @SUBJ> #13->0
+: 
+"<¶>"
+	"¶" CLB #14->5
+:\n
+"<meren>"
+	"meri" N Sg Gen @X #1->0
+: 
+"<ruhtinas>"
+	"ruhtinas" ? @X #2->0
+: 
+"<olet>"
+	"olla" <mv> V Act Ind Prs Sg2 @FMV #3->0
+: 
+"<keskiyön>"
+	"keskiyö" N Sg Gen @X #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<¶>"
+	"¶" CLB #6->3
+:\n
+"<oi>"
+	"oi" Interj @X #1->0
+: 
+"<mitä>"
+	"mikä" Pron Interr Pl Par @X #2->0
+	"mikä" Pron Interr Sg Par @X #2->0
+: 
+"<tuo>"
+	"tuo" Pron Dem Sg Nom @>N #3->4
+: 
+"<huominen>"
+	"huominen" N Sg Nom @HNOUN #4->0
+"<.>"
+	"." CLB #5->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tiikerinki>"
+	"tiikeri" N Sg Gen Clt @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<kesytät>"
+	"kesyttäät" <mv> V TV Act Ind Prs Sg2 @FMV #1->0
+: 
+"<myös>"
+	"myös" Pcle @PCLE #2->1
+: 
+"<ratsuksi>"
+	"ratsuksi" ? @X #3->0
+: 
+"<sankarin>"
+	"Sankari" N Prop Sem/Sur Sg Dial/Por Gen @<OBJ #4->1
+"<,>"
+	"," CLB #5->4
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<oi>"
+	"oi" Interj @X #1->0
+: 
+"<etkö>"
+	"ei" <mv> V Neg Act Sg2 Clt Qst @FMV #2->0
+: 
+"<nää>"
+	"nää" ? @X #3->0
+: 
+"<kunka>"
+	"kunka" Adv @ADVL #4->3
+: 
+"<käy>"
+	"käyđä" <mv> V Act Ind Prs ConNeg @FS-<ADVL #5->2
+"<.>"
+	"." CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuka>"
+	"kuka" Pron Interr Sg Nom @SUBJ> #1->2
+: 
+"<pakenee>"
+	"pajeta" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Niin>"
+	"niin" Adv @ADVL #1->3
+: 
+"<ko>"
+	"ko" CS @CVP #2->0
+: 
+"<kissan>"
+	"kissa" N Sg Dial/Por Gen @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<kiiluvat>"
+	"kiiluut" V Act Ind Prs Pl3 Err/Orth @X #1->0
+: 
+"<oon>"
+	"olla" <aux> V Act Ind Prs Pl3 @FAUX #2->0
+: 
+"<silmät>"
+	"silmä" N Pl Dial/Por Nom @<OBJ #3->3
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<täysikuu>"
+	"täysikuu" N Sg Nom @SUBJ> #5->0
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<nyt>"
+	"nyt" Adv @ADVL #1->3
+: 
+"<ennustus>"
+	"ennustus" N Sg Nom @HNOUN #2->0
+: 
+"<totteutuu>"
+	"totteutuu" ? @X #3->0
+"<.>"
+	"." CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Nouseva>"
+	"Nouseva" ? @X #1->0
+: 
+"<päivä>"
+	"päivä" N Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<valo>"
+	"Valo" N Prop Sem/Mal Sg Nom @SUBJ> #1->2
+: 
+"<voitti>"
+	"voittaat" <mv> V TV Act Ind Prt Sg3 @FMV #2->0
+: 
+"<jo>"
+	"jo" Adv @ADVL #3->7
+: 
+"<yön>"
+	"yö" N Sg Gen @<OBJ #4->2
+: 
+"<ja>"
+	"ja" CC @CNP #5->4
+: 
+"<sen>"
+	"se" Pron Pers Sg3 Gen @<OBJ #6->4
+: 
+"<viimein>"
+	"viimein" ? @X #7->0
+: 
+"<näit>"
+	"näit" ? @X #8->0
+: 
+"<¶>"
+	"¶" CLB #9->2
+:\n
+"<oi>"
+	"oi" Interj @X #1->0
+: 
+"<kunpa>"
+	"kunpa" ? @X #2->0
+: 
+"<pääsisin>"
+	"päästä" <mv> V Act Cond Sg1 @FMV #3->0
+: 
+"<pois>"
+	"pois" Adv @ADVL #4->2
+: 
+"<¶>"
+	"¶" CLB #5->3
+:\n
+"<Kuka>"
+	"kuka" Pron Interr Sg Nom @SUBJ> #1->2
+: 
+"<pakenee>"
+	"pajeta" <mv> V Act Ind Prs Sg3 @FMV #2->0
+"<,>"
+	"," CLB #3->2
+: 
+"<pakenee>"
+	"pajeta" <mv> V Act Ind Prs Sg3 @FMV #4->2
+"<.>"
+	"." CLB #5->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<meren>"
+	"meri" N Sg Gen @X #1->0
+: 
+"<ruhtinas>"
+	"ruhtinas" ? @X #2->0
+: 
+"<olet>"
+	"olla" <mv> V Act Ind Prs Sg2 @FMV #3->0
+: 
+"<keskiyön>"
+	"keskiyö" N Sg Gen @X #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<¶>"
+	"¶" CLB #6->3
+:\n
+"<oi>"
+	"oi" Interj @X #1->0
+: 
+"<mitä>"
+	"mikä" Pron Interr Pl Par @X #2->0
+	"mikä" Pron Interr Sg Par @X #2->0
+: 
+"<tuo>"
+	"tuo" Pron Dem Sg Nom @>N #3->4
+: 
+"<huominen>"
+	"huominen" N Sg Nom @HNOUN #4->0
+"<.>"
+	"." CLB #5->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tiikerinki>"
+	"tiikeri" N Sg Gen Clt @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<kesytät>"
+	"kesyttäät" <mv> V TV Act Ind Prs Sg2 @FMV #1->0
+: 
+"<myös>"
+	"myös" Pcle @PCLE #2->1
+: 
+"<ratsuksi>"
+	"ratsuksi" ? @X #3->0
+: 
+"<sankarin>"
+	"Sankari" N Prop Sem/Sur Sg Dial/Por Gen @<OBJ #4->1
+"<,>"
+	"," CLB #5->4
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<oi>"
+	"oi" Interj @X #1->0
+: 
+"<etkö>"
+	"ei" <mv> V Neg Act Sg2 Clt Qst @FMV #2->0
+: 
+"<nää>"
+	"nää" ? @X #3->0
+: 
+"<kunka>"
+	"kunka" Adv @ADVL #4->3
+: 
+"<käy>"
+	"käyđä" <mv> V Act Ind Prs ConNeg @FS-<ADVL #5->2
+"<.>"
+	"." CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuka>"
+	"kuka" Pron Interr Sg Nom @SUBJ> #1->2
+: 
+"<pakenee>"
+	"pajeta" <mv> V Act Ind Prs Sg3 @FMV #2->0
+"<,>"
+	"," CLB #3->2
+: 
+"<pakenee>"
+	"pajeta" <mv> V Act Ind Prs Sg3 @FMV #4->2
+"<,>"
+	"," CLB #5->4
+: 
+"<pakenee>"
+	"pajeta" <mv> V Act Ind Prs Sg3 @FMV #6->2
+"<...>"
+	"..." CLB #7->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

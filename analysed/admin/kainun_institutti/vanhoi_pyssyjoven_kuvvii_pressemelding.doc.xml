@@ -1,0 +1,649 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Pressitieđotus Kuvatapattuma: Vanhoi Pyssyjoven kuvvii</title><genre code="admin"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FIN"/></translator><year>2012</year><wordcount>373</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="sme"/><language xml:lang="fkv"/></multilingual><parallel_text xml:lang="nob" location="vanhoi_pyssyjoven_kuvvii_pressemelding_nob.doc"/><parallel_text xml:lang="sme" location="vanhoi_pyssyjoven_kuvvii_pressemelding_sme.doc"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Oversetting>"
+	"Oversetting" ? @X #1->0
+"<:>"
+	":" CLB #2->9
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #3->3
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #4->3
+: 
+"<–>"
+	"–" PUNCT MIDDLE #5->6
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #6->4
+: 
+"</>"
+	"/" PUNCT MIDDLE @CNP #7->8
+: 
+"<Pirjo>"
+	"Pirjo" N Prop Sem/Fem Sg Nom @>N #8->9
+: 
+"<Paavalniemi>"
+	"Paavalniemi" N Prop Sem/Plc Sg Nom @SUBJ> #9->0
+: 
+"<17.01.2012>"
+	 Use/Circ"17.01.2012" Num Arab Sem/Date Sg Nom
+	 Use/Circ"17.01.2012" Num Arab Sem/ID
+: 
+"<¶>"
+	"¶" CLB #11->9
+:\n
+"<Pressitieđotus>"
+	"Pressitieđotus" ? @X #1->0
+:  
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Kuvatapattuma>"
+	"tapattuma" N Sg Nom @HNOUN #1->0
+		"kuva" N Dial/Jok Sg Nom Cmp #1->0
+	"tapattuma" N Sg Nom @HNOUN #1->0
+		"kuva" N Dial/Por Sg Nom Cmp #1->0
+	"tapattuma" N Sg Nom @HNOUN #1->0
+		"kuva" N Dial/Var Sg Nom Cmp #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<Vanhoi>"
+	"vanhaa" A Pl Dial/Por Par @>N #3->4
+: 
+"<Pyssyjoven>"
+	"Pyssyjoki" N Prop Sem/Plc Sg Dial/Por Gen @N> #4->4
+: 
+"<kuvvii>"
+	"kuva" N Dial/Por Pl Dial/Por Par @X #5->0
+:  
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #1->1
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #2->1
+: 
+"<->"
+	"-" PUNCT MIDDLE #3->4
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #4->2
+"<,>"
+	"," CLB #5->4
+: 
+"<Pyssyjoki>"
+	"Pyssyjoki" N Prop Sem/Plc Sg Nom @<SPRED #6->4
+:  
+"<.>"
+	"." CLB #7->7
+	 Use/Circ"28" A Arab Ord Attr
+		 Use/Circ Use/Circ"28" Num Arab Sg Nom "<28>"
+		 Use/Circ"28" A Arab Ord Attr CLBfinal "<28>"
+		 Use/Circ"28" Num Arab Sem/ID "<28>"
+		 Use/Circ"28" Num Arab Sem/Time-clock Sg Nom "<28>"
+: 
+"<januaarikuuta>"
+	"januaarikuu" N Sg Par @X #1->0
+: 
+"<2012>"
+	 Use/Circ Use/Circ"2012" Num Arab Sg Nom
+	 Use/Circ"2012" Num Arab Sem/ID
+	 Use/Circ"2012" Num Arab Sem/Year Sg Nom
+: 
+"<klo>"
+	"Klo" N Prop Sg Nom @HNOUN #3->1
+: 
+"<13>"
+	 Use/Circ Use/Circ"13" Num Arab Sg Nom
+	 Use/Circ"13" A Arab Ord Attr CLBfinal
+	 Use/Circ"13" Num Arab Sem/ID
+	 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom
+:   
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<RiddoDuottarMuseat>"
+	"RiddoDuottarMuseat" ? @X #1->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #2->3
+: 
+"<Porsanger>"
+	"Porsanger" N Prop Sem/Plc Sg Nom @>N #3->4
+: 
+"<museum>"
+	"Museum" N Prop Sem/Org Sg Nom @OBJ> #4->13
+"<,>"
+	"," CLB #5->4
+: 
+"<Porsanger>"
+	"Porsanger" N Prop Sem/Plc Sg Nom @SUBJ> #6->0
+: 
+"<historielag>"
+	"historielag" ? @X #7->0
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @>N #9->10
+: 
+"<institutti>"
+	"institutti" N Sg Nom @SUBJ> #10->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #11->12
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @SUBJ> #12->13
+: 
+"<järjestethään>"
+	"järjestäät" <mv> V Act Ind Prs Pl3 @FMV #13->0
+	"järjestäät" <mv> V Pass Ind Prs @FMV #13->0
+: 
+"<kuvatapattuman>"
+	"tapattuma" N Sg Gen @N> #14->14
+		"kuva" N Dial/Jok Sg Nom Cmp #14->14
+	"tapattuma" N Sg Gen @N> #14->14
+		"kuva" N Dial/Por Sg Nom Cmp #14->14
+	"tapattuma" N Sg Gen @N> #14->14
+		"kuva" N Dial/Var Sg Nom Cmp #14->14
+: 
+"<Pyssyjovessa>"
+	"Pyssyjoki" N Prop Sem/Plc Sg Dial/Por Ine @<ADVL #15->13
+"<.>"
+	"." CLB #16->6
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tapattuman>"
+	"tapattuma" N Sg Gen @>P #1->2
+: 
+"<alussa>"
+	"alussa" Po @ADVL #2->0
+: 
+"<näytethään>"
+	"näyttäät" <mv> V TV Act Ind Prs Pl3 @FMV #3->0
+	"näyttäät" <mv> V TV Pass Ind Prs @FMV #3->0
+: 
+"<vanhoi>"
+	"vanhaa" A Pl Dial/Por Par @>N #4->5
+: 
+"<kuvvii>"
+	"kuva" N Dial/Por Pl Dial/Por Par @<OBJ #5->3
+: 
+"<Pyssyjovesta>"
+	"Pyssyjoki" N Prop Sem/Plc Sg Dial/Por Ela @<ADVL #6->3
+"<.>"
+	"." CLB #7->2
+: 
+"<Kuvat>"
+	"Kuva" N Prop Sem/Plc Pl Dial/Por Nom @SUBJ> #1->2
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #2->0
+: 
+"<nouđettu>"
+	"nouttaat" V TV Pass PrfPrc Sg Nom @>N #3->5
+: 
+"<museon>"
+	"museon" ? @X #4->0
+: 
+"<arkiivista>"
+	"arkiivi" N Sg Ela @<ADVL #5->2
+"<,>"
+	"," CLB #6->7
+: 
+"<ja>"
+	"ja" CC @CNP #7->5
+: 
+"<Arvid>"
+	"Arvid" N Prop Sem/Mal Sg Nom @>N #8->9
+: 
+"<Petterson>"
+	"Petterson" N Prop Sem/Sur Sg Nom @SUBJ> #9->10
+: 
+"<muistelee>"
+	"muistela" <mv> V Act Ind Prs Sg3 @FMV #10->2
+: 
+"<kuvista>"
+	"kuva" N Dial/Por Pl Dial/Por Ela @<ADVL #11->10
+"<.>"
+	"." CLB #12->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Mitä>"
+	"mikä" Pron Interr Pl Par @X #1->0
+	"mikä" Pron Interr Sg Par @X #1->0
+: 
+"<sie>"
+	"sie" Pron Pers Sg2 Nom @SUBJ> #2->3
+: 
+"<muistat>"
+	"muistaat" <mv> V Act Ind Prs Sg2 @FMV #3->0
+: 
+"<vanhaasta>"
+	"vanhaa" A Sg Dial/Por Ela @>N #4->5
+: 
+"<Pyssyjovesta>"
+	"Pyssyjoki" N Prop Sem/Plc Sg Dial/Por Ela @<ADVL #5->3
+"<?>"
+	"?" CLB #6->3
+: 
+"<Tule>"
+	"Tule" N Prop Sem/Plc Sg Nom @SUBJ> #1->0
+	"tulla" <mv> V Act Imprt Sg2 @FMV #1->0
+: 
+"<jakamhaan>"
+	"jakkaat" V Act Inf3 Ill @<ADVL #2->1
+: 
+"<ommii>"
+	"oma" A Pl Dial/Por Par @>N #3->4
+: 
+"<muistoi>"
+	"muisto" N Pl Dial/Por Par @<OBJ #4->1
+: 
+"<vanhaasta>"
+	"vanhaa" A Sg Dial/Por Ela @>N #5->6
+: 
+"<Pyssyjovesta>"
+	"Pyssyjoki" N Prop Sem/Plc Sg Dial/Por Ela @<ADVL #6->1
+: 
+"<toisten>"
+	"toinen" A Ord Pl Gen @X #7->8
+	"toinen" A Pl Gen @X #7->8
+	"toinen" Pron Recipr Pl Gen @>P #7->8
+: 
+"<kans>"
+	"kans" Po @ADVL #8->0
+"<.>"
+	"." CLB #9->1
+: 
+"<Kaiken>"
+	"kaikki" Pron Qu Sg Gen @>N #1->3
+: 
+"<uuđen>"
+	"uusi" A Dial/Por Sg Gen @>N #2->3
+: 
+"<tieđon>"
+	"tieto" N Sg Dial/Por Gen @>N #3->4
+: 
+"<kuvista>"
+	"kuva" N Dial/Por Pl Dial/Por Ela @ADVL> #4->5
+: 
+"<kovothaan>"
+	"kovota" <mv> V Act Ind Prs Pl3 @FMV #5->0
+	"kovota" <mv> V Pass Ind Prs @FMV #5->0
+: 
+"<Porsangin>"
+	"Porsanki" N Prop Sem/Plc Sg Gen @<OBJ #6->5
+: 
+"<Musehoon>"
+	"Musehoon" ? @X #7->0
+"<.>"
+	"." CLB #8->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tapattumhaan>"
+	"tapattuma" N Sg Ill @ADVL> #1->2
+	"tapattuut" V Act Inf3 Ill @ADVL> #1->2
+: 
+"<pääsee>"
+	"päästä" <mv> V Act Ind Prs Sg3 Err/Orth @FMV #2->0
+: 
+"<ilman>"
+	"ilman" Adv @ADVL #3->0
+"<.>"
+	"." CLB #4->2
+: 
+"<Kaffii>"
+	"kaffi" N Pl Dial/Por Par @X #1->0
+	"kaffi" N Sg Dial/Por Par @X #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<kakkoi>"
+	"Kakko" N Prop Sem/Sur Pl Dial/Por Par @X #3->0
+: 
+"<ja>"
+	"ja" CC @CNP #4->3
+: 
+"<lottii>"
+	"Lot" N Prop Sem/Sur Sg Dial/Por Par @X #5->0
+	"Lott" N Prop Sem/Sur Sg Dial/Por Par @X #5->0
+: 
+"<myyhđään>"
+	"myyhđään" ? @X #6->0
+"<.>"
+	"." CLB #7->7
+: 
+"<Ruijan>"
+	"Ruija" N Prop Sem/Plc Sg Dial/Por Gen @N> #1->1
+: 
+"<kväänit>"
+	"kvääni" N Pl Dial/Por Nom @HNOUN #2->1
+: 
+"<->"
+	"-" PUNCT MIDDLE #3->4
+: 
+"<Pyssyjokilaiset>"
+	"pyssyjokilainen" A Pl Nom @<SPRED #4->2
+	"pyssyjokilainen" N Pl Nom @<SPRED #4->2
+: 
+"<myyhđään>"
+	"myyhđään" ? @X #5->0
+: 
+"<lottii>"
+	"Lot" N Prop Sem/Sur Sg Dial/Por Par @X #6->0
+	"Lott" N Prop Sem/Sur Sg Dial/Por Par @X #6->0
+"<.>"
+	"." CLB #7->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Enämen>"
+	"enämen" Adv @ADVL #1->2
+: 
+"<tiettoo>"
+	"tieto" N Sg Dial/Por Par @X #2->0
+: 
+"<antaa>"
+	"anttaat" V TV Inf Err/Orth @X #3->0
+: 
+"<museon>"
+	"museon" ? @X #4->0
+: 
+"<konservaattori>"
+	"konservaattori" ? @X #5->0
+: 
+"<Riinakaisa>"
+	"Riinakaisa" ? @X #6->0
+: 
+"<Laitila>"
+	"Laitila" N Prop Sem/Sur Sg Nom @X #7->0
+"<,>"
+	"," CLB #8->7
+: 
+"<tel.>"
+	"tel" N Sem/Obj-el ABBR Gram/TNumAbbr Use/NG Sg Gen @>N #9->14
+	"tel" N Sem/Obj-el ABBR Gram/TNumAbbr Use/NG Sg Nom @X #9->14
+:  
+"<950>"
+	 Use/Circ Use/Circ"950" Num Arab Sg Nom
+	 Use/Circ"950" Num Arab Sem/ID
+: 
+"<13 125>"
+	 Use/Circ Use/Circ"13 125" Num Arab Sg Nom
+: 
+"<riinakaisa@rdm.no>"
+	"riinakaisa@rdm.no" URL #12->12
+: 
+"<tahi>"
+	"tahi" CC @X #13->0
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #14->14
+: 
+"<institutti>"
+	"institutti" N Sg Nom @X #15->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #16->17
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @X #17->0
+"<,>"
+	"," CLB #18->17
+: 
+"<tel.>"
+	"tel" N Sem/Obj-el ABBR Gram/TNumAbbr Use/NG Sg Gen @X #19->0
+	"tel" N Sem/Obj-el ABBR Gram/TNumAbbr Use/NG Sg Nom @X #19->0
+: 
+"<78>"
+	 Use/Circ Use/Circ"78" Num Arab Sg Nom
+	 Use/Circ"78" A Arab Ord Attr CLBfinal
+	 Use/Circ"78" Num Arab Sem/ID
+: 
+"<46>"
+	 Use/Circ Use/Circ"46" Num Arab Sg Nom
+	 Use/Circ"46" A Arab Ord Attr CLBfinal
+	 Use/Circ"46" Num Arab Sem/ID
+: 
+"<10>"
+	 Use/Circ Use/Circ"10" Num Arab Sg Nom
+	 Use/Circ"10" A Arab Ord Attr CLBfinal
+	 Use/Circ"10" Num Arab Sem/ID
+	 Use/Circ"10" Num Arab Sem/Time-clock Sg Nom
+: 
+"<10>"
+	 Use/Circ Use/Circ"10" Num Arab Sg Nom
+	 Use/Circ"10" A Arab Ord Attr CLBfinal
+	 Use/Circ"10" Num Arab Sem/ID
+	 Use/Circ"10" Num Arab Sem/Time-clock Sg Nom
+: 
+"<post@kvenskinstitutt.no>"
+	"post@kvenskinstitutt.no" URL #24->24
+: 
+"<.>"
+	"." CLB #25->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Enämen>"
+	"enämen" Adv @ADVL #1->2
+: 
+"<tiettoo>"
+	"tieto" N Sg Dial/Por Par @X #2->0
+: 
+"<programista>"
+	"programi" N Sg Ela @ADVL> #3->4
+: 
+"<löyđät>"
+	"löyttäät" <mv> V TV Act Ind Prs Sg2 @FMV #4->0
+: 
+"<täältä>"
+	"täältä" Adv @ADVL #5->2
+"<:>"
+	":" CLB #6->1
+:  
+"<www.rdm.no>"
+	"www.rdm.no" URL #7->7
+:  
+"<eller>"
+	"eller" ? @X #8->0
+:  
+"<www.kvenskinstitutt.no>"
+	"www.kvenskinstitutt.no" URL #9->9
+:   
+"<¶>"
+	"¶" CLB #10->1
+:\n
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #1->1
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #2->1
+: 
+"<->"
+	"-" PUNCT MIDDLE #3->4
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #4->2
+"<,>"
+	"," CLB #5->4
+: 
+"<Bissojohka>"
+	"Bissojohka" ? @X #6->0
+:  
+"<.>"
+	"." CLB #7->7
+	 Use/Circ"28" A Arab Ord Attr
+		 Use/Circ Use/Circ"28" Num Arab Sg Nom "<28>"
+		 Use/Circ"28" A Arab Ord Attr CLBfinal "<28>"
+		 Use/Circ"28" Num Arab Sem/ID "<28>"
+		 Use/Circ"28" Num Arab Sem/Time-clock Sg Nom "<28>"
+: 
+"<ođđajagimánu>"
+	"ođđajagimánu" ? @X #1->0
+: 
+"<2012>"
+	 Use/Circ Use/Circ"2012" Num Arab Sg Nom
+	 Use/Circ"2012" Num Arab Sem/ID
+	 Use/Circ"2012" Num Arab Sem/Year Sg Nom
+: 
+"<dii>"
+	"dii" ? @X #3->0
+: 
+"<13>"
+	 Use/Circ Use/Circ"13" Num Arab Sg Nom
+	 Use/Circ"13" A Arab Ord Attr CLBfinal
+	 Use/Circ"13" Num Arab Sem/ID
+	 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom
+:   
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<RiddoDuottarMuseat>"
+	"RiddoDuottarMuseat" ? @X #1->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #2->3
+: 
+"<Porsanger>"
+	"Porsanger" N Prop Sem/Plc Sg Nom @>N #3->4
+: 
+"<museum>"
+	"Museum" N Prop Sem/Org Sg Nom @HNOUN #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<Porsanger>"
+	"Porsanger" N Prop Sem/Plc Sg Nom @HNOUN #6->4
+: 
+"<historielag>"
+	"historielag" ? @X #7->0
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #9->9
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #10->9
+: 
+"<->"
+	"-" PUNCT MIDDLE #11->12
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #12->10
+: 
+"<lágidit>"
+	"lágidit" ? @X #13->0
+: 
+"<govvadoaluid>"
+	"govvadoaluid" ? @X #14->0
+: 
+"<Bissojogas>"
+	"Bissojogas" ? @X #15->0
+"<.>"
+	"." CLB #16->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Nuvttá>"
+	"Nuvttá" ? @X #1->0
+: 
+"<sisabeassan>"
+	"sisabeassan" ? @X #2->0
+"<!>"
+	"!" CLB #3->3
+: 
+"<Káffe>"
+	"Káffe" ? @X #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<gáhkut>"
+	"gáhkut" ? @X #3->0
+: 
+"<vuovdemassii>"
+	"vuovdemassii" ? @X #4->0
+"<!>"
+	"!" CLB #5->5
+:  
+"<Ruijan>"
+	"Ruija" N Prop Sem/Plc Sg Dial/Por Gen @N> #1->1
+: 
+"<kväänit>"
+	"kvääni" N Pl Dial/Por Nom @HNOUN #2->1
+: 
+"<->"
+	"-" PUNCT MIDDLE #3->4
+: 
+"<Pyssyjokilaiset>"
+	"pyssyjokilainen" A Pl Nom @<SPRED #4->2
+	"pyssyjokilainen" N Pl Nom @<SPRED #4->2
+: 
+"<vuvdet>"
+	"vuvdet" ? @X #5->0
+: 
+"<vurbbiid>"
+	"vurbbiid" ? @X #6->0
+:  
+"<!>"
+	"!" CLB #7->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<28.01.2012>"
+	 Use/Circ"28.01.2012" Num Arab Sem/Date Sg Nom
+	 Use/Circ"28.01.2012" Num Arab Sem/ID
+: 
+"<kl.>"
+	"kl" N Sem/Cat ABBR Gram/NumNoAbbr @X #2->0
+"<13>"
+	 Use/Circ Use/Circ"13" Num Arab Sg Nom
+	 Use/Circ"13" A Arab Ord Attr CLBfinal
+	 Use/Circ"13" Num Arab Sem/ID
+	 Use/Circ"13" Num Arab Sem/Time-clock Sg Nom
+: 
+"<på>"
+	"på" ? @X #4->0
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #6->5
+: 
+"<–>"
+	"–" PUNCT MIDDLE #7->8
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #8->6
+"<,>"
+	"," CLB #9->8
+: 
+"<Børselv>"
+	"Børselv" N Prop Sem/Plc Sg Nom @<SPRED #10->8
+:  
+"<¶>"
+	"¶" CLB #11->11
+:\n
+
+]]></dependency></body></document>

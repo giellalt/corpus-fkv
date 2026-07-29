@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Et sitat som henviser til Martin Bubers dialogfilosofi</title><genre code="facta"/><author><unknown/></author><translator><person firstname="Pirjo" lastname="Paavalniemi" sex="f" born="" nationality="FIN"/></translator><year>2007</year><wordcount>96</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><parallel_text xml:lang="nob" location="cecilie_bjorgas_quote_nob.doc"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Oversatt>"
+	"Oversatt" ? @X #1->0
+: 
+"<til>"
+	"til" ? @X #2->0
+: 
+"<kvensk>"
+	"kvensk" ? @X #3->0
+"<:>"
+	":" CLB #4->11
+: 
+"<Kainun>"
+	"Kainu" N Prop Sem/Sur Sg Dial/Por Gen @N> #5->5
+: 
+"<institutti>"
+	"institutti" N Sg Nom @HNOUN #6->5
+: 
+"<–>"
+	"–" PUNCT MIDDLE #7->8
+: 
+"<Kvensk institutt>"
+	"Kvensk institutt" N Prop Sem/Org Sg Nom @<SPRED #8->6
+"</>"
+	"/" PUNCT MIDDLE @CNP #9->10
+: 
+"<Pirjo>"
+	"Pirjo" N Prop Sem/Fem Sg Nom @>N #10->11
+: 
+"<Paavalniemi>"
+	"Paavalniemi" N Prop Sem/Plc Sg Nom @SUBJ> #11->0
+: 
+"<15.02.13>"
+	 Use/Circ"15.02.13" Num Arab Sem/Date Sg Nom
+	 Use/Circ"15.02.13" Num Arab Sem/ID
+: 
+"<¶>"
+	"¶" CLB #13->11
+:\n
+"<">"
+	""" PUNCT #1->2
+"<Ajatellun>"
+	"Ajatellun" ? @X #2->0
+: 
+"<ajatuksen>"
+	"ajatus" N Sg Gen @X #3->0
+: 
+"<piđät>"
+	"pittäät" <mv> V Act Ind Prs Sg2 @FMV #4->0
+: 
+"<aina>"
+	"aina" Adv @ADVL #5->3
+: 
+"<käänttäät>"
+	"käänttäät" V TV Inf @X #6->0
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<työsttäät>"
+	"työsttäät" ? @X #8->0
+: 
+"<ennen>"
+	"ennen" Adv @ADVL #9->8
+: 
+"<ko>"
+	"ko" CS @CVP #10->12
+: 
+"<se>"
+	"se" Pron Pers Sg3 Nom @SUBJ> #11->12
+: 
+"<löyttää>"
+	"löyttäät" <mv> V TV Act Ind Prs Sg3 @FS-<ADVL #12->4
+: 
+"<tien>"
+	"Tien" N Prop Sem/Plc Sg Nom @SUBJ> #13->20
+: 
+"<ulos>"
+	"ulos" Adv @ADVL #14->8
+"<,>"
+	"," CLB #15->10
+: 
+"<ja>"
+	"ja" CC @CNP #16->14
+: 
+"<ajatuksen>"
+	"ajatus" N Sg Gen @<OBJ #17->12
+: 
+"<alkupöräinen>"
+	"alkupöräinen" A Sg Nom @>N #18->19
+: 
+"<tarkoitus>"
+	"tarkoitus" N Sg Nom @SUBJ> #19->20
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-<ADVL #20->12
+: 
+"<aina>"
+	"aina" Adv @ADVL #21->8
+: 
+"<kääriytynny>"
+	"kääriytynny" ? @X #22->0
+: 
+"<tulkintoihin>"
+	"tulkintoihin" ? @X #23->0
+: 
+"<ja>"
+	"ja" CC @CNP #24->23
+: 
+"<herkkä>"
+	"herkkä" A Sg Nom @<SPRED #25->20
+: 
+"<vääristymhään>"
+	"vääristymhään" ? @X #26->0
+"<.>"
+	"." CLB #27->4
+:  
+"<Alkupöräinen>"
+	"alkupöräinen" A Sg Nom @>N #1->2
+: 
+"<tarkoitus>"
+	"tarkoitus" N Sg Nom @SUBJ> #2->3
+: 
+"<alkkaa>"
+	"alkkaat" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<peittymhään>"
+	"peittymhään" ? @X #4->0
+: 
+"<jo>"
+	"jo" Adv @ADVL #5->4
+: 
+"<silloin>"
+	"Silo" N Prop Sem/Sur Pl Dial/Por Gen @<OBJ #6->3
+"<.>"
+	"." CLB #7->3
+"<">"
+	""" PUNCT #1->1
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+
+]]></dependency></body></document>

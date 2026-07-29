@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Ei soli sorrakieli</title><genre code="admin"/><author><unknown/></author><year>2018</year><wordcount>25</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>./Immaterielle kulturarv/Ei soli sorrakieli 24.05.18.docx</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Ei>"
+	"ei" <mv> V Neg Act Sg3 @FMV #1->0
+: 
+"<soli>"
+	"soli" ? @X #2->0
+: 
+"<sorrakieli>"
+	"sorrakieli" N Sg Nom @X #3->0
+:  
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Red.>"
+	"red" N Sem/Hum ABBR Gram/TAbbr Attr @>N #1->2
+	"red" N Sem/Hum ABBR Gram/TAbbr Sg Gen @>N #1->2
+	"red" N Sem/Hum ABBR Gram/TAbbr Sg Nom @>N #1->2
+: 
+"<Kaisa>"
+	"Kaisa" N Prop Sem/Fem Sg Nom @>N #2->3
+: 
+"<Maliniemi>"
+	"Maliniemi" N Prop Sem/Sur Sg Nom @HNOUN #3->0
+: 
+"<og>"
+	"og" ? @X #4->0
+: 
+"<Trygg>"
+	"Trygg" N Prop Sem/Mal Sg Nom @>N #5->6
+: 
+"<Jakola>"
+	"Jakola" N Prop Sem/Sur Sg Nom @HNOUN #6->3
+:  
+"<¶>"
+	"¶" CLB #7->3
+:\n
+
+]]></dependency></body></document>

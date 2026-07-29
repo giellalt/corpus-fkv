@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title/><genre code="inc"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>146</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<.>"
+	"." CLB #1->1
+	 Use/Circ"5" A Arab Ord Attr
+		 Use/Circ Use/Circ"5" Num Arab Sg Nom "<5>"
+		 Use/Circ"5" A Arab Ord Attr CLBfinal "<5>"
+		 Use/Circ"5" Num Arab Sem/ID "<5>"
+		 Use/Circ"5" Num Arab Sem/Time-clock Sg Nom "<5>"
+: 
+"<Kyrie>"
+	"Kyrie" ? @X #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<Gloria>"
+	"Gloria" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<.>"
+	"." CLB #1->1
+	 Use/Circ"15" A Arab Ord Attr
+		 Use/Circ Use/Circ"15" Num Arab Sg Nom "<15>"
+		 Use/Circ"15" A Arab Ord Attr CLBfinal "<15>"
+		 Use/Circ"15" Num Arab Sem/ID "<15>"
+		 Use/Circ"15" Num Arab Sem/Time-clock Sg Nom "<15>"
+: 
+"<Forbønn>"
+	"Forbønn" ? @X #1->0
+"<.>"
+	"." CLB #2->2
+: 
+"<Fadervår>"
+	"Fadervår" N Prop Sem/Obj Sg Nom @HNOUN #1->0
+: 
+"</>"
+	"/" PUNCT MIDDLE @CNP #2->3
+: 
+"<Esirukkous>"
+	"esirukkous" N Sg Nom @SUBJ> #3->0
+"<.>"
+	"." CLB #4->1
+: 
+"<Isä>"
+	"isä" N Sg Nom @HNOUN #1->0
+: 
+"<meiđän>"
+	"met" Pron Pers Pl1 Gen @X #2->0
+"<.>"
+	"." CLB #3->1
+: 
+"<Terje>"
+	"Terje" N Prop Sem/Mal Sg Nom @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+
+]]></dependency></body></document>

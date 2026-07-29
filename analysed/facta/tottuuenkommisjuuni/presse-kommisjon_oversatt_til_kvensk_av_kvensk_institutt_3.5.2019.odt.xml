@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Presse – kommisjon</title><genre code="facta"/><author><unknown/></author><year>2019</year><wordcount>257</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><origFileName>Dropbox/Korpus/Sannhetskommisjon/Presse-kommisjon_oversatt til kvensk av Kvensk institutt_3.5.2019.docx</origFileName><parallel_text xml:lang="nob" location="presse-kommisjon_oversatt_til_kvensk_av_kvensk_institutt_3.5.2019.docx"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Pressi>"
+	"Pressi" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @N> #1->1
+: 
+"<möötit>"
+	"möötti" N Pl Dial/Por Nom @HNOUN #2->1
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Tottuen>"
+	"Tottuen" ? @X #1->0
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<sovinon>"
+	"sovinto" N Sg Dial/Por Gen @>N #3->4
+: 
+"<kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @X #4->0
+: 
+"<sisäiset>"
+	"sisäinen" A Pl Nom @>N #5->6
+: 
+"<möötit>"
+	"möötti" N Pl Dial/Por Nom @SUBJ> #6->7
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FMV #7->0
+: 
+"<suljetut>"
+	"sulkkeet" <mv> V Pass PrfPrc Pl Nom @FMV #8->7
+"<,>"
+	"," CLB #9->13
+: 
+"<paitti>"
+	"paitti" Adv @ADVL #10->4
+: 
+"<jos>"
+	"jos" CS @CVP #11->13
+: 
+"<kommisjuuni>"
+	"kommisuuni" Err/Orth N Sg Nom @SUBJ> #12->13
+: 
+"<määrää>"
+	"määrätä" <mv> V Act Ind Prs Sg3 @FS-<ADVL #13->8
+: 
+"<toisela>"
+	"toinen" A Ord Sg Ade @>N #14->15
+	"toinen" A Sg Ade @>N #14->15
+	"toinen" Pron Recipr Sg Ade @>N #14->15
+: 
+"<tavala>"
+	"tapa" N Sg Dial/Por Ade @<ADVL #15->13
+"<.>"
+	"." CLB #16->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Aukinaiset>"
+	"aukinainen" A Pl Nom @>N #1->2
+: 
+"<möötit>"
+	"möötti" N Pl Dial/Por Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Kommisjuuni>"
+	"kommisuuni" Err/Orth N Sg Nom @SUBJ> #1->2
+: 
+"<pittää>"
+	"pittäät" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<aukinaissii>"
+	"aukinainen" A Pl Dial/Por Par @>N #3->4
+: 
+"<mööttii>"
+	"möötti" N Pl Dial/Por Par @<OBJ #4->2
+	"möötti" N Sg Dial/Por Par @<OBJ #4->2
+: 
+"<mikkä>"
+	"mikä" Pron Rel Pl Nom @SUBJ> #5->6
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Pl3 @FS-N< #6->4
+: 
+"<väjele>"
+	"väki" N Dial/Por Sg All @<ADVL #7->6
+: 
+"<suunatut>"
+	"suunata" <mv> V Pass PrfPrc Pl Nom @FMV #8->2
+"<.>"
+	"." CLB #9->2
+: 
+"<Möötiissä>"
+	"möötti" N Pl Dial/Por Ine @ADVL> #1->3
+: 
+"<kommisjuuni>"
+	"kommisuuni" Err/Orth N Sg Nom @SUBJ> #2->3
+: 
+"<muistelee>"
+	"muistela" <mv> V Act Ind Prs Sg3 @FMV #3->0
+: 
+"<ihmisille>"
+	"ihminen" N Pl All @<ADVL #4->3
+: 
+"<sen>"
+	"se" Pron Dem Sg Gen @>N #5->6
+: 
+"<omasta>"
+	"Oma" N Prop Sem/Plc Sg Dial/Por Ela @<ADVL #6->3
+	"oma" A Sg Ela @>N #6->3
+: 
+"<mandaatista>"
+	"mandaatti" N Sg Ela @<ADVL #7->3
+: 
+"<ja>"
+	"ja" CC @CNP #8->7
+: 
+"<työstä>"
+	"työ" N Sg Ela @<ADVL #9->3
+	"työstäät" <mv> V Act Imprt Sg2 @FMV #9->3
+"<,>"
+	"," CLB #10->11
+: 
+"<ja>"
+	"ja" CC @CNP #11->9
+: 
+"<silloin>"
+	"Silo" N Prop Sem/Sur Pl Dial/Por Gen @X #12->0
+: 
+"<käypi>"
+	"käyđä" <mv> V Act Ind Prs Sg3 @FMV #13->3
+: 
+"<kans>"
+	"kans" Po @ADVL #14->12
+: 
+"<laihiin>"
+	"Lai" N Prop Sg Dial/Por Ill @<ADVL #15->13
+	"Lai" N Prop Sg Ill @<ADVL #15->13
+: 
+"<kyssyyt>"
+	"kyssyyt" V Inf @X #16->0
+: 
+"<kommisjuunilta>"
+	"kommisuuni" Err/Orth N Sg Abl @<ADVL #17->13
+"<.>"
+	"." CLB #18->3
+: 
+"<Pressi>"
+	"Pressi" ? @X #1->0
+: 
+"<häyttyy>"
+	"häyttyyt" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<tehä>"
+	"tehđä" V Inf @X #3->0
+: 
+"<omat>"
+	"Oma" N Prop Sem/Plc Pl Dial/Por Nom @>N #4->5
+: 
+"<sopimukset>"
+	"sopimus" N Pl Nom @<OBJ #5->2
+"<.>"
+	"." CLB #6->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @X #1->0
+: 
+"<dokymentit>"
+	"dokymentit" ? @X #2->0
+: 
+"<ja>"
+	"ja" CC @CNP #3->2
+: 
+"<arkiivi>"
+	"arkiivi" N Sg Nom @HNOUN #4->1
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<Kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @X #1->0
+: 
+"<dokymentit>"
+	"dokymentit" ? @X #2->0
+: 
+"<kirjoitethaan>"
+	"kirjoittaat" <mv> V Act Ind Prs Pl3 @FMV #3->0
+	"kirjoittaat" <mv> V Pass Ind Prs @FMV #3->0
+: 
+"<oman>"
+	"Oman" N Prop Sem/Plc Sg Nom @>N #4->5
+: 
+"<arkiivin>"
+	"arkiivi" N Sg Gen @<OBJ #5->3
+: 
+"<sjurnaalhiin>"
+	"sjurnaalhiin" ? @X #6->0
+"<,>"
+	"," CLB #7->8
+: 
+"<mitä>"
+	"mikä" Pron Rel Sg Par @<OBJ #8->3
+: 
+"<kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @N> #9->9
+: 
+"<sekretariaatti>"
+	"sekretariaatti" N Sg Nom @SUBJ> #10->11
+: 
+"<hallittee>"
+	"hallita" <mv> V Act Ind Prs Sg3 @FS-N< #11->5
+"<.>"
+	"." CLB #12->3
+: 
+"<Sishäänkovotun>"
+	"Sishäänkovotun" ? @X #1->0
+: 
+"<materiaalin>"
+	"materiaali" N Sg Gen @X #2->0
+: 
+"<annethaan>"
+	"anttaat" <mv> V TV Pass Ind Prs @FMV #3->0
+: 
+"<Arkiivivärkile>"
+	"värkki" N Sg Dial/Por All @<ADVL #4->3
+		"arkiivi" N Sg Nom Cmp #4->3
+"<*>"
+	"*" PUNCT #5->6
+: 
+"<sitte>"
+	"sitte" Adv @ADVL #6->2
+: 
+"<ko>"
+	"ko" CS @CVP #7->10
+: 
+"<kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @>N #8->9
+: 
+"<työn>"
+	"työ" N Sg Gen @X #9->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FS-<ADVL #10->3
+: 
+"<lopetettu>"
+	"lopettaat" V TV Pass PrfPrc Sg Nom @<OBJ #11->10
+"<.>"
+	"." CLB #12->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kuvat>"
+	"Kuva" N Prop Sem/Plc Pl Dial/Por Nom @>N #1->2
+: 
+"<Kuvat>"
+	"Kuva" N Prop Sem/Plc Pl Dial/Por Nom @SUBJ> #2->0
+: 
+"<mikkä>"
+	"mikä" Pron Rel Pl Nom @SUBJ> #3->4
+: 
+"<oon>"
+	"olla" <aux> V Act Ind Prs Pl3 @FS-N< #4->2
+: 
+"<pybliseerattu>"
+	"pybliseerattu" ? @X #5->0
+: 
+"<kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @>N #6->7
+: 
+"<kanaaliissa>"
+	"kanaali" N Pl Dial/Por Ine @<ADVL #7->3
+: 
+"<saatethaan>"
+	"saattaat" V TV Act Ind Prs Pl3 @X #8->0
+: 
+"<vaphaasti>"
+	"vaphaasti" Adv @ADVL #9->8
+: 
+"<käyttäät>"
+	"käyttäät" V TV Inf @X #10->0
+: 
+"<ko>"
+	"ko" CS @CVP #11->12
+: 
+"<puhuthaan>"
+	"puhhuut" <mv> V Act Ind Prs Pl3 @FS-<ADVL #12->4
+: 
+"<kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @>N #13->14
+: 
+"<työn>"
+	"työ" N Sg Gen @<OBJ #14->12
+: 
+"<ympäri>"
+	"ympäri" Po @ADVL #15->10
+"<.>"
+	"." CLB #16->2
+: 
+"<Kuvat>"
+	"Kuva" N Prop Sem/Plc Pl Dial/Por Nom @SUBJ> #1->2
+: 
+"<hääythään>"
+	"häättyyt" <mv> V Act Ind Prs Pl3 @FMV #2->0
+: 
+"<krediteerata>"
+	"krediteerata" V Inf @X #3->0
+"<.>"
+	"." CLB #4->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Ylheisesti>"
+	"ylheisesti" Adv @ADVL #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Mandaatti>"
+	"mandaatti" N Sg Nom @SUBJ> #1->13
+: 
+"<ja>"
+	"ja" CC @CNP #2->1
+: 
+"<Isotingan>"
+	"Isotinka" N Prop Sem/Org Sg Dial/Por Gen @>N #3->4
+: 
+"<kauppaoorninki>"
+	"oorninki" N Sg Nom @SUBJ> #4->1
+		"kauppa" N Sg Nom Cmp #4->1
+: 
+"<§19>"
+	 Use/Circ"§ 19" Num Arab Sem/ID
+: 
+"<(>"
+	"(" PUNCT LEFT #6->7
+: 
+"<mandatet>"
+	"mandatet" ? @X #7->0
+: 
+"<og>"
+	"og" ? @X #8->0
+: 
+"<Stortingets>"
+	"Stortingets" ? @X #9->0
+: 
+"<forretningsorden>"
+	"forretningsorden" ? @X #10->0
+: 
+"<§19>"
+	 Use/Circ"§ 19" Num Arab Sem/ID
+: 
+"<)>"
+	")" PUNCT RIGHT #12->13
+: 
+"<reguleerathaan>"
+	"reguleerata" <mv> V Act Ind Prs Pl3 @FMV #13->0
+	"reguleerata" <mv> V Pass Ind Prs @FMV #13->0
+: 
+"<kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @N> #14->14
+: 
+"<työtä>"
+	"työ" N Sg Par @<OBJ #15->13
+"<.>"
+	"." CLB #16->13
+:  
+"<ja>"
+	"ja" CC @CNP #1->7
+: 
+"<Vær>"
+	"Vær" ? @X #2->0
+: 
+"<varsom-plakaten>"
+	"varsom-plakaten" ? @X #3->0
+: 
+"<(>"
+	"(" PUNCT LEFT #4->5
+"<VVP>"
+	"VVP" Use/Circ Use/SpellNoSugg N Prop Sem/Org ACR Dyn Sg Nom @SUBJ> #5->7
+"<)>"
+	")" PUNCT RIGHT #6->7
+: 
+"<reguleeraa>"
+	"reguleerata" <mv> V Act Ind Prs Sg3 @FMV #7->0
+: 
+"<kommisjuunin>"
+	"kommisuuni" Err/Orth N Sg Gen @>N #8->10
+: 
+"<ja>"
+	"ja" CC @CNP #9->8
+: 
+"<meedioitten>"
+	"meedia" N Pl Gen @N> #10->10
+: 
+"<suhetta>"
+	"suhđet" N Sg Par @<OBJ #11->7
+"<.>"
+	"." CLB #12->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Presse>"
+	"Presse" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+
+]]></dependency></body></document>

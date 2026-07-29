@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="fkv" id="no_id"><header><title>Säät</title><genre code="facta"/><author><unknown/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="NO" nationality=""/></translator><wordcount>32</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 109023 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Säät>"
+	"sää" N Pl Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tääpänä>"
+	"tääpänä" Adv @ADVL #1->0
+: 
+"<aurinko>"
+	"aurinko" N Sg Nom @SUBJ> #2->3
+: 
+"<paistaa>"
+	"paistaat" <mv> V Act Ind Prs Sg3 @FMV #3->0
+"</>"
+	"/" PUNCT MIDDLE #4->5
+"<loistaa>"
+	"loistaat" <mv> V Act Ind Prs Sg3 @FMV #5->3
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<Pilvet>"
+	"pilvi" N Dial/Por Pl Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tääpänä>"
+	"tääpänä" Adv @ADVL #1->0
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<pilvisää>"
+	"sää" N Sg Nom @<SPRED #3->2
+		"pilvi" N Sg Nom Cmp #3->2
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Tääpänä>"
+	"tääpänä" Adv @ADVL #1->0
+: 
+"<sattaa>"
+	"sattaat" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<(>"
+	"(" PUNCT LEFT #3->4
+"<vettä>"
+	"vesi" N Dial/Por Sg Par @<OBJ #4->2
+"<)>"
+	")" PUNCT RIGHT #5->4
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<Lumisää>"
+	"lumisää" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tääpänä>"
+	"tääpänä" Adv @ADVL #1->0
+: 
+"<saattaa>"
+	"saattaat" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<lunta>"
+	"lumi" N Sg Par @<OBJ #3->2
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Slatta>"
+	"slatta" N Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tääpänä>"
+	"tääpänä" Adv @ADVL #1->0
+: 
+"<sattaa>"
+	"sattaat" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<slattaa>"
+	"slatta" N Sg Dial/Por Par @<OBJ #3->2
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Rakheet>"
+	"rajet" N Pl Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tääpänä>"
+	"tääpänä" Adv @ADVL #1->0
+: 
+"<sattaa>"
+	"sattaat" <mv> V TV Act Ind Prs Sg3 @FMV #2->0
+: 
+"<rakheita>"
+	"rajet" N Pl Par @<OBJ #3->2
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Tyven>"
+	"tyven" A Sg Nom @HNOUN #1->0
+	"tyvi" N Dial/Por Sg Gen @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tääpänä>"
+	"tääpänä" Adv @ADVL #1->3
+: 
+"<oon>"
+	"olla" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<tyven>"
+	"tyven" A Sg Nom @<SPRED #3->2
+	"tyvi" N Dial/Por Sg Gen @X #3->2
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Tuuli>"
+	"tuula" <mv> V Act Ind Prt Sg3 @FMV #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tääpänä>"
+	"tääpänä" Adv @ADVL #1->0
+: 
+"<tuulee>"
+	"tuula" <mv> V Act Ind Prs Sg3 @FMV #2->0
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+
+]]></dependency></body></document>
