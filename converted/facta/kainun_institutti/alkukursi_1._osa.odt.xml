@@ -1,4 +1,4 @@
-<document xml:lang="fkv" id="no_id"><header><title>Alkukursi 1</title><genre code="facta"/><author><person firstname="Terje" lastname="Aaronsen" sex="m" born="" nationality=""/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2007</year><wordcount>467</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="fkv" id="no_id"><header><title>Alkukursi 1</title><genre code="facta"/><author><person firstname="Terje" lastname="Aaronsen" sex="m" born="" nationality=""/></author><translator><person firstname="Terje" lastname="Aaronsen" sex="m" born="1947" nationality="NO"/></translator><year>2007</year><wordcount>473</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Sindre Reino Trosterud" email="sindre.reino.trosterud@gmail.com"/><multilingual><language xml:lang="nob"/><language xml:lang="fkv"/></multilingual><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 105844 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body>
 <p type="title">Alkukursi (30 tiimaa) kainun kielelä.</p>
 <list><p type="listitem">Mie olen Terje. Hyvvää ilttaa.</p>
@@ -12,7 +12,9 @@
 <p type="listitem">Sanalista 1</p>
 </list><p type="title">1. Mie olen Terje. Ilttaa. Hyvvää ilttaa.</p>
 <p type="title">2. Nimilista</p>
-<p>Minun nimi oon Terje.</p>
+<p/>
+<p><span type="quote">Minun nimi oon Terje.</span></p>
+<p/>
 <p>Mikä sinun nimi oon?</p>
 <p>Minun nimi oon ...</p>
 <p type="title">3. Tervetteleminen</p>
@@ -24,10 +26,13 @@
 <p type="listitem">... ja näkemiin</p>
 </list><p type="title">4. Kuka sie olet?</p>
 <p>Mie olen Terje</p>
-<p>Kuka sie olet?</p>
+<p><span type="quote">Kuka sie olet?</span></p>
 <p>Mie olen ...</p>
 <p type="title">5. Kuka mie olen?</p>
-<p><span type="quote">Kuka mie olen?Sie olet ...</span></p>
+<p/>
+<p><span type="quote">Kuka mie olen?</span></p>
+<p/>
+<p><span type="quote">Sie olet ...</span></p>
 <p type="title">6. Kuka hän oon?</p>
 <p>Kuka hän oon?</p>
 <p>Hän oon ...</p>
@@ -37,13 +42,17 @@
 <p type="listitem">kolme</p>
 <p type="listitem" xml:lang="nob">nelje</p>
 <p type="listitem" xml:lang="nob">viis(i)</p>
-</list><p xml:lang="nob"><span type="quote" xml:lang="nob">678910</span></p>
+</list><p xml:lang="nob"><span type="quote" xml:lang="nob">6</span></p>
+<p xml:lang="nob"><span type="quote" xml:lang="nob">7</span></p>
+<p xml:lang="nob"><span type="quote" xml:lang="nob">8</span></p>
+<p xml:lang="nob"><span type="quote" xml:lang="nob">9</span></p>
+<p xml:lang="nob"><span type="quote" xml:lang="nob">10</span></p>
 <p>kuus(i)</p>
 <p>seittemen</p>
 <p>kahðeksen</p>
 <p>yhðeksen</p>
 <p>kymmenen</p>
-<p xml:lang="nob"/>
+<p/>
 <p type="title">8. Hyvän illan</p>
 <p>Laulu Erkheikistä/Vise fra Erkheikki</p>
 <p>Hyvän illan sanon sulle kultani armas</p>
@@ -163,7 +172,10 @@
 <p>Kuka sie olet?</p>
 <p>Mie olen <em type="italic">.................. (minun nimi) </em></p>
 <p type="title">Kuka mie olen?</p>
-<p><span type="quote">Kuka mie olen?Sie olet .................. (sinun nimi)</span></p>
+<p/>
+<p><span type="quote">Kuka mie olen?</span></p>
+<p/>
+<p><span type="quote">Sie olet .................. (sinun nimi)</span></p>
 <p type="title">Kuka hän oon?</p>
 <p>Kuka hän oon?</p>
 <p>Hän oon <em type="italic">.................. (hänen nimi) </em></p>
